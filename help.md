@@ -1,4 +1,4 @@
-## Help guide for fourth beta release
+## Help guide for release v1.0
 
 This help guide provides you with instructions to get started with basic and more advanced transcription tasks using _DOTE_.
 
@@ -41,10 +41,10 @@ Here is a list of help tutorials on specific topics:
 ### Download _DOTE_ video tutorials
 
 We have made a bunch of video tutorials you can download and view to learn how to use _DOTE_.
-You can download all the plain video files from the [releases page](https://github.com/BigSoftVideo/DOTE-beta-testing/releases).
+You can download all the plain video files from the [releases page](https://github.com/BigSoftVideo/DOTE/releases).
 
 Some of the tutorials are also available as importable _DOTE_ Projects.
-Download all the latest [_DOTE_ tutorials from the releases page](https://github.com/BigSoftVideo/DOTE-beta-testing/releases).
+Download all the latest [_DOTE_ tutorials from the releases page](https://github.com/BigSoftVideo/DOTE/releases).
 Use _DOTE_ to [import each Project](import.md) into your _MY DOTE PROJECTS_ folder, for example.
 When you are done importing, you can just open the Transcript in the Project using `File/Open Transcript` and you will see a hyperlinked version of the video with a table of contents in the Transcript panel.
 Click on a [sync-code](sync-code.md) to jump to that topic in the video.
@@ -52,7 +52,7 @@ Simple as that!
 
 ### User bug reports
 
-How to enter a [bug report issue](https://github.com/BigSoftVideo/DOTE-beta-testing/issues/new/choose) if you find anything that doesn't seem to work.
+How to enter a [bug report issue](https://github.com/BigSoftVideo/DOTE/issues/new/choose) if you find anything that doesn't seem to work.
 This link will only work if you have access to the repository.
 
 In many cases it helps us if you attach the [_DOTE_ logfile](logfile.md) to the bug report.
@@ -60,24 +60,23 @@ The folder on your computer in which the logfiles are stored can be accessed by 
 
 ### User feature requests
 
-How to enter an idea you have for a [feature or enhancement](https://github.com/BigSoftVideo/DOTE-beta-testing/issues/new/choose) to _DOTE_.
+How to enter an idea you have for a [feature or enhancement](https://github.com/BigSoftVideo/DOTE/issues/new/choose) to _DOTE_.
 This link will only work if you have access to the repository.
 
 ### Tracking bugs and features as a user
 
-You will be able to track bugs and features in our [project board](https://github.com/BigSoftVideo/DOTE-beta-testing/projects/1).
+You will be able to track bugs and features in our [project board](https://github.com/BigSoftVideo/DOTE/projects/1).
 This link will only work if you have access to the repository.
 
 ### Suggestions for help pages and tutorials
 
-Please [submit a suggestion](https://github.com/BigSoftVideo/DOTE-beta-testing/issues/new/choose) for how we can improve the help pages and guide, as well as ideas for video tutorials.
+Please [submit a suggestion](https://github.com/BigSoftVideo/DOTE/issues/new/choose) for how we can improve the help pages and guide, as well as ideas for video tutorials.
 This link will only work if you have access to the repository.
 
 ### Discussion of _DOTE_ on GitHub
 
-You can discuss features, enhancements and bugs on our _DOTE_ beta-release [Discussion Forum](https://github.com/BigSoftVideo/DOTE-beta-testing/discussions) on GitHub.
+You can discuss features, enhancements and bugs on our _DOTE_ [Discussion Forum](https://github.com/BigSoftVideo/DOTE/discussions) on GitHub.
 
-### Using SLACK to communicate directly with the developers
+### Using DISCORD to communicate directly with the developers
 
-We are also using a channel `#dote-beta` on our [workspace on Slack](https://bigvideo.slack.com) to share ideas and experiences quickly, and to fix issues interactively with other users and the developers.
-You need to get an invite from us to join this channel.
+We are also using several public channels on our [Discord server](https://) to share ideas and experiences quickly, and to fix issues interactively with other users and the developers.

@@ -35,10 +35,8 @@ _However_, if you want a fully featured, easy-to-use, cross-platform desktop tra
 
 ### How do I get help?
 
-This is our fourth and final beta release (release candidate 3).
-The user interface and many functions are different in comparison to the last _beta-16_ release.
 There is a lot to get familiar with, but we hope it is worth it.
-You will find a list of new features and bug fixes on the [release page](https://github.com/BigSoftVideo/DOTE-beta-testing/releases).
+You will find a list of new features and bug fixes on the [release page](https://github.com/BigSoftVideo/DOTE/releases).
 Please read carefully the [help guide](help.md), which provides instructions to get you started with the basic transcription tasks using this version of _DOTE_.
 
 Thanks and have fun, [_Dote Team_](contributing.md)
