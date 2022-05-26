@@ -37,8 +37,8 @@ _However_, if you want a fully featured, easy-to-use, cross-platform desktop tra
 ### How do I try _DOTE_?
 
 You can [download](https://github.com/BigSoftVideo/DOTE/releases) a basic free version of _DOTE_ and [install](install.md) it.
-To unlock more features, you will need to purchase a `DOTE Pro` license.
-And to join the `DOTE Pro Community`, there is an additional fee for extra benefits.
+To unlock more features, you will need to purchase a [`DOTE Pro` license](pro.md).
+And to join the [`DOTE Pro Community`](pro.md), there is an additional fee for extra benefits.
 
 ### How do I get help?
 
