@@ -3,8 +3,8 @@
 _DOTE_ is a new type of transcription software developed by the _BigSoftVideo_ team at Aalborg University.
 It is tailored for transcribing social conduct, conversation and multimodal interaction for research purposes.
 It has been designed to support two specific standards of transcription for qualitative research, which are commonly used in conversation analysis, for example.
-It has some of the features commonly found in other software -- such as video playback, a timeline and a visual waveform, synced playback -- but these features are streamlined and easier to use in _DOTE_.
-Moreover, _DOTE_ has enhanced features that do not exist in any legacy software so far, such as transcript parsing, smart auto-completion, transcript heuristics, 360 video support, video-cues, export to publishable document (and subtitles) and version control.
+_DOTE_ has some of the features commonly found in other software -- such as video playback, a timeline and a visual waveform, synced playback -- but these features are streamlined and easier to use in _DOTE_.
+Moreover, it has enhanced features that do not exist in any legacy software so far, such as transcript parsing, smart auto-completion, transcript heuristics, 360 video support, video-cues, export to publishable document (and subtitles) and version control.
 We have many more features and enhancements planned for the future.
 Our motto is _make transcription fun again_! 😜
 
