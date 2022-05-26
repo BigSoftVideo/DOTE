@@ -47,7 +47,7 @@ eg. there are two cases of technical comments below.
 J:	and then she said     // reported speech
 ```
 
-#### Line numbering
+#### Line numbering <a id='lines'></a>
 
 If you have followed _DOTE_'s format and layout conventions, then there are several choices of line numbering.
 
