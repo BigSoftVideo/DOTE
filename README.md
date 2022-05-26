@@ -1,6 +1,6 @@
 ## What is _DOTE_?
 
-_DOTE_ is a new type of transcription software developed by the _BigSoftVideo_ team at Aalborg University.
+_DOTE_ is a new type of transcription software developed by the [_BigSoftVideo_ team](https://github.com/BigSoftVideo) at [Aalborg University](https://www.bigvideo.aau.dk).
 It is tailored for transcribing social conduct, conversation and multimodal interaction for research purposes.
 It has been designed to support two specific standards of transcription for qualitative research, which are commonly used in conversation analysis, for example.
 _DOTE_ has some of the features commonly found in other software -- such as video playback, a timeline and a visual waveform, synced playback -- but these features are streamlined and easier to use in _DOTE_.
