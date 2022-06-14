@@ -33,7 +33,20 @@ The transcript will be automatically scrolled to keep the current segment visibl
 - Inserted sync-codes can be dragged to a new line in the transcript editor.
     - Sync-codes cannot be dragged over other sync-codes for obvious reasons.
 
-### Looping
+#### Selecting and locking a specific waveform or audio source
+
+If your Project has multiple media sources, and more than one is activated in your current Transcript via the [Media Manager](media.md), then you can independently decide which waveform is displayed on the timeline and which audio track is played:
+
+- `Waveform select`
+    - Display the waveform of the current video in the [primary video panel](video.md): `Follow Primary Video`.
+    - Or always display the waveform of the selected video.
+- `Audio source`
+    - Play the audio track of the current video in the primary video panel: `Follow Primary Video`.
+    - Or always play the audio track (solo) of the selected video.
+
+This is useful with complex multi-source projects in which you wish to view one video in the video panel, while playing the audio track of another and displaying the waveform of a third media source (eg. an audio recording from a wireless mic).
+
+#### Looping
 
 There are several ways to loop shorter segments of the timeline:
 
