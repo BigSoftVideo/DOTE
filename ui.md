@@ -28,10 +28,12 @@ The height of the [timeline panel](timeline.md) can be adjusted using the horizo
 ### The video panel(s) <a id='video'></a>
 
 The height of the [video panel](video.md) can be adjusted using the horizontal divider line.
+The video panels can be opened or hidden by clicking the buttons at the left underneath the main timeline.
 
 ### The media timeline panel <a id='media'></a>
 
 The [media timeline panel](timeline.md) can be collapsed using the down arrow button.
+The media timeline panel for video-cues can be opened or hidden clicking the button at the right underneath the main timeline.
 
 ### The editor panel <a id='editor'></a>
 
