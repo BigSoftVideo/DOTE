@@ -12,7 +12,7 @@ Sync-codes index specific lines in the transcript (in the Editor panel) to speci
 In contrast, video-cues index specific views of the current media source(s) to specific timecodes in the media timeline.
 Video-cues have no connection to the Editor, and they are managed on their own timeline.
 
-### Entering and modifying video-cues
+### Adding video-cues
 
 1. Open the [media timeline](media.md#media) for the specific video source that is to be cued.
 1. Play the video and pause at the point to be video-cued.
@@ -22,9 +22,11 @@ Video-cues have no connection to the Editor, and they are managed on their own t
     - In video-cue options, select a _jump cut_ (immediate transition between two views) or a _smooth transition_ (a smooth pan between two views) for the video-cue.
     A smooth transition will track linearly from one view to another over a one second duration.
     This adds a cinematic feel to playing your videos in _DOTE_. Woah! 🎦
-    - At any time you can replace the current view for a specific video-cue by selecting the video-cue, altering the view on the primary video panel to your liking, and clicking the `Change View` button.
+    - At any time you can replace the current view for a specific video-cue by selecting the video-cue, altering the view on the [Primary Video panel](video.md) to your liking, and clicking the `Change View` button.
 1. You can drag the video-cue in the timeline to a new time between adjacent video-cues.
     - The video-cue may need to tweaked in order to get the effect desired, eg. a smooth tracking pan/zoom that follows the action.
+
+### Editing a video-cue
 
 There are two ways to edit a video-cue:
 
@@ -34,7 +36,7 @@ Using this method means that the viewport should be changed after selecting the 
 This can be useful when playing the video in the relevant video-cue, changing the viewport (no matter what the timecode), and then right clicking on the relevant video-cue.
 The video-cue can then be updated with the current viewport in the [Primary Video panel](video.md).
 
-What can be edited?
+#### What can be edited?
 
 - If a viewport has been changed, then the `Set camera to current view` button will be active (otherwise it will be greyed out).
 Clicking it will change the viewport for the selected video for the current video-cue.
