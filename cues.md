@@ -1,8 +1,8 @@
 ## Video-cues
 
-A _video-cue_ is a cue to transition to a specific view of the currrent 360 or 2D video at a specific timecode in the video media file.
+A _video-cue_ is a cue to transition to a specific view of the current 360 or 2D video at a specific timecode in the video media file.
 The idea is to bring a _cinematic experience_ to working with transcripts, such as zoom, pan and jump cut.
-This is also called recamming, ie. using a virtual camera to show a different view of the original footage.
+This is also called _recamming_, ie. using a virtual camera to show a different view of the original footage.
 Cool! 🍦
 
 [![Video-cues](images/cues/video-cue-edit.png)](images/cues/video-cue-edit.png)
@@ -25,12 +25,22 @@ Video-cues have no connection to the Editor, and they are managed on their own t
     - At any time you can replace the current view for a specific video-cue by selecting the video-cue, altering the view on the primary video panel to your liking, and clicking the `Change View` button.
 1. You can drag the video-cue in the timeline to a new time between adjacent video-cues.
     - The video-cue may need to tweaked in order to get the effect desired, eg. a smooth tracking pan/zoom that follows the action.
-1. To edit a video-cue, select the desired video-cue on the media timeline, then either press the `MODIFY VIDEO-CUE` button or right click on the video-cue in the relevant timeline.
-    - To change a view, select the video-cue first, change the view in the [video panel](video.md), then open the video-cue panel.
-    The `Set camera to current view` button will be active.
-1. Video-cues can be deleted.
+
+There are two ways to edit a video-cue:
+
+1. Select the desired video-cue on the media timeline, then either press the `MODIFY VIDEO-CUE` button.
+Using this method means that the viewport should be changed after selecting the video-cue but before pressing the `MODIFY VIDEO-CUE` button, otherwise one cannot change the video-cue to match the selected viewport.
+1. Or just right click on the video-cue in the relevant timeline.
+This can be useful when playing the video in the relevant video-cue, changing the viewport (no matter what the timecode), and then right clicking on the relevant video-cue.
+The video-cue can then be updated with the current viewport in the [Primary Video panel](video.md).
+
+What can be edited?
+
+- If a viewport has been changed, then the `Set camera to current view` button will be active (otherwise it will be greyed out).
+Clicking it will change the viewport for the selected video for the current video-cue.
+- Video-cues can be deleted.
     - Select the video-cue, pen the video-cue panel, and choose `Delete`.
-1. The primary and secondary video panels can be independently locked to the bookmarked video-cue.
+- The [Primary and Secondary Video panels](video.md) can be independently locked to the bookmarked video-cue.
     - On each video view, click on the video-cue lock button to toggle between locked and free view.
     - The primary video panel is locked and the secondary is unlocked by default.
 
