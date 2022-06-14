@@ -15,11 +15,9 @@ Changes to `Export to RTF` default options will persist across _DOTE_ sessions, 
 1. After a short pause, _DOTE_ will return to display the transcript.
 1. You can find the RTF file in the folder you selected.
 
-On the right is a preview panel that shows 30 lines of the current transcript (or selected lines only) and updates according to your choices made in the left panel.
+On the right is a preview panel that shows all the lines of the current transcript (or selected lines only) and updates according to your choices made in the left panel.
 
 [![Jeffersonian](images/export/exportRTF-Jeffersonian.png)](images/export/exportRTF-Jeffersonian.png)
-
-In this release, the underlines that are in the Transcript are not shown in the preview panel, but they are exported to RTF correctly.
 
 If there are serious errors in the transcript that _DOTE_ has trouble with, then this will be indicated on a line-by-line basis. The transcript can still be exported to RTF, but there may be lines that are not correctly formatted because of the errors.
 
@@ -27,8 +25,13 @@ If there are serious errors in the transcript that _DOTE_ has trouble with, then
 
 #### Only selected lines
 
-If you had selected specific lines before opening the export panel, then you can choose to export only those continuous lines.
+If you had selected a specific range of lines in the [Editor](transcript.md) before opening the Export to RTF panel, then you can choose to export only those continuous lines.
 If not, then all lines will be exported.
+
+#### Restrict to 50 lines
+
+Because it can take time to parse the transcript and prepare the preview with very lone transcripts, then you can restrict the number of lines displayed in the preview window regardless of whether all or only selected lines has been chosen.
+All lines, or only those selected, will still be exported to disk.
 
 #### Syntax highlighting
 
