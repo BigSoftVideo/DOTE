@@ -43,6 +43,7 @@ If so, then this is indicated in the `Settings`.
 ##### Subtier
 
 - The default [subtier alignment symbols](tiers.md) can be defined and ordered by the user.
+Note that this list can be rearranged by selecting, dragging and dropping an item in the list.
 
 ##### Shortcuts
 
@@ -66,6 +67,7 @@ They can be reset to the Default if they vary from that in `Settings`.
 - The [conventions](conventions.md) for this Transcript.
 - The [translation and gloss subtiers](tiers.md) for this Transcript.
 - The [named subtier types](tiers.md) for this Transcript.
+Note that this list can be rearranged by selecting, dragging and dropping an item in the list.
 - In addition, the path to the Project folder on your computer's file system is displayed.
 Click the button and the folder will be opened in your file browser.
 
