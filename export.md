@@ -25,13 +25,14 @@ If there are serious errors in the transcript that _DOTE_ has trouble with, then
 
 #### Only selected lines
 
-If you had selected a specific range of lines in the [Editor](transcript.md) before opening the Export to RTF panel, then you can choose to export only those continuous lines.
+If you had selected a specific range of lines in the [Editor](transcript.md) before opening the Export to RTF panel, then you can choose to export only that range of lines, with line numbers starting at 1.
 If not, then all lines will be exported.
 
 #### Restrict to 50 lines
 
-Because it can take time to parse the transcript and prepare the preview with very lone transcripts, then you can restrict the number of lines displayed in the preview window regardless of whether all or only selected lines has been chosen.
-All lines, or only those selected, will still be exported to disk.
+Because it can take time to parse the transcript and prepare the preview with very long transcripts, you can restrict the number of lines displayed in the preview window regardless of whether all or only selected lines has been chosen.
+Using this option may help speed up preview when fiddling with the options on the fly.
+Note that all lines, or only those selected, will still be exported to disk, as expected.
 
 #### Syntax highlighting
 
