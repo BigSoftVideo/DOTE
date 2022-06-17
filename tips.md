@@ -23,6 +23,7 @@ Here you will find ideas and solutions to specific tasks that you might wish to 
 - [Why would I use the video 2nd view?](#tip18)
 - [Why can I not copy/paste underlined text?](#tip19)
 - [Why would I use Checkpoints?](#tip29)
+- [Why would I use Video-cues?](#tip32)
 - [What is the difference between `Replace` and `Change All Occurrences`?](#tip22)
 - [What is the difference between zooming the UI and changing the font size?](#tip20)
 - [What is the `Command Palette`?](#tip21)
@@ -260,6 +261,15 @@ Thus, the user can figure out at a glance what changes were made at each checkpo
 It is advisable to write informative messages and make Checkpoints frequently.
 
 NOTE that you will need to [install Git](versioncontrol.md#setup), an open source version control system, to be able to use Checkpoints.
+
+### Why would I use Video-cues? <a id='tip32'></a>
+
+Using the unique [Video-cue](cues.md) feature in _DOTE_, one can automatically playback the audio-visual media files in a Project in a _cinematic_ mode, eg. pan, zoom, jump cut.
+This is incredibly useful when there is a lot of activity in a video source or the Project has several alternative camera angles and/or audio sources.
+Often when transcribing a specific segment of some data, it is desirable to zoom in to see more closely what is happening in the video (eg. a hand gesture or shift of gaze direction) or to pan around in the 360 video to see what event just happened in the opposite direction (eg. a new speaker appears at the door) or to smoothly track the action (eg. someone walking around in the scene) as it moves around the 2D or 360 video.
+These can be automated using Video-cues, so every time the segment is played through, the important stuff is accessible without any manual effort.
+It may be the case that during the segment the action is only accessible from another camera angle, but with Video-cues one can automatically jump cut to the other camera view/video and then switch back again later.
+By setting up different Video-cue combinations in alternative versions of the Transcript in a Project, one can present the same 'data' but with different analytical 'stories' or 'takes' on what visual and aural phenomena to focus on.
 
 ### What is the difference between zooming the UI and changing the font size? <a id='tip20'></a>
 
