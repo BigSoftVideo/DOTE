@@ -20,11 +20,10 @@ Lush! 🌱
 If one has imported _more than one_ video source into the current Project using [Media Manager](media.md), and made them active for the current Transcript, then the video panel will list the available videos in a pull-down menu at the top left of the video panel.
 
 One can manually switch between active videos and viewports on the fly.
-However, this is only possible if the primary video panel is not locked to video-cues (icon button); if it is locked, then it will always follow the active video selected in video-cues.
-By clicking the unlock video-cues icon, the active media showing in the primary video panel can be selected manually, as can the zoom and pan.
+However, this is only possible if the primary video panel is not locked to video-cues; if it is locked, then it will always follow the active video selected in video-cues.
+By clicking the save viewport button, and thus follow video-cues is deactivated, then one can automatically save and restore whatever video is selected and its viewport in the current video panel.
+In addition, if freeview is selected, and thus follow video-cues and save viewport are deactivated, the active media showing in the primary video panel can be selected manually, as can the zoom and pan.
 Depending on the quality and bit rate of the videos and the power of your computer, one can play/loop the video and switch live between synchronised videos of the event that the current Project (and Transcripts) covers.
-
-In addition, if video-cues are unlocked, then by turning on saving viewport (button icon), one can save the video selected and its viewport in the current video panel.
 
 One may need to use the `Secondary Video` to setup another view for the same or an alternative video source, especially with 360 videos.
 This is very useful when multiple cameras (and mics) were used to collect data, and the originals have been edited into shorter synchronised clips to be imported into _DOTE_.
@@ -41,7 +40,7 @@ This is especially useful for composite 2D video clips and 360 video clips.
 This means that the video panel will follow the cues that manipulate the view that the user sees.
 - Or the video and viewport can be saved for the current video panel.
 This means that one can switch video source or adjust the viewport (pan/zoom) and both will be saved and restored later as default for this panel, even when restarting DOTE and reopening the current Transcript.
-- Or they can be left in free view mode and adjusted manually.
+- Or they can be left in freeview mode and adjusted manually.
 This is useful for playing around with different configurations.
 Any changes will not be saved.
 As soon as the save icon button is toggled on, then the default state is restored (or if lock to video-cues is toggled on, then the current video cue is followed).
