@@ -23,6 +23,16 @@ Please see the [_Where to store your DOTE projects?_](projects.md#storing) help 
 
 [![DOTE UI](images/UI/UI.png)](images/UI/UI.png)
 
+In the Demo Project, there are several Transcripts of the same event using two different conventions.
+As a bonus, some of the transcript versions contain deliberate errors.
+It is a fun game to spot the errors (DOTE will help you) and correct them.
+
+- [Open each Transcript](projects.md#open-transcript) and find/correct the errors.
+The errors in the Mondadaian version are harder to find, since they may not all appear in the [Editor](transcript.md).
+- The task can be made harder (eg. without help from DOTE) by [toggling off errors and warnings](errors.md)!
+- If you have set up Checkpoints, then you can peek at each [Checkpoint](versioncontrol.md) (cheat sheet) to see a description of the error and a comparison with the original to show the changes that made the error.
+- This game is fun to play with the family during seasonal holidays! 🥳
+
 ### How to try the Demo
 
 1. You can [play through the video](video.md) and check the two partial [Transcripts](transcript.md) that have already been made according to Jeffersonian and Mondadaian [conventions](conventions.md).
