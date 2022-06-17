@@ -44,7 +44,7 @@ Clicking it will change the viewport for the selected video for the current vide
     - Select the video-cue, pen the video-cue panel, and choose `Delete`.
 - The [Primary and Secondary Video panels](video.md) can be independently locked to the bookmarked video-cue.
     - On each video view, click on the video-cue lock button.
-    - The primary video panel is locked and the secondary is unlocked by default.
+    - The primary video panel is locked to follow video-cues by default; the secondary video panel is set to save viewport by default.
 
 Please note that edits to video-cues are not tracked by the UI in _DOTE_.
 For instance, if you move a video-cue to another position on the timeline, then you cannot undo those actions with the standard shortcuts.
