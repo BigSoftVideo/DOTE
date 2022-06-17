@@ -8,7 +8,7 @@ There are several ways in which _DOTE_ can help support transcription:
 1. [Review transcript by someone else](#review)
 
 Below we will outline some of the key tools and resources that _DOTE_ provides for each of these methods.
-There is also a tutorial video and project illustrating each of them available for download on the releases page.
+There is also a tutorial video and project illustrating each of them available for download on the [releases](https://github.com/BigSoftVideo/DOTE/releases) page.
 
 ### 1st time through <a id='first'></a>
 

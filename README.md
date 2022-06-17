@@ -37,13 +37,13 @@ _However_, if you want a fully featured, easy-to-use, cross-platform desktop tra
 ### How do I try _DOTE_?
 
 You can [download](https://github.com/BigSoftVideo/DOTE/releases) a basic free version of _DOTE_ and [install](install.md) it.
+If there are updates, you will find a list of new features and bug fixes on the [release page](https://github.com/BigSoftVideo/DOTE/releases).
 To unlock more features, you will need to purchase a [`DOTE Pro` license](pro.md).
 And to join the [`DOTE Pro Community`](pro.md), there is an additional fee for extra benefits.
 
 ### How do I get help?
 
 There is a lot to get familiar with, but we hope it is worth it.
-If there are updates, you will find a list of new features and bug fixes on the [release page](https://github.com/BigSoftVideo/DOTE/releases).
 Please read carefully the [help guide](help.md), which provides instructions to get you started with the basic transcription tasks using this version of _DOTE_.
 
 Thanks and have fun, [_Dote Team_](contributing.md)
