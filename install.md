@@ -45,11 +45,11 @@ DOTE can import many audio formats on its own in order to generate a waveform au
 If you have trouble generating a waveform for a video or audio clip, then one can either transcode the clip (see [Tips](tips.md)) and try again by importing the video or by regenerating the waveform (see [Media Manager](media.md)).
 Alternatively, you can install the free, open source _FFmpeg_ ([Windows](https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-essentials.zip) or [macOS](https://evermeet.cx/ffmpeg/)) on your computer and add the folder path to `ffmpeg.exe` to your _DOTE_ [Settings](settings.md).
 
-### Serial key
+### _DOTE Pro_ license key
 
-- You will need a serial key to continue using the beta version of _DOTE_.
-Just enter the serial key once and _DOTE_ won't ask again.
+- You will need to enter a [license key](pro.md) to unlock the extra features in _DOTE Pro_.
 
 ### Updating to a new release
 
-- To update _DOTE_ on both operating systems, just follow the same procedure above and _DOTE_ will be updated and start automatically.
+- To update _DOTE_ on both operating systems, just close _DOTE_, download the update and follow the same procedure above.
+_DOTE_ will be updated and restart automatically.
