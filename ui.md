@@ -8,12 +8,12 @@ This is useful when you wish to present your video.
 The panels can be adjusted by grabbing and dragging the divider lines.
 In general, the _DOTE_ window size and the position of the panels is saved between sessions.
 
-1. [The menu bar 1](#menu)
+1. [The menu bar](#menu)
 1. [The function buttons](#function)
-1. [The main timeline panel 2](#timeline)
-1. [The video panel(s) 3](#video)
-1. [The Video-cue timeline panel 4](#media)
-1. [The editor panel 5](#editor)
+1. [The main timeline panel](#timeline)
+1. [The video panel(s)](#video)
+1. [The video-cue timeline panel](#media)
+1. [The editor panel](#editor)
 
 [![DOTE UI](images/UI/UI-simple.png)](images/UI/UI-simple.png)
 
@@ -32,13 +32,13 @@ The height of the [main timeline panel](timeline.md) can be adjusted using the h
 
 ### The video panel(s) <a id='video'></a>
 
-The height of the [video panel](video.md) can be adjusted using the horizontal divider line.
-The video panels can be opened or hidden by clicking the buttons at the top left.
+The height of the [video panel](video.md) can be adjusted using the horizontal divider lines.
+The video panels can be opened or hidden by clicking the `Primary Video` and `Secondary Video` buttons at the top left.
 
 ### The video-cue timeline panel <a id='media'></a>
 
 The [video-cue timeline panel](timeline.md#video-cue) can be collapsed using the down arrow button.
-The video-cue timeline panel for managing [video-cues](cues.md) can be opened or hidden clicking the button at the top right of the video panel.
+The video-cue timeline panel for managing [video-cues](cues.md) can be opened or hidden clicking the `Video-cues` button at the top right of the video panel.
 
 ### The editor panel <a id='editor'></a>
 
