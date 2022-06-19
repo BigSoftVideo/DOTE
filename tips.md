@@ -322,9 +322,9 @@ You can, of course, just toggle off the errors and warnings so they are not disp
 At present, _DOTE_ does not support importing formats derived from other software.
 A simple solution is to just cut and paste the plain text transcript from the original into the Editor, but note that underlining will not be preserved.
 Any special timecodes embedded in the original will not be recognised, so the [sync-codes](sync-code.md) will have to be re-entered in _DOTE_.
-We may support importing at a later date with simple equivalence, but there are many features of _DOTE_ that are unique and cannot be mapped onto other formats.
-If you would like to program a convertor, then the data structures required in _DOTE_ can be determined from the `.transcript.json` and `.project.json` files in any project folder.
-The main things to look for are converting underlining and, if relevant, transcoding to sync-codes, as well as reformatting the transcript to match speaker-id + COLON + TAB.
+We may support importing at a later date with simple equivalence, but there are many features of _DOTE_ that are unique and cannot be mapped onto other formats or data structures.
+If you would like to program a convertor, then the data structures required in _DOTE_ can be determined from the `.project.json` file in any [Project folder](projects.md) and the `.transcript.json` and `.media_meta.json` files in any Transcript folder.
+The main things to look for are converting underlining and, if relevant, transcoding to sync-codes, as well as reformatting the transcript to match speaker-id + <kbd>COLON</kbd> + <kbd>TAB</kbd>.
 If you do write a convertor, then please use Javascript/Typescript, port it to GitHub, and publish it to NPM.
 Then we can build it into _DOTE_ for the next release.
 
