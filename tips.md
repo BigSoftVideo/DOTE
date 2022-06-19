@@ -24,6 +24,7 @@ Here you will find ideas and solutions to specific tasks that you might wish to 
 - [Why can I not copy/paste underlined text?](#tip19)
 - [Why would I use Checkpoints?](#tip29)
 - [Why would I use Video-cues?](#tip32)
+- [What is the difference between saving and autosave backup?](#tip33)
 - [What is the difference between `Replace` and `Change All Occurrences`?](#tip22)
 - [What is the difference between zooming the UI and changing the font size?](#tip20)
 - [What is the `Command Palette`?](#tip21)
@@ -270,6 +271,13 @@ Often when transcribing a specific segment of some data, it is desirable to zoom
 These can be automated using Video-cues, so every time the segment is played through, the important stuff is accessible without any manual effort.
 It may be the case that during the segment the action is only accessible from another camera angle, but with Video-cues one can automatically jump cut to the other camera view/video and then switch back again later.
 By setting up different Video-cue combinations in alternative versions of the Transcript in a Project, one can present the same 'data' but with different analytical 'stories' or 'takes' on what visual and aural phenomena to focus on.
+
+### What is the difference between saving and autosave backup? <a id='tip33'></a>
+
+[Saving](projects.md#saving) is _not_ the same as [Autosaving](versioncontrol.md#autosaving).
+Saving the current Transcript writes the Transcript data to disk, while Autosaving makes a new copy and writes that to disk so the previous state can be recovered.
+Autosaving does _not_ save the current Transcript automatically; that is a manual decision by the user.
+It just makes a series of backup copies at regular intervals.
 
 ### What is the difference between zooming the UI and changing the font size? <a id='tip20'></a>
 
