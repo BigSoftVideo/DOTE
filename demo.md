@@ -23,22 +23,15 @@ Please see the [_Where to store your DOTE projects?_](projects.md#storing) help 
 
 [![DOTE UI](images/UI/UI.png)](images/UI/UI.png)
 
-In the Demo Project, there are several Transcripts of the same event using two different conventions.
-As a bonus, some of the transcript versions contain deliberate errors.
-It is a fun game to spot the errors (DOTE will help you) and correct them.
-
-- [Open each Transcript](projects.md#open-transcript) and find/correct the errors.
-The errors in the Mondadaian version are harder to find, since they may not all appear in the [Editor](transcript.md).
-- The task can be made harder (eg. without help from DOTE) by [toggling off errors and warnings](errors.md)!
-- If you have set up Checkpoints, then you can peek at each [Checkpoint](versioncontrol.md) (cheat sheet) to see a description of the error and a comparison with the original to show the changes that made the error.
-- This game is fun to play with the family during seasonal holidays! 🥳
-
 ### How to try the Demo
 
+In the Demo Project, there are several examples of Transcripts of the same event made using two different conventions.
+
+1. [Open each Transcript](projects.md#open-transcript).
 1. You can [play through the video](video.md) and check the two partial [Transcripts](transcript.md) that have already been made according to Jeffersonian and Mondadaian [conventions](conventions.md).
 1. The Transcripts already have some [sync-codes](sync-code.md) and [video-cues](cues.md) that should work automatically when you play the video or click on the sync-code either in the appropriate [timeline](timeline.md) or the editor panel (sync-codes).
-Try them.
-1. Try some of the _DOTE_ functionality:
+Test them to see the result.
+1. Try some of the _DOTE_ functionality yourself:
     - Try the [playback controls](play.md) and [looping](timeline.md).
     - Edit the [transcript](transcript.md), type some text and transcription symbols.
     - Add speakers and see how _DOTE_ autocompletes.
@@ -47,3 +40,14 @@ Try them.
     Note: You need to install `Git` first (see [Installation instructions](install.md)).
     - Create your own checkpoint after making some changes.
 1. If you make changes, remember to save the Transcript regularly `File ➔ Save Transcript` or <kbd>CTRL</kbd>+<kbd>S</kbd> [or <kbd>⌘</kbd>+<kbd>S</kbd> on macOS].
+
+#### Spot the errors!
+
+As a bonus, some of the Transcript versions included in the Demo contain deliberate errors.
+It is a fun game to spot the errors (_DOTE_ will help you) and correct them.
+
+- [Open each Transcript with errors](projects.md#open-transcript) and find/correct the errors.
+The errors in the Mondadaian version are harder to find, since they may not all appear in the [Editor](transcript.md).
+- The task can be made harder (eg. without help from DOTE) by [toggling off errors and warnings](errors.md)!
+- If you have set up Checkpoints, then you can peek at each [Checkpoint](versioncontrol.md) (cheat sheet) to see a description of the error and a comparison with the original to show the changes that made the error.
+- This game is fun to play with the family during seasonal holidays! 🥳
