@@ -21,6 +21,8 @@ There are several different types of settings that affect the operation of _DOTE
 Some of these settings can be overridden in the current [Transcript Options](#options).
 If so, then this is indicated in the `Settings`.
 
+[![Settings](images/settings/settings.png)](images/settings/settings.png)
+
 ##### Version control
 
 - [Autosave backup](versioncontrol.md) time interval default.
@@ -56,6 +58,8 @@ Note that this list can be rearranged by selecting, dragging and dropping an ite
 ### Transcript Options <a id='options'></a>
 
 `Transcript Options` can be opened from the `Project` menu, eg. `Project ➔ Transcript Options`.
+
+[![Transcript Options](images/settings/options.png)](images/settings/options.png)
 
 There are several different types of options that affect how the Editor works.
 Some of these are inherited from `Settings` and can be overridden on a transcript by transcript basis.
