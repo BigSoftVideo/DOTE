@@ -1,7 +1,12 @@
 ## Errors and Warnings
 
-DOTE will report errors and warnings as best it can according to its expected transcription style set and logic.
-There are different categories of problems that_DOTE_helps you address:
+For basic warnings and errors that occur when using _DOTE_, a popup box will appear in the bottom left of the user interface.
+These popups try to explain the problem and recommend a solution (if possible).
+Usually, they do not interrupt the normal functioning of _DOTE_.
+They can be closed by clicking on the `X`.
+
+In the [Transcript Editor](editor.md), _DOTE_ will report errors and warnings as best it can according to its expected transcription style set and logic.
+There are different categories of problems that _DOTE_ helps you address:
 
 - If _DOTE_ determines that there is a _critical error_ in the transcript, then the problem (and the scope of the trouble) will be indicated by a _double red underline_.
 - If _DOTE_ determines that there is a problem, but it is not so serious, then a warning (and the scope of the trouble) will be indicated by a _wavy blue underline_.
