@@ -38,7 +38,7 @@ Here is a list of help tutorials on specific topics:
 - [Tips & Tricks](tips.md) - how to get some mundane and special tasks done
 - [Commands and shortcuts guide](commands.md) - a visual guide all in one place
 
-### Download _DOTE_ video tutorials
+### Download _DOTE_ video tutorials <a id='tutorials'></a>
 
 We have made a bunch of video tutorials you can download and view to learn how to use _DOTE_.
 You can download all the plain video files from the [releases page](https://github.com/BigSoftVideo/DOTE/releases).

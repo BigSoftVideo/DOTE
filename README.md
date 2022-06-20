@@ -16,7 +16,7 @@ This release has easy-to-use, robust, single-user version control and autosave r
 _DOTE_ is _open_ in the sense that the transcript is always accessible as a plain text file and all the formatting is transparent and non-proprietary.
 _DOTE_ provides an _environment_ to support smart transcription, much like an _Integrated Development Environment_ does for software coding.
 _DOTE_ is the first of a new breed of _Integrated Transcription Environment_ (ITE) that enhances the craft of manual transcription of qualitative video data for research purposes.
-It has native support for Windows 10 and 11, as well as for macOS including the new Apple Silicon with M-series.
+It has native support for Windows 10 and 11, as well as for macOS, including the new Apple Silicon with M-series.
 
 ### Is _DOTE_ for you?
 
@@ -45,5 +45,6 @@ And to join the [`DOTE Pro Community`](pro.md), there is an additional fee for e
 
 There is a lot to get familiar with, but we hope it is worth it.
 Please read carefully the [help guide](help.md), which provides instructions to get you started with the basic transcription tasks using this version of _DOTE_.
+There are plenty of [video tutorials](help.md#tutorials) available as well.
 
 Thanks and have fun, [_Dote Team_](contributing.md)
