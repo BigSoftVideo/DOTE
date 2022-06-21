@@ -287,7 +287,7 @@ Changing the font size in the editor will only change the size of the transcript
 
 ### What is the `Command Palette`? <a id='tip21'></a>
 
-For advanced users, there is a `Command Palette` (<kbd>F1</kbd>) or right click in the editor) that lists all commands that can be executed in the editor, mnay of which do not have shortcuts.
+For advanced users, there is a `Command Palette` (<kbd>F1</kbd>) or right click in the editor) that lists all commands that can be executed in the editor, many of which do not have shortcuts.
 The long list is searchable.
 Be careful selecting some of the more esoteric commands because they may do something undesirable to your transcript.
 Note: the list of commands included commands that do not work in _DOTE_ (yet).
@@ -364,6 +364,7 @@ There are several reasons for this:
 - You are using a slow hard disk or remote file storage for the software and your data.
 - _DOTE_ is calculating the [visual waveform](projects.md#new-project) incrementally from the audio track after import.
 - _DOTE_ is reparsing the whole transcript every time you make a small edit of the transcript.
+- _DOTE_ is reparsing the whole transcript every time the [Export to RTF](export.md) preview updates when you change a setting.
 - _DOTE_ is rebuilding the history of the transcript every time you peek at a [Checkpoint or Autosave](versioncontrol.md).
 - _DOTE_ is reading and writing large media files when [opening a transcript](projects.md) (with video) or [exporting and importing Projects](import.md) (with media).
 
