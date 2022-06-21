@@ -20,6 +20,7 @@ There are several different types of settings that affect the operation of _DOTE
 
 Some of these settings can be overridden in the current [Transcript Options](#options).
 If so, then this is indicated in the `Settings`.
+Some of the settings are only changed when the Settings dialog box is closed.
 
 [![Settings](images/settings/settings.png)](images/settings/settings.png)
 
@@ -64,6 +65,7 @@ Note that this list can be rearranged by selecting, dragging and dropping an ite
 There are several different types of options that affect how the Editor works.
 Some of these are inherited from `Settings` and can be overridden on a transcript by transcript basis.
 They can be reset to the Default if they vary from that in `Settings`.
+Many of these options are only changed when the Transcript Options dialog box is closed.
 
 - Font size for the current Transcript in the [Editor](ui.md).
 - Width of name column for the current Transcript in the Editor.
