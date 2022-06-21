@@ -41,6 +41,8 @@ Test them to see the result.
     - Create your own checkpoint after making some changes.
 1. If you make changes, remember to save the Transcript regularly `File ➔ Save Transcript` or <kbd>CTRL</kbd>+<kbd>S</kbd> [or <kbd>⌘</kbd>+<kbd>S</kbd> on macOS].
 
+[![Demo with errors](images/demo/demo-errors.png)](images/demo/demo-errors.png)
+
 #### Spot the errors!
 
 As a bonus, some of the Transcript versions included in the Demo contain deliberate errors.

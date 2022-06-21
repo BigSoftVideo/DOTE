@@ -352,7 +352,7 @@ To undo the insertion of a video-cue, select the video-cue and press the video-c
 - Adding an underline cannot be _undone_ using the standard shortcut.
 To undo underlining, select the text that was underlined and press <kbd>CTRL</kbd>+<kbd>U</kbd>.
 
-Also note that sync-codes, video-cues and underlining _cannot_ be copy/pasted into a new location in the transcript or to other programs.
+Also note that sync-codes, video-cues and underlining _cannot_ be copy/pasted into a new location in the transcript or into other programs.
 [Sync-codes](sync-code.md) and underlines do _not_ follow the text or line that is cut or copied.
 And video-cues are unique to _DOTE_.
 
