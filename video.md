@@ -19,6 +19,12 @@ Lush! 🌱
 
 If one has imported _more than one_ video source into the current Project using [Media Manager](media.md), and made them active for the current Transcript, then the video panel will list the available videos in a pull-down menu at the top left of the video panel.
 
+[![Video panel](images/video/slider1.png)](images/video/slider1.png) Lock to Video-cues
+
+[![Video panel](images/video/slider2.png)](images/video/slider2.png) Save viewport
+
+[![Video panel](images/video/slider3.png)](images/video/slider3.png) Freeview
+
 One can manually switch between active videos and viewports on the fly.
 However, this is only possible if the primary video panel is not locked to video-cues; if it is locked, then it will always follow the active video selected in video-cues.
 By clicking the save viewport button, and thus follow video-cues is deactivated, then one can automatically save and restore whatever video is selected and its viewport in the current video panel.
