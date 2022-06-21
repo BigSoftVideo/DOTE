@@ -25,10 +25,12 @@ If one has imported _more than one_ video source into the current Project using 
 
 [![Video panel](images/video/slider3.png)](images/video/slider3.png) Freeview
 
-One can manually switch between active videos and viewports on the fly.
-However, this is only possible if the primary video panel is not locked to video-cues; if it is locked, then it will always follow the active video selected in video-cues.
-By clicking the save viewport button, and thus follow video-cues is deactivated, then one can automatically save and restore whatever video is selected and its viewport in the current video panel.
-In addition, if freeview is selected, and thus follow video-cues and save viewport are deactivated, the active media showing in the primary video panel can be selected manually, as can the zoom and pan.
+1. One can manually switch between active videos and viewports on the fly.
+However, this is only possible if the primary video panel is not locked to Video-cues; if it is locked, then it will always follow the active video selected in video-cues.
+2. By clicking the save viewport button, and thus follow Video-cues is deactivated, then one can automatically save and restore whatever video is selected and any changes to its viewport in the current video panel.
+3. In addition, if freeview is selected, and thus follow Video-cues and save viewport are deactivated, the active media showing in the primary video panel can be selected manually, as can the zoom and pan.
+Changes will not be saved.
+
 Depending on the quality and bit rate of the videos and the power of your computer, one can play/loop the video and switch live between synchronised videos of the event that the current Project (and Transcripts) covers.
 
 One may need to use the `Secondary Video` to setup another view for the same or an alternative video source, especially with 360 videos.
