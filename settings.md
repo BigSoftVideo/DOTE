@@ -58,7 +58,7 @@ Note that this list can be rearranged by selecting, dragging and dropping an ite
 
 ### Transcript Options <a id='options'></a>
 
-`Transcript Options` can be opened from the `Project` menu, eg. `Project ➔ Transcript Options`.
+`Transcript Options` can be opened from the `Project` menu, eg. `Project ➔ Transcript Options`, or by clicking the `Options ⚙` button at the top left of the [Transcript Editor](editor.md).
 
 [![Transcript Options](images/settings/options.png)](images/settings/options.png)
 
