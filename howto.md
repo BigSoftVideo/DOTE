@@ -26,7 +26,7 @@ A typical strategy to use _DOTE_ for a 'first time through' could be the followi
 1. Create a [new project](projects.md).
 1. Select the [conventions](conventions.md) you prefer.
 You can change this in [Transcript Options](settings.md#options) later.
-    - If using the Jeffersonian conventions, then don't forget to add later any translation and interlinear gloss [subtiers])(tiers.md) in `Project ➔ Transcript Options`.
+    - If using the Jeffersonian conventions, then don't forget to add later any translation and interlinear gloss [subtiers])(tiers.md) in [Transcript Options](settings.md#options).
     - If using the Mondadaian conventions, then add later your favourite alignment symbols in [Settings](settings.md), then add your named action [subtier](tiers.md) types and assigned symbols in [Transcript Options](settings.md#options).
 1. Add a video using Media Manager
     - Set the video format and projection if relevant.

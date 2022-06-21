@@ -42,7 +42,7 @@ A _DOTE_ [Project](project.md) is a container for one or more [media clips](medi
 In practical terms, it is a folder on your computer's file system.
 The guiding principle is that a Project _represents a single event_, which can be transcribed in different ways.
 The single event may have been recorded with one device or many (cameras and/or microphones), but all the recordings are synchronised to match the duration of the event.
-Note that a user can open the folder in which an existing Project resides by clicking the button in [Transcript Options](settings.md).
+Note that a user can open the folder in which an existing Project resides by clicking the button in [Transcript Options](settings.md#options).
 
 It is possible to add media clips of different durations, as well as clips that are recordings of different events, to a _single_ Project, but then that defeats the principle built into _DOTE_.
 This practice will result in waveforms and timelines (as well as sync-codes and video-cues) that no longer align and match.

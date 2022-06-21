@@ -167,7 +167,7 @@ KT/hand:
 
 ### How to realign alignment symbols across subtiers in a neighbourhood <a id='realign'></a>
 
-With its transcript heuristics, _DOTE_ scans all subtiers for those subtier types and assigned symbols listed in the [Transcript Options](#assign).
+With its transcript heuristics, _DOTE_ scans all subtiers for those subtier types and assigned symbols listed in the [Transcript Options](settings.md#options).
 If the correct symbols are present, but are misaligned, then _DOTE_ can do a pretty good job of realigning them.
 
 - One can see if realignment is a possibility by placing the cursor in any tier or subtier of a neighbourhood and clicking the small lightbulb icon that appears.
