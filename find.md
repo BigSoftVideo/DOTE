@@ -2,6 +2,8 @@
 
 There is a powerful find and replace tool in the transcript editor.
 
+[![Video-cues](images/find/find.png)](images/find/find.png)
+
 ### How to find an expression? <a id='find'></a>
 
 1. Select the `Find` button or type <kbd>CTRL</kbd>+<kbd>F</kbd> [<kbd>⌘</kbd>+<kbd>F</kbd> on macOS]
@@ -11,8 +13,10 @@ There is a powerful find and replace tool in the transcript editor.
 1. You can search for the next/previous match with the <kbd>↑</kbd> <kbd>↓</kbd> keys or <kbd>ENTER</kbd>.
 
 - Notes:
-    - You can toggle `match case` or `match word`.
-- You can toggle `regular expressions`. See below.
+    - You can toggle match case (`Aa`) or match word (`ab`).
+    - You can also toggle the powerful regular expressions (`.*`). See [below](#regex).
+
+[![Video-cues](images/find/find-box.png)](images/find/find-box.png)
 
 ### How to replace the found items with a new expression? <a id='replace'></a>
 
@@ -21,8 +25,10 @@ There is a powerful find and replace tool in the transcript editor.
 1. Type the expression that will replace each match in the REPLACE box.
 1. Replace `CASE-BY-CASE` or `ALL`.
 
+[![Video-cues](images/find/replace.png)](images/find/replace.png)
+
 - Notes:
-    - You can toggle `preserve case`.
+    - You can toggle preserve case (`AB`) to keep the case of the original in the replacement.
 
 ### How to search for regular expressions? <a id='regex'></a>
 
