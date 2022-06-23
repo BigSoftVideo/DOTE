@@ -62,6 +62,15 @@ These include a range of [single and paired symbols](jefferson.md).
 You can also type the first letter (and second) in the transcript body and a list will appear with a selection matching the letter(s), eg. type <kbd>p</kbd> and a list of pitch related symbols will appear.
 - Some types of paired transcription symbols are automatically completed and highlighted, eg. `(( ))` or `< >` or `{ }`.
 
+There are two special cases of autocompletion that are non-standard:
+
+1. Non-sequential simultaneous overlap `{...}`.
+This indicates that two or more speakers are speaking at the same time, but they are not in the same conversation.
+The simultaneous speech or sounds are marked just as with the more conventional usage of `[...]`.
+1. 0.1 second symbol `◘`.
+This symbol indicates the passing of 0.1 seconds, eg. `◘◘◘◘◘` = 0.5 seconds.
+It is especially useful in the [Mondadaian system](mondada.md) for marking [timing interval tiers](mondada.md) instead of the more conventional non-proportional pause indications, eg. `(0.1)`.
+
 #### Line numbers
 
 - Line numbers appear automatically in _DOTE_, but they are not saved in the _transcript.txt_ file.
