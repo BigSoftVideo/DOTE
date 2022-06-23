@@ -1,11 +1,12 @@
 ## User interface
 
-The _DOTE_ user interface is comprised of several panels divided into two main sections: left and right.
-The left section (timelines, video) can be collapsed using the `<<` button.
-This is useful when you wish to focus on editing your transcript.
+The _DOTE_ user interface is comprised of several panels divided into two main sections: the left is for media control functions and the right is for transcript editor functions.
+The left section (timelines, video panels) can be collapsed using the `<<` button.
+This is useful when you wish to focus (in zen mode) on editing your transcript, esp. with long lines.
 The right section (editor) can be collapsed using the `>>` button.
-This is useful when you wish to present your video.
+This is useful when you wish to present your video without the transcript.
 The panels can be adjusted by grabbing and dragging the divider lines.
+Additionally, some panels (video panels, video-cue timeline) can be hidden.
 In general, the _DOTE_ window size and the position of the panels is saved between sessions.
 
 1. [The menu bar](#menu)
