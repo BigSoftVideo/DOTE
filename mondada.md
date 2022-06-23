@@ -6,6 +6,8 @@ The multimodal transcription conventions developed by Lorenza Mondada can be fou
 
 This release of _DOTE_ fully supports this style according to `v5.0.1`, with other minor variations supported as well.
 
+[![Mondada v5.0.1 example](images/conventions/example.png)](images/conventions/example.png)
+
 ### The structure of a Mondadaian transcript
 
 As with the Jeffersonian system, the basic structure is grounded in primary speaker lines in a temporally demarcated _neighbourhood_.
@@ -29,7 +31,7 @@ A typical transcript in the Mondadaian style has the following structure:
 
 This diagram should help simplify the composition of tiers and subtiers within a neighbourhood:
 
-![Diagram showing composition of a neighbourhood](images/conventions/neighbourhoodM.png)
+[![Diagram showing composition of a neighbourhood](images/conventions/neighbourhoodM.png)](images/conventions/neighbourhoodM.png)
 
 Notes:
 
@@ -39,11 +41,11 @@ Notes:
 
 This example (from v5.0.1) shows the breakdown of a single neighbourhood:
 
-![Diagram showing an example with a composition of a neighbourhood](conventions/neighbourhoodM1.png)
+[![Diagram showing an example with a composition of a neighbourhood](images/conventions/neighbourhoodM1.png)](images/conventions/neighbourhoodM1.png)
 
 This longer example (from Mondada 2018: "Multiple Temporalities of Language and Body in Interaction") shows the breakdown of neighbourhoods:
 
-![Diagram showing a longer example with a composition of a neighbourhood](images/conventions/neighbourhoodM2.png)
+[![Diagram showing a longer example with a composition of a neighbourhood](images/conventions/neighbourhoodM2.png)](images/conventions/neighbourhoodM2.png)
 
 Here is an example in the Mondadaian formatting style that has more than one neighbourhood:
 
