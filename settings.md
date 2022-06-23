@@ -36,7 +36,7 @@ Some of the settings are only changed when the Settings dialog box is closed.
 
 ##### Video
 
-- Option to automatically restart video playback when the end of the recording is reached.
+- Option to automatically restart media playback from the beginning when the end of the recording is reached.
 - The default [video format](video.md).
 - The default display projection for 360 videos.
 
