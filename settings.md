@@ -36,6 +36,7 @@ Some of the settings are only changed when the Settings dialog box is closed.
 
 ##### Video
 
+- Option to automatically restart video playback when the end of the recording is reached.
 - The default [video format](video.md).
 - The default display projection for 360 videos.
 
@@ -46,6 +47,7 @@ Some of the settings are only changed when the Settings dialog box is closed.
 ##### Subtier
 
 - The default [subtier alignment symbols](tiers.md) can be defined and ordered by the user.
+The default list includes some of the most commonly used symbols in the Mondadaian system.
 Note that this list can be rearranged by selecting, dragging and dropping an item in the list.
 
 ##### Shortcuts
