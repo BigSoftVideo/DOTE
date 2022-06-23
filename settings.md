@@ -69,15 +69,18 @@ Some of these are inherited from `Settings` and can be overridden on a transcrip
 They can be reset to the Default if they vary from that in `Settings`.
 Many of these options are only changed when the Transcript Options dialog box is closed.
 
+- The path to the Project folder on your computer's file system is displayed.
+Click the button and the folder will be opened in your file browser.
 - Font size for the current Transcript in the [Editor](ui.md).
 - Width of name column for the current Transcript in the Editor.
 - Display page-width margin for the current Transcript in the Editor.
-- The [conventions](conventions.md) for this Transcript.
+- The [conventions](conventions.md) used for this Transcript.
 - The [translation and gloss subtiers](tiers.md) for this Transcript.
+One or more than one of each can be added.
+If such a subtier is added, then it will also be autocompleted after typing and autocompleting a new speaker in the Transcript Editor.
 - The [named subtier types](tiers.md) for this Transcript.
 Note that this list can be rearranged by selecting, dragging and dropping an item in the list.
-- In addition, the path to the Project folder on your computer's file system is displayed.
-Click the button and the folder will be opened in your file browser.
+It is up to the user to indicate whether or not each subtier will also be autocompleted after typing and autocompleting a new speaker in the Transcript Editor.
 
 Note: Because some options are tracked by _DOTE_, they may be reset to a prior state if the user resets to an earlier Checkpoint or Autosave.
 For example, [named subtier types](tiers.md) may be altered because they were different in an earlier state of the Transcript.
