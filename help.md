@@ -6,7 +6,7 @@ This help guide provides you with instructions to get started with basic and mor
 
 _DOTE_ can be installed on the Microsoft Windows and Apple macOS desktop platforms.
 
-- Please follow the [instructions to install or upgrade](install.md).
+- Please follow the [instructions to install, update or upgrade](install.md).
 
 ### _DOTE_ Lego demo Project
 
