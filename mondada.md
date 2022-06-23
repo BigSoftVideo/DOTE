@@ -76,6 +76,9 @@ The full range of features of the style of multimodal transcription are supporte
 - Subtier symbol vertical alignment to primary tier across multiple action subtiers.
 - Prior/Next/Earlier/Later marking of an action, eg. `>>`, `-->`, `-->>`.
 
+
+> **WARNING: Be careful _not_ to use some of the more esoteric symbol pairs, eg. smiley voice `£...£` or creaky voice `#...#`, that can be found in the Jeffersonian system because they may be confused with Mondadaian alignment symbols. These symbols are very commonly used alignment symbols and thus there will be an irresolvable clash between the two very different functions of each symbol.**
+
 ### Exporting to RTF
 
 The _DOTE_ [subtier type system](tiers.md) is needed to give better help and suggestions within _DOTE_.
