@@ -31,7 +31,7 @@ Here you will find ideas and solutions to specific tasks that you might wish to 
 - [Can I use non-alphabetic scripts in my Transcripts?](#tip34)
 - [Can I add emojis 🗣 to my Transcripts?](#tip10)
 - [Can I create Transcripts using other conventions?](#tip14)
-- [Can I convert my transcripts created with other software to use in _DOTE_?](#tip15)
+- [Can I convert transcripts created with other software to use in _DOTE_?](#tip15)
 - [Can I copy and paste transcripts from publications into _DOTE_?](#tip16)
 - [Be cautious when editing sync-codes, video-cues and underlinings](#tip11)
 - [Be patient with Waveform generation, Checkpoint peeking, Exporting and Importing Projects and transcript heuristics](#tip12)
@@ -326,7 +326,7 @@ If you would like to transcribe according to another set, such as GAT2 or your o
 In fact, if you do not follow the basic formatting of a line that is expected by _DOTE_, then errors and warnings will be flagged.
 You can, of course, just toggle off the errors and warnings so they are not displayed, but they are still present, and so they will affect [Export to RTF and Export to SRT](export.md), for example.
 
-### Can I convert my transcripts created with other software to use in _DOTE_? <a id='tip15'></a>
+### Can I convert transcripts created with other software to use in _DOTE_? <a id='tip15'></a>
 
 At present, _DOTE_ does not support importing formats derived from other software.
 A simple solution is to just cut and paste the plain text transcript from the original into the Editor, but note that underlining will not be preserved.
@@ -341,9 +341,9 @@ Then we can build it into _DOTE_ for the next release.
 
 Fragments of transcripts are often published digitally in articles and books.
 The most perversive format is `PDF`, but there are also ebook formats, such as `epub`.
-Unfortunately, these are often in a non-standard format (PDF), in a proportional font (no monospaced) with spurious hidden symbols.
+Unfortunately, these are often in a non-standard format (PDF), in a proportional font (not monospaced) with spurious hidden symbols.
 If permitted (without DCMA and password protection), then plain text can be copied and pasted into the Editor after a new Transcript is created.
-Lots of work is usually required to massage the Transcript to match the original but within the style preferred by _DOTE_.
+[Lots of work](howto.md#conform) is usually required to massage the Transcript to match the original but within the style preferred by _DOTE_.
 For example, one may have to remove line numbers, reformat each line to match the _DOTE_ style, reformat to match the chosen conventions, realign overlaps (and subtiers), add underlines and replace spurious symbols with standard unicode.
 Remember that the layout required in the _DOTE_ Editor may not look exactly the same, especially with the [Mondadaian layout](mondada.md), but the exported format ([Export to RTF](export.md)) will closely match the expected style and layout.
 If there are mistakes or quirks in the original published transcript, then you will have to decide whether or not to correct them in the Editor.
