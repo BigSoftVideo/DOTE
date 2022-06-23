@@ -305,10 +305,11 @@ Note: the list of commands included commands that do not work in _DOTE_ (yet).
 
 ### Can I use non-alphabetic scripts in my Transcripts? <a id='tip34'></a>
 
-Yes, you can use any [Unicode letters, characters and symbols](https://en.wikipedia.org/wiki/Unicode) in your Transcript.
-Because the display font has to be [monospaced](https://en.wikipedia.org/wiki/Monospaced_font) in order that important vertical alignments can be parsed and realigned, _DOTE_ is restricted to only those letters and symbols in Unicode that are available in DOTE's standard monospaced font, eg. `Courier New`.
+Yes, you can use any [_Unicode_ letters, characters and symbols](https://en.wikipedia.org/wiki/Unicode) in your [Transcript](transcript.md).
+Because the display font has to be [monospaced](https://en.wikipedia.org/wiki/Monospaced_font) so that important vertical alignments can be parsed and realigned, _DOTE_ is restricted to only those letters and symbols in Unicode that are available in DOTE's standard monospaced font, eg. `Courier New`.
 You can, of course, insert [emojis](#tip10) and other special symbols or characters, but then vertical alignment of overlaps and alignment symbols, as well as the general layout of the Transcript on the page and when [exported](export.md), cannot be guaranteed.
-Moreover, there may be unforeseen consequences and false negatives/postives in warning and error reporting.
+Moreover, there may be unforeseen consequences and false negatives/positives in warning and error reporting.
+_DOTE_ assumes _left-to-right directionality_ in the Editor, so it is limited in relation to languages that have an alternative directionality, eg. right-to-left or top-to-bottom.
 
 ### Can I add emojis 🗣 to my Transcripts? <a id='tip10'></a>
 
