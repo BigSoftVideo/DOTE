@@ -51,7 +51,7 @@ This means that one can switch video source or adjust the viewport (pan/zoom) an
 - Or they can be left in freeview mode and adjusted manually.
 This is useful for playing around with different configurations.
 Any changes will not be saved.
-As soon as the save icon button is toggled on, then the default state is restored (or if lock to video-cues is toggled on, then the current video cue is followed).
+As soon as the save icon button is toggled on, then the default state is restored (or if lock to video-cues is toggled on, then the current video-cue is followed).
 - It is often useful to have the primary view locked to video-cues and the second view in saved or free view mode.
 However, there is a lot of flexibility, so you can setup a configuration that suits you.
 
