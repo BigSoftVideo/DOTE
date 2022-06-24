@@ -6,7 +6,7 @@ Below is a list of key terms in alphabetical order with short definitions and li
 
 ### Alignment Symbol
 
-An alignment symbol (Mondadian conventions) is a unique symbol reserved for use in the transcript to indicate the temporal alignment of an action in a [subtier](tier.md) with the HEAD of the [neighbourhood](#neighbourhood), ie. a primary speaker tier or a primary timing interval tier.
+An alignment symbol (Mondadian conventions) is a unique symbol reserved for use in a transcript to indicate the temporal alignment of an action in a [subtier](tier.md) with the [HEAD](#head) of the [neighbourhood](#neighbourhood).
 
 See [Realignment](#align).
 
@@ -22,21 +22,21 @@ See [Realignment](#align).
 
 ### Editor
 
-### HEAD
+### HEAD <a id='head'></a>
 
 ### Loop
 
 ### Media Manager
 
-The [Media Manager](media.md) is the tool to add and configure media files in an individual [Project](project.md).
-It is used to import and delete media files, as well as make them [active](#active) in the current Transcript.
-A Project can have multiple media files, and each Transcript in a Project can activate one or more of these media to use in the [Timeline](timeline.md) and [Video Panel(s)](video.md).
+The [Media Manager](media.md) is a tool to add media files in an individual [Project](project.md).
+It is used to import, configure and delete media files, as well as make them [active](#active) in the current Transcript.
+A Project can contain multiple media files, and each Transcript in a Project can activate one or more of these media to use in the [Timeline](timeline.md) and [Video Panel(s)](video.md).
 
 ### Neighbourhood <a id='neighbourhood'></a>
 
-A [Neighbourhood](tiers.md) is a concept we developed to better encapsulate what goes on during simultaneous events captured in a set of lines in a script-based transcription system.
-Sets of lines can naturally be grouped together because they try to represent a single, continuous duration in time, in which events happen.
-Everything transcribed in those lines in one Neighbourhood occurs within that single duration of time, whether it be speech, multimodal action or events happening in the scene.
+A [Neighbourhood](tiers.md) is a concept we developed to better encapsulate what goes on during simultaneous events captured in a set of transcript lines in a [script-based transcription system](#script).
+Sets of lines in a transcript can be grouped together temporally because they try to represent events that happen within a single, continuous duration in time.
+Everything transcribed in a Neighbourhood occurs within that single duration of time, whether it be speech, multimodal action or events happening in the scene.
 A Neighbourhood contains all those actions, sometimes in concurrent [subtiers](tiers.md), which are represented using the [Jeffersonian](jefferson.md) or [Mondadaian](mondada.md) conventions.
 
 See also HEAD.
@@ -52,6 +52,8 @@ See also HEAD.
 ### Regular Expression
 
 ### Rich Text Format (RTF)
+
+### Script-based Transcription System <a id='script'></a>
 
 ### Subtier Type <a id='subtier'></a>
 
