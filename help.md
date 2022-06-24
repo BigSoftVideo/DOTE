@@ -37,6 +37,7 @@ Here is a list of help tutorials on specific topics:
 - [How to transcribe with _DOTE_](howto.md) - practical advice for different transcription practices
 - [Tips & Tricks](tips.md) - how to get some mundane and special tasks done
 - [Commands and shortcuts guide](commands.md) - a visual guide all in one place
+- [Glossary of key terms](glossary.md) - what you need to know
 
 ### Download _DOTE_ video tutorials <a id='tutorials'></a>
 
