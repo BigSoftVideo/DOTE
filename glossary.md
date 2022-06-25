@@ -4,6 +4,9 @@ Below is a list of key terms in alphabetical order with short definitions and li
 
 ### Active Media <a id='active'></a>
 
+When media files are added to a Project using the [Media Manager](media.md) they can be activated to appear in the current Transcript.
+If a media file is deactivated, it will not be available for use in the current Transcript.
+
 ### Alignment Symbol
 
 An alignment symbol (Mondadian conventions) is a unique symbol reserved for use in a transcript to indicate the temporal alignment of an action in a [subtier](tier.md) with the [HEAD](#head) of the [neighbourhood](#neighbourhood).
@@ -11,6 +14,13 @@ An alignment symbol (Mondadian conventions) is a unique symbol reserved for use 
 See [Realignment](#align).
 
 ### Autocompletion
+
+Autocompletion is the automatic, context-sensitive prompting of possible character or symbol strings that the user can select from.
+There are several aspects of a Transcript that can be autocompleted in the [Editor](transcript.md).
+1. The speaker-id column.
+1. Named subtier types: action, translation and gloss.
+1. Special symbols and symbol pairs.
+1. Overlaps.
 
 ### Autosave Backup
 
@@ -21,6 +31,10 @@ See [Realignment](#align).
 ### CS Mode
 
 ### Editor
+
+### Git
+
+See Version Control and [Checkpoint](#checkpoint).
 
 ### HEAD <a id='head'></a>
 
@@ -41,7 +55,11 @@ A Neighbourhood contains all those actions, sometimes in concurrent [subtiers](t
 
 See also HEAD.
 
+### Non-Sequential Overlap <a id='ns-overlap'></a>
+
 ### Overlap
+
+See [Non-Sequential Overlap](#ns-overlap).
 
 ### Play Transport
 
@@ -81,7 +99,7 @@ See [Subtier Type](#subtier).
 
 ### Version Control
 
-See [Checkpoint](#checkpoint).
+See [Git](#git) and [Checkpoint](#checkpoint).
 
 ### Video-cue
 
