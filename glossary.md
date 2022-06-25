@@ -24,7 +24,15 @@ There are several aspects of a Transcript that can be autocompleted in the [Edit
 
 ### Autosave Backup
 
+DOTE provides a behind-the-scenes automatic backup system called [Autosaving](versioncontrol.md#autosaving).
+After a user-defined time interval ([Settings](settings.md)), a new snapshot is taken of the current Transcript if there are unsaved changes.
+The Transcript itself is not saved to disk; only a backup copy is made.
+
 ### Checkpoint <a id='checkpoint'></a>
+
+A [Checkpoint](versioncontrol.md) is a user-initiated snapshot of the current Transcript if there have been changes made since the last known Checkpoint, regardless of whether or not the Transcript has been saved.
+A message can be added to each Checkpoint to log the history of changes in a storied fashion.
+Messages are usually in the active, imperative voice, eg. "Edit lines 45-47: add stress and loudness."
 
 ### Conventions
 
@@ -37,6 +45,8 @@ There are several aspects of a Transcript that can be autocompleted in the [Edit
 See Version Control and [Checkpoint](#checkpoint).
 
 ### HEAD <a id='head'></a>
+
+### Jump Cut
 
 ### Loop
 
@@ -61,6 +71,8 @@ See also HEAD.
 
 See [Non-Sequential Overlap](#ns-overlap).
 
+### Pan
+
 ### Play Transport
 
 ### Project
@@ -72,6 +84,8 @@ See [Non-Sequential Overlap](#ns-overlap).
 ### Rich Text Format (RTF)
 
 ### Script-based Transcription System <a id='script'></a>
+
+### Smooth Transition
 
 ### Subtier Type <a id='subtier'></a>
 
@@ -105,6 +119,10 @@ See [Git](#git) and [Checkpoint](#checkpoint).
 
 ### Video Panel
 
+### Viewport
+
 ### Warnings and Errors
 
 ### Waveform
+
+### Zoom
