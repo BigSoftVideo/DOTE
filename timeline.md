@@ -46,7 +46,7 @@ If your Project has multiple media sources, and more than one is activated in yo
 
 This is useful with complex multi-source projects in which you wish to view one video in the video panel, while playing the audio track of another and displaying the waveform of a third media source (eg. an audio recording from a wireless mic).
 
-#### Looping
+#### Looping <a id='loop'></a>
 
 There are several ways to loop shorter segments of the timeline:
 
