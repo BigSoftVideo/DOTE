@@ -1,4 +1,4 @@
-## Transcribing with _DOTE_
+## Transcribing in the Editor
 
 Once a Project with a Transcript is created or opened, with an [attached media file](media.md), then you can immediately type in the Transcript Editor.
 
