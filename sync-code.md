@@ -16,6 +16,15 @@ Sync-codes can be added using the shortcut <kbd>CTRL</kbd>+<kbd>M</kbd> or <kbd>
 1. Sync-codes can be deleted.
 Select the sync-code, right click, and choose delete.
 
+### Turning on CS Mode to synchronise the Transcript with the Media during playback <a id='cs-mode'></a>
+
+Unless `CS Mode` (show highlight of current sync-code block) is turned on, the Transcript will not automatically synchronise with the timeline during playback.
+You can turn on `CS Mode`  mode by clicking the button at the top right of the Editor to enable the current [sync-code](sync-code.md) block to be highlighted as you play the media.
+
+[![CS Mode](images/sync-code/cs-mode.png)](images/sync-code/cs-mode.png)
+
+### Notes
+
 Please note that edits to sync-codes are not tracked by the user interface in _DOTE_.
 For instance, if you move a sync-code to a different line or to another position on the timeline, then you cannot undo those actions with the standard shortcuts.
 However, sync-codes are tracked by Checkpoints and Autosaves, so if you revert to an earlier Checkpoint or Autosave, then the sync-codes will be restored as well.
