@@ -85,7 +85,7 @@ Thus, these two senses are not equivalent.
 
 ### Loop <a id='loop'></a>
 
-[Playback](play.md) of the media in a Transcript can be looped by selecting a portion of the [waveform](#waveform) on the [timeline](timeline.md).
+Media in a Transcript can be looped by selecting a portion of the [waveform](#waveform) on the [timeline](timeline.md#loop) to [playback](play.md) repeatedly.
 
 ### Media Manager <a id='media'></a>
 
@@ -95,10 +95,11 @@ A Project can contain multiple media files, and each Transcript in a Project can
 
 ### Neighbourhood <a id='neighbourhood'></a>
 
-A [Neighbourhood](tiers.md) is a concept we developed to better encapsulate what goes on during simultaneous events captured in a set of transcript lines in a [script-based transcription system](#script).
+A [Neighbourhood](tiers.md) is a concept we developed to better encapsulate what goes on during one event in which a relatively short, fixed time period elapses.
+Relevant actions taking place sequentially or simultanesously during the Event are captured in a set of transcript lines in a [script-based transcription system](#script).
 Sets of lines in a transcript can be grouped together temporally because they try to represent events that happen within a single, continuous duration in time.
 Everything transcribed in a Neighbourhood occurs within that single duration of time, whether it be speech, multimodal action or events happening in the scene.
-A Neighbourhood contains all those actions, sometimes in concurrent [subtiers](tiers.md), which are represented using the [Jeffersonian](jefferson.md) or [Mondadaian](mondada.md) conventions.
+A Neighbourhood contains all those actions, which are represented using the [Jeffersonian](jefferson.md) or [Mondadaian](mondada.md) conventions, sometimes in concurrent [subtiers](tiers.md).
 
 See also [HEAD](#head).
 
@@ -117,7 +118,7 @@ See [Non-Sequential Overlap](#ns-overlap).
 ### Pan <a id='pan'></a>
 
 A transition between one [Video-cue](cue.md) and the next that smoothly and linearly tracks between an initial viewport in the [Video panel](video.md) and a target viewport.
-This is only true if the same media is used in both Video-cues and smooth transition is selected.
+This is only true if the same media are used in both Video-cues and smooth transition is selected.
 
 See also [Video-cue](#video-cue), [Zoom](#zoom), [Smooth Transition](#smooth) and [Jump Cut](#jump-cut).
 
@@ -134,7 +135,7 @@ A _DOTE_ [Project](project.md) consists of all synchronised [Media](media.md) an
 A Proportional Timing Interval is a non-standard method to indicate durations of time in a Transcript.
 _DOTE_ supports a special Unicode symbol to indicate 0.1 seconds: `◘`.
 This symbol indicates the passing of 0.1 seconds, eg. `◘◘◘◘◘` = 0.5 seconds.
-It is especially useful in the [Mondadaian system](mondada.md) for marking [timing interval tiers](tiers.md) instead of the more conventional non-proportional pause indications, eg. `(0.1)`.
+It is especially useful in the [Mondadaian system](mondada.md) for marking [timing interval tiers](tiers.md) instead of the more conventional non-proportional 'pause' indications, eg. `(0.1)`.
 
 See [Timing Interval](#interval).
 
@@ -166,10 +167,10 @@ See also [Video-cue](#video-cue), [Zoom](#zoom), [Pan](#pan) and [Jump Cut](#jum
 
 ### Speaker-id <a id='id'></a>
 
-Every line in the Transcript that has a speaker, including translation and interlinear gloss [subtiers](#subtier), requires a unique [Speaker-id in the initial column](transcript.md#id).
+Every line in the Transcript that has a speaker, including translation and interlinear gloss [Subtier Types](#subtier), requires a unique [Speaker-id in the initial column](transcript.md#id).
 Also, every action subtier requires a unique Speaker-id in order to determine the participant/actant that does the action in question.
 The Speaker-id can be of a reasonable length from 1 character to 20 characters.
-The Speaker-id should use letters and numbers (alphanumeric); it should avoid special symbols and punctuation.
+The Speaker-id should only contain letters and numbers (alphanumeric); it should avoid special symbols and punctuation.
 
 ### Subtier Type <a id='subtier'></a>
 
@@ -287,6 +288,6 @@ When imported into a Project using [Media Manager](media.md), the waveform is ge
 ### Zoom <a id='zoom'></a>
 
 A transition between one [Video-cue](cue.md) and the next that smoothly and linearly zooms between an initial viewport in the [Video panel](video.md) and a target viewport.
-This is only true if the same media is used in both Video-cues and smooth transition is selected.
+This is only true if the same media are used in both Video-cues and smooth transition is selected.
 
 See also [Video-cue](#video-cue), [Pan](#pan), [Smooth Transition](#smooth) and [Jump Cut](#jump-cut).
