@@ -4,8 +4,8 @@ _DOTE_ has two different and independent backup systems to keep track of your ed
 
 The backup systems will enable a user to restore a prior state of a transcript at a particular point in time, including the [transcript text](transcript.md), [sync-codes](sync-code.md), [named subtier types](tiers.md) and some local Editor settings in [Transcript Options](settings.md#options).
 
-Autosaves are auto-generated and provide a simple backup in case one is not saving the current Transcript frequently.
-On the other hand, Checkpoints are a user-driven system of backup that is semantic and timely.
+[Autosaves](#autosaving) are auto-generated and provide a simple backup in case one is not saving the current Transcript frequently.
+On the other hand, [Checkpoints](#checkpoint) are a user-driven system of backup that is semantic and timely.
 
 Note that [Autosaving](#autosaving) is not the same as _saving_ a Transcript using `File ➔ Save Transcript` or <kbd>CTRL</kbd>+<kbd>S</kbd> [or <kbd>⌘</kbd>+<kbd>S</kbd> on macOS].
 Autosaving makes a _new copy_ of the current Transcript and writes that to disk so the previous state can be recovered, while saving writes the Transcript data to disk.
@@ -16,7 +16,7 @@ It just makes a series of backup copies at regular intervals.
 
 ### Setting up Checkpoints and Autosaves <a id='setup'></a>
 
-To use checkpoints and to peek at autosaves, one must first install some free, open-source software called _Git_ on your computer.
+To use Checkpoints and to peek at Autosaves, one must first install some free, open-source software called _Git_ on your computer.
 It is totally safe and ad-free if you download from the official site or via your operating system (macOS).
 We strongly recommend you do this when using _DOTE_, especially since checkpoints will support informative, fine-grained control over the changes you make as you transcribe.
 Autosaves will work without _Git_ installed, but you will have to manually restore a specific Autosave using the file system (look in the hidden autosave folder in the transcript folder on disk).
