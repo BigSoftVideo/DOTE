@@ -9,18 +9,18 @@ If a media file is deactivated, it will not be available for use in the current 
 
 ### Alignment Symbol <a id='align-symbol'></a>
 
-An alignment symbol (Mondadian conventions) is a unique symbol reserved for use in a transcript to indicate the temporal alignment of an action in a [subtier](tier.md) with the [HEAD](#head) of the [neighbourhood](#neighbourhood).
+An alignment symbol (Mondadian conventions) is a unique symbol reserved for use in a transcript to indicate the temporal alignment of an action in a [subtier](#tier.md) with the [HEAD](#head) of the [Neighbourhood](#neighbourhood).
 
 See [Realignment](#align).
 
 ### Autocompletion <a id='autocomplete'></a>
 
 Autocompletion is the automatic, context-sensitive prompting of possible character or symbol strings that the user can select from.
-There are several aspects of a Transcript that can be autocompleted in the [Editor](transcript.md).
-1. The speaker-id column.
-1. Named subtier types: action, translation and gloss.
+There are several aspects of a Transcript that can be [autocompleted](transcript.md#autocomplete) in the [Editor](transcript.md).
+1. The initial [speaker-id](#id) column.
+1. Named [Subtier Types](#subtier): action, translation and gloss.
 1. Special symbols and symbol pairs.
-1. Overlaps.
+1. [Overlaps](#overlap).
 
 ### Autosave Backup <a id='autosave'></a>
 
@@ -30,11 +30,11 @@ The Transcript itself is not saved to disk; only a backup copy is made.
 
 ### Checkpoint <a id='checkpoint'></a>
 
-A [Checkpoint](versioncontrol.md) is a user-initiated snapshot of the current Transcript if there have been changes made since the last known Checkpoint, regardless of whether or not the Transcript has been saved.
+A [Checkpoint](versioncontrol.md#checkpoint) is a user-initiated snapshot of the current Transcript if there have been changes made since the last known Checkpoint, regardless of whether or not the Transcript has been saved.
 A message can be added to each Checkpoint to log the history of changes in a storied fashion.
 Messages are usually in the active, imperative voice describing the changes made by the new Checkpoint since the last one, eg. "Edit lines 45-47: add stress and loudness."
 
-## Comment <a id='comment'></a>
+### Comment <a id='comment'></a>
 
 A comment is a message in a Transcript by a transcriber that concisely describes something happening in the data that cannot be easily represented using the traditional conventions, eg. in the [Jeffersonian conventions](jefferson.md) comments are written within double parentheses: `((comment))`.
 
@@ -42,17 +42,19 @@ Cf. [Technical Comment](#tech-comment)
 
 ### Conventions <a id='conventions'></a>
 
-In qualitative research, events in social interaction can be written down using a variety of Conventions to carefully document specific phenomena in speech and action.
+In qualitative research, events in social interaction can be described in textual form using a variety of Conventions to carefully document specific phenomena concerning speech and action.
 _DOTE_ has been implemented to adhere as closely as possible to two standardised transcription Conventions, eg. [Jeffersonian](jefferson.md) and [Mondadaian](mondada.md).
 
-### CS Mode <a id='CSmode'></a>
+### CS Mode <a id='cs-mode'></a>
 
-When the media for a specific Transcript are played back, there is a toggle option in the Editor panel called CS Mode that synchronises playback with the relevant lines of the Transcript that match the timecode segment.
-In _DOTE_, this is only possible if [sync-codes](sync-code.md) have been added to the Transcript.
+When the [media activated](#active) for a specific Transcript are played back, there is a toggle option in the [Editor panel](transcript.md) called [CS Mode](sync-code.md#cs-mode) that synchronises playback with the relevant lines of the Transcript that match the timecode segment.
+In _DOTE_, this is only possible if [sync-codes](sync-code.md) have been manually added to the Transcript.
+
+See also [Synchronised Media](#sync).
 
 ### Editor <a id='editor'></a>
 
-The Editor is the panel in which the text of the Transcript is created and edited.
+The Editor is the [panel](ui.md) in which the text of the Transcript is created and edited.
 
 ### Git <a id='git'></a>
 
@@ -62,26 +64,28 @@ See [Version Control](#version) and [Checkpoint](#checkpoint).
 
 ### HEAD <a id='head'></a>
 
-The HEAD of a [neighbourhood](#neighbourhood) is the first line, in which a primary speaker or a timing interval provides the temporal structure to which other lines in the neighbourhood attach.
+The HEAD of a [neighbourhood](#neighbourhood) is always the first line.
+It is either a primary speaker line or a [timing interval](#interval) line, and it provides the a notional temporal structure to which other lines in the [neighbourhood](#neighbourhood) adhere.
 
 ### Jump Cut <a id='jump-cut'></a>
 
-A transition between one Video-cue and the next can be sudden without a [smooth transition](#smooth).
+A transition in the [viewport](#viewport) of a [Video-panel](#video) between one [Video-cue](cues.md) and the next can be sudden without a [smooth transition](#smooth).
 
-See also [Video-cue](#video-cue), [Zoom](#zoom), [Pan](#pan), [Smooth Transition](#smooth) and [Jump Cut](#jump-cut).
+See also [Zoom](#zoom), [Pan](#pan), [Smooth Transition](#smooth) and [Jump Cut](#jump-cut).
 
 ### Line number <a id='line-number'></a>
 
-There are two senses of line number in DOTE:
+There are two senses of Line Number in DOTE:
 
-1. The abstract line numbers in the Editor.
+1. The abstract Line Numbers in the Editor.
 The Transcript Editor assigns a temporary, unique number in ascending order to each and every line.
-1. The line numbers assigned when the Transcript is exported to an RTF document.
-The Exporter can assign a permanent, unique line number to every line or some of the lines according to a principle, such as only assign a line number to a line if it has a speaker, a time interval or a comment.
+1. The Line Numbers assigned when the Transcript is [exported to an RTF document](export.md).
+The Exporter can assign a permanent, unique line number in ascending order to every line or some of the lines according to a principle, such as only assign a Line Number to a line if it has a [speaker-id](#id), a [timing interval](#interval) and/or a [comment](#comment).
+Thus, these two senses are not equivalent.
 
 ### Loop <a id='loop'></a>
 
-[Playback](play.md) of the media in a Transcript can be looped by selecting a portion of the [timeline](timeline.md).
+[Playback](play.md) of the media in a Transcript can be looped by selecting a portion of the [waveform](#waveform) on the [timeline](timeline.md).
 
 ### Media Manager <a id='media'></a>
 
@@ -160,6 +164,13 @@ A transition between one [Video-cue](cue.md) and the next that smoothly and line
 
 See also [Video-cue](#video-cue), [Zoom](#zoom), [Pan](#pan) and [Jump Cut](#jump-cut).
 
+### Speaker-id <a id='id'></a>
+
+Every line in the Transcript that has a speaker, including translation and interlinear gloss [subtiers](#subtier), requires a unique [Speaker-id in the initial column](transcript.md#id).
+Also, every action subtier requires a unique Speaker-id in order to determine the participant/actant that does the action in question.
+The Speaker-id can be of a reasonable length from 1 character to 20 characters.
+The Speaker-id should use letters and numbers (alphanumeric); it should avoid special symbols and punctuation.
+
 ### Subtier Type <a id='subtier'></a>
 
 In a modification to the [Mondadaian system](mondada.md), [subtiers](tiers.md) are structured into Types and given names.
@@ -174,6 +185,8 @@ These subtitles are in a file in `SRT` format and can be overlaid on the video b
 ### Sync-code <a id='sync-code'></a>
 
 In order to anchor the Transcript text to the media from which it is derived, [sync-codes](sync-code.md) can be created that tie the timecode on the [timeline](timeline.md) to a specific line in the Transcript.
+
+See also [CS-mode](cs-mode).
 
 ### Synchronised Media <a id='sync'></a>
 
