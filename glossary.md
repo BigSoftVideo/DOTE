@@ -4,8 +4,8 @@ Below is a list of key terms in alphabetical order with short definitions and li
 
 ### 2D Video <a id='2D'></a>
 
-In _DOTE_ terminology, we use 2D video to refer to the traditional recordings made by video cameras that flatten and render the visible 3D world onto a rectangular frame of digital pixels.
-The use of the nomenclature of dimensionality (Eg. 2D, 2½D, 3D, 360) is becoming standardised in more technical research on advanced recording and immersive technologies.
+In _DOTE_ terminology, we use 2D Video to refer to the traditional recordings made by video cameras that flatten and render the visible 3D world onto a rectangular frame of digital pixels.
+The use of the nomenclature of dimension and angle (Eg. 2D, 2½D, 3D, 180, 360) is becoming standardised in more technical research on advanced recording and immersive technologies.
 
 See also [360-degree Video](#360).
 
@@ -15,6 +15,8 @@ A 360-degree Video recording is made using a special 360-degree camera with at l
 Using special algorithms, a spherical view of everything visible (panorama) around the fixed point of the camera can be reconstructed using a [Projection](#projection) mapping.
 Such video recordings are passive in that the [Viewport](#viewport) can be rendered in a digital media player or in Virtual Reality from only that fixed point.
 Some 360-degree cameras can also recover depth mapping and render a stereoscopic view in all directions.
+180-degree videos represent the visible field in a half-sphere.
+_DOTE_ does not support 180-degree videos directly, but if they are transposed into an equirectangular format with the other half of the sphere rendered black, then they can be imported.
 
 See [Equirectangular](#equi) and [Spatial Audio](#spatial-audio).
 
@@ -25,7 +27,7 @@ If a media file is deactivated, it will not be available for use in the current 
 
 ### Alignment Symbol <a id='align-symbol'></a>
 
-An alignment symbol (Mondadian conventions) is a unique symbol reserved for use in a transcript to indicate the temporal alignment of an action in a [subtier](#tier.md) with the [HEAD](#head) of the [Neighbourhood](#neighbourhood).
+An alignment symbol (Mondadian conventions) is a unique symbol reserved for use in a transcript to indicate the temporal alignment of an action in a [Subtier](#tier.md) with the [HEAD](#head) of the [Neighbourhood](#neighbourhood).
 
 See [Realignment](#align).
 
@@ -38,8 +40,8 @@ In later releases, _DOTE_ will support Ambisonic recordings in a standard format
 ### Autocompletion <a id='autocomplete'></a>
 
 Autocompletion is the automatic, context-sensitive prompting of possible character or symbol strings that the user can select from.
-There are several aspects of a Transcript that can be [autocompleted](transcript.md#autocomplete) in the [Editor](transcript.md).
-1. The initial [speaker-id](#id) column.
+There are several aspects of a Transcript that can be [Autocompleted](transcript.md#autocomplete) in the [Editor](transcript.md).
+1. The initial [Speaker-id](#id) column.
 1. Named [Subtier Types](#subtier): action, translation and gloss.
 1. Special symbols and symbol pairs.
 1. [Overlaps](#overlap).
@@ -69,14 +71,14 @@ _DOTE_ has been implemented to adhere as closely as possible to two standardised
 
 ### CS Mode <a id='cs-mode'></a>
 
-When the [media activated](#active) for a specific Transcript are played back, there is a toggle option in the [Editor panel](transcript.md) called [CS Mode](sync-code.md#cs-mode) that synchronises playback with the relevant lines of the Transcript that match the timecode segment.
-In _DOTE_, this is only possible if [sync-codes](sync-code.md) have been manually added to the Transcript.
+When a media [Activated](#active) in a Transcript is played back, there is a toggle option in the [Editor panel](transcript.md) called [CS Mode](sync-code.md#cs-mode) that synchronises playback with the relevant lines of the Transcript that match the timecode segment on the [Timeline](timeline.md).
+In _DOTE_, this is only possible if [Sync-codes](sync-code.md) have been manually added to the Transcript.
 
 See also [Synchronised Media](#sync).
 
 ### Editor <a id='editor'></a>
 
-The Editor is the [panel](ui.md) in which the text of the Transcript is created and edited.
+The Editor is the [Panel](ui.md) in which the text of the Transcript is created and edited.
 
 ### Equirectangular <a id='equi'></a>
 
@@ -92,14 +94,14 @@ See [Version Control](#version) and [Checkpoint](#checkpoint).
 
 ### HEAD <a id='head'></a>
 
-The HEAD of a [neighbourhood](#neighbourhood) is always the first line.
-It is either a primary speaker line or a [timing interval](#interval) line, and it provides the a notional temporal structure to which other lines in the [neighbourhood](#neighbourhood) adhere.
+The HEAD of a [Neighbourhood](#neighbourhood) is always the first line.
+It is either a primary speaker line or a [Timing Interval](#interval) line, and it provides the a notional temporal structure to which other lines in the [Neighbourhood](#neighbourhood) adhere.
 
 ### Jump Cut <a id='jump-cut'></a>
 
-A transition in the [viewport](#viewport) of a [Video-panel](#video) between one [Video-cue](cues.md) and the next can be sudden without a [smooth transition](#smooth).
+A transition in the [Viewport](#viewport) of a [Video Panel](#video) between one [Video-cue](cues.md) and the next can be sudden without a [Smooth Transition](#smooth).
 
-See also [Zoom](#zoom), [Pan](#pan), [Smooth Transition](#smooth) and [Jump Cut](#jump-cut).
+Cf. [Zoom](#zoom) and [Pan](#pan).
 
 ### Line number <a id='line-number'></a>
 
@@ -107,27 +109,30 @@ There are two senses of Line Number in DOTE:
 
 1. The abstract Line Numbers in the Editor.
 The Transcript Editor assigns a temporary, unique number in ascending order to each and every line.
-1. The Line Numbers assigned when the Transcript is [exported to an RTF document](export.md).
-The Exporter can assign a permanent, unique line number in ascending order to every line or some of the lines according to a principle, such as only assign a Line Number to a line if it has a [speaker-id](#id), a [timing interval](#interval) and/or a [comment](#comment).
+1. The Line Numbers assigned when the Transcript is [Exported to an RTF document](export.md).
+The Exporter can assign a permanent, unique line number in ascending order to every line or some of the lines according to a principle, such as only assign a Line Number to a line if it has a [Speaker-id](#id), a [Timing Interval](#interval) and/or a [Comment](#comment).
 Thus, these two senses are not equivalent.
 
 ### Loop <a id='loop'></a>
 
-Media in a Transcript can be looped by selecting a portion of the [waveform](#waveform) on the [timeline](timeline.md#loop) to [playback](play.md) repeatedly.
+Media in a Transcript can be looped by selecting a portion of the [Waveform](#waveform) on the [Timeline](timeline.md#loop) to [Replay](play.md) repeatedly.
 
 ### Media Manager <a id='media'></a>
 
 The [Media Manager](media.md) is a tool to add media files to an individual [Project](project.md).
-It is used to import (by copying), configure and delete media files, as well as make them [active](#active) in the current Transcript.
+It is used to import (by copying), configure and delete media files, as well as make them [Active](#active) in the current Transcript.
 A Project can contain multiple media files, and each Transcript in a Project can activate one or more of these media to use in the [Timeline](timeline.md) and [Video Panel(s)](video.md).
 
 ### Neighbourhood <a id='neighbourhood'></a>
 
-A [Neighbourhood](tiers.md) is a concept we developed to better encapsulate what goes on during one event in which a relatively short, fixed time period elapses.
-Relevant actions taking place sequentially or simultanesously during the Event are captured in a set of transcript lines in a [script-based transcription system](#script).
+A [Neighbourhood](tiers.md) is a concept we developed to better encapsulate what goes on during a recording in which a relatively short, fixed time period elapses.
 Sets of lines in a transcript can be grouped together temporally because they try to represent events that happen within a single, continuous duration in time.
-Everything transcribed in a Neighbourhood occurs within that single duration of time, whether it be speech, multimodal action or events happening in the scene.
-A Neighbourhood contains all those actions, which are represented using the [Jeffersonian](jefferson.md) or [Mondadaian](mondada.md) conventions, sometimes in concurrent [subtiers](tiers.md).
+In practice, the duration of time is most often dictated by the maximum number of characters (with a specific font size) that are available on a single line on a standard page of text, eg. A4/Letter.
+A new Neighourhood begins when the lines in the prior Neighbourhood terminate before the maximum is reached.
+Each Neighbourhood is temporally contiguous with the one immediately before and the one after.
+Everything transcribed in a single Neighbourhood occurs within that single duration of time, whether it be speech, multimodal action or events happening in the scene.
+Relevant actions taking place sequentially or simultaneously are represented in a set of transcript lines using a [Script-based Transcription System](#script).
+A Neighbourhood contains all those actions, which are represented using the [Jeffersonian](jefferson.md) or [Mondadaian](mondada.md) conventions, sometimes in concurrent [Subtiers](tiers.md).
 
 See also [HEAD](#head).
 
@@ -135,24 +140,24 @@ See also [HEAD](#head).
 
 Sometimes, speakers or actions may overlap in duration but are not sequentially relevant to each other.
 For example, two separate groups (A and B) are speaking at the same time in a room, so that the speech of one person in group A is inadvertently overlapping with another speaker in group B.
-In _DOTE_, this is marked with matching single curly brackets -- `{non-sequential overlap}` -- on more than one line in a [neighbourhood](#neighbourhood).
+In _DOTE_, this is marked with matching single curly brackets -- `{non-sequential overlap}` -- on more than one line in a [Neighbourhood](#neighbourhood).
 
 ### Overlap <a id='overlap'></a>
 
-Overlaps between speakers are traditionally marked between matching single square brackets -- `[overlap]` -- on more than one line in a [neighbourhood](#neighbourhood).
+Overlaps between speakers are traditionally marked between matching single square brackets -- `[overlap]` -- on more than one line in a [Neighbourhood](#neighbourhood).
 
 See [Non-Sequential Overlap](#ns-overlap).
 
 ### Pan <a id='pan'></a>
 
-A transition between one [Video-cue](cue.md) and the next that smoothly and linearly tracks between an initial viewport in the [Video panel](video.md) and a target viewport.
+A transition between one [Video-cue](cue.md) and the next that smoothly and linearly tracks between an initial viewport in the [Video Panel](video.md) and a target viewport.
 This is only true if the same media are used in both Video-cues and smooth transition is selected.
 
 See also [Video-cue](#video-cue), [Zoom](#zoom), [Smooth Transition](#smooth) and [Jump Cut](#jump-cut).
 
 ### Play Transport <a id='play'></a>
 
-The Play Transport consists of the media controls that affect [playback](play.md).
+The Play Transport consists of the media controls that affect [Playback](play.md).
 
 ### Projection <a id='projection'></a>
 
@@ -170,15 +175,13 @@ A _DOTE_ [Project](project.md) consists of all synchronised [Media](media.md) an
 A Proportional Timing Interval is a non-standard method to indicate durations of time in a Transcript.
 _DOTE_ supports a special Unicode symbol to indicate 0.1 seconds: `◘`.
 This symbol indicates the passing of 0.1 seconds, eg. `◘◘◘◘◘` = 0.5 seconds.
-It is especially useful in the [Mondadaian system](mondada.md) for marking [timing interval tiers](tiers.md) instead of the more conventional non-proportional 'pause' indications, eg. `(0.1)`.
-
-See [Timing Interval](#interval).
+It is especially useful in the [Mondadaian system](mondada.md) for marking [Timing Interval tiers](tiers.md) instead of the more conventional non-proportional 'pause' indications, eg. `(0.1)`.
 
 ### Realignment <a id='align'></a>
 
-In qualitative research, the visual layout of transcripts is semantically important, especially for [overlaps](#overlap) and [subtiers](tiers.md).
-Built in to _DOTE_ is a sophisticated parser that tracks vertical alignment in and across a [neighbourhood](#neighbourhood) in both [Jeffersonian](jefferson.md) and [Mondadaian](mondada.md) systems.
-When something goes out of alignment, _DOTE_ can indicate this and suggest how to realign everything in a neighbourhood.
+In qualitative research, the visual layout of transcripts is semantically important, especially for [Overlaps](#overlap) and [Subtiers](tiers.md).
+Built in to _DOTE_ is a sophisticated parser that tracks vertical alignment within and across [Neighbourhoods](#neighbourhood) in both [Jeffersonian](jefferson.md) and [Mondadaian](mondada.md) systems.
+When something goes out of alignment, _DOTE_ can indicate this and suggest how to automatically realign everything in a neighbourhood.
 
 ### Regular Expression <a id='regex'></a>
 
@@ -192,7 +195,10 @@ It is readable by most word processors.
 ### Script-based Transcription System <a id='script'></a>
 
 A Script-based Transcription System denotes a set of conventions and ways of writing that assume that speech (and action) can be written in chunks ([neighbourhoods](#neighbourhoods)) of dialogue, much like a play or film script.
-The other core system is a score-based transcription system that assumes that all speech and action occurs simultaneously in one long score, comprising subtiers, that continues to infinity.
+The assumption in _DOTE_ is that the script is read from left-to-right and from top-to-bottom.
+An alternative is a _score-based_ transcription system that assumes that all speech and action occurs simultaneously in one long, continuous score, comprising subtiers, that notionally continues to infinity, much like a musical score.
+This alternative is partially implemented by _DOTE_ in relation to [Subtier Types](#subtier) within a [Neighbourhood](#neigbourhood).
+In future releases, an optional, dedicated micro score-based tool will be smartly interchangeable with the script-based system.
 
 ### Smooth Transition <a id='smooth'></a>
 
@@ -227,13 +233,13 @@ These subtitles are in a file in `SRT` format and can be overlaid on the video b
 
 ### Sync-code <a id='sync-code'></a>
 
-In order to anchor the Transcript text to the media from which it is derived, [sync-codes](sync-code.md) can be created that tie the timecode on the [timeline](timeline.md) to a specific line in the Transcript.
+In order to anchor the Transcript text to the media from which it is derived, [Sync-codes](sync-code.md) can be created that tie the timecode on the [Timeline](timeline.md) to a specific line in the Transcript.
 
 See also [CS-mode](cs-mode).
 
 ### Synchronised Media <a id='sync'></a>
 
-_DOTE_ assumes that in a specific Project, all [imported media](media.md) are already synchronised to the same start point and end point.
+_DOTE_ assumes that in a specific Project, all [imported Media](media.md) are already synchronised to the same start point and end point.
 This must be undertaken externally in a video editor prior to importing.
 
 ### Technical Comment <a id='tech-comment'></a>
@@ -241,15 +247,15 @@ This must be undertaken externally in a video editor prior to importing.
 A Technical Comment is a comment on the structure of the Transcript itself.
 It is specific to _DOTE_, but is found in some programming languages as well.
 The onset of the comment is marked by `//`, and everything after that on the same line is not a part of the Transcript.
-Consecutive Technical Comments at the beginning of the Transcript are treated as a simple form of meta-data.
 Thus, a transcriber can mark up the Transcript line-by-line with brief meta-messages about the process of editing the Transcript or interesting phenomena.
-They can be hidden when [exporting the Transcript to RTF or subtitles](export.md).
+Consecutive Technical Comments at the beginning of the Transcript are treated as a simple form of meta-data.
+Technical Comments can be hidden when [exporting the Transcript to RTF or Subtitles](export.md).
 
 Cf. [Comment](#comment).
 
 ### Tier <a id='tier'></a>
 
-A Tier in a Transcript is a line in a [neighbourhood](#neighbourhood) that is dedicated to representing one specific phenomena or event, such as the speech, eye gaze or hand movements of one speaker.
+A Tier in a Transcript is a line in a [Neighbourhood](#neighbourhood) that is dedicated to representing one specific phenomena or event, such as the speech, eye gaze or hand movements of one speaker.
 
 See [Subtier Type](#subtier).
 
@@ -268,12 +274,12 @@ See [Waveform](#waveform) and [Timecode](#timecode).
 ### Timing interval <a id='interval'></a>
 
 Intervals of time can be marked explicitly in a transcription system.
-In the [Jeffersonian system](jefferson.md), this is commonly represented as a pause indicated by a time duration in single parentheses, eg. `(1.5)`.
-In the multimodal [Mondadaian system](mondada.md), the same representation of pauses is used, not only in a speaker tier but also in a dedicated tier ([HEAD](#head)) that has multiple pause indications in a row.
-The latter is primarily to represent non-verbal actions.
-In _DOTE_, this is called a primary Timing Interval tier, since is dedicated to timing intervals (and [alignment symbols](#align-symbol)) only.
+In the [Jeffersonian system](jefferson.md), this is commonly represented as a pause indicated by a time duration in single parentheses, eg. `(1.5)` = 1.5 seconds.
+In the multimodal [Mondadaian system](mondada.md), the same representation of pauses is used, not only in a speaker tier but also in a dedicated tier in the ([HEAD](#head)) that contains one or more pause indications interspersed by [Alignment Symbols](#align-symbol).
+The latter is primarily used to represent the timing of non-verbal actions.
+In _DOTE_, this is called a primary Timing Interval tier, since is dedicated to timing intervals.
 
-See also [Proportional Timing Interval](pti).
+See also [Proportional Timing Interval](#pti).
 
 ### Transcript <a id='transcript'></a>
 
@@ -282,8 +288,8 @@ A Transcript is a specific textual object in _DOTE_ that is created and edited i
 ### Transcript Heuristics <a id='heuristics'></a>
 
 _DOTE_ uses a sophisticated parser to interpret the structure of a Transcript.
-On that basis, [descriptive errors and warnings](errors.md) can be given to help the transcriber conform their Transcript to the standard [conventions](#conventions) as well as to the special formatting required by _DOTE_.
-Moreover, DOTE makes heuristic suggestions to [realign](#align) [neighbourhoods](#neighbourhoods).
+On that basis, [descriptive Errors and Warnings](errors.md) can be given to help the transcriber conform their Transcript to the standard [Conventions](#conventions) as well as to the special formatting required by _DOTE_.
+Moreover, DOTE makes heuristic suggestions to [Realign](#align) [Neighbourhoods](#neighbourhoods).
 
 ### Unicode <a id='unicode'></a>
 
@@ -291,18 +297,18 @@ Moreover, DOTE makes heuristic suggestions to [realign](#align) [neighbourhoods]
 
 ### User Interface (UI) <a id='ui'></a>
 
-The User Interface is the visual (and aural) presentation of the computer application to the user.
+The [User Interface](ui.md) is the visual (and aural) presentation of the computer application to the user.
 
 ### Version Control <a id='version'></a>
 
-Version Control is a broad term encompassing all computer systems that track changes in a set of digital documents or media files.
+[Version Control](versioncontrol.md) is a broad term encompassing all computer systems that track changes in a set of digital documents or media files.
 
-See [Git](#git) and [Checkpoint](#checkpoint).
+See [Git](#git), [Autosave Backup]("autosave) and [Checkpoint](#checkpoint).
 
 ### Video-cue <a id='video-cue'></a>
 
-A [Video-cue](cue.md) is a unique point on the [timeline](timeline.md) in a Transcript that indicates that a change in the [viewport](#viewport) of a [Video panel](video.md) is to be performed.
-This function automates the presentation of media during [playback](play.md) in a more cinematic fashion.
+A [Video-cue](cue.md) is a unique point on the [Timeline](timeline.md) in a Transcript that indicates that a change in the [Viewport](#viewport) of a [Video Panel](video.md) is to be performed.
+This function automates the presentation of media during [Playback](play.md) in a more cinematic fashion.
 
 See also [Zoom](#zoom), [Pan](#pan), [Smooth Transition](#smooth) and [Jump Cut](#jump-cut).
 
@@ -320,7 +326,7 @@ The Viewport is the rectangular portion of the video that is currently visible i
 
 ### Warnings and Errors <a id='error'></a>
 
-DOTE can flag [warnings and errors](errors.md) in the use of DOTE, as well as in the Editor.
+DOTE can flag [Warnings and Errors](errors.md) in the use of DOTE, as well as in the Editor.
 
 ### Waveform <a id='waveform'></a>
 
@@ -329,7 +335,7 @@ When imported into a Project using [Media Manager](media.md), the waveform is ge
 
 ### Zoom <a id='zoom'></a>
 
-A transition between one [Video-cue](cue.md) and the next that smoothly and linearly zooms between an initial viewport in the [Video panel](video.md) and a target viewport.
+A transition between one [Video-cue](cue.md) and the next that smoothly and linearly zooms between an initial viewport in the [Video Panel](video.md) and a target viewport.
 This is only true if the same media are used in both Video-cues and smooth transition is selected.
 
 See also [Video-cue](#video-cue), [Pan](#pan), [Smooth Transition](#smooth) and [Jump Cut](#jump-cut).
