@@ -2,6 +2,22 @@
 
 Below is a list of key terms in alphabetical order with short definitions and links to relevant help pages for more information.
 
+### 2D Video <a id='2D'></a>
+
+In _DOTE_ terminology, we use 2D video to refer to the traditional recordings made by video cameras that flatten and render the visible 3D world onto a rectangular frame of digital pixels.
+The use of the nomenclature of dimensionality (Eg. 2D, 2½D, 3D, 360) is becoming standardised in more technical research on advanced recording and immersive technologies.
+
+See also [360-degree Video](#360).
+
+### 360-degree Video <a id='360'></a>
+
+A 360-degree Video recording is made using a special 360-degree camera with at least two wide-angle lenses arranged in a fixed configuration around a central axis.
+Using special algorithms, a spherical view of everything visible (panorama) around the fixed point of the camera can be reconstructed using a [Projection](#projection) mapping.
+Such video recordings are passive in that the [Viewport](#viewport) can be rendered in a digital media player or in Virtual Reality from only that fixed point.
+Some 360-degree cameras can also recover depth mapping and render a stereoscopic view in all directions.
+
+See [Equirectangular](#equi) and [Spatial Audio](#spatial-audio).
+
 ### Active Media <a id='active'></a>
 
 When media files are added to a Project using the [Media Manager](media.md) they can be activated to appear in the current Transcript.
@@ -12,6 +28,12 @@ If a media file is deactivated, it will not be available for use in the current 
 An alignment symbol (Mondadian conventions) is a unique symbol reserved for use in a transcript to indicate the temporal alignment of an action in a [subtier](#tier.md) with the [HEAD](#head) of the [Neighbourhood](#neighbourhood).
 
 See [Realignment](#align).
+
+### Ambisonic <a id='ambisonic'></a>
+
+An Ambisonic audio recording is a representation of the [Spatial Audio](#spatial-audio) field around a fixed point.
+Special Ambisonic microphones with at least four microphone capsules in a fixed configuration can be used to capture multiple channels of sound that later can be rendered through headphones to reconstruct the Spatial Audio field from the 'point of view' of the hearer.
+In later releases, _DOTE_ will support Ambisonic recordings in a standard format and render the Spatial Audio field to match the [360-degree Video](#360) recording with which it is associated.
 
 ### Autocompletion <a id='autocomplete'></a>
 
@@ -55,6 +77,12 @@ See also [Synchronised Media](#sync).
 ### Editor <a id='editor'></a>
 
 The Editor is the [panel](ui.md) in which the text of the Transcript is created and edited.
+
+### Equirectangular <a id='equi'></a>
+
+A video recording in an Equirectangular format is a 2D representation of a [360-degree Video](#360) panorama in a rectangular frame.
+It is massively distorted and thus difficult to 'read' for positioning and directionality.
+It is also a term for one of the [Projections](#projection) that can be rendered from the recording format into a [Viewport](#viewport).
 
 ### Git <a id='git'></a>
 
@@ -126,6 +154,13 @@ See also [Video-cue](#video-cue), [Zoom](#zoom), [Smooth Transition](#smooth) an
 
 The Play Transport consists of the media controls that affect [playback](play.md).
 
+### Projection <a id='projection'></a>
+
+A Projection is a rendering onto a rectangular Viewport of a [360-degree Video](#360) recording that maps geometrical perspective in a specific way.
+Like with flat world maps, each Projection enhances certain features and distorts others.
+
+See [Equirectangular](#equi).
+
 ### Project <a id='project'></a>
 
 A _DOTE_ [Project](project.md) consists of all synchronised [Media](media.md) and all Transcripts associated with one continuous event.
@@ -164,6 +199,13 @@ The other core system is a score-based transcription system that assumes that al
 A transition between one [Video-cue](cue.md) and the next that smoothly and linearly tracks between an initial viewport in the [Video panel](video.md) and a target viewport.
 
 See also [Video-cue](#video-cue), [Zoom](#zoom), [Pan](#pan) and [Jump Cut](#jump-cut).
+
+### Spatial Audio <a id='spatial-audio'></a>
+
+Spatial Audio refers to recordings of sound that represent and can be used to reproduce the experience of sound that is spatialised around the hearer to match closely how it would be perceived if one was present in the event recorded at the location of the microphone.
+Stereo recordings (2.0) are not really Spatial Audio since they only reproduce the source of sounds along one axis (left/right).
+
+See [Ambisonic](#ambisonic).
 
 ### Speaker-id <a id='id'></a>
 
