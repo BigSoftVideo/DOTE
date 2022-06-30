@@ -16,7 +16,7 @@ Using special algorithms, a spherical view of everything visible (panorama) arou
 Such video recordings are passive in that the [Viewport](#viewport) can be rendered in a digital media player or in Virtual Reality from only that fixed point.
 Some 360-degree cameras can also recover depth mapping and render a stereoscopic view in all directions.
 180-degree videos represent the visible field in a half-sphere.
-_DOTE_ does not support 180-degree videos directly, but if they are transposed into an equirectangular format with the other half of the sphere rendered black, then they can be imported.
+_DOTE_ does not support 180-degree videos directly, but if they are transposed into an equirectangular format with the other half of the sphere behind the camera rendered black, then they can be imported.
 
 See [Equirectangular](#equi) and [Spatial Audio](#spatial-audio).
 
