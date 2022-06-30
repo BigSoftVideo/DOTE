@@ -82,8 +82,8 @@ The Editor is the [Panel](ui.md) in which the text of the Transcript is created 
 
 ### Equirectangular <a id='equi'></a>
 
-A video recording in an Equirectangular format is a 2D representation of a [360-degree Video](#360) panorama in a rectangular frame.
-It is massively distorted and thus difficult to 'read' for positioning and directionality.
+An Equirectangular video describes one method for squeezing a [360-degree Video](#360) panoramic recording into a standard 2D rectangular video frame.
+Unavoidably, it is massively distorted and thus difficult to 'read' in terms of the relative positioning of people/objects and of the directionality of actions and gaze, eg. who is looking at whom.
 It is also a term for one of the [Projections](#projection) that can be rendered from the recording format into a [Viewport](#viewport).
 
 ### Git <a id='git'></a>
@@ -99,7 +99,8 @@ It is either a primary speaker line or a [Timing Interval](#interval) line, and 
 
 ### Jump Cut <a id='jump-cut'></a>
 
-A transition in the [Viewport](#viewport) of a [Video Panel](#video) between one [Video-cue](cues.md) and the next can be sudden without a [Smooth Transition](#smooth).
+[Video-cues](cues.md) can initiate a transition between one view of the video and another that is displayed in the [Viewport](#viewport) of a [Video Panel](#video).
+This transition can be sudden -- a Jump Cut -- or [Smooth](#smooth).
 
 Cf. [Zoom](#zoom) and [Pan](#pan).
 
@@ -115,7 +116,8 @@ Thus, these two senses are not equivalent.
 
 ### Loop <a id='loop'></a>
 
-Media in a Transcript can be looped by selecting a portion of the [Waveform](#waveform) on the [Timeline](timeline.md#loop) to [Replay](play.md) repeatedly.
+Media can be looped by selecting a portion of the [Waveform](#waveform) on the [Timeline](timeline.md#loop).
+During playback, this selected section will [Play](play.md) repeatedly.
 
 ### Media Manager <a id='media'></a>
 
@@ -150,10 +152,11 @@ See [Non-Sequential Overlap](#ns-overlap).
 
 ### Pan <a id='pan'></a>
 
-A transition between one [Video-cue](cue.md) and the next that smoothly and linearly tracks between an initial viewport in the [Video Panel](video.md) and a target viewport.
-This is only true if the same media are used in both Video-cues and smooth transition is selected.
+[Video-cues](cues.md) can initiate a transition between one view of the video and another that is displayed in the [Viewport](#viewport) of a [Video Panel](#video).
+A Pan transition smoothly and linearly tracks between an initial view of the video and a target view.
+This is only true if the same media is selected and [Smooth Transition](#smooth) is selected.
 
-See also [Video-cue](#video-cue), [Zoom](#zoom), [Smooth Transition](#smooth) and [Jump Cut](#jump-cut).
+See also [Zoom](#zoom) and [Jump Cut](#jump-cut).
 
 ### Play Transport <a id='play'></a>
 
@@ -161,14 +164,14 @@ The Play Transport consists of the media controls that affect [Playback](play.md
 
 ### Projection <a id='projection'></a>
 
-A Projection is a rendering onto a rectangular Viewport of a [360-degree Video](#360) recording that maps geometrical perspective in a specific way.
-Like with flat world maps, each Projection enhances certain features and distorts others.
+A Projection is a rendering of a [360-degree Video](#360) recording onto a 2D rectangular Viewport by mapping geometrical perspective according to a specific algorithm.
+Like with printed world maps/atlases -- not globes -- each Projection [enhances certain features and distorts others](https://en.wikipedia.org/wiki/Map_projection#Distortion).
 
 See [Equirectangular](#equi).
 
 ### Project <a id='project'></a>
 
-A _DOTE_ [Project](project.md) consists of all synchronised [Media](media.md) and all Transcripts associated with one continuous event.
+A _DOTE_ [Project](project.md) consists of all temporally synchronised [Media](media.md) and all Transcripts associated with one continuous event.
 
 ### Proportional Timing Interval <a id='pti'></a>
 
@@ -182,6 +185,14 @@ It is especially useful in the [Mondadaian system](mondada.md) for marking [Timi
 In qualitative research, the visual layout of transcripts is semantically important, especially for [Overlaps](#overlap) and [Subtiers](tiers.md).
 Built in to _DOTE_ is a sophisticated parser that tracks vertical alignment within and across [Neighbourhoods](#neighbourhood) in both [Jeffersonian](jefferson.md) and [Mondadaian](mondada.md) systems.
 When something goes out of alignment, _DOTE_ can indicate this and suggest how to automatically realign everything in a neighbourhood.
+
+### Recam <a id='recam'></a>
+
+[Recamming](https://en.wiktionary.org/wiki/recam) is a term that developed in computer gaming to describe using the virtual cameras in a game to create a novel video narrative based on the game assets.
+In DOTE, we support recamming video recordings while transcribing and presenting transcripts using [Video-cues](cues.md).
+
+See [Zoom](#zoom), [Pan](#pan), [Smooth Transition](#smooth) and [Jump Cut](#jump-cut).
+See also [Machinima](https://en.wikipedia.org/wiki/Machinima).
 
 ### Regular Expression <a id='regex'></a>
 
@@ -202,9 +213,10 @@ In future releases, an optional, dedicated micro score-based tool will be smartl
 
 ### Smooth Transition <a id='smooth'></a>
 
-A transition between one [Video-cue](cue.md) and the next that smoothly and linearly tracks between an initial viewport in the [Video panel](video.md) and a target viewport.
+[Video-cues](cues.md) can initiate a transition between one view of the video and another that is displayed in the [Viewport](#viewport) of a [Video Panel](#video).
+A Smooth Transition smoothly and linearly transforms between an initial view of the video and a target view; otherwise there is a sudden transition.
 
-See also [Video-cue](#video-cue), [Zoom](#zoom), [Pan](#pan) and [Jump Cut](#jump-cut).
+See also [Zoom](#zoom), [Pan](#pan) and [Jump Cut](#jump-cut).
 
 ### Spatial Audio <a id='spatial-audio'></a>
 
@@ -239,7 +251,7 @@ See also [CS-mode](cs-mode).
 
 ### Synchronised Media <a id='sync'></a>
 
-_DOTE_ assumes that in a specific Project, all [imported Media](media.md) are already synchronised to the same start point and end point.
+_DOTE_ assumes that in a specific Project, all [imported Media](media.md) are already synchronised to the same start point and end point in time in relation to the original recorded event.
 This must be undertaken externally in a video editor prior to importing.
 
 ### Technical Comment <a id='tech-comment'></a>
@@ -261,7 +273,7 @@ See [Subtier Type](#subtier).
 
 ### Timecode (or Timestamp) <a id='timecode'></a>
 
-A Timecode is a temporal reference to a specific moment in a playable media file, starting at `0:00:00.0`.
+A Timecode is a temporal reference to a specific moment in a playable media file, starting at 0:00:00.0 `[hour:min:sec.tenth_of_sec]`.
 
 See [Sync-code](sync-code.md) and [Video-cue](cue.md) that both anchor to Timecodes.
 
@@ -307,8 +319,9 @@ See [Git](#git), [Autosave Backup]("autosave) and [Checkpoint](#checkpoint).
 
 ### Video-cue <a id='video-cue'></a>
 
-A [Video-cue](cue.md) is a unique point on the [Timeline](timeline.md) in a Transcript that indicates that a change in the [Viewport](#viewport) of a [Video Panel](video.md) is to be performed.
+A [Video-cue](cue.md) is a unique point on the [Timeline](timeline.md) that indicates that a change in the [Viewport](#viewport) of a [Video Panel](video.md) is to be performed.
 This function automates the presentation of media during [Playback](play.md) in a more cinematic fashion.
+A limited set of virtual [Recam](#recam) camera movements are supported.
 
 See also [Zoom](#zoom), [Pan](#pan), [Smooth Transition](#smooth) and [Jump Cut](#jump-cut).
 
@@ -335,7 +348,8 @@ When imported into a Project using [Media Manager](media.md), the waveform is ge
 
 ### Zoom <a id='zoom'></a>
 
-A transition between one [Video-cue](cue.md) and the next that smoothly and linearly zooms between an initial viewport in the [Video Panel](video.md) and a target viewport.
-This is only true if the same media are used in both Video-cues and smooth transition is selected.
+[Video-cues](cues.md) can initiate a transition between one view of the video and another that is displayed in the [Viewport](#viewport) of a [Video Panel](#video).
+A Zoom transition smoothly and linearly tracks between an initial view of the video and a target view by zooming in or out.
+This is only true if the same media is selected and [Smooth Transition](#smooth) is selected.
 
-See also [Video-cue](#video-cue), [Pan](#pan), [Smooth Transition](#smooth) and [Jump Cut](#jump-cut).
+See also [Pan](#pan) and [Jump Cut](#jump-cut).
