@@ -55,10 +55,10 @@ J:	and then she said     // reported speech
 
 If you have followed _DOTE_'s format and layout conventions, then there are several choices of line numbering.
 
-- `None`: No line numbers are added
-- `All`: Every line is given a number starting at 1
-- `Only main lines`: Only a speaker tier or a timing tier are given line numbers
-- `Only first of main lines`: Only the first instance of a speaker tier is given a line number if the same speaker continues on the next tier
+- `None`: No line numbers are added.
+- `All`: Every line is given a number starting at 1.
+- `Only primary lines`: Only a primary speaker tier or a timing interval tier are given line numbers.
+- `Only first instance of consecutive primary lines`: Only the first instance of a primary speaker tier is given a line number if the same speaker continues in the next [neighbourhood](jefferson.md#neighbourhood).
 
 #### Number the metadata lines
 
@@ -121,7 +121,7 @@ If you have set your transcript to Mondadaian conventions in [Transcript Options
     - Grey text for all subtiers.
     - Italic for translation subtiers.
     - When formatting is selected, syntax highlighting is not available.
-- Remember to also select `Only main lines` or `Only first of main lines` for line numbering.
+- Remember to also select `Only primary lines` or `Only first instance of consecutive primary lines` for line numbering.
 
 [![Mondadaian](images/export/exportRTF-Mondadaian.png)](images/export/exportRTF-Mondadaian.png)
 
