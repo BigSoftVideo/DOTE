@@ -115,11 +115,13 @@ Only the speaker-ids remain.
 
 If you have set your transcript to Mondadaian conventions in [Transcript Options](settings.md#options), then you will be able to select the following options:
 
-- Use standard Mondadaian style formatting, eg. line numbers, tiers and subtiers in bold, grey or italic.
-When this is selected, syntax highlighting is not available.
 - Use standard Mondadaian style layout of names and tiers.
-
-Remember to select `Only main lines` or `Only first of main lines` for line numbering.
+- Use standard Mondadaian style formatting
+    - Bold for primary tiers.
+    - Grey text for all subtiers.
+    - Italic for translation subtiers.
+    - When formatting is selected, syntax highlighting is not available.
+- Remember to also select `Only main lines` or `Only first of main lines` for line numbering.
 
 [![Mondadaian](images/export/exportRTF-Mondadaian.png)](images/export/exportRTF-Mondadaian.png)
 
