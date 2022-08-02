@@ -25,8 +25,8 @@ You can turn on `CS Mode`  mode by clicking the button at the top right of the E
 
 ### Notes
 
-Please note that edits to sync-codes are not tracked by the user interface in _DOTE_.
+- If you delete whole lines that have sync-codes attached, then those sync-codes will also be deleted.
+- Please note that edits to sync-codes are not tracked by the user interface in _DOTE_.
 For instance, if you move a sync-code to a different line or to another position on the timeline, then you cannot undo those actions with the standard shortcuts.
 However, sync-codes are tracked by Checkpoints and Autosaves, so if you revert to an earlier Checkpoint or Autosave, then the sync-codes will be restored as well.
-
-Also note that copying a line in the editor which has a sync-code and pasting the line does not copy the sync-code to the new location.
+- Also note that copying a line in the editor which has a sync-code and pasting the line does not copy the sync-code to the new location.
