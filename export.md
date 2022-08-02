@@ -99,12 +99,14 @@ There are two choices to prettify the exported transcript:
 - Remove subtier names (eg. translation and gloss subtier types).
 - Format primary tiers and subtiers in a neighbourhood.
 
+Prettification is dependent on whether the transcript conforms to the Jeffersonian or Mondadaian conventions.
+
 ##### Jeffersonian style and layout <a id='jefferson-rtf'></a>
 
 If you have set your transcript to Jeffersonian conventions in [Transcript Options](settings.md#options), then you will be able to select the following options:
 
-- Remove named subtier types.
-Only the speaker-ids remain.
+- Remove subtier type labels.
+    - Only the speaker-ids remain.
 - Add formatting to primary tiers and subtiers in a neighbourhood:
     - Bold for primary tiers.
     - Grey text for all subtiers.
@@ -115,8 +117,11 @@ Only the speaker-ids remain.
 
 If you have set your transcript to Mondadaian conventions in [Transcript Options](settings.md#options), then you will be able to select the following options:
 
-- Use standard Mondadaian style layout of names and tiers.
-- Use standard Mondadaian style formatting
+- Use standard Mondadaian style layout of speaker-ids and tiers:
+    - Remove subtier type labels on all subtiers.
+    - Lowercase speaker-ids for all subtiers; uppercase for primary tiers.
+    - No colon after the speaker-id.
+- Use standard Mondadaian style formatting:
     - Bold for primary tiers.
     - Grey text for all subtiers.
     - Italic for translation subtiers.
