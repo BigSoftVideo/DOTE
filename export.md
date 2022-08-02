@@ -97,9 +97,21 @@ The monospaced font `Consolas` is recommended in WORD for readability and a tigh
 There are two choices to prettify the exported transcript:
 
 - Remove subtier names (eg. translation and gloss subtier types).
-- Format primary tiers and subtiers in a neighbourhood using bold and italic.
+- Format primary tiers and subtiers in a neighbourhood.
 
-### Mondadaian style and layout <a id='mondada-rtf'></a>
+##### Jeffersonian style and layout <a id='jefferson-rtf'></a>
+
+If you have set your transcript to Jeffersonian conventions in [Transcript Options](settings.md#options), then you will be able to select the following options:
+
+- Remove named subtier types.
+Only the speaker-ids remain.
+- Add formatting to primary tiers and subtiers in a neighbourhood:
+    - Bold for primary tiers.
+    - Grey text for all subtiers.
+    - Italic for translation subtiers.
+    - When formatting is selected, syntax highlighting is not available.
+
+##### Mondadaian style and layout <a id='mondada-rtf'></a>
 
 If you have set your transcript to Mondadaian conventions in [Transcript Options](settings.md#options), then you will be able to select the following options:
 
