@@ -61,11 +61,11 @@ _DOTE_ has some golden rules to make your life easier:
 
 [![Tip 2](images/tips/tip2.png)](images/tips/tip2.png)
 
-1. _Always_ use a consistent speaker-id _followed by_ a colon <kbd>:</kbd> and _then_ a <kbd>TAB</kbd>.
+1. _Always_ use a consistent speaker-id _followed by_ a colon <kbd>:</kbd> and _then_ a <kbd>TAB</kbd> at the start of a primary or secondary speaker tier.
 _Never_ use <kbd>SPACE</kbd>s after that colon.
-Use a colon even with the Mondadaian conventions; in _DOTE_ you can export the transcript in the recommended Mondadaian format (eg. without a colon) later.
-1. Do the same when using subtiers, eg. speaker-id + named subtier type followed by a colon and then a <kbd>TAB</kbd>.
-_DOTE_ can export the transcript in the recommended Mondadaian format (eg. with reduced lowercase speaker names) later.
+Use a colon even with the Mondadaian conventions; in _DOTE_ you can [export the transcript](export.md#mondada-rtf) in the recommended Mondadaian format (eg. without a colon) later.
+1. Do the same when using subtiers, eg. participant-id + named subtier type followed by a colon and then a <kbd>TAB</kbd>.
+_DOTE_ can [export the transcript](export.md#mondada-rtf) in the recommended Mondadaian format (eg. with reduced lowercase participant names) later.
 1. _Never_ use <kbd>TAB</kbd>s in the transcript body.
 Always use <kbd>SPACE</kbd>s, eg. to align overlaps on multiple lines.
 1. Set the name column width in the [Settings](settings.md) so that there is plenty of room for all variants of the name + subtier.
@@ -74,10 +74,10 @@ _DOTE_ will give you a friendly warning if you fill up and exceed your name colu
 
 These rules help _DOTE_ give better assistance.
 They avoid problems with skewed layout and messy vertical alignment of elements, such as overlaps and alignment symbols.
-They also allow _DOTE_ to export in a variety of layouts (eg. document or subtitles) with line numbering.
+They also allow _DOTE_ to export in a variety of layouts (eg. document) with line numbering.
 
 You are, of course, allowed to format your transcripts as you wish.
-Just expect a lot of errors and warnings, as well as mashed up exported transcripts that are not word processor friendly.
+Just expect a lot of errors and warnings flagged by _DOTE_, as well as mashed up exported transcripts that are not word processor friendly.
 If you do, then at least turn off error and warning messages to avoid colouring your transcript red.
 
 ### How do I _save_ my Transcripts? <a id='tip26'></a>
