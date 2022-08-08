@@ -25,10 +25,10 @@ If there are serious errors in the transcript that _DOTE_ has trouble with, then
 
 #### Only selected lines
 
-If you had selected a specific range of lines in the [Editor](transcript.md) before opening the Export to RTF panel, then you can choose to export only that range of lines, with line numbers starting at 1.
+If you had already selected a specific range of lines in the [Editor](transcript.md) before opening the Export to RTF panel, then you can choose to export only that range of lines, with line numbers starting at 1.
 If not, then all lines will be exported.
 
-#### Restrict to 50 lines
+#### Restrict to 50 lines (in the preview)
 
 Because it can take time to parse the transcript and prepare the preview with very long transcripts, you can restrict the number of lines displayed in the preview window regardless of whether all or only selected lines has been chosen.
 Using this option may help speed up preview when fiddling with the options on the fly.
@@ -36,8 +36,9 @@ Note that all lines, or only those selected, will still be exported to disk, as 
 
 #### Syntax highlighting
 
-_DOTE_ adds syntax highlighting in the editor panel.
-You can export this highlighting or just plain text.
+_DOTE_ automatically adds syntax highlighting in the Editor panel.
+You can also export this highlighting or just plain text.
+There is also [specific formatting](#pretty) that can be added to match either Jeffersonian or Mondadaian style.
 
 #### Keep technical comments
 
@@ -57,18 +58,18 @@ If you have followed _DOTE_'s format and layout conventions, then there are seve
 
 - `None`: No line numbers are added.
 - `All`: Every line is given a number starting at 1.
-- `Only primary lines`: Only a primary speaker tier or a timing interval tier are given line numbers.
-- `Only first instance of consecutive primary lines`: Only the first instance of a primary speaker tier is given a line number if the same speaker continues in the next [neighbourhood](jefferson.md#neighbourhood).
+- `Only primary lines`: Only lines with a primary speaker tier or a timing interval tier are given line numbers.
+- `Only first instance of consecutive primary lines`: Only the first instance of line with a primary speaker tier is given a line number if the same speaker continues in the next [neighbourhood](jefferson.md#neighbourhood).
 
 #### Number the metadata lines
 
-If `All` is selected, then one can choose to number the metadata lines as well, or not.
+If `All` is selected, then one can choose to number the metadata lines as well, or not, ie. all the lines at the start of the transcript which are technical comments..
 
 #### Number the comment only lines
 
-If `Only main lines` or `Only first of main lines` is selected, then one can choose to number the comment _only_ lines `((...))`, or not.
+If `Only primary lines` or `Only first instance of consecutive primary lines` is selected, then one can choose to number the comment _only_ lines `((...))`, or not.
 
-eg. the second line is comment only below.
+eg. the second line below is a 'comment only' line.
 
 ```
 P:	look at that
@@ -92,7 +93,7 @@ The monospaced font `Consolas` is recommended in WORD for readability and a tigh
 
 - You can adjust the font size and the TAB size (eg. the width in characters from the initial character on each line to the transcript text) to your liking.
 
-#### Prettified Transcript
+#### Prettified Transcript <a id='pretty'></a>
 
 There are two choices to prettify the exported transcript:
 
