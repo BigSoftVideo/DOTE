@@ -69,5 +69,6 @@ Note that the Media Manager control panel can be resized by dragging the handle 
 1. Click `Delete Selected File`.
 It (and the associated waveform) will no longer be available in the Project.
 1. **Note that the media file will be deleted from the Project folder on your computer's file system**.
-This is irreversible.
-Make a copy first in another location if the file is your only version.
+It will be sent to the Recycle Bin or Trash on your computer.
+If you empty the Recycle Bin or Trash, then the file will be lost.
+If you might wish to use the file again, then make a copy first in another location.
