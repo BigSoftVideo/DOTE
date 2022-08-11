@@ -5,8 +5,8 @@
 | **Media** |
 || Full support for 2D video | X | X | X |
 || Full support for 360-degree video | X | X | X |
-|| -- Number of media files per transcript | 2 | Unlimited | Unlimited |
-|| -- Number of simultaneous active media files | 1 | Unlimited  | Unlimited |
+|| -- Number of media files per project | 2 | Unlimited | Unlimited |
+|| -- Number of simultaneous active media files per transcript | 1 | Unlimited  | Unlimited |
 | **Editing** |
 || Full support for [Jeffersonian transcription conventions](jefferson.md) | X | X | X |
 || Full support for [Mondadaian transcription conventions](mondada.md) | X | X | X |
