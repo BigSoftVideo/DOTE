@@ -1,7 +1,7 @@
 ## Comparison of features
 
 | **FEATURE** || **_DOTE_ FREE** | **_DOTE Pro_** | **_DOTE Pro Community_** |
-|:-:|:-|:-:|:-:|:-:|
+|:---|:---|:---|:---|:---|
 | **Media** |
 || Full support for 2D video | X | X | X |
 || Full support for 360-degree video | X | X | X |
