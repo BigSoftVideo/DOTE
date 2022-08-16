@@ -37,7 +37,7 @@ This is a local problem with how your computer has been setup by a security cons
 
 #### Installing Git <a id='git'></a>
 
-To use Checkpoints and view Autosaves, you will need to install the free open-source software called _Git_ on your computer. See [Checkpoints](versioncontrol.md).
+To use Checkpoints and view Autobackups, you will need to install the free open-source software called _Git_ on your computer. See [Checkpoints](versioncontrol.md).
 
 #### Installing FFmpeg <a id='ffmpeg'></a>
 

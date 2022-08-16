@@ -19,7 +19,7 @@ The free version of _DOTE_ has the following restrictions:
 - No more than XXX lines of transcription in each Transcript.
 - Simple Export to RTF functionality, but with [no line numbering options](export.md#lines).
 - No [Export to SRT](export.md#srt) functionality (subtitles).
-- [Checkpoint and Autosave compare mode](versioncontrol.md#compare) is not available.
+- [Checkpoint and Autobackup compare mode](versioncontrol.md#compare) is not available.
 
 Users of the free version of _DOTE_ can make official tracked bug reports on GitHub (public repository).
 And there are public `Discord` channels for basic support.
@@ -31,7 +31,7 @@ _DOTE Pro_ includes the following features _not_ available in the free version:
 - Unlimited number of lines of transcription in each Transcript.
 - Full support for [Export to RTF](export.md#lines) with line numbering options.
 - Full support for [Export to SRT](export.md#srt) (subtitles).
-- [Checkpoint and Autosave compare mode](versioncontrol.md#compare).
+- [Checkpoint and Autobackup compare mode](versioncontrol.md#compare).
 
 Users of _DOTE Pro_ can make official tracked bug reports on GitHub (in a public repository).
 In addition, they have access to a private _DOTE Pro_ support channel on Discord to help with the extra features in _DOTE Pro_.

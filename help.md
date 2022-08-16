@@ -31,7 +31,7 @@ Here is a list of help tutorials on specific topics:
 - [Exporting to RTF and subtitles](export.md) - create publishable transcripts and subtitles (unique to _DOTE_)
 - [Sync-codes](sync-code.md) - linking transcripts to audiovisual playback
 - [Video-cues](cues.md) - bringing cinema to audiovisual playback (unique to _DOTE_)
-- [Checkpoints and autosaves](versioncontrol.md) - two safe and reliable backup systems (unique to _DOTE_)
+- [Checkpoints and autobackups](versioncontrol.md) - two safe and reliable backup systems (unique to _DOTE_)
 - [Settings and Transcript Options](settings.md) - a tailorable UI and Transcript fit for a Queen
 - [Warnings & errors](errors.md) - letting you know what might go wrong
 - [How to transcribe with _DOTE_](howto.md) - practical advice for different transcription practices

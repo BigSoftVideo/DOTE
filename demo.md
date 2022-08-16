@@ -36,7 +36,7 @@ Test them to see the result.
     - Edit the [transcript](transcript.md), type some text and transcription symbols.
     - Add speakers and see how _DOTE_ autocompletes.
     - Add [sync-codes](sync-code.md) and [video-cues](cues.md).
-    - Peek at [checkpoints and autosaves](versioncontrol.md).
+    - Peek at [checkpoints and autobackups](versioncontrol.md).
     Note: You need to install `Git` first (see [Installation instructions](install.md)).
     - Create your own checkpoint after making some changes.
 1. If you make changes, remember to save the Transcript regularly `File ➔ Save Transcript` or <kbd>CTRL</kbd>+<kbd>S</kbd> [or <kbd>⌘</kbd>+<kbd>S</kbd> on macOS].

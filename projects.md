@@ -84,9 +84,9 @@ Clicking on that path will open it in your file browser.
 ## Save a Transcript in a Project <a id='saving'></a>
 
 1. To save the current Transcript, then select `File ➔ Save Transcript` or <kbd>CTRL</kbd>+<kbd>S</kbd> [or <kbd>⌘</kbd>+<kbd>S</kbd> on macOS.
-Saving is _not_ the same as [Autosaving](versioncontrol.md#autosaving).
-Saving the current Transcript writes the Transcript data to disk, while Autosaving makes a new copy and writes that to disk so the previous state can be recovered.
-Autosaving does _not_ save the current Transcript automatically; that is a manual decision by the user.
+Saving is _not_ the same as [Autobackup](versioncontrol.md#autobackup).
+Saving the current Transcript writes the Transcript data to disk, while Autobackup makes a new copy and writes that to disk so the previous state can be recovered.
+Autobackup does _not_ save the current Transcript automatically; that is a manual decision by the user.
 It just makes a series of backup copies at regular intervals.
 
 ### Open a Transcript in a Project <a id='open-transcript'></a>

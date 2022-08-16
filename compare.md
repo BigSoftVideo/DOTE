@@ -19,9 +19,9 @@
 || -- Automatic smooth pan and zoom in active video source | X | X | X |
 || -- Automatic jump cut between active media sources | X | X | X |
 |  **Version control** |
-|| Autosaving backup | X | X | X |
+|| Autosbackup | X | X | X |
 || Manual [version control](versioncontrol.md) | X | X | X |
-|| Version control and autosave compare changes mode |   | X | X |
+|| Version control and autobackup compare changes mode |   | X | X |
 | **Export** |
 || Plain export with line numbers on every line | X | X | X |
 || Full support for RTF export |   | X | X |

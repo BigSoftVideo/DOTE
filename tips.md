@@ -2,40 +2,41 @@
 
 Here you will find ideas and solutions to specific tasks that you might wish to accomplish with _DOTE_.
 
-- [What is a Project?](#tip27)
-- [What do I call my Projects and my Transcripts?](#tip28)
-- [How do I format my Transcripts?](#tip2)
-- [How do I save my Transcripts?](#tip26)
-- [How do I use _DOTE_ to create a Transcript from scratch?](#tip3)
-- [How do I play media and transcribe efficiently with _DOTE_?](#tip25)
-- [How do I share a _DOTE_ Project or Transcript with someone else?](#tip4)
-- [How do I realign overlaps and subtiers?](#tip30)
-- [How do I manually make short excerpts of a transcript with consistent line numbering?](#tip6)
-- [How do I manage a default set of alignment symbols for Mondadaian Transcripts?](#tip7)
-- [How do I see all underlinings in a Transcript that has errors or warnings?](#tip8)
-- [How do I reuse a Transcript with sync-codes to create a new Transcript?](#tip17)
-- [How do I use _DOTE_ to comment and tag an audiovisual source before transcribing?](#tip9)
-- [How do I see hidden characters in the Editor?](#tip23)
-- [How to use proxy videos to share Projects with sensitive video clips?](#tip31)
-- [How do I transcode a video or audio file if it does not import correctly or a waveform is not generated?](#tip1)
-- [How do I report an error or problem using the log files?](#tip5)
-- [Why do I need more than one Timeline?](#tip24)
-- [Why would I use the video 2nd view?](#tip18)
-- [Why can I not copy/paste underlined text?](#tip19)
-- [Why would I use Checkpoints?](#tip29)
-- [Why would I use Video-cues?](#tip32)
-- [What is the difference between saving and autosave backup?](#tip33)
-- [What is the difference between `Replace` and `Change All Occurrences`?](#tip22)
-- [What is the difference between zooming the UI and changing the font size?](#tip20)
-- [What is the `Command Palette`?](#tip21)
-- [Can I use non-alphabetic scripts in my Transcripts?](#tip34)
-- [Can I add emojis 🗣 to my Transcripts?](#tip10)
-- [Can I create Transcripts using other conventions?](#tip14)
-- [Can I convert transcripts created with other software to use in _DOTE_?](#tip15)
-- [Can I copy and paste transcripts from publications into _DOTE_?](#tip16)
-- [Be cautious when editing sync-codes, video-cues and underlinings](#tip11)
-- [Be patient with Waveform generation, Checkpoint peeking, Exporting and Importing Projects and transcript heuristics](#tip12)
-- [Keep your _DOTE_ projects safe and secure](#tip13)
+- [Tips & Tricks](#tips--tricks)
+  - [What is a Project? <a id='tip27'></a>](#what-is-a-project-)
+    - [What do I call my Projects and my Transcripts? <a id='tip28'></a>](#what-do-i-call-my-projects-and-my-transcripts-)
+  - [How do I format my Transcripts? <a id='tip2'></a>](#how-do-i-format-my-transcripts-)
+  - [How do I _save_ my Transcripts? <a id='tip26'></a>](#how-do-i-save-my-transcripts-)
+  - [How do I use _DOTE_ to create a Transcript from scratch? <a id='tip3'></a>](#how-do-i-use-dote-to-create-a-transcript-from-scratch-)
+  - [How do I play media and transcribe efficiently with _DOTE_? <a id='tip25'></a>](#how-do-i-play-media-and-transcribe-efficiently-with-dote-)
+  - [How do I share a _DOTE_ Project or Transcript with someone else? <a id='tip4'></a>](#how-do-i-share-a-dote-project-or-transcript-with-someone-else-)
+  - [How do I realign overlaps and subtiers? <a id='tip30'></a>](#how-do-i-realign-overlaps-and-subtiers-)
+  - [How do I report an error or problem using the log files? <a id='tip5'></a>](#how-do-i-report-an-error-or-problem-using-the-log-files-)
+  - [How do I manually make short excerpts of a Transcript with consistent line numbering? <a id='tip6'></a>](#how-do-i-manually-make-short-excerpts-of-a-transcript-with-consistent-line-numbering-)
+  - [How do I manage a default set of alignment symbols for Mondadaian Transcripts? <a id='tip7'></a>](#how-do-i-manage-a-default-set-of-alignment-symbols-for-mondadaian-transcripts-)
+  - [How do I see all underlinings in a Transcript that has errors or warnings? <a id='tip8'></a>](#how-do-i-see-all-underlinings-in-a-transcript-that-has-errors-or-warnings-)
+  - [How do I reuse a Transcript with sync-codes to create a new Transcript? <a id='tip17'></a>](#how-do-i-reuse-a-transcript-with-sync-codes-to-create-a-new-transcript-)
+  - [How do I use _DOTE_ to comment and tag an audiovisual source before transcribing? <a id='tip9'></a>](#how-do-i-use-dote-to-comment-and-tag-an-audiovisual-source-before-transcribing-)
+  - [How do I see hidden characters in the Editor? <a id='tip23'></a>](#how-do-i-see-hidden-characters-in-the-editor-)
+  - [How to use proxy videos to share Projects with sensitive video clips? <a id='tip31'></a>](#how-to-use-proxy-videos-to-share-projects-with-sensitive-video-clips-)
+  - [How do I transcode a video or audio file if it does not import correctly or a waveform is not generated? <a id='tip1'></a>](#how-do-i-transcode-a-video-or-audio-file-if-it-does-not-import-correctly-or-a-waveform-is-not-generated-)
+  - [Why would I use the video 2nd view? <a id='tip18'></a>](#why-would-i-use-the-video-2nd-view-)
+  - [Why do I need more than one Timeline? <a id='tip24'></a>](#why-do-i-need-more-than-one-timeline-)
+  - [Why can I not copy/paste underlined text? <a id='tip19'></a>](#why-can-i-not-copypaste-underlined-text-)
+  - [Why would I use Checkpoints? <a id='tip29'></a>](#why-would-i-use-checkpoints-)
+  - [Why would I use Video-cues? <a id='tip32'></a>](#why-would-i-use-video-cues-)
+  - [What is the difference between saving and autobackup? <a id='tip33'></a>](#what-is-the-difference-between-saving-and-autobackup-)
+  - [What is the difference between `Replace` and `Change All Occurrences`? <a id='tip22'></a>](#what-is-the-difference-between-replace-and-change-all-occurrences-)
+  - [What is the difference between zooming the UI and changing the font size? <a id='tip20'></a>](#what-is-the-difference-between-zooming-the-ui-and-changing-the-font-size-)
+  - [What is the `Command Palette`? <a id='tip21'></a>](#what-is-the-command-palette-)
+  - [Can I use non-alphabetic scripts in my Transcripts? <a id='tip34'></a>](#can-i-use-non-alphabetic-scripts-in-my-transcripts-)
+  - [Can I add emojis 🗣 to my Transcripts? <a id='tip10'></a>](#can-i-add-emojis--to-my-transcripts-)
+  - [Can I create Transcripts using other conventions? <a id='tip14'></a>](#can-i-create-transcripts-using-other-conventions-)
+  - [Can I convert transcripts created with other software to use in _DOTE_? <a id='tip15'></a>](#can-i-convert-transcripts-created-with-other-software-to-use-in-dote-)
+  - [Can I copy and paste transcripts from publications into _DOTE_? <a id='tip16'></a>](#can-i-copy-and-paste-transcripts-from-publications-into-dote-)
+  - [Be cautious when editing sync-codes, video-cues and underlined text <a id='tip11'></a>](#be-cautious-when-editing-sync-codes-video-cues-and-underlined-text-)
+  - [Be patient with Waveform generation, Checkpoint peeking, Exporting and Importing Projects and transcript heuristics <a id='tip12'></a>](#be-patient-with-waveform-generation-checkpoint-peeking-exporting-and-importing-projects-and-transcript-heuristics-)
+  - [Keep your _DOTE_ projects safe and secure <a id='tip13'></a>](#keep-your-dote-projects-safe-and-secure-)
 
 ### What is a Project? <a id='tip27'></a>
 
@@ -88,8 +89,8 @@ Furthermore, _DOTE_ is not like _GoogleDocs_; it does not send your keystrokes t
 Anything you type in your Transcript is not saved until you decide to [save](projects.md#saving) it.
 And when you save, the changes are stored on your local computer's file system.
 If you create a new [Checkpoint](versioncontrol.md), then that does save the recent changes, but this is also manually triggered by the user.
-However, [Autosaving](versioncontrol.md) just creates a backup of the new changes since the last save.
-An autosave does _not_ save the current changes; it just creates a backup copy at fixed time intervals.
+However, [Autobackup](versioncontrol.md) just creates a backup of the new changes since the last save.
+An autobackup does _not_ save the current changes; it just creates a backup copy at fixed time intervals.
 
 ### How do I use _DOTE_ to create a Transcript from scratch? <a id='tip3'></a>
 
@@ -255,8 +256,8 @@ The underlining has to be added again manually.
 
 By default, if there are unsaved changes since the last backup, _DOTE_ automatically makes a backup copy of the current Transcript at regular intervals of 5 minutes.
 You can change this behaviour in [Settings](settings.md).
-This is called [Autosaving](versioncontrol.md#autosaving).
-This is useful, but other than the date/time stamp there is no easy way at a glance to know what changes were made that triggered a specific Autosave.
+This is called [Autobackup](versioncontrol.md#autobackup).
+This is useful, but other than the date/time stamp there is no easy way at a glance to know what changes were made that triggered a specific Autobackup.
 
 _DOTE_ implements a second system called [Checkpoints](versioncontrol.md#checkpoint) that allows the user to write meaningful messages for each Checkpoint they make, which stores the changes made to the Transcript since the last Checkpoint.
 Thus, the user can figure out at a glance what changes were made at each checkpoint in the reverse chronological list of Checkpoints.
@@ -273,11 +274,11 @@ These can be automated using Video-cues, so every time the segment is played thr
 It may be the case that during the segment the action is only accessible from another camera angle, but with Video-cues one can automatically jump cut to the other camera view/video and then switch back again later.
 By setting up different Video-cue combinations in alternative versions of the Transcript in a Project, one can present the same 'data' but with different analytical 'stories' or 'takes' on what visual and aural phenomena to focus on.
 
-### What is the difference between saving and autosave backup? <a id='tip33'></a>
+### What is the difference between saving and autobackup? <a id='tip33'></a>
 
-[Saving](projects.md#saving) is _not_ the same as [Autosaving](versioncontrol.md#autosaving).
-Saving the current Transcript writes the Transcript data to disk, while Autosaving makes a new copy and writes that to disk so the previous state can be recovered.
-Autosaving does _not_ save the current Transcript automatically; that is a manual decision by the user.
+[Saving](projects.md#saving) is _not_ the same as [Autobackup](versioncontrol.md#autobackup).
+Saving the current Transcript writes the Transcript data to disk, while Autobackup makes a new copy and writes that to disk so that previous state can be recovered.
+Autobackup does _not_ save the current Transcript automatically; that is a manual decision by the user.
 It just makes a series of backup copies at regular intervals.
 
 ### What is the difference between `Replace` and `Change All Occurrences`? <a id='tip22'></a>
@@ -374,7 +375,7 @@ There are several reasons for this:
 - _DOTE_ is calculating the [visual waveform](projects.md#new-project) incrementally from the audio track after import.
 - _DOTE_ is reparsing the whole transcript every time you make a small edit of the transcript.
 - _DOTE_ is reparsing the whole transcript every time the [Export to RTF](export.md) preview updates when you change a setting.
-- _DOTE_ is rebuilding the history of the transcript every time you peek at a [Checkpoint or Autosave](versioncontrol.md).
+- _DOTE_ is rebuilding the history of the transcript every time you peek at a [Checkpoint or Autobackup](versioncontrol.md).
 - _DOTE_ is reading and writing large media files when [opening a transcript](projects.md) (with video) or [exporting and importing Projects](import.md) (with media).
 
 Be patient.

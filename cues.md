@@ -54,4 +54,4 @@ Clicking it will change the viewport for the selected video for the current vide
 
 Please note that edits to video-cues are not tracked by the UI in _DOTE_.
 For instance, if you move a video-cue to another position on the timeline, then you cannot undo those actions with the standard shortcuts.
-Moreover, video-cues are _not_ tracked by [Checkpoints and Autosaves](versioncontrol.md), so if you revert to an earlier Checkpoint or Autosave, then the video-cues will _not_ be restored to their earlier state.
+Moreover, video-cues are _not_ tracked by [Checkpoints and Autobackups](versioncontrol.md), so if you revert to an earlier Checkpoint or Autobackup, then the video-cues will _not_ be restored to their earlier state.

@@ -46,9 +46,9 @@ There are several aspects of a Transcript that can be [Autocompleted](transcript
 1. Special symbols and symbol pairs.
 1. [Overlaps](#overlap).
 
-### Autosave Backup <a id='autosave'></a>
+### Autobackup <a id='autobackup'></a>
 
-DOTE provides a behind-the-scenes automatic backup system called [Autosaving](versioncontrol.md#autosaving).
+DOTE provides a behind-the-scenes automatic backup system called [Autobackup](versioncontrol.md#autobackup).
 After a user-defined time interval ([Settings](settings.md)), a new snapshot is taken of the current Transcript if there are unsaved changes.
 The Transcript itself is not saved to disk; only a backup copy is made.
 
@@ -315,7 +315,7 @@ The [User Interface](ui.md) is the visual (and aural) presentation of the comput
 
 [Version Control](versioncontrol.md) is a broad term encompassing all computer systems that track changes in a set of digital documents or media files.
 
-See [Git](#git), [Autosave Backup]("autosave) and [Checkpoint](#checkpoint).
+See [Git](#git), [Autobackup]("autobackup) and [Checkpoint](#checkpoint).
 
 ### Video-cue <a id='video-cue'></a>
 

@@ -12,7 +12,7 @@ Our motto is _make transcription fun again_! 😜
 
 _DOTE_ stands for _Distributed Open Transcription Environment_.
 This release supports a single-user; it does not _yet_ provide _internal_ support for multi-user that would allow _distributed_ collaboration on a transcript project.
-This release has easy-to-use, robust, single-user version control and autosave recovery, and ultimately, there will be full support for easy-to-use, multi-user _distributed version control_ via GitHub.
+This release has easy-to-use, robust, single-user version control and autobackup recovery, and ultimately, there will be full support for easy-to-use, multi-user _distributed version control_ via GitHub.
 _DOTE_ is _open_ in the sense that the transcript is always accessible as a plain text file and all the formatting is transparent and non-proprietary.
 _DOTE_ provides an _environment_ to support smart transcription, much like an _Integrated Development Environment_ does for software coding.
 _DOTE_ is the first of a new breed of _Integrated Transcription Environment_ (ITE) that enhances the craft of manual transcription of qualitative video data for research purposes.

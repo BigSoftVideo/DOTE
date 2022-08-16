@@ -26,7 +26,7 @@ Some of the settings are only changed when the Settings dialog box is closed.
 
 ##### Version control
 
-- [Autosave backup](versioncontrol.md) time interval default.
+- [Autobackup](versioncontrol.md) time interval default.
 
 ##### Editor
 
@@ -82,6 +82,6 @@ If such a subtier is added, then it will also be autocompleted after typing and 
 Note that this list can be rearranged by selecting, dragging and dropping an item in the list.
 It is up to the user to indicate whether or not each subtier will also be autocompleted after typing and autocompleting a new speaker in the Transcript Editor.
 
-Note: Because some options are tracked by _DOTE_, they may be reset to a prior state if the user resets to an earlier Checkpoint or Autosave.
+Note: Because some options are tracked by _DOTE_, they may be reset to a prior state if the user resets to an earlier Checkpoint or Autobackup.
 For example, [named subtier types](tiers.md) may be altered because they were different in an earlier state of the Transcript.
 This is necessary because they need to match the prior state of the Transcript and its subtiers in order to preserve history.
