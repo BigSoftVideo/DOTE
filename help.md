@@ -74,10 +74,12 @@ This link will only work if you have access to the repository.
 Please [submit a suggestion](https://github.com/BigSoftVideo/DOTE/issues/new/choose) for how we can improve the help pages and guide, as well as ideas for video tutorials.
 This link will only work if you have access to the repository.
 
-### Discussion of _DOTE_ on GitHub
+### Using our _DISCORD_ server
 
-You can discuss features, enhancements and bugs on our _DOTE_ [Discussion Forum](https://github.com/BigSoftVideo/DOTE/discussions) on GitHub.
+If you are using the free edition of _DOTE_, then there are several public channels on our [Discord server](https://discord.gg/8BmuHP7xh4) for basic support.
+We cannot guarantee that we have time to respond to everything posted in these free public channels.
 
-### Using DISCORD to communicate directly with the developers
+If you have purchased the license for the _DOTE Pro_ edition, then you will be invited to a private Discord channel on our server.
+You will be able to share ideas and experiences quickly, and to fix issues interactively with other users and the developers.
 
-We are also using several public channels on our [Discord server](https://) to share ideas and experiences quickly, and to fix issues interactively with other users and the developers.
+If you have purchased the license for the _DOTE Pro Community_ edition, then you will be invited to several private Discord channels on our server, as well as our private GitHub repo for early beta releases and testing.
