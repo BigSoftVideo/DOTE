@@ -178,7 +178,7 @@ A _DOTE_ [Project](project.md) consists of all temporally synchronised [Media](m
 A Proportional Timing Interval is a non-standard method to indicate durations of time in a Transcript.
 _DOTE_ supports a special Unicode symbol to indicate 0.1 seconds: `◘`.
 This symbol indicates the passing of 0.1 seconds, eg. `◘◘◘◘◘` = 0.5 seconds.
-It is especially useful in the [Mondadaian system](mondada.md) for marking [Timing Interval tiers](tiers.md) instead of the more conventional non-proportional 'pause' indications, eg. `(0.1)`.
+It is especially useful in the [Mondadaian system](mondada.md) for marking Timing Interval [tiers](tiers.md) in the Head position in a [neighbourhood](#neighbourhood) instead of the more conventional non-proportional 'pause' indications, eg. `(0.1)`.
 
 ### Realignment <a id='align'></a>
 
