@@ -122,7 +122,7 @@ Editing while peeking is not allowed.
         - The user will be prompted to save any non-recorded state changes in the original Transcript.
         - The new Transcript is automatically opened in _DOTE_.
 
-> **NOTE: Peeking at or restoring/reseting checkpoints (and autobackups) can take some time, depending on several factors, including the access speed of your storage device. This could take more than 1 second, sometimes more than 5 seconds.**
+> **NOTE: Peeking at or restoring/resetting checkpoints (and autobackups) can take some time, depending on several factors, including the access speed of your storage device. This could take more than 1 second, sometimes more than 5 seconds.**
 
 #### Comparing checkpoints and autobackups <a id='compare'></a>
 
