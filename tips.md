@@ -4,6 +4,7 @@ Here you will find ideas and solutions to specific tasks that you might wish to 
 
 - [What is a Project?](#tip27)
 - [What do I call my Projects and my Transcripts?](#tip28)
+- [How do I transcode a video or audio file if it does not import correctly or a waveform is not generated?](#tip1)
 - [How do I format my Transcripts?](#tip2)
 - [How do I save my Transcripts?](#tip26)
 - [How do I use _DOTE_ to create a Transcript from scratch?](#tip3)
@@ -17,7 +18,6 @@ Here you will find ideas and solutions to specific tasks that you might wish to 
 - [How do I use _DOTE_ to comment and tag an audiovisual source before transcribing?](#tip9)
 - [How do I see hidden characters in the Editor?](#tip23)
 - [How to use proxy videos to share Projects with sensitive video clips?](#tip31)
-- [How do I transcode a video or audio file if it does not import correctly or a waveform is not generated?](#tip1)
 - [How do I report an error or problem using the log files?](#tip5)
 - [Why do I need more than one Timeline?](#tip24)
 - [Why would I use the video 2nd view?](#tip18)
@@ -54,6 +54,27 @@ We do not recommend stuffing a Project with lots of disparate media clips; inste
 
 Given that Projects are containers for one or more media clips of a single event (see above), then it is a good idea to name a Project after the event in question, perhaps including important meta-data.
 Given that one or more Transcripts can be created in a Project, then each could be named after the focus, phenomena and/or conventions of that specific Transcript.
+
+### How do I transcode a video or audio file if it does not import correctly or a waveform is not generated? <a id='tip1'></a>
+
+Sometimes a video or audio file cannot be opened by _DOTE_ or the waveform cannot be generated, neither with the inbuilt waveform generator nor using _FFmpeg_ (in [Settings](settings.md); see the [installation instructions](install.md)).
+There are a variety of reasons for this.
+
+If you haven't installed FFmpeg on your computer, then we recommend that you do this first, and manually add the file path in [Settings](settings.md).
+FFmpeg is a powerful open source video processor, which we cannot include inside DOTE for licensing reasons.
+Restart _DOTE_ and create a new Project and import the media again or open [Media Manager](media.md) and regenerate the waveform using the button on the far right for the relevant media.
+
+Another solution is to transcode the video into a format that _DOTE_ can understand and reimport it into the _DOTE_ project.
+
+- The free, open-source software [_HANDBRAKE_](https://handbrake.fr) does the job.
+With this software installed on Windows or macOS, you can import the source video quickly and easily transcode and export it into another format by selecting a preset such as `Web/Video Vimeo YouTube HQ` with the appropriate resolution.
+Don't worry about all the other technical options.
+Select a destination and click `Start Encode`.
+The exported video will retain the same length and frame rate as the original.
+
+If your video is greater than [4K resolution](https://en.wikipedia.org/wiki/4K_resolution), eg. more than `4096 x 2160`, then depending on the power of your computer, _DOTE_ may have problems playing and scrubbing through the video.
+If so, then transcode in the same manner as above, making sure to downscale from 8K or 5K, for example, to 4K or less.
+You could use this reduced version as a proxy in _DOTE_ for the purposes of transcription.
 
 ### How do I format my Transcripts? <a id='tip2'></a>
 
@@ -211,21 +232,6 @@ And if there are more than one active video clips, one or more can be anonymised
 When the Project is ready to export, use the [Media Manager](media.md) to turn off all active media, except for the anonymised video clip(s).
 Then export the Project, including only active media.
 Those who receive and import the Project will only have access to the anonymised proxy media, and any sync-codes and video-cues present will work.
-
-### How do I transcode a video or audio file if it does not import correctly or a waveform is not generated? <a id='tip1'></a>
-
-Sometimes a video or audio file cannot be opened by _DOTE_ or the waveform cannot be generated, neither with the inbuilt waveform generator nor using _FFmpeg_ (in [Settings](settings.md); see the [installation instructions](install.md)).
-There are a variety of reasons for this.
-The best solution is to transcode the video into a format that _DOTE_ can understand and reimport it into the _DOTE_ project.
-- The free, open-source software [_HANDBRAKE_](https://handbrake.fr) does the job.
-With this software installed on Windows or macOS, you can import the source video quickly and easily transcode and export it into another format by selecting a preset such as `Web/Video Vimeo YouTube HQ` with the appropriate resolution.
-Don't worry about all the other technical options.
-Select a destination and click `Start Encode`.
-The exported video will retain the same length and frame rate as the original.
-
-If your video is greater than [4K resolution](https://en.wikipedia.org/wiki/4K_resolution), eg. more than `4096 x 2160`, then depending on the power of your computer, _DOTE_ may have problems playing and scrubbing through the video.
-If so, then transcode in the same manner as above, making sure to downscale from 8K or 5K, for example, to 4K or less.
-You could use this reduced version as a proxy in _DOTE_ for the purposes of transcription.
 
 ### Why would I use the video 2nd view? <a id='tip18'></a>
 

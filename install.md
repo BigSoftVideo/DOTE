@@ -45,6 +45,18 @@ DOTE can import many audio formats on its own in order to generate a waveform au
 If you have trouble generating a waveform for a video or audio clip, then one can either transcode the clip (see [Tips](tips.md)) and try again by importing the video or by regenerating the waveform (see [Media Manager](media.md)).
 Alternatively, you can install the free, open source _FFmpeg_ ([Windows](https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-essentials.zip) or [macOS](https://evermeet.cx/ffmpeg/)) on your computer and add the folder path to `ffmpeg.exe` to your _DOTE_ [Settings](settings.md).
 
+On Windows, the folder path might look like this, depending on how you installed it:
+- `C:\FFmpeg\bin\`
+
+On macOS, the folder path might look like this, depending on how you installed it:
+
+- `/usr/local/bin`
+- `/opt/homebrew/bin`
+
+You may have to request permission from your IT services to install these software.
+And you may have to unlock a folder (on macOS) to be able to install into that folder.
+Finally, you may not have access rights to the standard folder for installation (on macOS), so select a public folder that you do have access to.
+
 ### _DOTE Pro_ license key
 
 - You will need to enter a [license key](pro.md) to unlock the extra features in _DOTE Pro_.

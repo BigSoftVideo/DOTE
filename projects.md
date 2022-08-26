@@ -73,9 +73,9 @@ Clicking on that path will open it in your file browser.
 
 <a id='waveform-troubles'></a>
 
-> **NOTE: If _DOTE_ fails to generate a visual waveform, then try transcoding the audio or video file to a more common MP4 or WAV format, such as for YouTube or Vimeo.
+> **NOTE: If _DOTE_ fails to display a video or generate a visual waveform, then try transcoding the audio or video file to a more common MP4 or WAV format, such as for YouTube or Vimeo.
 > See the [Tips & Tricks](tips.md) for instructions how to do that using _HandBrake_, for example.
-> After you have exported a transcoded video, then rename the video file and import it into the same project.
+> After you have exported a transcoded video, then import it into the same project or create a new project.
 > If you give it the same name, then select `Regenerate Waveform` in the [Media Manager](media.md).
 > If you return to the main editor after selecting this option, then you will see the transcript being regenerated.
 > If that fails, however, then create a new project and try to import it again.
