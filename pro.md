@@ -17,7 +17,7 @@ Go to our [WEBSHOP](https://dote.sfx.aau.dk) to purchase a license and read more
 
 ### _DOTE Pro_ license installation <a id='license'></a>
 
-To use the full feature set of _DOTE Pro_, you will have to do the following:
+To unlock the full feature set of _DOTE Pro_, you will have to do the following:
 
 1. [Purchase the _DOTE Pro_ license](https://dote.sfx.aau.dk/license-details).
 2. You will receive the license key in an email message.
