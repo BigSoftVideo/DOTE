@@ -21,6 +21,8 @@ _DOTE_ is the first of a new breed of _Integrated Transcription Environment_ (IT
 
 If you want a fully featured, easy-to-use, cross-platform desktop transcription editor that supports contemporary audiovisual media as well as the craft and complete workflow from creating and revising a script-based transcript through to exporting a publishable transcript in a recognised style (using Jeffersonian or Mondadaian conventions), then _DOTE_ is for you.
 
+[![DOTE UI](images/UI/UI.png)](images/UI/UI.png)
+
 _However_, if you wish to inhabit and analyse your 360 video data in a more immersive virtual environment in which transcripts as such play a minor role, then try the [_AVA360VR_ software package](https://github.com/BigSoftVideo/AVA360VR), our immersive tool for annotating, visualising and analysing 360-degree videos in Virtual Reality.
 For instance, try _VolCapping_, in which you can annotate your data and share your proto-analyses with others in 3D.
 Note that _DOTE_ transcript projects are also straightforwardly compatible with, and importable in, _AVA360VR_.
@@ -31,8 +33,6 @@ Try [_ELAN_](https://archive.mpi.nl/tla/elan), instead.
 If you would like to create a graphic comic transcript, then try [_Comic Life_](https://plasq.com).
 And if you want an AI to do automatic transcription _for_ you, then look elsewhere.
 
-[![DOTE UI](images/UI/UI.png)](images/UI/UI.png)
-
 ### How do I try _DOTE_?
 
 You can [download](https://github.com/BigSoftVideo/DOTE/releases) a free version of _DOTE_ and [install](install.md) it.
@@ -41,12 +41,12 @@ You can [download](https://github.com/BigSoftVideo/DOTE/releases) a free version
 - If there are updates, you will find a list of new features and bug fixes on the [release page](https://github.com/BigSoftVideo/DOTE/releases).
 - DOTE has native support for Windows 10 and 11, as well as for macOS, including the new Apple Silicon with M-series.
 
-To unlock more features, you will need to purchase a [`DOTE Pro` license](pro.md).
+To unlock more features, you will need to purchase the [`DOTE Pro` Edition](pro.md).
 
 ### How do I get help?
 
 There is a lot to get familiar with, but we hope it is worth it.
-Please read carefully the [help guide](help.md), which provides instructions to get you started with the basic transcription tasks using this version of _DOTE_.
+Please read carefully the [help guide](help.md), which provides instructions to get you started with the basic transcription tasks using _DOTE_.
 There are plenty of [video tutorials](help.md#tutorials) available as well.
 
 Thanks and have fun, [_Dote Team_](contributing.md)
