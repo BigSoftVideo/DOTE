@@ -1,4 +1,4 @@
-## _DOTE_ vs _DOTE Pro_ and _DOTE Pro Community_Editions
+## _DOTE_ vs _DOTE Pro_ and _DOTE Pro Community_ Editions
 
 _DOTE_ software is available in two Editions:
 
@@ -29,6 +29,8 @@ _DOTE_ will check with the license server online.
 7. If the license file is registered, and there are unfilled device slots, then _DOTE Pro_ will be unlocked.
 8. The email address of the license key holder will appear in `Current License Status` box.
 And the name associated with the license will appear in the title bar of the application.
+
+[![DOTE License Manager](images/pro/license.png)](images/pro/license.png)
 
 #### Notes
 
