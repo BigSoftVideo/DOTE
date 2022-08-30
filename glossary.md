@@ -205,7 +205,7 @@ It is readable by most word processors.
 
 ### Script-based Transcription System <a id='script'></a>
 
-A Script-based Transcription System denotes a set of conventions and ways of writing that assume that speech (and action) can be written in chunks ([neighbourhoods](#neighbourhoods)) of dialogue, much like a play or film script.
+A Script-based Transcription System denotes a set of conventions and ways of writing that assume that speech (and action) can be written in chunks ([neighbourhoods](#neighbourhood)) of dialogue, much like a play or film script.
 The assumption in _DOTE_ is that the script is read from left-to-right and from top-to-bottom.
 An alternative is a _score-based_ transcription system that assumes that all speech and action occurs simultaneously in one long, continuous score, comprising subtiers, that notionally continues to infinity, much like a musical score.
 This alternative is partially implemented by _DOTE_ in relation to [Subtier Types](#subtier) within a [Neighbourhood](#neigbourhood).
@@ -247,7 +247,7 @@ These subtitles are in a file in `SRT` format and can be overlaid on the video b
 
 In order to anchor the Transcript text to the media from which it is derived, [Sync-codes](sync-code.md) can be created that tie the timecode on the [Timeline](timeline.md) to a specific line in the Transcript.
 
-See also [CS-mode](cs-mode).
+See also [CS-mode](#cs-mode).
 
 ### Synchronised Media <a id='sync'></a>
 
@@ -275,7 +275,7 @@ See [Subtier Type](#subtier).
 
 A Timecode is a temporal reference to a specific moment in a playable media file, starting at 0:00:00.0 `[hour:min:sec.tenth_of_sec]`.
 
-See [Sync-code](sync-code.md) and [Video-cue](cue.md) that both anchor to Timecodes.
+See [Sync-code](sync-code.md) and [Video-cue](cues.md) that both anchor to Timecodes.
 
 ### Timeline <a id='timeline'></a>
 
@@ -301,7 +301,7 @@ A Transcript is a specific textual object in _DOTE_ that is created and edited i
 
 _DOTE_ uses a sophisticated parser to interpret the structure of a Transcript.
 On that basis, [descriptive Errors and Warnings](errors.md) can be given to help the transcriber conform their Transcript to the standard [Conventions](#conventions) as well as to the special formatting required by _DOTE_.
-Moreover, DOTE makes heuristic suggestions to [Realign](#align) [Neighbourhoods](#neighbourhoods).
+Moreover, DOTE makes heuristic suggestions to [Realign](#align) [Neighbourhoods](#neighbourhood).
 
 ### Unicode <a id='unicode'></a>
 
@@ -315,11 +315,11 @@ The [User Interface](ui.md) is the visual (and aural) presentation of the comput
 
 [Version Control](versioncontrol.md) is a broad term encompassing all computer systems that track changes in a set of digital documents or media files.
 
-See [Git](#git), [Autobackup]("autobackup) and [Checkpoint](#checkpoint).
+See [Git](#git), [Autobackup](#autobackup) and [Checkpoint](#checkpoint).
 
 ### Video-cue <a id='video-cue'></a>
 
-A [Video-cue](cue.md) is a unique point on the [Timeline](timeline.md) that indicates that a change in the [Viewport](#viewport) of a [Video Panel](video.md) is to be performed.
+A [Video-cue](cues.md) is a unique point on the [Timeline](timeline.md) that indicates that a change in the [Viewport](#viewport) of a [Video Panel](video.md) is to be performed.
 This function automates the presentation of media during [Playback](play.md) in a more cinematic fashion.
 A limited set of virtual [Recam](#recam) camera movements are supported.
 
