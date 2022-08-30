@@ -54,7 +54,6 @@ Simple as that!
 ### User bug reports
 
 How to enter a [bug report issue](https://github.com/BigSoftVideo/DOTE/issues/new/choose) if you find anything that doesn't seem to work.
-This link will only work if you have access to the repository.
 
 In many cases it helps us if you attach the [_DOTE_ logfile](logfile.md) to the bug report.
 The folder on your computer in which the logfiles are stored can be accessed by the link under the `Help` menu.
@@ -62,24 +61,21 @@ The folder on your computer in which the logfiles are stored can be accessed by 
 ### User feature requests
 
 How to enter an idea you have for a [feature or enhancement](https://github.com/BigSoftVideo/DOTE/issues/new/choose) to _DOTE_.
-This link will only work if you have access to the repository.
 
 ### Tracking bugs and features as a user
 
 You will be able to track bugs and features in our [project board](https://github.com/BigSoftVideo/DOTE/projects/1).
-This link will only work if you have access to the repository.
 
 ### Suggestions for help pages and tutorials
 
 Please [submit a suggestion](https://github.com/BigSoftVideo/DOTE/issues/new/choose) for how we can improve the help pages and guide, as well as ideas for video tutorials.
-This link will only work if you have access to the repository.
 
 ### Using our _DISCORD_ server
 
-If you are using the free edition of _DOTE_, then there are several public channels on our [Discord server](https://discord.gg/8BmuHP7xh4) for basic support.
+If you are using the free edition of _DOTE_, then there are some public channels on our [Discord server](https://discord.gg/8BmuHP7xh4) for basic support.
 We cannot guarantee that we have time to respond to everything posted in these free public channels.
 
-If you have purchased the license for the _DOTE Pro_ edition, then you will be invited to a private Discord channel on our server.
+If you have purchased the license for the _DOTE Pro_ Edition, then you will be invited to a private Discord channel for Pro features on our server.
 You will be able to share ideas and experiences quickly, and to fix issues interactively with other users and the developers.
 
-If you have purchased the license for the _DOTE Pro Community_ edition, then you will be invited to several private Discord channels on our server, as well as our private GitHub repo for early beta releases and testing.
+If you have purchased the license for the _DOTE Pro Community_ Edition, then you will be invited to several private Discord channels on our server, as well as our private GitHub repo for early beta releases, testing and feedback.
