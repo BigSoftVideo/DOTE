@@ -38,6 +38,6 @@ And the name associated with the license will appear in the title bar of the app
 The same license file is used to unlock each device.
 - If all three slots are full, then one slot will have to be released so that a new computer can receive that free slot.
 You can release a device that has a license key already installed. Open _DOTE_ and go to `File/About/License Manager` and select `Release License`.
-If all your device slots are full, and you cannot unregister any of the devices because they are unavailable, then contact us explaining the situation (dote@).
+If all your device slots are full, and you cannot unregister any of the devices because they are unavailable, then contact us explaining the situation (dote@id.aau.dk).
 - If you wish to enter a different licence key, then select `Clear License Key`.
 This is useful if you are sharing a computer or you have purchased a new license.
