@@ -56,7 +56,10 @@ Note that this list can be rearranged by selecting, dragging and dropping an ite
 
 ##### External software
 
-- Optional link to installed _FFmpeg_ software for waveform generation.
+- Optional folder path to installed _FFmpeg_ software for waveform generation.
+_DOTE_ does its best internally to create a waveform for every media file added with [Media Manager](media.md).
+If this is not working for you, then you can [install _FFmpeg_](install.md#ffmpeg) on your computer and link the file path to _DOTE_.
+We cannot include the open source software package inside _DOTE_ because of software licensing restrictions.
 
 ### Transcript Options <a id='options'></a>
 
