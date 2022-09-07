@@ -37,20 +37,38 @@ This is a local problem with how your computer has been setup by a security cons
 
 #### Installing Git <a id='git'></a>
 
-To use Checkpoints and view Autobackups, you will need to install the free open-source software called _Git_ on your computer. See [Checkpoints](versioncontrol.md).
+To use Checkpoints and to view Autobackups, you will need to install the free open-source software called _Git_ on your computer. See [Checkpoints](versioncontrol.md).
 
 #### Installing FFmpeg <a id='ffmpeg'></a>
 
-DOTE can import many audio formats on its own in order to generate a waveform automatically, but not all.
-If you have trouble generating a waveform for a video or audio clip, then one can either transcode the clip (see [Tips](tips.md)) and try again by importing the video or by regenerating the waveform (see [Media Manager](media.md)).
-Alternatively, you can install the free, open source _FFmpeg_ ([Windows](https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-essentials.zip) or [macOS](https://evermeet.cx/ffmpeg/)) on your computer and add the folder path to `ffmpeg.exe` to your _DOTE_ [Settings](settings.md).
-For macOS, you have to install both _ffmpeg_ and _ffprobe_. See [these instructions](https://bbc.github.io/bbcat-orchestration-docs/installation-mac-manual/) for more detail if you get stuck.
+_DOTE_ can import many audio formats on its own in order to generate a waveform automatically, but not all.
+If you have trouble generating a waveform for a video or audio clip, then one can either transcode the clip (see [Tips](tips.md)) and try again by importing the new video or by regenerating the waveform (see [Media Manager](media.md)).
 
-On Windows, the folder path might look like this, depending on how you installed it:
+Alternatively, you can let _DOTE_ install the free, open source _FFmpeg_ on your computer and add the folder path to `ffmpeg.exe` to your _DOTE_ [Settings](settings.md).
+
+1. Go to Settings and scroll down to the bottom to see the `Additional Audio & Video Format Support` section.
+2. Reset the file path (if it is blank or has an incorrect file path).
+3. Select `Download FFmpeg and FFprobe`.
+4. The files will be downloaded and installed.
+5. The "Not found" indicators should change to "Available".
+6. Try restarting _DOTE_ if something looks amiss.
+
+Like many other software, _DOTE_ has to do this extra step because of licensing restrictions.
+
+##### Installing FFmpeg yourself
+
+Both _ffmpeg_ and _ffprobe_ have to be installed.
+See [these instructions](https://bbc.github.io/bbcat-orchestration-docs/installation-mac-manual/) for more detail if you get stuck.
+
+1. Manually set the file path to you installed `ffmpeg.exe` and `ffprobe.exe` files (in the same folder).
+2. The "Not found" indicators should change to "Available".
+3. Try restarting _DOTE_ if something looks amiss.
+
+For a [Windows](https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-essentials.zip) installation, the folder path might look like this, depending on how you installed it:
 - `C:\FFmpeg\bin\`
 - `C:\Program Files\FFmpeg\bin`
 
-On macOS, the folder path might look like this, depending on how you installed it:
+For a [macOS](https://evermeet.cx/ffmpeg/) installation, the folder path might look like this, depending on how you installed it:
 
 - `/usr/local/bin`
 - `/opt/homebrew/bin`
