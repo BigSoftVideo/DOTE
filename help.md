@@ -1,6 +1,9 @@
 ## Help guide for release v1.0
 
 This help guide provides you with instructions to get started with basic and more advanced transcription tasks using _DOTE_.
+The help guide gives guidance on the Pro Edition of _DOTE_.
+Some of the functionality described will not be available in the free Edition of _DOTE_.
+See the [comparison chart on our webshop](https://dote.sfx.aau.dk/license-compare#compare-detail).
 
 ### How to download and install _DOTE_
 
