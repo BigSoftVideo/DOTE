@@ -54,6 +54,8 @@ Alternatively, you can let _DOTE_ install the free, open source _FFmpeg_ on your
 5. The "Not found" indicators should change to "Available".
 6. Try restarting _DOTE_ if something looks amiss.
 
+If you reinstall _DOTE_ or update the version, then you will have to repeat this procedure.
+
 Like many other software, _DOTE_ has to do this extra step because of licensing restrictions.
 
 ##### Installing FFmpeg yourself
@@ -61,7 +63,7 @@ Like many other software, _DOTE_ has to do this extra step because of licensing 
 Both _ffmpeg_ and _ffprobe_ have to be installed.
 See [these instructions](https://bbc.github.io/bbcat-orchestration-docs/installation-mac-manual/) for more detail if you get stuck.
 
-1. Manually set the file path to you installed `ffmpeg.exe` and `ffprobe.exe` files (in the same folder).
+1. Manually set the file path to the folder in which you installed the `ffmpeg.exe` and `ffprobe.exe` files (in the same folder).
 2. The "Not found" indicators should change to "Available".
 3. Try restarting _DOTE_ if something looks amiss.
 
