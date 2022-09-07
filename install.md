@@ -6,6 +6,7 @@ It should run on the latest versions of Microsoft Windows 10 or 11 and also Appl
 Let us know if you have a problem installing and running _DOTE_ on these platforms.
 Theoretically, it should also run on Linux, but we don't support this.
 Contact us if you are interested in using _DOTE_ on this platform.
+Note that only one instance of _DOTE_ is allowed to run at the same time.
 
 - Choose the correct and latest version for your operating system from the [RELEASES](https://github.com/BigSoftVideo/DOTE/releases) page of our GitHib repository.
 
