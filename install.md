@@ -79,7 +79,7 @@ Finally, you may not have access rights to the standard folder for installation 
 
 ### _DOTE Pro_ license key
 
-- You will need to enter a [license key](pro.md) to unlock the extra features in _DOTE Pro_.
+- You will need to purchase and enter a [license key](pro.md#license) to unlock the premium features in _DOTE Pro_.
 
 ### Updating to a new release
 
