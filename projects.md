@@ -79,7 +79,7 @@ Clicking on that path will open it in your file browser.
 > If you give it the same name, then select `Regenerate Waveform` in the [Media Manager](media.md).
 > If you return to the main editor after selecting this option, then you will see the transcript being regenerated.
 > If that fails, however, then create a new project and try to import it again.
-> Or see the [Installation guide](install.md) for an alternative solution using _FFmpeg_ that will generate a waveform for a wider range of audio and video formats.**
+> Or see the [Installation guide](install.md#ffmpeg) for an alternative solution using _FFmpeg_ that will generate a waveform for a wider range of audio and video formats.**
 
 ## Save a Transcript in a Project <a id='saving'></a>
 
