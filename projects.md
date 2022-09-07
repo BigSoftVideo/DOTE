@@ -122,7 +122,8 @@ The panel has three vertical panes (see Figure):
     - A list of all known Projects and their Transcripts in all subfolders beneath the current folder open in the middle pane.
     - The Project names are in grey and the Transcript names are highlighted on a blue background.
 
-Note that in all panes, Transcripts (in Projects) are highlighted with a blue background.
+Note that in all panes, recognised _DOTE_ Projects are highlighted in green and recognised Transcripts (in Projects) are highlighted with a blue background.
+If an orphan Transcript without a parent Project is discovered, then it will be highlighted in red.
 Clicking on a Transcript will open it in _DOTE_.
 
 ### Create a new Transcript in the current Project <a id='new-transcript'></a>
