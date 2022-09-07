@@ -38,7 +38,7 @@ This is very useful when multiple cameras (and mics) were used to collect data, 
 Sometimes one has to switch to a different camera or mic in order to be able to see or hear the action.
 Fantasmagoric! 🤸🏻‍♂️🥳
 
-### Some tips for using the video panels
+### Some tips for using the video panels <a id='video-tips'></a>
 
 - The relative size of the video panels can be changed by selecting and dragging the divider between them.
 - One can zoom in by using <kbd>right click</kbd> and dragging the mouse vertically (or use the shuttle wheel on a mouse or two fingers on a touchpad).

@@ -12,23 +12,26 @@ Sync-codes index specific lines in the transcript (in the Editor panel) to speci
 In contrast, video-cues index specific views of the current media source(s) to specific timecodes in the media timeline.
 Video-cues have no connection to the Editor, and they are managed on their own timeline.
 
-### Adding video-cues
+### Adding video-cues <a id='add-cue'></a>
 
 [![Video-cues](images/cues/video-cue-add.png)](images/cues/video-cue-add.png)
 
 1. Open the [video-cue timeline](media.md#media) for the specific video source that is to be cued in the [Primary video panel](video.md).
-1. Play the video and pause at the point to be video-cued.
-1. Adjust the view in the [Primary video panel](video.md).
-1. Enter a video-cue by clicking on the `ADD VIDEO-CUE` button on the left side of the media timeline.
+2. Turn on [lock video to video-cue](video.md#video-tips) by selecting the slider button in the target video panel(s).
+3. Play the video and pause at the point to be video-cued.
+4. Adjust the view in the [Primary video panel](video.md).
+5. Enter a video-cue by clicking on the `ADD VIDEO-CUE` button on the left side of the media timeline.
     - Assign the video-cue to the relevant video media source.
     - In video-cue options, select a _jump cut_ (immediate transition between two views) or a _smooth transition_ (a smooth pan between two views) for the video-cue.
     A smooth transition will track linearly from one view to another over a one second duration.
     This adds a cinematic feel to playing your videos in _DOTE_. Woah! 🎦
     - At any time you can replace the current view for a specific video-cue by selecting the video-cue, altering the view on the [Primary Video panel](video.md) to your liking, and clicking the `Change View` button.
-1. You can drag the video-cue in the timeline to a new time between adjacent video-cues.
+6. You can drag the video-cue in the timeline to a new time between adjacent video-cues.
     - The video-cue may need to tweaked in order to get the effect desired, eg. a smooth tracking pan/zoom that follows the action.
 
-### Editing a video-cue
+If at any time you try to create, edit or move a video-cue when the [lock video to video-cue](video.md#video-tips) slider button is not selected, then _DOTE_ will warn you that video-cues will not be tracked in the video panels unless you toggle them on in one or both video panels.
+
+### Editing a video-cue <a id='edit-cue'></a>
 
 There are two ways to edit a video-cue:
 
