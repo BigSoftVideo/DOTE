@@ -33,7 +33,7 @@ Here are instructions how to download and install _Git_:
     There are quite a few of them (and some look quite technical but don't worry).
 - For macOS -
     - After starting _DOTE_, and clicking Checkpoints, then macOS will prompt you to install _Git_.
-    - You can also install directly in macOS.
+    - If this does not happen, then you can also install directly in macOS.
         - Press <kbd>⌘</kbd>+<kbd>SPACE</kbd> and type <kbd>terminal</kbd>.
         Press <kbd>ENTER</kbd>.
         - When the window appears, type <kbd>git</kbd>.
@@ -68,7 +68,7 @@ Doing so will save the unsaved changes in the Transcript to disk.
 Hint: save your work frequently and make checkpoints regularly.
 - If autobackup is turned on, but the autobackup time interval has not been reached, then the most recent changes made since the last autobackup will not be recoverable if the computer crashes, etc.
 
-### Autobackup a Transcript <a id='autobackup'></a>
+### Autobackup and restoring a Transcript <a id='autobackup'></a>
 
 [![Autobackup Peeking](images/versioncontrol/autobackup-peek.png)](images/versioncontrol/autobackup-peek.png)
 
@@ -85,10 +85,11 @@ Thus, the user can decide later to restore to a version that came after the rest
 - At present in this release, it is not possible to prune the autobackup list in _DOTE_, but it can be done manually in the hidden _.autosaves_ folder on disk.
 - Sometimes a user will have to create a checkpoint before restoring an earlier autobackup, otherwise the unsaved changes will not be stored in the checkpoint system.
 The user can also decide not to do this and just restore while discarding any unsaved changes.
-- After restoring or resetting to an autobackup, there will be unsaved changes ("non-recorded state") in the checkpoints.
+- After restoring an autobackup, there will be unsaved changes ("non-recorded state") in the checkpoints.
 This is because the new state of the transcript will not match the last checkpoint state and the differences will have to be checkpointed as new unsaved changes.
-Autobackups and checkpoints are independent version control systems.
-- After the reset is complete, the Transcript will be opened.
+Autobackups and Checkpoints are independent version control systems.
+- After the restore is complete, the Transcript will be opened.
+- Also, a new Checkpoint will be created automatically with an informative message to mark that all the new changes in the Transcript are the result of restoring a specific Autobackup.
 
 ### Checkpoints in a Transcript <a id='checkpoint'></a>
 
