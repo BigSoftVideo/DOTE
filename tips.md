@@ -60,7 +60,7 @@ Given that one or more Transcripts can be created in a Project, then each could 
 Sometimes a video or audio file cannot be opened by _DOTE_ or the waveform cannot be generated, neither with the inbuilt waveform generator nor using _FFmpeg_ (in [Settings](settings.md); see the [installation instructions](install.md)).
 There are a variety of reasons for this.
 
-If you haven't installed FFmpeg on your computer, then we recommend that you do this first, and manually add the file path in [Settings](settings.md).
+If you haven't installed FFmpeg on your computer, then we recommend that you do this first, and manually add the file path in [Settings](settings.md#ffmpeg).
 FFmpeg is a powerful open source video processor, which we cannot include inside DOTE for licensing reasons.
 Restart _DOTE_ and create a new Project and import the media again or open [Media Manager](media.md) and regenerate the waveform using the button on the far right for the relevant media.
 
