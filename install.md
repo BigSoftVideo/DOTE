@@ -54,7 +54,7 @@ Alternatively, you can let _DOTE_ install the free, open source _FFmpeg_ on your
 5. The "Not found" indicators should change to "Available".
 6. Try restarting _DOTE_ if something looks amiss.
 
-If you reinstall _DOTE_ or update the version, then you will have to repeat this procedure.
+If you reinstall _DOTE_ or update the version, then you will have to repeat this procedure to reinstall FFmpeg.
 
 Like many other software, _DOTE_ has to do this extra step because of licensing restrictions.
 
