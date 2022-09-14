@@ -81,6 +81,17 @@ Clicking on that path will open it in your file browser.
 > If that fails, however, then create a new project and try to import it again.
 > Or see the [Installation guide](install.md#ffmpeg) for an alternative solution using _FFmpeg_ that will generate a waveform for a wider range of audio and video formats.**
 
+## Open a Project <a id='open-project'></a>
+
+
+To open an already existing Project, one must first [select and open a Transcript in a Project](#open-transcript).
+Selecting `File ➔ Open Project`, will open the Transcript/Project browser panel.
+
+## Save a Project
+
+Projects are saved when a [Transcript in a Project is saved](#saving).
+Project settings are saved automatically when changes are made.
+
 ## Save a Transcript in a Project <a id='saving'></a>
 
 1. To save the current Transcript, then select `File ➔ Save Transcript` or <kbd>CTRL</kbd>+<kbd>S</kbd> [or <kbd>⌘</kbd>+<kbd>S</kbd> on macOS.
@@ -103,7 +114,7 @@ That drive will be opened and you can locate the correct Project folder and Tran
 
 There are several ways to navigate your Projects and Transcripts in the `Open Transcript` panel.
 The panel has three vertical panes (see Figure):
-- **Left/Top 1**: Common _system folders_ and drives/volumes
+- **Left/Top 1**: _System Folders_
     - Just select to open that folder or drive/volume in the middle pane.
     - The available Transcripts are shown in the right pane.
 - **Left/Centre 2**: _Bookmarks_
@@ -111,18 +122,18 @@ The panel has three vertical panes (see Figure):
     - Bookmarks can be added and deleted using the icons `+` and `X`.
     - Selecting `+` adds the current folder open in the middle pane to the list.
     - A bookmarked entry can be moved up and down in the list by selecting an entry and then click and drag it to a new position in the list.
-- **Left/Bottom 3**: _Recents_
+- **Left/Bottom 3**: _Five most recent Transcripts_
     - A list of the 5 most recent Transcripts opened.
     - The recent Transcript names are highlighted on a blue background.
-- **Middle 4**: Navigate the system folder hierarchy
+- **Middle 4**: _Folder browser_
     - This is just like the standard file/folder explorer in Windows and macOS platforms.
     - Navigate up and down the folder hierarchy.
     - Results are shown in the panel in the right pane.
-- **Right 5**: _Transcripts within_
+- **Right 5**: _All Transcripts within Projects below the selected folder_
     - A list of all known Projects and their Transcripts in all subfolders beneath the current folder open in the middle pane.
     - The Project names are in grey and the Transcript names are highlighted on a blue background.
 
-Note that in all panes, recognised _DOTE_ Projects are highlighted in green and recognised Transcripts (in Projects) are highlighted with a blue background.
+Note that in some of the panes, recognised _DOTE_ Projects are highlighted in green and recognised Transcripts (in Projects) are highlighted with a blue background.
 If an orphan Transcript without a parent Project is discovered, then it will be highlighted in red.
 Clicking on a Transcript will open it in _DOTE_.
 
