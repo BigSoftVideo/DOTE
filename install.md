@@ -8,7 +8,7 @@ Theoretically, it should also run on Linux, but we don't support this.
 Contact us if you are interested in using _DOTE_ on this platform.
 Note that only one instance of _DOTE_ is allowed to run at the same time.
 
-- Choose the correct and latest version for your operating system from the [RELEASES](https://github.com/BigSoftVideo/DOTE/releases) page of our GitHib repository.
+- Choose the correct and latest version for your operating system from our [Webshop DOWNLOADS page](https://dote.sfx.aau.dk/downloads) or you can browse the latest [RELEASES](https://github.com/BigSoftVideo/DOTE/releases) on our public DOTE GitHib repository.
 
     - **Windows**
         - To install the Windows version, `double click` on the `EXE` file.
