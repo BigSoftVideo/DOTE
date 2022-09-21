@@ -23,9 +23,20 @@ Please see the [_Where to store your DOTE projects?_](projects.md#storing) help 
 
 [![DOTE UI](images/UI/UI.png)](images/UI/UI.png)
 
+### What is contained in the Lego Demo Project?
+
+The Lego Demo Project contains the following media and Transcripts:
+
+- Six synchronised media sources (see [Media Manager](media.md)), including 2D video, 360-degree video and wireless mic audio.
+- Seven alternative transcripts:
+    - Transcripts that work with the _free_ Edition of _DOTE_. This is because there are restrictions on the number (2) of media sources that can be activated per Transcript. Thus, playback following video-cues is limited to just two active videos.
+    - Transcripts that only work with the _Pro_ Edition of _DOTE_. All media sources can be activated, and there is no limit to selecting media sources and switching between active videos using video-cues.
+    - Transcripts that have discoverable errors.
+    - A Transcript following an alternative version of the Mondadaian conventions.
+
 ### How to try the Demo
 
-In the Demo Project, there are several examples of Transcripts of the same event made using two different conventions.
+In the Demo Project, there are several examples of Transcripts of the same event made following [two different conventions](conventions.md).
 
 1. [Open each Transcript](projects.md#open-transcript).
 1. You can [play through the video](video.md) and check the two partial [Transcripts](transcript.md) that have already been made according to Jeffersonian and Mondadaian [conventions](conventions.md).
@@ -37,9 +48,10 @@ Test them to see the result.
     - Add speakers and see how _DOTE_ autocompletes.
     - Add [sync-codes](sync-code.md) and [video-cues](cues.md).
     - Peek at [checkpoints and autobackups](versioncontrol.md).
+    This is useful for the transcripts included in the Demo that have known errors.
     Note: You need to install `Git` first (see [Installation instructions](install.md)).
     - Create your own checkpoint after making some changes.
-1. If you make changes, remember to save the Transcript regularly `File ➔ Save Transcript` or <kbd>CTRL</kbd>+<kbd>S</kbd> [or <kbd>⌘</kbd>+<kbd>S</kbd> on macOS].
+2. If you make changes, remember to save the Transcript regularly `File ➔ Save Transcript` or <kbd>CTRL</kbd>+<kbd>S</kbd> [or <kbd>⌘</kbd>+<kbd>S</kbd> on macOS].
 
 [![Demo with errors](images/demo/demo-errors.png)](images/demo/demo-errors.png)
 
