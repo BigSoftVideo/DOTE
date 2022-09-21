@@ -43,13 +43,13 @@ In the Demo Project, there are several examples of Transcripts of the same event
 1. The Transcripts already have some [sync-codes](sync-code.md) and [video-cues](cues.md) that should work automatically when you play the video or click on the sync-code either in the appropriate [timeline](timeline.md) or the editor panel (sync-codes).
 Test them to see the result.
 1. Try some of the _DOTE_ functionality yourself:
-    - Try the [playback controls](play.md) and [looping](timeline.md).
+    - Try the [playback controls](play.md) and [looping](timeline.md#loop).
     - Edit the [transcript](transcript.md), type some text and transcription symbols.
     - Add speakers and see how _DOTE_ autocompletes.
     - Add [sync-codes](sync-code.md) and [video-cues](cues.md).
     - Peek at [checkpoints and autobackups](versioncontrol.md).
     This is useful for the transcripts included in the Demo that have known errors.
-    Note: You need to install `Git` first (see [Installation instructions](install.md)).
+    Note: You need to install `Git` first (see [Installation instructions](versioncontrol.md#setup)).
     - Create your own checkpoint after making some changes.
 2. If you make changes, remember to save the Transcript regularly `File ➔ Save Transcript` or <kbd>CTRL</kbd>+<kbd>S</kbd> [or <kbd>⌘</kbd>+<kbd>S</kbd> on macOS].
 
