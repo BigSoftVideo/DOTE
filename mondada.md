@@ -81,6 +81,17 @@ The full range of features of the style of multimodal transcription are supporte
 
 > **WARNING: Be careful _not_ to use some of the more esoteric symbol pairs, eg. smiley voice `£...£` or creaky voice `#...#`, that can be found in the Jeffersonian system because they may be confused with Mondadaian alignment symbols. These symbols are very commonly used alignment symbols and thus there will be an irresolvable clash between the two very different functions of each symbol.**
 
+### Supporting a variant of the Mondadaian conventions
+
+_DOTE_ also supports a variant of the Mondadaian conventions that orients to a proportional timing interval.
+
+- The key difference is that timing intervals that are usually marked with `(x.y)`, eg. (1.5) is equivalent to one-and-a-half seconds, are transcoded into a proportional system using the symbol `◘`, which represents 0.1 seconds.
+- Thus, neighbourhoods that have a primary timing interval tier as a HEAD should use strings of `◘`s to mark the timing intervals on which to hang the BODY of the neighbourhood, eg. action subtiers.
+
+An example transcript that uses this variation is included in the [Lego Demo Project](demo.md).
+
+In future release, DOTE will be able to convert on the fly between the standard timing `(x.y)` and the proportional system.
+
 ### Exporting to RTF
 
 The _DOTE_ [subtier type system](tiers.md) is needed to give better help and suggestions within _DOTE_.
