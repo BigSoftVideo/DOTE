@@ -75,7 +75,7 @@ Please [submit a suggestion](https://github.com/BigSoftVideo/DOTE/issues/new/cho
 
 ### Using our _DISCORD_ server
 
-If you are using the free edition of _DOTE_, then there are some public channels on our [Discord server](https://discord.gg/8BmuHP7xh4) for basic support.
+If you are using the free edition of _DOTE_, then there are some public channels on our [Discord server](https://discord.gg/8BmuHP7xh4).
 We cannot guarantee that we have time to respond to everything posted in these free public channels.
 
 If you have purchased the license for the _DOTE Pro_ Edition, then you will be invited to a private Discord channel for Pro features on our server.
