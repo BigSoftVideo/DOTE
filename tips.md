@@ -20,7 +20,7 @@ Here you will find ideas and solutions to specific tasks that you might wish to 
 - [How to use proxy videos to share Projects with sensitive video clips?](#tip31)
 - [How do I report an error or problem using the log files?](#tip5)
 - [Why do I need more than one Timeline?](#tip24)
-- [Why would I use the video 2nd view?](#tip18)
+- [Why would I use the secondary video view?](#tip18)
 - [Why can I not copy/paste underlined text?](#tip19)
 - [Why would I use Checkpoints?](#tip29)
 - [Why would I use Video-cues?](#tip32)
@@ -233,14 +233,14 @@ When the Project is ready to export, use the [Media Manager](media.md) to turn o
 Then export the Project, including only active media.
 Those who receive and import the Project will only have access to the anonymised proxy media, and any sync-codes and video-cues present will work.
 
-### Why would I use the video 2nd view? <a id='tip18'></a>
+### Why would I use the secondary video view? <a id='tip18'></a>
 
 For many use cases, one video view is adequate for transcribing.
 However, there are other use cases in which it is very useful to have a [second independent, but synced view](video.md) on the same video clip.
 
-- If the video clip is 2D, then it can be useful to open the `2nd view` and zoom in on a rectangular portion of the video screen, while at the same time viewing the zoomed out view of the whole video screen.
+- If the video clip is 2D, then it can be useful to open the `Secondary video` panel and zoom in on a rectangular portion of the video screen, while at the same time viewing the zoomed out view of the whole video screen.
 - If the video clip is 360, then it can be useful to set up a locked primary view using [video-cues](cues.md) to zoom in (and pan) around the spherical video.
-The unlocked `2nd view` can focus in on a different angle and zoom of the 360 to simultaneously show an alternative view.
+The unlocked `Secondary video` view can focus in on a different angle and zoom of the 360 to simultaneously show an alternative view.
 
 ### Why do I need more than one Timeline? <a id='tip24'></a>
 
