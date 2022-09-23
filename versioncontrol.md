@@ -202,3 +202,13 @@ Checkpoints are commits on the main branch.
 Collaborators can push and pull the main branch between local and origin (on GitHub) and checkpoints will be updated locally.
 We recommend using a Git GUI such as _GitKraken_ to clone and track the repository locally and remotely.
 The usual advice and warnings about [Git best practices](https://acompiler.com/git-best-practices/) apply in this use case.
+
+### Notes on _DOTE_ and Git for advanced users
+
+If you have never used Git software before, and you will only use it with _DOTE_, then read no further.
+However, if you use Git for software development, for example, then be aware that _DOTE_ automatically sets `safe.directory` to all (`'*'`).
+That is because if one [exports and imports DOTE Projects or Transcripts](import.md), and shares those exported file(s) with others or on different machines, then without a universal `safe.directory` setting, those Projects and Transcripts will not be immediately importable.
+It is a question of ownership and security.
+Rather than the user having to issue commands repeatedly to make directories safe for Git operations, we assume that all directories are safe.
+This is fine if one does not use Git for other purposes.
+Read more about `safe.directory`(<https://git-scm.com/docs/git-config/2.35.2>).
