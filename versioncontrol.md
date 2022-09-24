@@ -183,6 +183,20 @@ There is a lot of file processing involved in recovering the Transcript history 
 
 In future releases, one will be able to compare any autobackup with any earlier autobackup (non-consecutive), as well as display the changes in different formats using search and marking authorship.
 
+### Pruning Autobackups <a id='pruning-backups'></a>
+
+The problem with Autobackups is that without due attention the number of backups keeps increasing.
+Each Autobackup does not take up much space on disk, but still the list can grow long.
+
+In the Autobackups panel, _DOTE_ offers 4 strategies to deal with this issue:
+
+1. "Keep only the most recent backup" - only one backup is kept, so if one has set an autobackup to be made every 5 minutes, then this option will only retain the most recent changes within the last 5 minutes.
+2. "Never delete backups" - This is the safest option, but the number of autobackups will accumulate.
+3. "Smart backup solution" - 
+4. "Only keep backups for 30 days" - Any backups older than 30 days will automatically be deleted. Note that if you do not work on your transcript for 30 days, then when you open the transcript in _DOTE_, all earlier backups will be deleted automatically.
+
+You can change the strategy at any time to find what works best for you.
+
 ### What is tracked by Autobackups and Checkpoints? <a id='tracked'></a>
 
 Both Autobackups and Checkpoints track the changes made to the text in the Editor panel, eg. in the transcript.
