@@ -10,7 +10,7 @@ On the other hand, [Checkpoints](#checkpoint) are a user-driven system of backup
 Note that [Autobackup](#autobackup) is not the same as _saving_ a Transcript using `File ➔ Save Transcript` or <kbd>CTRL</kbd>+<kbd>S</kbd> [or <kbd>⌘</kbd>+<kbd>S</kbd> on macOS].
 Autobackup makes a _new copy_ of the current Transcript and writes that to disk so the previous state can be recovered, while saving writes the Transcript data to disk.
 Autobackup does _not_ save the current Transcript automatically; that is a manual decision by the user.
-It just makes a series of backup copies at regular intervals.
+It just makes a series of backup copies at regular intervals if there are any new changes since the last one.
 
 [![Checkpoints and Autobackups](images/versioncontrol/buttons.png)](images/versioncontrol/buttons.png)
 
@@ -64,9 +64,9 @@ If you get this or a similar error, then do the following (after closing _DOTE_)
 The basic way to save a currently open Transcript is to select `File ➔ Save Transcript` or use the shortcut <kbd>CTRL</kbd>+<kbd>S</kbd> [or <kbd>⌘</kbd>+<kbd>S</kbd> on macOS.
 Doing so will save the unsaved changes in the Transcript to disk.
 
-- If no new checkpoints have been made and autobackup is turned off, then any unsaved changes will be lost if the computer or _DOTE_ crashes, for example.
+- If no new Checkpoints have been made and Autobackup is turned off, then any unsaved changes will be lost if the computer or _DOTE_ crashes, for example.
 Hint: save your work frequently and make checkpoints regularly.
-- If autobackup is turned on, but the autobackup time interval has not been reached, then the most recent changes made since the last autobackup will not be recoverable if the computer crashes, etc.
+- If Autobackup is turned on, but the Autobackup time interval has not been reached, then the most recent changes made since the last autobackup will not be recoverable if the computer crashes, etc.
 
 ### Autobackup and restoring a Transcript <a id='autobackup'></a>
 
@@ -82,11 +82,12 @@ Editing while peeking is not allowed.
 If neither, then one can just return to the current state of the Transcript before peeking at the autobackups.
 - If a user does decide to restore an earlier version, then it is loaded as the current Transcript, but all autobackups up to the present moment are retained; it is non-destructive.
 Thus, the user can decide later to restore to a version that came after the restored version.  
-- At present in this release, it is not possible to prune the autobackup list in _DOTE_, but it can be done manually in the hidden _.autosaves_ folder on disk.
-- Sometimes a user will have to create a checkpoint before restoring an earlier autobackup, otherwise the unsaved changes will not be stored in the checkpoint system.
+- Autobackups can be [pruned following a retention policy](#pruning-backups).
+- Sometimes a user will have to create a Checkpoint before restoring an earlier Autobackup, otherwise the unsaved changes will not be stored in the checkpoint system.
 The user can also decide not to do this and just restore while discarding any unsaved changes.
-- After restoring an autobackup, there will be unsaved changes ("non-recorded state") in the checkpoints.
-This is because the new state of the transcript will not match the last checkpoint state and the differences will have to be checkpointed as new unsaved changes.
+- After restoring an Autobackup, there will be unsaved changes ("non-recorded state") in the Checkpoints.
+This is because the new state of the Transcript will not match the last Checkpoint state and the differences will have to be checkpointed as new unsaved changes.
+Thus, after restoring the Autobackup, _DOTE_ will automatically create a new Checkpoint with a message that highlights that a specific Autosave restore was completed.
 Autobackups and Checkpoints are independent version control systems.
 - After the restore is complete, the Transcript will be opened.
 - Also, a new Checkpoint will be created automatically with an informative message to mark that all the new changes in the Transcript are the result of restoring a specific Autobackup.
@@ -190,10 +191,19 @@ Each Autobackup does not take up much space on disk, but still the list can grow
 
 In the Autobackups panel, _DOTE_ offers 4 strategies to deal with this issue:
 
-1. "Keep only the most recent backup" - only one backup is kept, so if one has set an autobackup to be made every 5 minutes, then this option will only retain the most recent changes within the last 5 minutes.
+1. "Keep only the most recent backup" - only one backup is kept, so if one has set an autobackup to be made every 5 minutes, then this option will only retain the most recent changes within at the most the last 5 minutes.
 2. "Never delete backups" - This is the safest option, but the number of autobackups will accumulate.
-3. "Smart backup solution" - 
-4. "Only keep backups for 30 days" - Any backups older than 30 days will automatically be deleted. Note that if you do not work on your transcript for 30 days, then when you open the transcript in _DOTE_, all earlier backups will be deleted automatically.
+3. "Only keep backups for 30 days" - Any backups older than 30 days will automatically be deleted. Note that if you do not work on your transcript for 30 days, then when you open the transcript in _DOTE_, all earlier backups will be deleted automatically.
+4. "Smart backup solution" - This is a more sophisticated retention policy that follows these rules:
+    1. Are there less than 20 backups in the list? If yes, don't delete anything.
+    2. If a backup is less than 2 hours old, then is the previous backup less than 5 minutes before this one? If yes, delete it.
+    3. If a backup is between 2-24 hours old, then is the previous backup less than an hour before this one? If yes, delete it.
+    4. If a backup is older than 24 hours, but less 30 days, then is the previous backup less than 24 hours before this one? If yes, delete it.
+    5. If a backup is more than 30 days old, then is the previous backup less than 30 days prior to it? If yes, delete it.
+
+Thus, with this policy, backups are kept over a longer period of time, but at increasingly longer intervals, in order to save space.
+It is a destructive policy in that backups in the gaps between intervals will be permanently deleted.
+The generous alternative is to "Never delete backups".
 
 You can change the strategy at any time to find what works best for you.
 
@@ -203,8 +213,8 @@ Both Autobackups and Checkpoints track the changes made to the text in the Edito
 This includes underlining and sync-codes, as well as some options at the Transcript level (eg. font size, margins, subtiers, conventions in [Transcript Options](settings.md#options)).
 Thus, if one restores (or resets) to an earlier Autobackup or Checkpoint, then not only will the Transcript revert back to the earlier state, but also the basic options for the layout of the Transcript in [Transcript Options](settings.md#options) will also be reverted.
 
-On the other hand, [video-cues](cues.md) and a range of other [Settings](settings.md) are _not_ tracked, including [active media](media.md), projection views, [warning/error toggles](errors.md), locking video views, [muting, volume](timeline.md), etc.
-They cannot be recovered using Autobackups and Checkpoints.
+On the other hand, in regard to Checkpoints the following are not tracked: [video-cues](cues.md) and a range of other [Settings](settings.md) are _not_ tracked, including [active media](media.md), projection views, [warning/error toggles](errors.md), locking video views, [muting, volume](timeline.md), etc.
+They cannot be recovered from earlier Checkpoints, but they will be recovered from earlier Autobackups.
 
 ### Using GitHub and a Git GUI to collaborate on shared Transcripts <a id='GitHub'></a>
 
