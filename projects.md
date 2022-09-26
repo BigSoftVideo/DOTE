@@ -69,6 +69,9 @@ And if the media selected is a video, then it will appear in the [video panel](v
 Note: The path to the current Project folder on your computer's file system is displayed in [Transcript Options](settings.md#options).
 Clicking on that path will open it in your file browser.
 
+Note: It is not permitted to create _nested_ Projects, ie. one cannot create a new Project inside another Project.
+If we allowed this, then chaos would ensue with regard to [version control](versioncontrol.md) and [media file storage](media.md).
+
 > **NOTE: Creating a waveform when a media file is first imported or the waveform is regenerated can take time. This could take more than 5 seconds. Progress is visible as the waveform appears gradually from left to right in the timeline.**
 
 <a id='waveform-troubles'></a>
@@ -82,7 +85,6 @@ Clicking on that path will open it in your file browser.
 > Or see the [Installation guide](install.md#ffmpeg) for an alternative solution using _FFmpeg_ that will generate a waveform for a wider range of audio and video formats.**
 
 ## Open a Project <a id='open-project'></a>
-
 
 To open an already existing Project, one must first [select and open a Transcript in a Project](#open-transcript).
 Selecting `File ➔ Open Project`, will open the Transcript/Project browser panel.
