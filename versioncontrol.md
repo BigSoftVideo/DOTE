@@ -188,6 +188,7 @@ In future releases, one will be able to compare any autobackup with any earlier 
 
 The problem with Autobackups is that without due attention the number of backups keeps increasing.
 Each Autobackup does not take up much space on disk, but still the list can grow long.
+A retention policy is needed.
 
 In the Autobackups panel, _DOTE_ offers 4 strategies to deal with this issue:
 
@@ -200,12 +201,15 @@ In the Autobackups panel, _DOTE_ offers 4 strategies to deal with this issue:
     3. If a backup is between 2-24 hours old, then is the previous backup less than an hour before this one? If yes, delete it.
     4. If a backup is older than 24 hours, but less 30 days, then is the previous backup less than 24 hours before this one? If yes, delete it.
     5. If a backup is more than 30 days old, then is the previous backup less than 30 days prior to it? If yes, delete it.
+        Thus, with this policy, backups are kept over a longer period of time, but at increasingly longer intervals, in order to save space.
+        It is a destructive policy in that backups in the gaps between intervals will be permanently deleted.
+        The generous alternative is to "Never delete backups".
 
-Thus, with this policy, backups are kept over a longer period of time, but at increasingly longer intervals, in order to save space.
-It is a destructive policy in that backups in the gaps between intervals will be permanently deleted.
-The generous alternative is to "Never delete backups".
+After confirming a change in the retention strategy, it should come into effect immediately. If not, then try closing and reopening the Autobackup panel AND/OR wait for a new autobackup to be created (after unsaved changes have been made within the designated time interval in [Settings](settings.md)).
 
 You can change the strategy at any time to find what works best for you.
+
+Note: The chosen strategy is applied to ALL Transcripts, so be careful if you choose a more destructive strategy for one Transcript but then open another Transcript in which you wish to retain all or most Backups.
 
 ### What is tracked by Autobackups and Checkpoints? <a id='tracked'></a>
 
