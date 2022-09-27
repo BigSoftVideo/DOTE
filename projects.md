@@ -148,4 +148,22 @@ Each project can host multiple transcripts of the same video clip(s) added with 
 You can change this in [Transcript Options](settings.md#options) later.
 1. Click `Create`.
 
+### Duplicate the current Transcript <a id='duplicate'></a>
+
+Another possibility is to repurpose the current Transcript using the `Save As New Transcript` on the `File` menu.
+A new Transcript in the current Project will be created from the current Transcript.
+
+1. Open the Transcript that you wish to duplicate.
+2. Select `Save As New Transcript` on the `File` menu.
+3. Type a unique name for your new Transcript (in the current Project), unless you wish to overwrite an already existing one.
+4. Select the options that fit your purpose.
+   1. "Include Checkpoint history"
+   2. "Include Backup history"
+   3. "Copy Transcript text"
+   4. "Copy Sync-codes"
+   5. "Copy Video-cues"
+   6. "Open copied Transcript when completed"
+
+Select `Overwrite/Save` and the new Transcript will be quickly created (and opened).
+
 That's it! You are ready to start [transcribing](transcript.md).
