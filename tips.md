@@ -177,35 +177,37 @@ Using the buttons at the top right of the Transcript panel, you can temporarily 
 
 ### How do I reuse a Transcript with sync-codes to create a new Transcript? <a id='tip17'></a>
 
-When _DOTE_ [creates a new Transcript](project.md) in a Project that already has a Transcript with [sync-codes](sync-code.md), it starts afresh with a blank Transcript with no sync-codes (nor video-cues) in the editor.
-This may be the desired consequence.
-Nevertheless, there are cases in which it would be useful to keep the already marked sync-codes on separate lines from the existing Transcript, but work on a different focus, format or set of [conventions](conventions.md), eg. Mondadian and not Jeffersonian.
-This can be done manually:
+When _DOTE_ [creates a new Transcript](project.md) in a Project that already has a Transcript with [Sync-codes](sync-code.md), it starts afresh with a blank Transcript with no Sync-codes (nor video-cues) in the editor.
+This may be the desired result.
+Nevertheless, there are cases in which it would be useful to keep the already marked sync-codes on separate lines derived the existing Transcript, but work on a different focus, format or set of [conventions](conventions.md), eg. Mondadaian and not Jeffersonian.
+This can be done quite easily:
 
-1. In your computer file system, in the relevant Project folder, manually duplicate the folder in which the original Transcript is stored and give it a new folder name.
-1. Open that new Transcript (based on the folder name) in _DOTE_.'
-The Transcript should be identical to the original.
-1. Click just before the first character of the first line of the Transcript in the editor.
-1. Scroll down to the end of the Transcript.
-1. Press and hold <kbd>SHIFT</kbd>+<kbd>ALT</kbd> (see [Commands](commands.md)) and click just before the first character of the last line of the Transcript.
-A multicursor has been created at the start of every line in the whole Transcript.
-1. Press <kbd>SHIFT</kbd>+<kbd>END</kbd>.
-All the lines will be selected (characters only).
-Note this is _not_ the same as Select All or <kbd>CTRL</kbd>+<kbd>A</kbd>.
-1. Press <kbd>Delete</kbd> or <kbd>CTRL</kbd>+<kbd>X</kbd>.
-All the sync-codes and their lines remain, but the Transcript is blank.
-1. Use the sync-codes to jump in the timeline.
-Start transcribing.
+1. Open the Transcript that you wish to duplicate but without the body text.
+2. Select `Save As New Transcript` from the `File` menu. See [Projects for more information](projects.md#duplicate).
+3. Deselect `Copy Transcript text`, but keep `Copy Sync-codes`.
+4. The duplicated Transcript will have blank lines but retain the Sync-codes.
+5. You can now make a new Transcript without having to add Sync-codes all over again.
+
+Note that you can also, at the same time, retain or remove the [Video-cues](video-cues.md) using this function.
 
 ### How do I use _DOTE_ to comment and tag an audiovisual source before transcribing? <a id='tip9'></a>
 
 Because [sync-codes](sync-code.md) connect lines in the Transcript panel to timecodes in the audiovisual media source that is open, they can be used to comment and tag that media source, for example to note interesting phenomena.
-Tags can be used instead of the speaker-id on each line.
-Then, in the body of the transcript, notes can be added.
-Each tagged line can be anchored to a timecode in the media source, so it is easy to jump to that position in the media and play.
-In this way, a long audiovisual source can be marked up for possible further exploration without needing to transcribe everything.
-If a shorter clip looks interesting enough to transcribe, then a [new Transcript](projects.md) can be created in the current Project and transcription can start at the timecode of interest marked by the tag/comment.
-The tag/comment transcript can be reopened later to locate other interesting phenomena to be transcribed.
+There are different strategies to accomplish this:
+
+1. Use comments `((...))` or technical comments `//...` on new lines to add notes.
+   Remember to add a <kb>TAB</kb> before the comment.
+   Use [Sync-codes](sync-code.md) to sync those comments to the waveform.
+
+2. Another way is to repurpose the speaker-id.
+   Tags can be used instead of the speaker-id on each line.
+   Then, in the body of the transcript, notes can be added.
+   Autocompletion will suggest appropriate tags on a new line.
+   Each tagged line can be anchored with a [Sync-code](sync-code.md) to the timeline, so it is easy to jump to that position in the media and play.
+
+Thus, a long audiovisual source can be marked up for possible further exploration without needing to transcribe everything.
+If a shorter clip looks interesting enough to transcribe, then a [Duplicate Transcript](projects.md#duplicate) with sync-codes can be created in the current Project and transcription can start at the timecode of interest marked by the tag/comment.
+The tag/comment Transcript can be reopened later to locate other interesting phenomena to be transcribed.
 
 ### How do I see hidden characters in the Editor? <a id='tip23'></a>
 
