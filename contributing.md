@@ -1,7 +1,7 @@
-## Contributors to _DOTE_
+## Contributors to _DOTE_ software
 
-- Developer: Artúr Barnabás Kovács (2020-2021)
-- Developer: Alex Stein (2022-)
 - Designer: Paul McIlvenny
-- BigSoftVideo team member: Jacob Davidsen
-- Student assistant: Jonas Noermark (2022)
+- Co-designer/Production: Jacob Davidsen
+- Developer: Alexander Stein (2022-)
+- Student assistant (UI and license manager/webshop): Jonas Noermark (2022)
+- Developer: Artúr Barnabás Kovács (2020-2021)
