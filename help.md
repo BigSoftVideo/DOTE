@@ -82,3 +82,7 @@ If you have purchased the license for the _DOTE Pro_ Edition, then you will be i
 You will be able to share ideas and experiences quickly, and to fix issues interactively with other users and the developers.
 
 If you have purchased the license for the _DOTE Pro Community_ Edition, then you will be invited to several private Discord channels on our server, as well as our private GitHub repo for early beta releases, testing and feedback.
+
+### How to cite _DOTE_
+
+If you are using _DOTE_ for transcription, then we would appreciate that you [cite it](citeDOTE.md) where appropriate.
