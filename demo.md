@@ -7,11 +7,10 @@ We make no claim that the demo transcripts are authoritative or complete; they a
 
 ### Here are some instructions to import the Demo Project
 
-1. Download the latest demo Project file `Lego Demo Project.doteProject` from GitHub, and store it somewhere on your computer.
-It is in the same online location as the _DOTE_ [release](https://github.com/BigSoftVideo/DOTE/releases).
-1. Open _DOTE_ and select `File ➔ Import Project from File`.
-1. Locate the Project file that you downloaded (with the extension `.doteProject`) on your file system and click `Open`.
-1. Select a destination directory/folder by clicking `Select Directory`.
+1. [Download the latest Lego Demo Project](https://dote.sfx.aau.dk/downloads) file and store it somewhere on your computer. [Earlier releases](https://github.com/BigSoftVideo/DOTE/releases) of the Demo project can be found on our GitHub repository.
+2. Open _DOTE_ and select `File ➔ Import Project from File`.
+3. Locate the Project file that you downloaded (with the extension `.doteProject`) on your file system and click `Open`.
+4. Select a destination directory/folder by clicking `Select Directory`.
 For example, a folder in your `Documents` called `My DOTE Projects`.
 1. Enter a name for your imported Demo Project or select the default name.
 1. After you have imported the Project, you can open one of the Demo Transcripts in that Project using `Open Transcript` or `File ➔ Open Transcript` or <kbd>CTRL</kbd>+<kbd>O</kbd> [or <kbd>⌘</kbd>+<kbd>O</kbd> on macOS].
