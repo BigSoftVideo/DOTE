@@ -1,7 +1,7 @@
 ## How to download and install _DOTE_
 
 _DOTE_ is a desktop application that runs on your local computer.
-It is quite easy to download a release build and run it on the Windows and Mac desktop platforms.
+It is very easy to download and install the software and run it on the Windows and Mac desktop platforms.
 It should run on the latest versions of Microsoft Windows 10 or 11 and also Apple macOS (10.10 Yosemite or later; also macOS 12 for the newer Apple Silicon M-series).
 Let us know if you have a problem installing and running _DOTE_ on these platforms.
 Theoretically, it should also run on Linux, but we don't support this.
