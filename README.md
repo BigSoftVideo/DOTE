@@ -35,7 +35,7 @@ And if you want an AI to do automatic transcription _for_ you, then look elsewhe
 
 ### How do I try _DOTE_?
 
-You can [download](https://github.com/BigSoftVideo/DOTE/releases) a free version of _DOTE_ and [install](install.md) it.
+You can [download](https://dote.sfx.aau.dk/downloads) a free version of _DOTE_ and [install](install.md) it.
 
 - It is restricted by the number of lines per transcript, and the premium features are locked.
 - If there are updates, you will find a list of new features and bug fixes on the [release page](https://github.com/BigSoftVideo/DOTE/releases).
