@@ -7,15 +7,14 @@ We make no claim that the demo transcripts are authoritative or complete; they a
 
 ### Here are some instructions to import the Demo Project
 
-1. [Download the latest Lego Demo Project](https://dote.sfx.aau.dk/downloads) file and store it somewhere on your computer. [Earlier releases](https://github.com/BigSoftVideo/DOTE/releases) of the Demo project can be found on our GitHub repository.
-2. Open _DOTE_ and select `File ➔ Import Project from File`.
-3. Locate the Project file that you downloaded (with the extension `.doteProject`) on your file system and click `Open`.
-4. Select a destination directory/folder by clicking `Select Directory`.
+1. [Download the latest Lego Demo Project](https://dote.sfx.aau.dk/downloads) file and store it somewhere on your computer. [Earlier releases](https://github.com/BigSoftVideo/DOTE/releases) of the Demo project can be found on our public GitHub repository.
+1. Open _DOTE_ and select `File ➔ Import Project from File`.
+1. Locate the Project file that you downloaded (with the extension `.doteProject`) on your file system and click `Open`.
+1. Select a destination directory/folder by clicking `Select Directory`.
 For example, a folder in your `Documents` called `My DOTE Projects`.
 1. Enter a name for your imported Demo Project or select the default name.
-1. After you have imported the Project, you can open one of the Demo Transcripts in that Project using `Open Transcript` or `File ➔ Open Transcript` or <kbd>CTRL</kbd>+<kbd>O</kbd> [or <kbd>⌘</kbd>+<kbd>O</kbd> on macOS].
-Locate and select the `Lego Transcript Jeffersonian` or the `Lego Transcript Mondadaian` subfolder in the Project folder that you created in an earlier step.
-1. The [DOTE project](projects.md) should open and you will see the waveform, video and prepared Transcript.
+1. After you have imported the Project, you can open one of the Demo Transcripts in that Project using `Open Transcript` or `File ➔ Open Transcript` or <kbd>CTRL</kbd>+<kbd>O</kbd> [or <kbd>⌘</kbd>+<kbd>O</kbd> on macOS]. There are seven Transcripts to choose from, though some only work properly with the _DOTE Pro_ Edition.
+2. The Transcript should open, and you will see the waveform, video and prepared Transcript.
 
 NOTE: Do _not_ store the Demo Project in the same folder tree as the DOTE application itself.
 Please see the [_Where to store your DOTE projects?_](projects.md#storing) help section for more information on solving issues when using remote folders (Windows) and volumes (macOS) for storing projects.
