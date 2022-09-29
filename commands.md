@@ -19,7 +19,7 @@ For macOS users:
 - For reference, here is a [guide to using <kbd>Right Click</kbd> on macOS](https://www.macworld.co.uk/how-to/mac/right-click-3610351/).
 - Here is a [guide to the Emoji Picker on macOS](https://www.imore.com/how-to-use-emoji-on-your-mac).
 
-Let us know on GitHub if something is not working for you.
+Let us know on Discord or on our GitHub repository if something is not working for you.
 
 ### Graphical guide for basic set <a id='commands'></a>
 

@@ -38,7 +38,7 @@ And if you want an AI to do automatic transcription _for_ you, then look elsewhe
 You can [download](https://dote.sfx.aau.dk/downloads) a free version of _DOTE_ and [install](install.md) it.
 
 - It is restricted by the number of lines per transcript, and the premium features are locked.
-- If there are updates, you will find a list of new features and bug fixes on the [release page](https://github.com/BigSoftVideo/DOTE/releases).
+- If there are updates, you will find the [latest release on the Webshop](https://dote.sfx.aau.dk/downloads), and a list of new features and bug fixes on the [release page](https://github.com/BigSoftVideo/DOTE/releases) on our public GitHub repository.
 - DOTE has native support for Windows 10 and 11, as well as for macOS, including the new Apple Silicon with M-series.
 
 To unlock more features, you will need to purchase the [`DOTE Pro` Edition](pro.md).

@@ -47,8 +47,8 @@ Here is a list of help tutorials on specific topics:
 We have made a bunch of video tutorials you can view to learn how to use _DOTE_.
 They are accessible from our YouTube channel.
 
-Some of the tutorials are also available as importable _DOTE_ Projects.
-Download some of the [_DOTE_ tutorials from the releases page](https://github.com/BigSoftVideo/DOTE/releases).
+Some of the tutorials are also available as importable _DOTE_-specific Projects.
+Download some of the [_DOTE_-specific tutorials from the releases page](https://github.com/BigSoftVideo/DOTE/releases).
 Use _DOTE_ to [import each Project](import.md) into your _MY DOTE PROJECTS_ folder, for example.
 When you are done importing, you can just open the Transcript in the Project using `File/Open Transcript` and you will see a hyperlinked version of the video with a table of contents in the Transcript panel.
 Click on a [sync-code](sync-code.md) to jump to that topic in the video.
