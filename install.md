@@ -17,6 +17,10 @@ Note that only one instance of _DOTE_ is allowed to run at the same time.
         - The _DOTE_ icon should also appear on your desktop.
         In future, just `double click` the icon and _DOTE_ will start.
 
+[![Windows warning](images/install/Win-defender.png)](images/install/Win-defender.png | width=100)
+
+[![Windows run anyway](images/install/Win-defender-run.png)](images/install/Win-defender-run.png | width=100)
+
     - **macOS**
         - For macOS, double click on the _DOTE_ icon (`DMG`).
         - Drag and drop the unpacked `DOTE` app into your `Applications` folder and `double click` to run.
@@ -24,9 +28,18 @@ Note that only one instance of _DOTE_ is allowed to run at the same time.
         - In that case, open `System Preferences`, select `Security & Privacy`, select `General` tab, and select and approve `Allow apps downloaded from`/`App Store and identified developers`.
         You may need to _unlock_ your settings to make these changes.
 
+[![macOS install](images/install/dmg.png)](images/install/dmg.png | width=100)
+
 ### Installation problems <a id='problems'></a>
 
-If the installation fails, then you may need to get permission from your IT support to allow installation of the _DOTE_ software.
+On Windows, the installation may fail because Windows Defender does not recognise the software.
+You can set Defender to allow DOTE to run on your computer.
+
+You may have an Anti-virus/malware programme installed.
+It may not recognise _DOTE_ and warn you about installing/running the software on your computer.
+Just set the Anti-virus software to trust _DOTE_.
+
+If the installation fails because you do not have administrator rights, then you may need to get permission from your IT support to allow installation of the _DOTE_ software.
 
 - For example, you may not have permission in Windows (Group Policy) to install unknown or unapproved software.
 This is a local problem with how your computer has been setup by a security conscious IT support.
@@ -53,6 +66,10 @@ Alternatively, you can let _DOTE_ install the free, open source _FFmpeg_ on your
 4. The files will be downloaded and installed.
 5. The "Not found" indicators should change to "Available".
 6. Try restarting _DOTE_ if something looks amiss.
+
+[![Transcript Options](images/settings/ffmpeg-missing.png)](images/settings/ffmpeg-missing.png | width=200)
+
+[![Transcript Options](images/settings/ffmpeg-installed.png)](images/settings/ffmpeg-installed.png | width=200)
 
 NOTE: If you reinstall _DOTE_ or update to a newer version, then you will have to repeat this procedure to reinstall FFmpeg.
 
@@ -88,3 +105,5 @@ Finally, you may not have access rights to the standard folder for installation 
 
 - To update _DOTE_ on both operating systems, just close _DOTE_, download the update and follow the same procedure above.
 _DOTE_ will be updated and restart automatically.
+
+_DOTE_ will remind you if there is a new release available online.
