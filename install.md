@@ -103,11 +103,11 @@ Finally, you may not have access rights to the standard folder for installation 
 
 ### _DOTE Pro_ license key
 
-- You will need to purchase and enter a [license key](pro.md#license) to unlock the premium features in _DOTE Pro_.
+You will need to purchase and enter a [license key](pro.md#license) to unlock the premium features in _DOTE Pro_.
 
 ### Updating to a new release
 
-- To update _DOTE_ on both operating systems, just close _DOTE_, download the update and follow the same procedure above.
-_DOTE_ will be updated and restart automatically.
-
 _DOTE_ will remind you if there is a new release available online.
+
+To update _DOTE_ on both operating systems, just close _DOTE_, download the update and follow the same procedure above.
+_DOTE_ will be updated and restart automatically.
