@@ -130,15 +130,19 @@ Editing while peeking is not allowed.
 
 _DOTE_ provides a user interface to display exactly what has changed in the Transcript between specific autobackups as well as what has changed in the Transcript between specific checkpoints, eg. between the current version of the Transcript and the previous checkpoint version.
 
+[![Compare](images/versioncontrol/compare.png)](images/versioncontrol/compare.png)
+
 ##### Comparing checkpoints
 
 1. Open `Checkpoints`.
-1. By default, the Compare function is toggled on (see tick box).
+2. By default, the Compare function is toggled on (see tick box).
 You can turn it off and on as you see fit.
 1. If you turn Compare mode off, then you will see the Transcript _and_ sync-codes, which you can use to jump around.
 The current audio track will be playable (but the video will not be visible).
 And you can use [Find](find.md) to locate a text string in the earlier version.
 Because you are only peeking at an earlier version, the Transcript and the sync-codes will _not_ be editable.
+
+[![Compare](images/versioncontrol/compare2.png)](images/versioncontrol/compare2.png)
 
 The Compare function displays several useful bits of useful information:
 
@@ -190,6 +194,8 @@ The problem with Autobackups is that without due attention the number of backups
 Each Autobackup does not take up much space on disk, but still the list can grow long.
 A retention policy is needed.
 
+[![Prune Autobackups](images/versioncontrol/prune.png)](images/versioncontrol/prune.png)
+
 In the Autobackups panel, _DOTE_ offers 4 strategies to deal with this issue:
 
 1. "Keep only the most recent backup" - only one backup is kept, so if one has set an autobackup to be made every 5 minutes, then this option will only retain the most recent changes within at the most the last 5 minutes.
@@ -239,4 +245,4 @@ That is because if one [exports and imports DOTE Projects or Transcripts](import
 It is a question of ownership and security.
 Rather than the user having to issue commands repeatedly to make directories safe for Git operations, we assume that all directories are safe.
 This is fine if one does not use Git for other purposes.
-Read more about `safe.directory`(<https://git-scm.com/docs/git-config/2.35.2>).
+Read more about [`safe.directory`](<https://git-scm.com/docs/git-config/2.35.2>).
