@@ -8,25 +8,25 @@ Theoretically, it should also run on Linux, but we don't support this.
 Contact us if you are interested in using _DOTE_ on this platform.
 Note that only one instance of _DOTE_ is allowed to run at the same time.
 
-- Choose the correct and latest version for your operating system from our [_DOTE_ Webshop](https://dote.sfx.aau.dk/downloads) or you can browse archived [releases](https://github.com/BigSoftVideo/DOTE/releases) on our public _DOTE_ GitHib repository.
+Choose the correct and latest version for your operating system from our [_DOTE_ Webshop](https://dote.sfx.aau.dk/downloads) or you can browse archived [releases](https://github.com/BigSoftVideo/DOTE/releases) on our public _DOTE_ GitHib repository.
 
-    - **Windows**
-        - To install the Windows version, `double click` on the `EXE` file.
-        - If you get a Windows warning message, then click the `More info` link, and choose `RUN ANYWAY`.
-        - _DOTE_ will start after the install is complete.
-        - The _DOTE_ icon should also appear on your desktop.
-        In future, just `double click` the icon and _DOTE_ will start.
+- **Windows**
+    - To install the Windows version, `double click` on the `EXE` file.
+    - If you get a Windows warning message, then click the `More info` link, and choose `RUN ANYWAY`.
+    - _DOTE_ will start after the install is complete.
+    - The _DOTE_ icon should also appear on your desktop.
+    In future, just `double click` the icon and _DOTE_ will start.
 
 [![Windows warning](images/install/Win-defender.png)](images/install/Win-defender.png)
 
 [![Windows run anyway](images/install/Win-defender-run.png)](images/install/Win-defender-run.png)
 
-    - **macOS**
-        - For macOS, double click on the _DOTE_ icon (`DMG`).
-        - Drag and drop the unpacked `DOTE` app into your `Applications` folder and `double click` to run.
-        - NOTE: your macOS system settings may be set to restrict installations.
-        - In that case, open `System Preferences`, select `Security & Privacy`, select `General` tab, and select and approve `Allow apps downloaded from`/`App Store and identified developers`.
-        You may need to _unlock_ your settings to make these changes.
+- **macOS**
+    - For macOS, double click on the _DOTE_ icon (`DMG`).
+    - Drag and drop the unpacked `DOTE` app into your `Applications` folder and `double click` to run.
+    - NOTE: your macOS system settings may be set to restrict installations.
+    - In that case, open `System Preferences`, select `Security & Privacy`, select `General` tab, and select and approve `Allow apps downloaded from`App Store and identified developers`.
+    You may need to _unlock_ your settings to make these changes.
 
 [![macOS install](images/install/dmg.png)](images/install/dmg.png)
 
@@ -67,9 +67,13 @@ Alternatively, you can let _DOTE_ install the free, open source _FFmpeg_ on your
 5. The "Not found" indicators should change to "Available".
 6. Try restarting _DOTE_ if something looks amiss.
 
-[![Transcript Options](images/settings/ffmpeg-missing.png)](images/settings/ffmpeg-missing.png)
+BEFORE:
 
-[![Transcript Options](images/settings/ffmpeg-installed.png)](images/settings/ffmpeg-installed.png)
+[![FFmpeg missing](images/settings/ffmpeg-missing.png)](images/settings/ffmpeg-missing.png)
+
+AFTER:
+
+[![FFmpeg installed](images/settings/ffmpeg-installed.png)](images/settings/ffmpeg-installed.png)
 
 NOTE: If you reinstall _DOTE_ or update to a newer version, then you will have to repeat this procedure to reinstall FFmpeg.
 
