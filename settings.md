@@ -18,15 +18,18 @@ There are several different types of settings that affect the operation of _DOTE
 - Shortcuts
 - External software
 
+[![Settings](images/settings/settings.png)](images/settings/settings.png)
+
 Some of these settings can be overridden in the current [Transcript Options](#options).
 If so, then this is indicated in the `Settings`.
-Some of the settings are only changed when the Settings dialog box is closed.
 
-[![Settings](images/settings/settings.png)](images/settings/settings.png)
+[![Settings](images/settings/overridden.png)](images/settings/overridden.png)
+
+Some of the settings are only changed when the Settings dialog box is closed.
 
 ##### Version control
 
-- [Autobackup](versioncontrol.md) time interval default.
+- [Autobackup](versioncontrol.md#autobackup) time interval default.
 
 ##### Editor
 
@@ -37,7 +40,7 @@ Some of the settings are only changed when the Settings dialog box is closed.
 ##### Video
 
 - Option to automatically restart media playback from the beginning when the end of the recording is reached.
-- The default [video format](video.md).
+- The default [video format](media.md#add).
 - The default display projection for 360 videos.
 
 ##### Conventions
@@ -46,7 +49,7 @@ Some of the settings are only changed when the Settings dialog box is closed.
 
 ##### Subtier
 
-- The default [subtier alignment symbols](tiers.md) can be defined and ordered by the user.
+- The default [subtier alignment symbols](tiers.md#assign) can be defined and ordered by the user.
 The default list includes some of the most commonly used symbols in the Mondadaian system.
 Note that this list can be rearranged by selecting, dragging and dropping an item in the list.
 
@@ -58,8 +61,10 @@ Note that this list can be rearranged by selecting, dragging and dropping an ite
 
 - Optional folder path to installed _FFmpeg_ software for waveform generation.
 _DOTE_ does its best internally to create a waveform for every media file added with [Media Manager](media.md).
-If this is not working for you, then you can [install _FFmpeg_](install.md#ffmpeg) on your computer and link the file path to _DOTE_.
+If this is not working for you, then you can automatically [install _FFmpeg_](install.md#ffmpeg) on your computer and link the file path to _DOTE_.
 We cannot include the open source software package inside _DOTE_ because of software licensing restrictions.
+
+[![Transcript Options](images/settings/ffmpeg-installed.png)](images/settings/ffmpeg-installed.png)
 
 ### Transcript Options <a id='options'></a>
 
@@ -69,7 +74,10 @@ We cannot include the open source software package inside _DOTE_ because of soft
 
 There are several different types of options that affect how the Editor works.
 Some of these are inherited from `Settings` and can be overridden on a transcript by transcript basis.
-They can be reset to the Default if they vary from that in `Settings`.
+They can be "reset" to the Default if they vary from that in `Settings`.
+
+[![Transcript Options](images/settings/overridden2.png)](images/settings/overridden2.png)
+
 Many of these options are only changed when the Transcript Options dialog box is closed.
 
 - The path to the Project folder on your computer's file system is displayed.
@@ -86,5 +94,5 @@ Note that this list can be rearranged by selecting, dragging and dropping an ite
 It is up to the user to indicate whether or not each subtier will also be autocompleted after typing and autocompleting a new speaker in the Transcript Editor.
 
 Note: Because some options are tracked by _DOTE_, they may be reset to a prior state if the user resets to an earlier Checkpoint or Autobackup.
-For example, [named subtier types](tiers.md) may be altered because they were different in an earlier state of the Transcript.
+For example, [named subtier types](tiers.md) may be altered because they were in a different state in an earlier version of the Transcript.
 This is necessary because they need to match the prior state of the Transcript and its subtiers in order to preserve history.
