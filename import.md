@@ -40,7 +40,7 @@ To export a Project, do the following:
 
 [![Export Project](images/import/export-project.png)](images/import/export-project.png)
 
-> **NOTE: Exporting and Importing Projects with Media files may take some time to complete, depending on the access speed of your storage device and the size of the media files. When importing, the media files have to be decompressed and written to the location of the new Project. This could take more than 5 seconds.**
+> **NOTE: Exporting and Importing Projects with Media files may take some time to complete, depending on the access speed of your storage device and the size of the media files. When importing, all the media files have to be written to the location of the new Project. This could take more than 5 seconds.**
 
 ### Importing a Project <a id='import-project'></a>
 
@@ -54,6 +54,8 @@ If there already is a Project with that name, you can overwrite it.
 Be aware that this is destructive and the overwritten Project cannot be recovered.
 1. After you have imported the Project, you can open a shared Transcript in that Project using `Open Transcript` or `File ➔ Open Transcript` or <kbd>CTRL</kbd>+<kbd>O</kbd> [or <kbd>⌘</kbd>+<kbd>O</kbd> on macOS].
 
+[![Import Project](images/import/import-project.png)](images/import/import-project.png)
+
 ### Exporting a Transcript <a id='export-transcript'></a>
 
 If you wish to share a single Transcript, then follow these steps:
@@ -65,6 +67,7 @@ If you wish to share a single Transcript, then follow these steps:
 The filename suggested will be the same as the name of the Transcript in `DOTE`.
 1. Click `Save` and the exported Transcript file will be created and saved (`.dote`).
 
+[![Export Transcript](images/import/export-transcript.png)](images/import/export-transcript.png)
 
 ### Importing a Transcript <a id='import-transcript'></a>
 
@@ -78,6 +81,8 @@ To import a single Transcript that has been shared into a local Project, then do
 If there already is a Transcript with that name, you can overwrite it.
 Be aware that this is destructive and the overwritten Transcript cannot be recovered.
 1. After you have imported the Transcript, you can open it using `Open Transcript` or `File ➔ Open Transcript` or <kbd>CTRL</kbd>+<kbd>O</kbd> [or <kbd>⌘</kbd>+<kbd>O</kbd> on macOS].
+
+[![Import Transcript](images/import/import-transcript.png)](images/import/import-transcript.png)
 
 ### Notes
 

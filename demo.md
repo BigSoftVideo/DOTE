@@ -32,6 +32,8 @@ The Lego Demo Project contains the following media and Transcripts:
     - Transcripts that have discoverable errors.
     - A Transcript following an alternative version of the Mondadaian conventions.
 
+[![DOTE demo](images/demo/demo-transcripts.png)](images/demo/demo-transcripts.png)
+
 ### How to try the Demo
 
 In the Demo Project, there are several examples of Transcripts of the same event made following [two different conventions](conventions.md).
