@@ -36,6 +36,8 @@ Here you will find ideas and solutions to specific tasks that you might wish to 
 - [Be cautious when editing sync-codes, video-cues and underlinings](#tip11)
 - [Be patient with Waveform generation, Checkpoint peeking, Exporting and Importing Projects and transcript heuristics](#tip12)
 - [Keep your _DOTE_ projects safe and secure](#tip13)
+- [How do I cite _DOTE_?](#tip35)
+- [How was _DOTE_ developed?](#tip36)
 
 ### What is a Project? <a id='tip27'></a>
 
@@ -395,3 +397,17 @@ A solution may be to upgrade your computer to a faster processor or to use a fas
 _DOTE_ has [two in-built systems to be able to track changes](versioncontrol.md) over time when editing a Transcript, and to restore or reset the current Transcript to an earlier state.
 However, if your computer crashes and is not recoverable, or if you permanently delete the Project or Transcript folder, then there is nothing that _DOTE_ can do to recover the Project and/or Transcripts because the files no longer exist.
 Therefore, as for any valuable data, keep regular backups of your Projects and Transcripts in a safe location, eg. on another drive, an external drive or the cloud.
+
+### How do I cite _DOTE_? <a id='tip35'></a>
+
+You can find out more [information on how to cite here](citeDOTE.md).
+
+### How was _DOTE_ developed? <a id='tip36'></a>
+
+_DOTE_ was conceived in 2017 and developed in fits and spurts from 2018 to the first release in October 2022.
+
+- The software was developed for the Electron platform in Javascript/Typescript.
+- The online help guide was started in May 2020.
+- Beta-testing started in May 2020.
+- The modified license sever and webshop were built in the summer of 2022 in PHP/Laravel.
+- Here is the incredible [dream team who developed _DOTE_](contributing.md).
