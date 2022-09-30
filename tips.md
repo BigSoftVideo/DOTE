@@ -85,6 +85,8 @@ _DOTE_ has some golden rules to make your life easier:
 1. _Always_ use a consistent speaker-id _followed by_ a colon <kbd>:</kbd> and _then_ a <kbd>TAB</kbd> at the start of a primary or secondary speaker tier.
 _Never_ use <kbd>SPACE</kbd>s after that colon.
 Use a colon even with the Mondadaian conventions; in _DOTE_ you can [export the transcript](export.md#mondada-rtf) in the recommended Mondadaian format (eg. without a colon) later.
+1. Do the same if a speaker continues onto a new line. Add a <kbd>TAB</kbd> first.
+1. Do the same for lines with only a comment or a pause indictor. Add a <kbd>TAB</kbd> first.
 1. Do the same when using subtiers, eg. participant-id + named subtier type followed by a colon and then a <kbd>TAB</kbd>.
 _DOTE_ can [export the transcript](export.md#mondada-rtf) in the recommended Mondadaian format (eg. with reduced lowercase participant names) later.
 1. _Never_ use <kbd>TAB</kbd>s in the transcript body.
