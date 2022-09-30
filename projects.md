@@ -163,13 +163,13 @@ A new Transcript in the current Project will be created from the current Transcr
 1. Open the Transcript that you wish to duplicate.
 2. Select `Save As New Transcript` on the `File` menu.
 3. Type a unique name for your new Transcript (in the current Project), unless you wish to overwrite an already existing one.
-4. Select the options that fit your purpose.
-   1. "Include Checkpoint history"
-   2. "Include Backup history"
-   3. "Copy Transcript text"
-   4. "Copy Sync-codes"
-   5. "Copy Video-cues"
-   6. "Open copied Transcript when completed"
+4. Select the options that fit your purpose:
+   - "Include Checkpoint history" - You have the option to include/exclude your Checkpoint history in the new Transcript.
+   - "Include Backup history" - You can exclude the Backup history if you wish in the new Transcript.
+   - "Copy Transcript text" - You don't have to include the body of the Transcript in the new Transcript.
+   - "Copy Sync-codes" - This is useful to toggle on if you wish to work with the same sync-codes in the new Transcript.
+   - "Copy Video-cues" - This is useful to toggle on if you wish to keep the same active media and video-cues in the new Transcript.
+   - "Open copied Transcript when completed" - Toggle off if you don't want to immediately open the new Transcript.
 
 Select `Overwrite/Save` and the new Transcript will be quickly created (and opened).
 
