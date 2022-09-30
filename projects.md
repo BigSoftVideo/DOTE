@@ -136,6 +136,9 @@ The panel has three vertical panes (see Figure):
     - The Project names are in grey and the Transcript names are highlighted on a blue background.
 
 Note that in some of the panes, recognised _DOTE_ Projects are highlighted in green and recognised Transcripts (in Projects) are highlighted with a blue background.
+
+[![Highlight status](images/projects/highlight.png)](images/projects/highlight.png)
+
 If an orphan Transcript without a parent Project is discovered, then it will be highlighted in red.
 Clicking on a Transcript will open it in _DOTE_.
 
@@ -148,10 +151,14 @@ Each project can host multiple transcripts of the same video clip(s) added with 
 You can change this in [Transcript Options](settings.md#options) later.
 1. Click `Create`.
 
+[![New Transcript](images/projects/new-transcript.png)](images/projects/new-transcript.png)
+
 ### Duplicate the current Transcript <a id='duplicate'></a>
 
 Another possibility is to repurpose the current Transcript using the `Save As New Transcript` on the `File` menu.
 A new Transcript in the current Project will be created from the current Transcript.
+
+[![Save As New Transcript](images/projects/save-as.png)](images/projects/save-as.png)
 
 1. Open the Transcript that you wish to duplicate.
 2. Select `Save As New Transcript` on the `File` menu.
