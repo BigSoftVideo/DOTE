@@ -1,5 +1,5 @@
 ## How to download and install _DOTE_
-
+ffm
 _DOTE_ is a desktop application that runs on your local computer.
 It is very easy to download and install the software and run it on the Windows and Mac desktop platforms.
 It should run on the latest versions of Microsoft Windows 10 or 11 and also Apple macOS (10.10 Yosemite or later; also macOS 12 for the newer Apple Silicon M-series).
@@ -17,9 +17,9 @@ Note that only one instance of _DOTE_ is allowed to run at the same time.
         - The _DOTE_ icon should also appear on your desktop.
         In future, just `double click` the icon and _DOTE_ will start.
 
-[![Windows warning](images/install/Win-defender.png | width=100)](images/install/Win-defender.png)
+[![Windows warning](images/install/Win-defender.png)](images/install/Win-defender.png)
 
-[![Windows run anyway](images/install/Win-defender-run.png | width=100)](images/install/Win-defender-run.png)
+[![Windows run anyway](images/install/Win-defender-run.png)](images/install/Win-defender-run.png)
 
     - **macOS**
         - For macOS, double click on the _DOTE_ icon (`DMG`).
@@ -28,7 +28,7 @@ Note that only one instance of _DOTE_ is allowed to run at the same time.
         - In that case, open `System Preferences`, select `Security & Privacy`, select `General` tab, and select and approve `Allow apps downloaded from`/`App Store and identified developers`.
         You may need to _unlock_ your settings to make these changes.
 
-[![macOS install](images/install/dmg.png | width=100)](images/install/dmg.png)
+[![macOS install](images/install/dmg.png)](images/install/dmg.png)
 
 ### Installation problems <a id='problems'></a>
 
@@ -67,9 +67,9 @@ Alternatively, you can let _DOTE_ install the free, open source _FFmpeg_ on your
 5. The "Not found" indicators should change to "Available".
 6. Try restarting _DOTE_ if something looks amiss.
 
-[![Transcript Options](images/settings/ffmpeg-missing.png | width=200)](images/settings/ffmpeg-missing.png)
+[![Transcript Options](images/settings/ffmpeg-missing.png)](images/settings/ffmpeg-missing.png)
 
-[![Transcript Options](images/settings/ffmpeg-installed.png | width=200)](images/settings/ffmpeg-installed.png)
+[![Transcript Options](images/settings/ffmpeg-installed.png)](images/settings/ffmpeg-installed.png)
 
 NOTE: If you reinstall _DOTE_ or update to a newer version, then you will have to repeat this procedure to reinstall FFmpeg.
 
