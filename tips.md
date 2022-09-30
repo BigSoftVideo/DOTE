@@ -404,7 +404,7 @@ You can find out more [information on how to cite here](citeDOTE.md).
 
 ### How was _DOTE_ developed? <a id='tip36'></a>
 
-_DOTE_ was conceived in 2017 and developed in fits and spurts from 2018 to the first release in October 2022.
+_DOTE_ was conceived in 2017, prototyped in 2018 and developed in fits and spurts from 2020 to the first release in October 2022.
 
 - The software was developed for the Electron platform in Javascript/Typescript.
 - The online help guide was started in May 2020.
