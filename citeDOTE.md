@@ -1,6 +1,6 @@
 ## How to cite _DOTE_?
 
-We would appreciate that you cite _DOTE_ when you have used it to create transcripts for publication or presentation.
+The [_Dote_ Team](contributing.md) would appreciate that you cite _DOTE_ whenever you have used it to create transcripts for publication, presentation or teaching.
 
 _DOTE_ can be cited in the following ways (in Chicago Author-Date 17th edition style):
 
@@ -10,4 +10,3 @@ _DOTE_ can be cited in the following ways (in Chicago Author-Date 17th edition s
 
 - VBN entry
 - Zenodo DOI
-- GitHub repo
