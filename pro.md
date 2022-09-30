@@ -41,3 +41,4 @@ You can release a device that has a license key already installed. Open _DOTE_ a
 If all your device slots are full, and you cannot unregister any of the devices because they are unavailable, then contact us explaining the situation (dote@id.aau.dk).
 - If you wish to enter a different licence key, then select `Clear License Key`.
 This is useful if you are sharing a computer or you have purchased a new license.
+- If, for whatever reason, an updated license key is available for the current user (identified by email), then the user will be informed when _DOTE_ runs.
