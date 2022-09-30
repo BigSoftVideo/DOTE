@@ -49,6 +49,9 @@ The video-cue can then be updated with the current viewport in the [Primary Vide
 
 - If a viewport in the Primary video panel has been changed, then the `Set camera to current view` button will be active (otherwise it will be greyed out).
 Clicking it will change the viewport for the selected video for the current video-cue.
+
+[![Video-cues](images/cues/video-cue-edit3.png)](images/cues/video-cue-edit3.png)
+
 - Video-cues can be deleted.
     - Select the video-cue, open the video-cue panel, and choose `Delete`.
 - The [Primary and Secondary Video panels](video.md) can be independently locked to the bookmarked video-cue.
