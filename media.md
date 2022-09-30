@@ -35,6 +35,11 @@ This is only necessary if the waveform is corrupted or is not displaying correct
     - Quicktime (`MOV`) format on macOS is not supported.
     Importing videos in this format may cause _DOTE_ to freeze or crash, so make sure your videos are formatted in a non-Quicktime `MP4` format.
     - 2D and 360-degree _monoscopic_ _equirectangular_ video formats are supported at present (_not_ stereoscopic).
+
+[![Format](images/media/format.png)](images/media/format.png)
+
+[![Projection](images/media/projection.png)](images/media/projection.png)
+
 - Audio only formats can be imported as well.
     In that case, the video panel will be empty.
     - Audio formats supported include `WAV`, `MP3`, `OGG`.
@@ -45,6 +50,14 @@ This is only necessary if the waveform is corrupted or is not displaying correct
 Media sources that are added to a Project form a common pool available for activation in every Transcript in the current Project.
 For each Transcript, one or more media can be activated locally in that Transcript.
 They are selected from the list of media in the pool and activated.
+
+BEFORE:
+
+[![Inactive media](images/media/inactive.png)](images/media/inactive.png)
+
+AFTER:
+
+[![Activate media](images/media/active.png)](images/media/active.png)
 
 1. Select one or more media sources from the list to be activated or de-activated by clicking the tickbox.
 1. Click `Close`.
@@ -61,7 +74,11 @@ Clicking on the same column header switches between ascending/descending sort or
 1. A media source can be selected.
 Then click and drag it to a new position vertically in the list and drop.
 
+[![Rearrange media](images/media/drag2.png)](images/media/drag2.png)
+
 Note that the Media Manager control panel can be resized by dragging the handle at the bottom right.
+
+[![Rearrange media](images/media/drag.png)](images/media/drag.png)
 
 ### How to delete a media source from your current Project <a id='delete'></a>
 
@@ -72,3 +89,5 @@ It (and the associated waveform) will no longer be available in the Project.
 It will be sent to the Recycle Bin or Trash on your computer.
 If you empty the Recycle Bin or Trash, then the file will be lost.
 If you might wish to use the file again, then make a copy first in another location.
+
+[![Delete media](images/media/delete.png)](images/media/delete.png)
