@@ -61,6 +61,8 @@ If you have followed _DOTE_'s format and layout conventions, then there are seve
 - `Only primary lines`: Only lines with a primary speaker tier or a timing interval tier are given line numbers.
 - `Only first instance of consecutive primary lines`: Only the first instance of line with a primary speaker tier is given a line number if the same speaker continues in the next [neighbourhood](jefferson.md#neighbourhood).
 
+[![Export to SRT](images/export/export-line-numbers.png)](images/export/export-line-numbers.png)
+
 #### Number the metadata lines
 
 If `All` is selected, then one can choose to number the metadata lines as well, or not, ie. all the lines at the start of the transcript which are technical comments..
@@ -113,6 +115,14 @@ If you have set your transcript to Jeffersonian conventions in [Transcript Optio
     - Grey text for all subtiers.
     - Italic for translation subtiers.
     - When formatting is selected, syntax highlighting is not available.
+
+BEFORE:
+
+[![Export to SRT](images/export/pretty1.png)](images/export/pretty1.png)
+
+AFTER:
+
+[![Export to SRT](images/export/pretty2.png)](images/export/pretty2.png)
 
 ##### Mondadaian style and layout <a id='mondada-rtf'></a>
 
@@ -189,6 +199,8 @@ Options available:
 Most media players on the desktop will play a video with the `SRT` file.
 VLC or [PotPlayer](https://potplayer.daum.net/) (Windows only) are recommended.
 If the filename of the `SRT` file is the same as the video file in the same folder, then video playback with subtitles will be automatic.
+
+[![Result of export to SRT](images/export/videoSRT.png)](images/export/videoSRT.png)
 
 When exporting to SRT it is best that you focus on [sync-codes](sync-code.md) on the [HEAD line of a neighbourhood](tiers.md), eg. the primary speaker line or a pause line or a timing interval line.
 If you do have sync-codes also on overlapping speaker lines or subtier lines (Mondadaian), then _DOTE_ will ignore them and just use the subtitle timing intervals between the sync-codes on HEAD lines across neighbourhoods.
