@@ -30,6 +30,15 @@ Choose the correct and latest version for your operating system from our [_DOTE_
 
 [![macOS install](images/install/dmg.png)](images/install/dmg.png)
 
+### End User License Agreement
+
+The first thing you need to do after installing _DOTE_ is agree to the Terms and Conditions of the EULA.
+
+[![EULA](images/install/eula.png)](images/install/eula.png)
+
+If you do, then _DOTE_ won't ask again on that machine.
+If you don't, then _DOTE_ will not start.
+
 ### Installation problems <a id='problems'></a>
 
 On Windows, the installation may fail because Windows Defender does not recognise the software.
