@@ -9,6 +9,11 @@ plugins:
 relative_links:
   enabled: true
   collections: true
+tipue_search:
+  include:
+    pages: true
+  exclude:
+    files: [search.html, student-assistant.md, 404.md]
 include:
   - README.md
   - contributing.md

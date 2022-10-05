@@ -1,3 +1,6 @@
+---
+tipue_search_active: true
+---
 ## What is _DOTE_?
 
 _DOTE_ is a new type of transcription software developed by the [_BigSoftVideo_ team](https://github.com/BigSoftVideo) at [Aalborg University](https://www.bigvideo.aau.dk).
