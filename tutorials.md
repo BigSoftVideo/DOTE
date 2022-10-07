@@ -4,19 +4,28 @@ We are producing a range of informative video tutorials to help you get familiar
 
 The videos are available on our [YouTube channel](#).
 
-The video tutorials include:
+The video tutorials mostly come in two flavours: a basic version and an advanced version.
+We have created more than 25 videos, including:
 
-- Promotional video
-- How to install _DOTE_
-- How to apply the license key
-- How to work with _DOTE_ projects
-- How to use the Media Manager to add media to your project
-- How to playback media
-- How to use the video panel(s)
-- How to use the timeline(s)
-- How to use sync-codes
-- How to use video-cues
-- How to edit your Transcript in the Editor
+| **Topic**    |  **Basic**          |  **Advanced** |
+|----------|-----------------|-----------|
+| Promotional video | X |  |
+| How to navigate the webshop | X |  |
+| How to navigate the online help guide | X |  |
+| How to install _DOTE_ | X | X |
+| How to apply the license key | X | X |
+| How to work with _DOTE_ projects | X | X |
+| How to use the Media Manager to add media to your project | X | X |
+| How to playback media | X | X |
+| How to use the video panel(s) | X | X |
+| How to use the timeline(s) | X | X |
+| How to edit your transcript in the Editor | X | X |
+| How to use sync-codes | X | X |
+| How to use video-cues | X | X |
+| How to use checkpoints and autobackups | X | X |
+| How to use subtier types | X | X |
+| How to export to RTF | X | X |
+| Error and warnings | X |  |
 
 Over time, we will be adding to this list and uploading new video tutorials to the channel.
 
