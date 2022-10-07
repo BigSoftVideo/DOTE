@@ -1,14 +1,13 @@
 ## Video Tutorials
 
 We are producing a range of informative video tutorials to help you get familiar with the amazing functionality of _DOTE_.
-
 The videos are available on our [YouTube channel](#).
 
 The video tutorials mostly come in two flavours: a basic version and an advanced version.
 We have created more than 25 videos, including:
 
 | **Topic**    |  **Basic**          |  **Advanced** |
-|----------|-----------------|-----------|
+|:----------|-----------------|-----------|
 | Promotional video | X |  |
 | How to navigate the webshop | X |  |
 | How to navigate the online help guide | X |  |
@@ -26,6 +25,7 @@ We have created more than 25 videos, including:
 | How to use subtier types | X | X |
 | How to export to RTF | X | X |
 | Error and warnings | X |  |
+
 
 Over time, we will be adding to this list and uploading new video tutorials to the channel.
 
