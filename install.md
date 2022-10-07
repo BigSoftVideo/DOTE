@@ -116,7 +116,8 @@ You will need to purchase and enter a [license key](pro.md#license) to unlock th
 
 ### Updating to a new release
 
-_DOTE_ will remind you if there is a new release available online.
+When you rung _DOTE_, it will remind you if there is a new release available online.
+It is up to you to manually download the new release and install it.
 
 To update _DOTE_ on both operating systems, just close _DOTE_, download the update and follow the same procedure above.
 _DOTE_ will be updated and restart automatically.
