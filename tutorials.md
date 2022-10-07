@@ -6,9 +6,9 @@ The videos are available on our [YouTube channel](#).
 The video tutorials mostly come in two flavours: a basic version and an advanced version.
 We have created more than 25 videos, including:
 
-| **Topic**    |  **Basic**          |  **Advanced** |
-|:----------|-----------------|-----------|
-| Promotional video | X |  |
+|      **Topic**    |  **Basic**  |  **Advanced** |
+|:------------------|:------------|:--------------|
+| Promotional video |       X     |               |
 | How to navigate the webshop | X |  |
 | How to navigate the online help guide | X |  |
 | How to install _DOTE_ | X | X |
@@ -25,7 +25,7 @@ We have created more than 25 videos, including:
 | How to use subtier types | X | X |
 | How to export to RTF | X | X |
 | Error and warnings | X |  |
-
+|  |  |  |
 
 Over time, we will be adding to this list and uploading new video tutorials to the channel.
 
