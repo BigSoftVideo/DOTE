@@ -7,23 +7,23 @@ The video tutorials mostly come in two flavours: a basic version and an advanced
 We have created more than 25 videos, including:
 
 | **Topic** | **Basic** | **Advanced** |
-|-----------|-----------|--------------|
+|:---------:|:---------:|:------------:|
 | Promotional video | X |  |
 | How to navigate the webshop | X |  |
 | How to navigate the online help guide | X |  |
 | How to install _DOTE_ | X | X |
 | How to apply the license key | X | X |
 | How to work with _DOTE_ projects | X | X |
-| How to use the Media Manager to add media to your project | X | X |
+| How to use the Media Manager  | X | X |
 | How to playback media | X | X |
 | How to use the video panel(s) | X | X |
-| How to use the timeline(s) | X | X |
-| How to edit your transcript in the Editor | X | X |
+| How to use the timeline(s) | X |  |
+| How to edit your transcript | X | X |
 | How to use sync-codes | X | X |
 | How to use video-cues | X | X |
 | How to use checkpoints and autobackups | X | X |
 | How to use subtier types | X | X |
-| How to export/import projects and transcripts | X | X |
+| How to export/import projects and transcripts | X |  |
 | How to export to RTF | X | X |
 | Error and warnings | X |  |
 
