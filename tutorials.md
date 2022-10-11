@@ -6,26 +6,26 @@ The videos are available on our [YouTube channel](#).
 The video tutorials mostly come in two flavours: a basic version and an advanced version.
 We have created more than 25 videos, including:
 
-| **Topic** | **Basic** | **Advanced** |
+| **Topic** |  |  |
 |:---------:|:---------:|:------------:|
-| Promotional video | [X]() |  |
-| How to navigate the webshop | X |  |
-| How to navigate the online help guide | X |  |
-| How to install _DOTE_ | X | X |
-| How to apply the license key | X | X |
-| How to work with _DOTE_ projects | X | X |
-| How to use the Media Manager  | X | X |
-| How to playback media | X | X |
-| How to use the video panel(s) | X | X |
-| How to use the timeline(s) | X |  |
-| How to edit your transcript | X | X |
-| How to use sync-codes | X | X |
-| How to use video-cues | X | X |
-| How to use checkpoints and autobackups | X | X |
-| How to use subtier types | X | X |
-| How to export/import projects and transcripts | X |  |
-| How to export to RTF | X | X |
-| Error and warnings | X |  |
+| Promotional video | [Basic]() |  |
+| How to navigate the webshop | [Basic]() |  |
+| How to navigate the online help guide | [Basic]() |  |
+| How to install _DOTE_ | [Basic]() | [Advanced]() |
+| How to apply the license key | [Basic]() | [Advanced]() |
+| How to work with _DOTE_ projects | [Basic]() | [Advanced]() |
+| How to use the Media Manager  | [Basic]() | [Advanced]() |
+| How to playback media | [Basic]() | [Advanced]() |
+| How to use the video panel(s) | [Basic]() | [Advanced]() |
+| How to use the timeline(s) | [Basic]() | |
+| How to edit your transcript | [Basic]() | [Advanced]() |
+| How to use sync-codes | [Basic]() | [Advanced]() |
+| How to use video-cues | [Basic]() | [Advanced]() |
+| How to use checkpoints and autobackups | [Basic]() | [Advanced]() |
+| How to use subtier types | [Basic]() | [Advanced]() |
+| How to export/import projects and transcripts | [Basic]() | |
+| How to export to RTF | [Basic]() | [Advanced]() |
+| Error and warnings | [Basic]() |  |
 
 Over time, we will be adding to this list and uploading new video tutorials to the channel.
 
