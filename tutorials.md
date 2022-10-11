@@ -6,26 +6,24 @@ The videos are available on our [YouTube channel](#).
 The video tutorials mostly come in two flavours: a basic version and an advanced version.
 We have created more than 25 videos, including:
 
-| **Topic** |  |  |
-|:---------:|:---------:|:------------:|
-| Promotional video | [Basic]() |  |
-| How to navigate the webshop | [Basic]() |  |
-| How to navigate the online help guide | [Basic]() |  |
-| How to install _DOTE_ | [Basic]() | [Advanced]() |
-| How to apply the license key | [Basic]() | [Advanced]() |
-| How to work with _DOTE_ projects | [Basic]() | [Advanced]() |
-| How to use the Media Manager  | [Basic]() | [Advanced]() |
-| How to playback media | [Basic]() | [Advanced]() |
-| How to use the video panel(s) | [Basic]() | [Advanced]() |
-| How to use the timeline(s) | [Basic]() | |
-| How to edit your transcript | [Basic]() | [Advanced]() |
-| How to use sync-codes | [Basic]() | [Advanced]() |
-| How to use video-cues | [Basic]() | [Advanced]() |
-| How to use checkpoints and autobackups | [Basic]() | [Advanced]() |
-| How to use subtier types | [Basic]() | [Advanced]() |
-| How to export/import projects and transcripts | [Basic]() | |
-| How to export to RTF | [Basic]() | [Advanced]() |
-| Error and warnings | [Basic]() |  |
+- Promotional video — [Basic]()
+- How to navigate the webshop — [Basic]()
+- How to navigate the online help guide — [Basic]()
+- How to install _DOTE_ — [Basic]() — [Advanced]()
+- How to apply the license key — [Basic]() — [Advanced]()
+- How to work with _DOTE_ projects — [Basic]() — [Advanced]()
+- How to use the Media Manager  — [Basic]() — [Advanced]()
+- How to playback media — [Basic]() — [Advanced]()
+- How to use the video panel(s) — [Basic]() — [Advanced]()
+- How to use the timeline(s) — [Basic]()
+- How to edit your transcript — [Basic]() — [Advanced]()
+- How to use sync-codes — [Basic]() — [Advanced]()
+- How to use video-cues — [Basic]() — [Advanced]()
+- How to use checkpoints and autobackups — [Basic]() — [Advanced]()
+- How to use subtier types — [Basic]() — [Advanced]()
+- How to export/import projects and transcripts — [Basic]()
+- How to export to RTF — [Basic]() — [Advanced]()
+- Error and warnings — [Basic]()
 
 Over time, we will be adding to this list and uploading new video tutorials to the channel.
 
