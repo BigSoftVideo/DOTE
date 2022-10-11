@@ -32,14 +32,17 @@ Over time, we will be adding to this list and uploading new video tutorials to t
 ### _DOTE_-specific tutorial projects
 
 We are also producing tutorials as importable _DOTE_-specific Projects.
-As they become available, you can download them here or from the archive of [_DOTE_-specific tutorials from the releases page](https://github.com/BigSoftVideo/DOTE/releases).
+These tutorial projects can be stored locally and opened while transcribing using DOTE.
+Just open the relevant tutorial project, jump to a specific section of the video, view the instructions, and then reopen the transcript you were working on (eg. from the "Five most recent Transcripts" list in `Open Transcript` panel).
 
-- [How to install _DOTE_ Basic]()
-- [How to work with _DOTE_ projects Basic]()
+You can download them here or from the archive of [_DOTE_-specific tutorials](<https://github.com/BigSoftVideo/DOTE/releases>) on the releases page.
+
+- [How to install _DOTE_ - Basic]()
+- [How to work with _DOTE_ projects - Basic]()
 
 [![DOTE Tutorial](images/tutorials/dote-tutorial.png)](images/tutorials/dote-tutorial.png)
 
 Use _DOTE_ to [import each Project](import.md) into your _MY DOTE PROJECTS_ folder, for example.
-When you are done importing, you can just open the Transcript in the Project using `File/Open Transcript` and you will see a hyperlinked version of the video with a table of contents in the Transcript panel.
+When you are done importing, you can just open the Transcript in the Project using `File/Open Transcript` and you will see a hyperlinked version of the video with a table of contents in the Editor panel.
 Click on a [sync-code](sync-code.md) to jump to that topic in the video.
 Simple as that! 👌
