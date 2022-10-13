@@ -25,7 +25,7 @@ We have created more than 25 videos, including:
 - How to export to RTF — [Basic]() — [Advanced]()
 - Error and warnings — [Basic]()
 
-Over time, we will be adding to this list and uploading new video tutorials to the channel.
+We will be adding to this list and uploading new video tutorials to the YouTube channel.
 
 ### _DOTE_-specific tutorial projects
 
