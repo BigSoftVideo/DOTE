@@ -220,7 +220,7 @@ Note: The chosen strategy is applied to ALL Transcripts, so be careful if you ch
 ### What is tracked by Autobackups and Checkpoints? <a id='tracked'></a>
 
 Both Autobackups and Checkpoints track the changes made to the text in the Editor panel, eg. in the transcript.
-This includes underlining and sync-codes, as well as some options at the Transcript level (eg. font size, margins, subtiers, conventions in [Transcript Options](settings.md#options)).
+This includes underlining and sync-codes, as well as [Transcript Options](settings.md#options)) panel (eg. font size, margins, subtiers and conventions).
 Thus, if one restores (or resets) to an earlier Autobackup or Checkpoint, then not only will the Transcript revert back to the earlier state, but also the basic options for the layout of the Transcript in [Transcript Options](settings.md#options) will also be reverted.
 
 On the other hand, in regard to Checkpoints the following are not tracked: [video-cues](cues.md) and a range of other [Settings](settings.md) are _not_ tracked, including [active media](media.md), projection views, [warning/error toggles](errors.md), locking video views, [muting, volume](timeline.md), etc.
