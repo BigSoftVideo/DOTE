@@ -13,13 +13,13 @@ With each new major release (eg. from `v1` to `v2`), a new license or an upgrade
 
 There is an additional [_DOTE Pro Community_](https://bigsoftvideo.github.io/DOTE-Pro-Community/) Edition that gives the user exclusive access to fast-track bug reports and feature requests, as well as private access to new beta versions before release.
 
-Go to our [WEBSHOP](https://dote.sfx.aau.dk) to purchase a license and read more information about Editions.
+Go to our [WEBSHOP](https://www.dote.aau.dk) to purchase a license and read more information about Editions.
 
 ### _DOTE Pro_ license installation <a id='license'></a>
 
 To unlock the full feature set of _DOTE Pro_, you will have to do the following:
 
-1. [Purchase the _DOTE Pro_ license](https://dote.sfx.aau.dk/license-compare).
+1. [Purchase the _DOTE Pro_ license](https://www.dote.aau.dk/license-compare).
 2. You will receive the license key in an email message.
 3. Download the license key file to your computer on which you have installed the latest version of _DOTE_ (free).
 4. From the `File/About`, select `license Manager`.
