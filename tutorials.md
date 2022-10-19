@@ -34,9 +34,9 @@ Just open the relevant tutorial project, jump to a specific section of the video
 
 You can download them here or from the archive of [_DOTE_-specific tutorials](<https://github.com/BigSoftVideo/DOTE/releases>) on the releases page.
 
-- [How to install _DOTE_ — Basic]()
-- [How to work with _DOTE_ projects — Basic]()
-- [How to use the Media Manager — Basic and Advanced]()
+- [How to install _DOTE_ — Basic](https://github.com/BigSoftVideo/DOTE/releases/download/v1.0.0-tutorials/DOTE.installation.doteProject)
+- [How to work with _DOTE_ projects — Basic](https://github.com/BigSoftVideo/DOTE/releases/download/v1.0.0-tutorials/DOTE.Projects.doteProject)
+- [How to use the Media Manager — Basic and Advanced](https://github.com/BigSoftVideo/DOTE/releases/download/v1.0.0-tutorials/Media.Manager.doteProject)
 
 [![DOTE Tutorial](images/tutorials/dote-tutorial.png)](images/tutorials/dote-tutorial.png)
 
