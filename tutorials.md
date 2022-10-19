@@ -43,4 +43,5 @@ You can download them here or from the archive of [_DOTE_-specific tutorials](<h
 Use _DOTE_ to [import each Project](import.md) into your _MY DOTE PROJECTS_ folder, for example.
 When you are done importing, you can just open the Transcript in the Project using `File/Open Transcript` and you will see a hyperlinked version of the video with a table of contents in the Editor panel.
 Click on a [sync-code](sync-code.md) to jump to that topic in the video.
+The video also zooms in and out to focus on the topic at hand (using video-cues).
 Simple as that! 👌
