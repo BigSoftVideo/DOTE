@@ -1,4 +1,4 @@
-## Exporting and importing Transcripts and Projects
+## Exporting and importing Transcripts and Projects to File
 
 Once you have created a _DOTE_ Project and one or more Transcripts in that project, you may wish to share them with others.
 This is relatively straightforward provided you understand how _DOTE_ [projects and transcripts are structured](projects.md).

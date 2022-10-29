@@ -22,7 +22,7 @@ Here is a list of help tutorials on specific topics:
 
 - [Layout of the user interface](ui.md) - easy-to-use and functional
 - [Creating, opening and saving transcription projects](projects.md) - easy project management
-- [Exporting and importing projects and transcripts](import.md) - share your transcripts efficiently
+- [Exporting and importing projects and transcripts to file](import.md) - share your transcripts efficiently
 - [Media manager](media.md) - manage your audiovisual data
 - [Timeline/waveform panel](timeline.md) - intuitive navigation of timecoded data
 - [Primary and secondary 360/2D video view panels](video.md) - multiple media and views (unique to _DOTE_)
@@ -31,7 +31,7 @@ Here is a list of help tutorials on specific topics:
 - [Conventions supported by _DOTE_](conventions.md) - conforming transcripts to a clear style (unique to _DOTE_)
 - [Primary tier and subtier types](tiers.md) - adding multimodal complexity (unique to _DOTE_)
 - [Find and replace tool](find.md) - powerful and accurate search
-- [Exporting to RTF and subtitles](export.md) - create publishable transcripts and subtitles (unique to _DOTE_)
+- [Publishing to RTF and subtitles](export.md) - create publishable transcripts and subtitles (unique to _DOTE_)
 - [Sync-codes](sync-code.md) - linking transcripts to audiovisual playback
 - [Video-cues](cues.md) - bringing cinema to audiovisual playback (unique to _DOTE_)
 - [Checkpoints and autobackups](versioncontrol.md) - two safe and reliable backup systems (unique to _DOTE_)

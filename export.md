@@ -1,6 +1,6 @@
-## Export the _DOTE_ transcript
+## Publish the _DOTE_ transcript
 
-From  _DOTE_, you can export your transcript to different formats readable by other software. Wow! 🤘🏻
+From  _DOTE_, you can publish your transcript to different formats readable by other software. Wow! 🤘🏻
 
 In this release, we support `Export to RTF`, since all word processors on different platforms can read lightly formatted RTF files. We also support `Export to SRT` because most desktop media players can play simple subtitles from such a file and overlay them on the video.
 
