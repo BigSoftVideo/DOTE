@@ -4,14 +4,14 @@ We are producing a range of informative video tutorials to help you get familiar
 The videos are available on our [YouTube channel](https://www.youtube.com/watch?v=1Ebm30ChHxg&list=PLQJhL9BD4W1Trh8mKzPnQ0fqj8J1H00Cd).
 
 The video tutorials mostly come in two flavours: a **basic** version and an **advanced** version.
-We have created more than 25 videos, including:
+We have created more than 40 online videos (6 hours of delicious content), including:
 
 - Introduction to _DOTE_ video — [Basic](https://www.youtube.com/watch?v=1Ebm30ChHxg&list=PLQJhL9BD4W1Trh8mKzPnQ0fqj8J1H00Cd)
 - How to navigate the online help guide — [Basic](https://www.youtube.com/watch?v=meYMj7DsYHE&list=PLQJhL9BD4W1Trh8mKzPnQ0fqj8J1H00Cd&index=24)
 - How to install _DOTE_ — [Basic](https://www.youtube.com/watch?v=zbB6lczk4f8&list=PLQJhL9BD4W1QD1AD1gGCcOXSUbwu_iNT1&index=1) — [Advanced](https://www.youtube.com/watch?v=RDbYopAerCw&list=PLQJhL9BD4W1Rf33H5FOhn7dbgcH6PEWg5&index=8)
 - How to activate the license key — [Basic](https://www.youtube.com/watch?v=IRiWKZYIViA&list=PLQJhL9BD4W1QD1AD1gGCcOXSUbwu_iNT1&index=16)
 - How to work with _DOTE_ projects — [Basic](https://www.youtube.com/watch?v=7oHE1KsIGTo&list=PLQJhL9BD4W1QD1AD1gGCcOXSUbwu_iNT1&index=7) — [Advanced](https://www.youtube.com/watch?v=GkjMwL6zqmM&list=PLQJhL9BD4W1Rf33H5FOhn7dbgcH6PEWg5&index=5)
-- How to use the Media Manager  — [Basic](https://www.youtube.com/watch?v=enN7aKYZEGg&list=PLQJhL9BD4W1QD1AD1gGCcOXSUbwu_iNT1&index=9) — [Advanced](https://www.youtube.com/watch?v=-xIPZAJoNkU&list=PLQJhL9BD4W1Rf33H5FOhn7dbgcH6PEWg5&index=7)
+- How to use the media manager  — [Basic](https://www.youtube.com/watch?v=enN7aKYZEGg&list=PLQJhL9BD4W1QD1AD1gGCcOXSUbwu_iNT1&index=9) — [Advanced](https://www.youtube.com/watch?v=-xIPZAJoNkU&list=PLQJhL9BD4W1Rf33H5FOhn7dbgcH6PEWg5&index=7)
 - How to playback media — [Basic](https://www.youtube.com/watch?v=v86-xkdVwL4&list=PLQJhL9BD4W1QD1AD1gGCcOXSUbwu_iNT1&index=8) — [Advanced](https://www.youtube.com/watch?v=t8yD07eSFWs&list=PLQJhL9BD4W1Rf33H5FOhn7dbgcH6PEWg5&index=6)
 - How to use the video panel(s) — [Basic](https://www.youtube.com/watch?v=timdqQNxgAY&list=PLQJhL9BD4W1QD1AD1gGCcOXSUbwu_iNT1&index=2) — [Advanced](https://www.youtube.com/watch?v=a2bbS73WUfw&list=PLQJhL9BD4W1Rf33H5FOhn7dbgcH6PEWg5&index=1)
 - How to use the timeline(s) — [Basic](https://www.youtube.com/watch?v=2RsvEEo5ICQ&list=PLQJhL9BD4W1QD1AD1gGCcOXSUbwu_iNT1&index=4)
@@ -24,7 +24,28 @@ We have created more than 25 videos, including:
 - How to export to RTF — [Basic](https://www.youtube.com/watch?v=0VaMNLsFYWc&list=PLQJhL9BD4W1QD1AD1gGCcOXSUbwu_iNT1&index=11) — [Advanced](https://www.youtube.com/watch?v=QkTr54XvqTA&list=PLQJhL9BD4W1Rf33H5FOhn7dbgcH6PEWg5&index=9)
 - Error and warnings — [Basic](https://www.youtube.com/watch?v=Ux4APu6ww4k&list=PLQJhL9BD4W1QD1AD1gGCcOXSUbwu_iNT1&index=12)
 
-We will be adding to this list and uploading new video tutorials to the YouTube channel.
+### How to transcribe using _DOTE_
+
+- Basic Part 1 How start a new transcript using _DOTE_ 🔮TBA
+- Basic Part 2 How to edit a transcript in progress 🔮TBA
+- Basic [Part 3: How to import a transcript from another source and conform it to _DOTE_ style](https://www.youtube.com/watch?v=Npfmg7MpCZw&list=PLQJhL9BD4W1S8RVa3O8BlF5pinbYJpK-c&index=1) 🆕
+- Advanced Part 1: How to comment on a shared transcript 🔮TBA
+- Advanced Part 2: How to make smart notes on audiovisual data before transcribing 🔮TBA
+
+### Top Tips 🎩🆕
+
+- Tip 1 - [Get your media synced and shipshape before importing](https://www.youtube.com/watch?v=cKWagutZV4I&list=PLQJhL9BD4W1SuuJ8LvN1F6OEw3_wc1j1E) 🆕
+- Tip 2 - [Get your Settings and Transcript Options in order to speed up workflow](https://www.youtube.com/watch?v=udlOrRBs1z0&list=PLQJhL9BD4W1SuuJ8LvN1F6OEw3_wc1j1E&index=2) 🆕
+- Tip 3 - [Always `SPEAKER-ID` + `COLON` + `TAB` before talk](https://www.youtube.com/watch?v=vJf6e4Birhg&list=PLQJhL9BD4W1SuuJ8LvN1F6OEw3_wc1j1E&index=3) 🆕
+- Tip 4 - [Use Autocomplete and named subtier types to do the heavy lifting](https://www.youtube.com/watch?v=-8s8c1pVeLQ&list=PLQJhL9BD4W1SuuJ8LvN1F6OEw3_wc1j1E&index=4) 🆕
+- Tip 5 - [Use keyboard shortcuts for speed transcribing](https://www.youtube.com/watch?v=_gZ18OZW34U&list=PLQJhL9BD4W1SuuJ8LvN1F6OEw3_wc1j1E&index=10) 🆕
+- Tip 6 - [Add sync-codes regularly as you proceed](https://www.youtube.com/watch?v=0fELQTTOiW0&list=PLQJhL9BD4W1SuuJ8LvN1F6OEw3_wc1j1E&index=6) 🆕
+- Tip 7 - [Let _DOTE_ realign stuff for you](https://www.youtube.com/watch?v=wxdd4oequqc&list=PLQJhL9BD4W1SuuJ8LvN1F6OEw3_wc1j1E&index=5) 🆕
+- Tip 8 - [Add video-cues to highlight phenomena visually](https://www.youtube.com/watch?v=vCE8AY_HmiU&list=PLQJhL9BD4W1SuuJ8LvN1F6OEw3_wc1j1E&index=9) 🆕
+- Tip 9 - [Add checkpoints regularly with informative messages](https://www.youtube.com/watch?v=1LmINMDzfxk&list=PLQJhL9BD4W1SuuJ8LvN1F6OEw3_wc1j1E&index=8) 🆕
+- Tip 10 - [Open extra video panels to hone in on an action](https://www.youtube.com/watch?v=eBWNqeIo450&list=PLQJhL9BD4W1SuuJ8LvN1F6OEw3_wc1j1E&index=7) 🆕
+
+We will be adding to this list when we upload new 🆕 video tutorials to our YouTube channel.
 
 ### _DOTE_-specific tutorial projects
 
