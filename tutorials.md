@@ -24,7 +24,7 @@ We have created more than 40 online videos (6 hours of delicious content), inclu
 - How to export to RTF — [Basic](https://www.youtube.com/watch?v=0VaMNLsFYWc&list=PLQJhL9BD4W1QD1AD1gGCcOXSUbwu_iNT1&index=11) — [Advanced](https://www.youtube.com/watch?v=QkTr54XvqTA&list=PLQJhL9BD4W1Rf33H5FOhn7dbgcH6PEWg5&index=9)
 - Error and warnings — [Basic](https://www.youtube.com/watch?v=Ux4APu6ww4k&list=PLQJhL9BD4W1QD1AD1gGCcOXSUbwu_iNT1&index=12)
 
-### How to transcribe using _DOTE_
+### How to transcribe using _DOTE_ ([playlist](https://www.youtube.com/playlist?list=PLQJhL9BD4W1S8RVa3O8BlF5pinbYJpK-c))
 
 - Basic Part 1 How start a new transcript using _DOTE_ 🔮TBA
 - Basic Part 2 How to edit a transcript in progress 🔮TBA
@@ -32,7 +32,7 @@ We have created more than 40 online videos (6 hours of delicious content), inclu
 - Advanced Part 1: How to comment on a shared transcript 🔮TBA
 - Advanced Part 2: How to make smart notes on audiovisual data before transcribing 🔮TBA
 
-### Top Tips 🎩🆕
+### Top Tips ([playlist](https://www.youtube.com/playlist?list=PLQJhL9BD4W1SuuJ8LvN1F6OEw3_wc1j1E)) 🎩🆕
 
 - Tip 1 - [Get your media synced and shipshape before importing](https://www.youtube.com/watch?v=cKWagutZV4I&list=PLQJhL9BD4W1SuuJ8LvN1F6OEw3_wc1j1E) 🆕
 - Tip 2 - [Get your Settings and Transcript Options in order to speed up workflow](https://www.youtube.com/watch?v=udlOrRBs1z0&list=PLQJhL9BD4W1SuuJ8LvN1F6OEw3_wc1j1E&index=2) 🆕
