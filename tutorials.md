@@ -29,7 +29,7 @@ We have created more than 40 online videos (6 hours of delicious content), inclu
 - Basic Part 1 How start a new transcript using _DOTE_ 🔮TBA
 - Basic Part 2 How to edit a transcript in progress 🔮TBA
 - Basic [Part 3: How to import a transcript from another source and conform it to _DOTE_ style](https://www.youtube.com/watch?v=Npfmg7MpCZw&list=PLQJhL9BD4W1S8RVa3O8BlF5pinbYJpK-c&index=1) 🆕
-- Advanced [Part 1: How to comment on a shared transcript]() 🆕
+- Advanced [Part 1: How to comment on a shared transcript](https://www.youtube.com/watch?v=hc3CH9oOsKQ&list=PLQJhL9BD4W1S8RVa3O8BlF5pinbYJpK-c&index=2) 🆕
 - Advanced Part 2: How to make smart notes on audiovisual data before transcribing 🔮TBA
 
 ### Top Tips ([playlist](https://www.youtube.com/playlist?list=PLQJhL9BD4W1SuuJ8LvN1F6OEw3_wc1j1E)) 🎩🆕
@@ -44,8 +44,8 @@ We have created more than 40 online videos (6 hours of delicious content), inclu
 - Tip 8 - [Add video-cues to highlight phenomena visually](https://www.youtube.com/watch?v=vCE8AY_HmiU&list=PLQJhL9BD4W1SuuJ8LvN1F6OEw3_wc1j1E&index=9) 🆕
 - Tip 9 - [Add checkpoints regularly with informative messages](https://www.youtube.com/watch?v=1LmINMDzfxk&list=PLQJhL9BD4W1SuuJ8LvN1F6OEw3_wc1j1E&index=8) 🆕
 - Tip 10 - [Open extra video panels to hone in on an action](https://www.youtube.com/watch?v=eBWNqeIo450&list=PLQJhL9BD4W1SuuJ8LvN1F6OEw3_wc1j1E&index=7) 🆕
-- Tip 11 - [How to import audiovisual data into a project (possible problems)]() 🆕
-- Tip 12 - [How to use proportional timed intervals]() 🆕
+- Tip 11 - [How to import audiovisual data into a project (possible problems)](https://www.youtube.com/watch?v=_WLkZVxamhY&list=PLQJhL9BD4W1SuuJ8LvN1F6OEw3_wc1j1E&index=11) 🆕
+- Tip 12 - [How to use proportional timed intervals](https://www.youtube.com/watch?v=4eQw0LBZ04Y&list=PLQJhL9BD4W1SuuJ8LvN1F6OEw3_wc1j1E&index=12) 🆕
 
 We will be adding to this list when we upload new 🆕 video tutorials to our YouTube channel.
 
