@@ -23,5 +23,8 @@ Add the <kbd>SHIFT</kbd> or <kbd>⇧</kbd> key to jump by a bigger interval.
 
 See the guide to using the [Timeline](timeline.md) for help on looping.
 
+The speed of the playback cannot be changed in the current release.
+A later release will add functionality to modify the playback speed using the UI and shortcuts.
+
 A [complete list of commands and shortcuts](commands.md) is available.
 Some shortcuts can be reassigned in the [Settings](settings.md) to other key combinations.
