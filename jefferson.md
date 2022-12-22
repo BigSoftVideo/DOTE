@@ -68,6 +68,9 @@ Mia@gls:  I    consequent-N hold-PPT up with
 Mia.eng:  I've consistently stopped
 ```
 
+Note that any translation (or interlinear gloss) subtier for a speaker must lie directly beneath the speaker tier line.
+This is required to preserve the integrity of the neighbourhood as a temporal unit.
+
 ### Overlapping speech <a id='overlap'></a>
 
 - Overlapping speech by two or more speakers `[...]` is supported and highlighted.
