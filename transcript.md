@@ -93,6 +93,8 @@ The simultaneous speech or sounds are marked just as with the more conventional 
 This symbol indicates the passing of 0.1 seconds, eg. `◘◘◘◘◘` = 0.5 seconds.
 It is especially useful in the [Mondadaian system](mondada.md) for marking [timing interval tiers](mondada.md) instead of the more conventional non-proportional pause indications, eg. `(0.1)`.
 
+More fixed symbols and pairs will be added in later releases, as well as a user-configurable set of autocompleteable symbols/pairs.
+
 #### Line numbers
 
 - Line numbers appear automatically in _DOTE_, but they are not saved in the _transcript.txt_ file.
