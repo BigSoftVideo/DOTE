@@ -23,16 +23,17 @@ We have created more than 40 online videos (6 hours of delicious content), inclu
 - How to use subtier types — [Basic](https://www.youtube.com/watch?v=jHvoOJguWKM&list=PLQJhL9BD4W1QD1AD1gGCcOXSUbwu_iNT1&index=6) — [Advanced](https://www.youtube.com/watch?v=vcgl_hqjMAE&list=PLQJhL9BD4W1Rf33H5FOhn7dbgcH6PEWg5&index=4)
 - How to export/import projects and transcripts — [Basic](https://www.youtube.com/watch?v=w_u5ESNRelY&list=PLQJhL9BD4W1QD1AD1gGCcOXSUbwu_iNT1&index=10)
 - How to export to RTF — [Basic](https://www.youtube.com/watch?v=0VaMNLsFYWc&list=PLQJhL9BD4W1QD1AD1gGCcOXSUbwu_iNT1&index=11) — [Advanced](https://www.youtube.com/watch?v=QkTr54XvqTA&list=PLQJhL9BD4W1Rf33H5FOhn7dbgcH6PEWg5&index=9)
+- How to export subtitles - [Basic](https://www.youtube.com/watch?v=IusIOK8TLIM) — [Advanced](https://www.youtube.com/watch?v=IusIOK8TLIM) 🆕
 - Error and warnings — [Basic](https://www.youtube.com/watch?v=Ux4APu6ww4k&list=PLQJhL9BD4W1QD1AD1gGCcOXSUbwu_iNT1&index=12)
 
 ### How to transcribe using _DOTE_ ([playlist](https://www.youtube.com/playlist?list=PLQJhL9BD4W1S8RVa3O8BlF5pinbYJpK-c))
 
-- Basic [Part 1 How start a new transcript using _DOTE_](https://www.youtube.com/watch?v=raBDE5520gY&list=PLQJhL9BD4W1S8RVa3O8BlF5pinbYJpK-c&index=3) 🆕
-- Basic [Part 2 How to edit a transcript in progress](https://www.youtube.com/watch?v=7JGCKmTg_6Q&list=PLQJhL9BD4W1S8RVa3O8BlF5pinbYJpK-c&index=4) 🆕
+- Basic [Part 1 How start a new transcript using _DOTE_](https://www.youtube.com/watch?v=raBDE5520gY&list=PLQJhL9BD4W1S8RVa3O8BlF5pinbYJpK-c&index=3)
+- Basic [Part 2 How to edit a transcript in progress](https://www.youtube.com/watch?v=7JGCKmTg_6Q&list=PLQJhL9BD4W1S8RVa3O8BlF5pinbYJpK-c&index=4)
 - Basic [Part 3: How to import a transcript from another source and conform it to _DOTE_ style](https://www.youtube.com/watch?v=Npfmg7MpCZw&list=PLQJhL9BD4W1S8RVa3O8BlF5pinbYJpK-c&index=1)
-- Advanced [Part 1: How to comment on a shared transcript](https://www.youtube.com/watch?v=hc3CH9oOsKQ&list=PLQJhL9BD4W1S8RVa3O8BlF5pinbYJpK-c&index=2) 🆕
-- Advanced [Part 2: How to make smart notes on audiovisual data before transcribing](https://www.youtube.com/watch?v=oOiJdpextvE&list=PLQJhL9BD4W1S8RVa3O8BlF5pinbYJpK-c&index=5) 🆕
-- Advanced [Part 3: How to start a Mondadaian transcript from scratch](https://www.youtube.com/watch?v=GWlJe1bbBYs&list=PLQJhL9BD4W1S8RVa3O8BlF5pinbYJpK-c&index=6) 🆕
+- Advanced [Part 1: How to comment on a shared transcript](https://www.youtube.com/watch?v=hc3CH9oOsKQ&list=PLQJhL9BD4W1S8RVa3O8BlF5pinbYJpK-c&index=2)
+- Advanced [Part 2: How to make smart notes on audiovisual data before transcribing](https://www.youtube.com/watch?v=oOiJdpextvE&list=PLQJhL9BD4W1S8RVa3O8BlF5pinbYJpK-c&index=5)
+- Advanced [Part 3: How to start a Mondadaian transcript from scratch](https://www.youtube.com/watch?v=GWlJe1bbBYs&list=PLQJhL9BD4W1S8RVa3O8BlF5pinbYJpK-c&index=6)
 - Advanced Part 4: How to use anonymised proxy media when sharing or presenting transcripts 🔮TBA
 
 ### Top Tips ([playlist](https://www.youtube.com/playlist?list=PLQJhL9BD4W1SuuJ8LvN1F6OEw3_wc1j1E)) 🎩
@@ -47,8 +48,13 @@ We have created more than 40 online videos (6 hours of delicious content), inclu
 - Tip 8 - [Add video-cues to highlight phenomena visually](https://www.youtube.com/watch?v=vCE8AY_HmiU&list=PLQJhL9BD4W1SuuJ8LvN1F6OEw3_wc1j1E&index=9)
 - Tip 9 - [Add checkpoints regularly with informative messages](https://www.youtube.com/watch?v=1LmINMDzfxk&list=PLQJhL9BD4W1SuuJ8LvN1F6OEw3_wc1j1E&index=8)
 - Tip 10 - [Open extra video panels to hone in on an action](https://www.youtube.com/watch?v=eBWNqeIo450&list=PLQJhL9BD4W1SuuJ8LvN1F6OEw3_wc1j1E&index=7)
-- Tip 11 - [How to import audiovisual data into a project (possible problems)](https://www.youtube.com/watch?v=_WLkZVxamhY&list=PLQJhL9BD4W1SuuJ8LvN1F6OEw3_wc1j1E&index=11) 🆕
-- Tip 12 - [How to use proportional timed intervals](https://www.youtube.com/watch?v=4eQw0LBZ04Y&list=PLQJhL9BD4W1SuuJ8LvN1F6OEw3_wc1j1E&index=12) 🆕
+- Tip 11 - [How to import audiovisual data into a project (possible problems)](https://www.youtube.com/watch?v=_WLkZVxamhY&list=PLQJhL9BD4W1SuuJ8LvN1F6OEw3_wc1j1E&index=11)
+- Tip 12 - [How to use proportional timed intervals](https://www.youtube.com/watch?v=4eQw0LBZ04Y&list=PLQJhL9BD4W1SuuJ8LvN1F6OEw3_wc1j1E&index=12)
+
+### Webinars
+
+- [DOTE Webinar, 15th November 2022](https://www.youtube.com/watch?v=_vl98wMknfw) 🆕
+- DOTE Webinar, 26th January 2023
 
 We will be adding to this list when we upload new 🆕 video tutorials to our YouTube channel.
 
