@@ -1,4 +1,4 @@
-## Help guide for release v1.0
+## Help guide for release v1.0.3
 
 This help guide provides you with instructions to get started with basic and more advanced transcription tasks using _DOTE_.
 The help guide gives guidance on all features and functionality, including the _DOTE Pro_ Edition.
