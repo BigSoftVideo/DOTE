@@ -53,8 +53,8 @@ We have created more than 40 online videos (6 hours of delicious content), inclu
 
 ### Webinars
 
-- [DOTE Webinar, 15th November 2022](https://www.youtube.com/watch?v=_vl98wMknfw) 🆕
-- DOTE Webinar, 26th January 2023
+- [DOTE Webinar, 15th November 2022](https://www.youtube.com/watch?v=_vl98wMknfw)
+- [DOTE Webinar, 26th January 2023](https://www.youtube.com/watch?v=xa8ksdc9z0U) 🆕
 
 We will be adding to this list when we upload new 🆕 video tutorials to our YouTube channel.
 
