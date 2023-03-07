@@ -57,6 +57,15 @@ Note that this list can be rearranged by selecting, dragging and dropping an ite
 
 - A number of common [shortcuts](commands.md) can be redefined by the user.
 
+##### Jump intervals
+
+- The user can redefine the jump intervals for short jump forward/back and long jump forward/back.
+The defaults are 1 second for the short jump and 4 seconds for the long.
+The jumps can be activated using the [playback buttons or the playback shortcuts](play.md).
+- Additionally, the user can define a universal frame rate (fps) that determines what happens when using the one frame forward/back buttons or shortcuts.
+The default is 30fps.
+If the video being played is encoded with a different frame rate than in Settings, then frame forward/back may either jump more than one frame or no frame occasionally.
+
 ##### External software
 
 - Optional folder path to installed _FFmpeg_ software for waveform generation.
