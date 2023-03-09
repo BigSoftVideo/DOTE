@@ -23,8 +23,18 @@ Add the <kbd>SHIFT</kbd> or <kbd>⇧</kbd> key to jump by a bigger interval.
 
 See the guide to using the [Timeline](timeline.md) for help on looping.
 
-The speed of the playback cannot be changed in the current release.
-A later release will add functionality to modify the playback speed using the UI and shortcuts.
+The speed of playback can be changed in the current release.
+At the top right of the primary waveform/timeline panel, one can toggle between the following speeds using the drop-down menu.
+ - 0.25x
+ - 0.5x
+ - 0.75x
+ - 1x
+ - 2x
+ - 3x
+ - 4x
+
+There may be some distortion during playback at slower speeds.
+A later release will add more functionality to modify the playback speed using the UI and shortcuts.
 
 A [complete list of commands and shortcuts](commands.md) is available.
 Some shortcuts can be reassigned in the [Settings](settings.md) to other key combinations.

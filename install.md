@@ -84,9 +84,9 @@ AFTER:
 
 [![FFmpeg installed](images/settings/ffmpeg-installed.png)](images/settings/ffmpeg-installed.png)
 
-NOTE: If you reinstall _DOTE_ or update to a newer version, then you will have to repeat this procedure to reinstall FFmpeg.
-
 Like many other software, _DOTE_ has to do this extra step because of licensing restrictions.
+
+NOTE: After using _DOTE_ to install _FFmpeg_, if you reinstall _DOTE_ or update to a newer version, then _FFmpeg_ will be reinstalled automatically.
 
 ##### Installing FFmpeg yourself
 
