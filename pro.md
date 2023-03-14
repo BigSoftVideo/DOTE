@@ -22,7 +22,7 @@ To unlock the full feature set of _DOTE Pro_, you will have to do the following:
 1. [Purchase the _DOTE Pro_ license](https://www.dote.aau.dk/license-compare).
 2. You will receive the license key in an email message.
 3. Download the license key file to your computer on which you have installed the latest version of _DOTE_ (free).
-4. From the `File/About`, select `license Manager`.
+4. From the `Help` menu, select `License Manager`.
 5. Select `Upload from File` and browse for the license key file on your computer and select it.
 6. Click `Activate License`.
 _DOTE_ will check with the license server online.
