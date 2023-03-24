@@ -73,6 +73,8 @@ With this software installed on Windows or macOS, you can import the source vide
 Don't worry about all the other technical options.
 Select a destination and click `Start Encode`.
 The exported video will retain the same length and frame rate as the original.
+- An alternative for both Windows and macOS is the free [Shutter Encoder](https://www.shutterencoder.com/) video convertor tool.
+The user interface is not so clear, but it can do a number of operations, such as changing the output codec, exporting, merging and cutting the video source.
 
 If your video is greater than [4K resolution](https://en.wikipedia.org/wiki/4K_resolution), eg. more than `4096 x 2160`, then depending on the power of your computer, _DOTE_ may have problems playing and scrubbing through the video.
 If so, then transcode in the same manner as above, making sure to downscale from 8K or 5K, for example, to 4K or less.
