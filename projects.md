@@ -139,8 +139,18 @@ Note that in some of the panes, recognised _DOTE_ Projects are highlighted in gr
 
 [![Highlight status](images/projects/highlight.png)](images/projects/highlight.png)
 
-If an orphan Transcript without a parent Project is discovered, then it will be highlighted in red.
 Clicking on a Transcript will open it in _DOTE_.
+
+#### Problems with orphan Transcripts and corrupted Transcripts
+
+NOTE: If an orphan Transcript without a parent Project is discovered, then it will be highlighted in yellow.
+_DOTE_ will not be able to open it until the transcript folder is reunited under its project folder.
+
+NOTE: If a Transcript is corrupted, then it will be highlighted in red.
+This can happen for a variety of reasons, including a computer crash, lack of disk space, or accidental destruction of some of the files in the transcript folder.
+_DOTE_ will offer to restore the Transcript to the last known autobackup.
+In the rare case that there are no autobackups available, then _DOTE_ will restore as best it can from the files that are available in the transcript folder.
+As a result, in this case, you may lose certain video panel settings and the video-cues that may have been present.
 
 ### Create a new Transcript in the current Project <a id='new-transcript'></a>
 
