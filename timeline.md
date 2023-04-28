@@ -12,6 +12,7 @@ To control volume and manage [video-cues](video.md), another independent [video-
 
 - The timeline + waveform can be zoomed in and out using the mouse.
 - The timeline segment can be dragged using the mouse.
+- The current timeline segment can be adjusted using the drag-handles at each end of the segment.
 - Timelines can be independently zoomed and scrolled, unless all timelines are locked in sync.
 - During playback, the current time (playhead) on the timeline will always be visible.
 - Inserted sync-codes and video-cues can be dragged to a new position on the timeline.
@@ -57,6 +58,7 @@ There are several ways to loop shorter segments of the timeline:
 
 - A segment can be selected and looped using <kbd>SHIFT</kbd>+<kbd>Click and Drag</kbd> with the mouse along the timeline.
 - Or a segment between any two [sync-codes](sync-code.md) can also be looped by selecting the first sync-code and then <kbd>SHIFT</kbd>+<kbd>Click</kbd> on the second sync-code.
+- Segments can be adjusted by using the drag-handles at each end of the current segment on the timeline.
 - Or use the shortcut <kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>SPACE</kbd> or <kbd>⌘</kbd>+<kbd>⌥</kbd>+<kbd>N</kbd> to set an A point at the current position of the playhead on the timeline, then use again to set a B point as the media plays, after which the loop between A and B will begin.
 - To deselect a loop
     - Click the `Deselect` button or click outside the the loop segment on the timeline to cancel the loop.
