@@ -13,7 +13,7 @@ After selecting a file from your computer, if the JSON format is not recognised,
 
 There are two options when importing the file:
 1. Remove punctuation from the text strings.
-2. Remove capitalisation from the initial character on a line.
+2. Remove capitalisation from the initial character on each line (if present).
 
 The transcript will be imported into the currently open Transcript, so if you wish to import into a blank Transcript, then use `New Transcript` from the `File` menu.
 
