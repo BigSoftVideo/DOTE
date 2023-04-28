@@ -23,6 +23,7 @@ Here is a list of help tutorials on specific topics:
 - [Layout of the user interface](ui.md) - easy-to-use and functional
 - [Creating, opening and saving transcription projects](projects.md) - easy project management
 - [Exporting and importing projects and transcripts to file](import.md) - share your transcripts efficiently
+- [Importing transcripts from 3rd party JSON file](importJSON.md) - import transcripts from other sources
 - [Media manager](media.md) - manage your audiovisual data
 - [Timeline/waveform panel](timeline.md) - intuitive navigation of timecoded data
 - [Primary and secondary 360/2D video view panels](video.md) - multiple media and views (unique to _DOTE_)
