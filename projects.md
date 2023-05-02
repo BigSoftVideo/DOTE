@@ -141,7 +141,22 @@ Note that in some of the panes, recognised _DOTE_ Projects are highlighted in gr
 
 Clicking on a Transcript will open it in _DOTE_.
 
-#### Problems with orphan Transcripts and corrupted Transcripts
+##### Renaming and deleting Projects and Transcripts <a id='rename-delete'></a>
+
+It is also possible to rename a project or a Transcript in the `Open Transcript` panel:
+- Click the rename icon next to the Transcript or Project listed in the middle panel (_Folder Browser_).
+- Choose a new name and confirm.
+
+It is also possible to delete a project or a Transcript in the `Open Transcript` panel:
+- Click the delete icon next to the Transcript or Project listed in the middle panel (_Folder Browser_).
+- Confirm the deletion.
+- The deleted file(s) will be placed in the Recycle Bin/Trash.
+- Deleting the last or only Transcript in a Project will generate a blank Transcript in the same Project.
+This is because a Project should always contain at least one Transcript (even if blank).
+- Deleting a Project will also delete all Transcripts in that Project.
+Be careful!
+
+#### Problems with orphan Transcripts and corrupted Transcripts <a id='orphan-corrupt'></a>
 
 NOTE: If an orphan Transcript without a parent Project is discovered, then it will be highlighted in yellow.
 _DOTE_ will not be able to open it until the transcript folder is reunited under its project folder.
