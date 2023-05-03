@@ -5,6 +5,10 @@ The help guide gives guidance on all features and functionality, including the _
 Some of the functionality described will not be available in the free Edition of _DOTE_.
 See the [comparison chart on our webshop](https://www.dote.aau.dk/license-compare#compare-detail).
 
+### Where are the release notes?
+
+The [release notes](https://github.com/BigSoftVideo/DOTE/releases/tag/v1.0.4) for the current release are on GitHub, as are release notes for earlier versions.
+
 ### How to download and install _DOTE_
 
 _DOTE_ can be installed on the Microsoft Windows and Apple macOS desktop platforms.
