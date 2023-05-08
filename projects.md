@@ -87,7 +87,7 @@ If we allowed this, then chaos would ensue with regard to [version control](vers
 ## Open a Project <a id='open-project'></a>
 
 To open an already existing Project, one must first [select and open a Transcript in a Project](#open-transcript).
-Selecting `File ➔ Open Project`, will open the Transcript/Project browser panel.
+Selecting `File ➔ Open Project` will open the `Project Manager`.
 
 ## Save a Project
 
@@ -107,14 +107,14 @@ It just makes a series of backup copies at regular intervals.
 To open the last saved Transcript/Project, then just run _DOTE_.
 It automatically loads the last opened Transcript if it is accessible on the file system.
 
-To open a previously saved Transcript, then select `Open Transcript` or `File ➔ Open Transcript` or <kbd>CTRL</kbd>+<kbd>O</kbd> [or <kbd>⌘</kbd>+<kbd>O</kbd> on macOS].
+To open a previously saved Transcript, then select `Open Transcript` or `File ➔ Open Transcript` or <kbd>CTRL</kbd>+<kbd>O</kbd> [or <kbd>⌘</kbd>+<kbd>O</kbd> on macOS] using the `Project Manager`.
 
-To open a Transcript in a Project that is on a different drive or a mapped drive or volume, then you will need to select the drive letter in the `System Folders` panel of the `Open Transcript` panel (see below).
+To open a Transcript in a Project that is on a different drive or a mapped drive or volume, then you will need to select the drive letter in the `System Folders` panel of the `Project Manager` (see below).
 That drive will be opened and you can locate the correct Project folder and Transcript.
 
-[![Open Transcript](images/projects/open-transcript.png)](images/projects/open-transcript.png)
+[![Transcripts in the Project Manager](images/projects/open-transcript.png)](images/projects/open-transcript.png)
 
-There are several ways to navigate your Projects and Transcripts in the `Open Transcript` panel.
+There are several ways to navigate your Projects and Transcripts in the `Project Manager`.
 The panel has three vertical panes (see Figure):
 - **Left/Top 1**: _System Folders_
     - Just select to open that folder or drive/volume in the middle pane.
@@ -139,8 +139,44 @@ Note that in some of the panes, recognised _DOTE_ Projects are highlighted in gr
 
 [![Highlight status](images/projects/highlight.png)](images/projects/highlight.png)
 
-If an orphan Transcript without a parent Project is discovered, then it will be highlighted in red.
 Clicking on a Transcript will open it in _DOTE_.
+
+##### Renaming and deleting Projects and Transcripts <a id='rename-delete'></a>
+
+It is also possible to rename a project or a Transcript in the `Project Manger`:
+- Click the rename icon next to the Transcript or Project listed in the middle panel (_Folder Browser_).
+- Choose a new name and confirm.
+
+[![Rename-Delete](images/projects/rename-delete.png)](images/projects/rename-delete.png)
+
+It is also possible to delete a project or a Transcript in the `Project Manager`:
+- Click the delete icon next to the Transcript or Project listed in the middle panel (_Folder Browser_).
+- Confirm the deletion.
+- The deleted file(s) will be placed in the Recycle Bin/Trash.
+- Deleting the last or only Transcript in a Project will generate a blank Transcript in the same Project.
+This is because a Project should always contain at least one Transcript (even if blank).
+- Deleting a Project will also delete all Transcripts in that Project.
+Be careful!
+
+#### Problems with orphan Transcripts and corrupted Transcripts <a id='orphan-corrupt'></a>
+
+[![Orphan Transcript](images/projects/orphan-transcript.png)](images/projects/orphan-transcript.png)
+
+NOTE: If an orphan Transcript without a parent Project is discovered, then it will be highlighted in yellow.
+_DOTE_ will not be able to open it until the transcript folder is reunited under its project folder.
+
+NOTE: If a Transcript is corrupted, then it will be highlighted in red.
+
+[![Corrupted Transcript](images/projects/corrupt-transcript.png)](images/projects/corrupt-transcript.png)
+
+This can happen for a variety of reasons, including a computer crash, lack of disk space, or accidental destruction of some of the files in the transcript folder.
+_DOTE_ will offer to restore the Transcript to the last known autobackup.
+
+In the rare case that there are no autobackups available, then _DOTE_ will restore as best it can from the files that are available in the transcript folder.
+
+[![Corrupted Transcript](images/projects/corrupt-transcript-fix.png)](images/projects/corrupt-transcript-fix.png)
+
+As a result, in this case, you may lose certain video panel settings and the video-cues that may have been present in the original.
 
 ### Create a new Transcript in the current Project <a id='new-transcript'></a>
 

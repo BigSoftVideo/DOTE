@@ -24,19 +24,19 @@ Shareable exported Transcript files will always be small in size.
 
 To export a Project, do the following:
 
-1. Open the Project in `DOTE` by opening one of its Transcripts using `Open Transcript` or `File ➔ Open Transcript` or <kbd>CTRL</kbd>+<kbd>O</kbd> [or <kbd>⌘</kbd>+<kbd>O</kbd> on macOS].
-1. Select `File ➔ Export Project to File`.
-1. A dialogue box will appear with several options:
+1. Open the Project in `DOTE` by opening one of its Transcripts using `Open Transcript` or `File ➔ Open Transcript` or <kbd>CTRL</kbd>+<kbd>O</kbd> [or <kbd>⌘</kbd>+<kbd>O</kbd> on macOS] using the `Project Manager`.
+2. Select `File ➔ Export Project to File`.
+3. A dialogue box will appear with several options:
     - `Include Checkpoint history` - Include or exclude all checkpoints in each of the selected Transcripts.
     - `Include Autobackup history` - Include or exclude all autobackups in each of the selected Transcripts.
     - `Include Active Media files` - Include or exclude all active media in each Transcript (see [Media Manager](media.md))
     - `Include all Media files` - Include or exclude all media files (active or inactive) for the Project (see [Media Manager](media.md)).
     - `Filter by name` - If you have lots of Transcripts in a Project, then you can filter out by typing a string of characters.
-1. Choose which Transcripts to include in the export from the list of available transcripts.
-1. Click `Export`.
-1. Specify the location for the exported Project file (`.doteProject`).
-1. Click `Save`.
-1. Share that file with others, who can import it.
+4. Choose which Transcripts to include in the export from the list of available transcripts.
+5. Click `Export`.
+6. Specify the location for the exported Project file (`.doteProject`).
+7. Click `Save`.
+8. Share that file with others, who can import it.
 
 [![Export Project](images/import/export-project.png)](images/import/export-project.png)
 
@@ -52,7 +52,7 @@ To import a Project you have received, follow these steps:
 1. Enter a unique name for your imported Project.
 If there already is a Project with that name, you can overwrite it.
 Be aware that this is destructive and the overwritten Project cannot be recovered.
-1. After you have imported the Project, you can open a shared Transcript in that Project using `Open Transcript` or `File ➔ Open Transcript` or <kbd>CTRL</kbd>+<kbd>O</kbd> [or <kbd>⌘</kbd>+<kbd>O</kbd> on macOS].
+1. After you have imported the Project, you can open a shared Transcript in that Project using `Open Transcript` or `File ➔ Open Transcript` or <kbd>CTRL</kbd>+<kbd>O</kbd> [or <kbd>⌘</kbd>+<kbd>O</kbd> on macOS] using the `Project Manager`.
 
 [![Import Project](images/import/import-project.png)](images/import/import-project.png)
 
@@ -60,7 +60,7 @@ Be aware that this is destructive and the overwritten Project cannot be recovere
 
 If you wish to share a single Transcript, then follow these steps:
 
-1. Open that Transcript using Open Transcript` or `File ➔ Open Transcript` or <kbd>CTRL</kbd>+<kbd>O</kbd> [or <kbd>⌘</kbd>+<kbd>O</kbd> on macOS].
+1. Open that Transcript using `Open Transcript` or `File ➔ Open Transcript` or <kbd>CTRL</kbd>+<kbd>O</kbd> [or <kbd>⌘</kbd>+<kbd>O</kbd> on macOS] to open the `Project Manager`.
 1. Select `File ➔ Export Transcript to File`.
 1. You can choose to include or exclude the complete checkpoint history and/or autobackup history for that specific Transcript.
 1. Click on `Export` and select a destination directory/folder and a filename.
@@ -73,14 +73,14 @@ The filename suggested will be the same as the name of the Transcript in `DOTE`.
 
 To import a single Transcript that has been shared into a local Project, then do the following:
 
-1. Open the target Project in `DOTE` by opening one of its Transcripts using `Open Transcript` or `File ➔ Open Transcript` or <kbd>CTRL</kbd>+<kbd>O</kbd> [or <kbd>⌘</kbd>+<kbd>O</kbd> on macOS].
+1. Open the target Project in `DOTE` by opening one of its Transcripts using `Open Transcript` or `File ➔ Open Transcript` or <kbd>CTRL</kbd>+<kbd>O</kbd> [or <kbd>⌘</kbd>+<kbd>O</kbd> on macOS] using the `Project Manager`.
 1. Select `File ➔ Import Transcript from File`.
 1. Locate the exported Transcript file (`.dote`) on your file system and click `Open`.
 1. The Transcript will be imported into the currently open Project (shown in the dialog box).
 1. Enter a unique name for your imported Transcript.
 If there already is a Transcript with that name, you can overwrite it.
 Be aware that this is destructive and the overwritten Transcript cannot be recovered.
-1. After you have imported the Transcript, you can open it using `Open Transcript` or `File ➔ Open Transcript` or <kbd>CTRL</kbd>+<kbd>O</kbd> [or <kbd>⌘</kbd>+<kbd>O</kbd> on macOS].
+1. After you have imported the Transcript, you can open it using `Open Transcript` or `File ➔ Open Transcript` or <kbd>CTRL</kbd>+<kbd>O</kbd> [or <kbd>⌘</kbd>+<kbd>O</kbd> on macOS] using the `Project Manager`.
 
 [![Import Transcript from File](images/import/import-transcript.png)](images/import/import-transcript.png)
 

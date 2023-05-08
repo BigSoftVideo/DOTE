@@ -17,6 +17,7 @@ Syncing media clips is something to undertake outside _DOTE_, eg. with video edi
 More than one media file can be added to a Project.
     - The file of the added media source will be automatically copied to your Project folder on your computer's file system, unless it is already present.
     - The media source will appear in the list.
+    - In addition, more than one file can be selected at the same time (using the file browser in your OS) to batch import.
 1. If relevant, select which video format from the pull-down list, eg. `2D` or `360`.
 If "360" is present in the filename, then it is assumed that the video is `360` equirectangular format.
 1. If relevant, select which Video Projection you prefer, ie. how the 360 equirectangular format is rendered in the [video panel](video.md).
@@ -83,11 +84,12 @@ Note that the Media Manager control panel can be resized by dragging the handle 
 ### How to delete a media source from your current Project <a id='delete'></a>
 
 1. Select a media source.
-1. Click `Delete Selected File`.
-It (and the associated waveform) will no longer be available in the Project.
-1. **Note that the media file will be deleted from the Project folder on your computer's file system**.
-It will be sent to the Recycle Bin or Trash on your computer.
-If you empty the Recycle Bin or Trash, then the file will be lost.
-If you might wish to use the file again, then make a copy first in another location.
+More than one file can be selected at the same time (using the file browser in your OS) to batch delete.
+2. Click `Delete Selected File`.
+The media file(s) (and the associated waveforms) will no longer be available in the Project.
+1. **Note that the media file(s) will be deleted from the Project folder on your computer's file system**.
+The file(s) will be sent to the Recycle Bin or Trash on your computer.
+If you empty the Recycle Bin or Trash, then the file(s) will be lost.
+If you wish to use the file(s) again, then restore and make a copy first in another location.
 
 [![Delete media](images/media/delete.png)](images/media/delete.png)
