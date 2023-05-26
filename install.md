@@ -42,9 +42,12 @@ If you don't, then _DOTE_ will not start.
 ### Installation problems <a id='problems'></a>
 
 On Windows, the installation may fail because Windows Defender does not recognise the software.
-You can set Defender to allow DOTE to run on your computer.
+You can set Defender to allow _DOTE_ to run on your computer.
 
-You may have an Anti-virus/malware programme installed.
+On Windows, the installation may fail because your Windows setting does not allow software to be installed except from the App Store.
+If you wish to install _DOTE_, then you have to change that setting to allow apps to be installed from 3rd party sources.
+
+Another reason for failure is that you may have an Anti-virus/malware programme installed.
 It may not recognise _DOTE_ and warn you about installing/running the software on your computer.
 Just set the Anti-virus software to trust _DOTE_.
 
