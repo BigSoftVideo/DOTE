@@ -1,12 +1,12 @@
 ## Mondadaian style transcription conventions supported by *DOTE*
 
-The multimodal transcription conventions developed by Lorenza Mondada can be found here:
+Documentation of the multimodal transcription conventions developed by Lorenza Mondada can be found here:
 
 - [www.lorenzamondada.net/multimodal-transcription](https://www.lorenzamondada.net/multimodal-transcription)
 
-This release of _DOTE_ fully supports this style according to `v5.0.1`, with other minor variations supported as well.
+This release of _DOTE_ fully supports this style according to `v6.0.1` (and the older v5.0.1), with other minor variations supported as well.
 
-[![Mondada v5.0.1 example](images/conventions/example.png)](images/conventions/example.png)
+[![Mondada v6.0.1 example](images/conventions/example2.png)](images/conventions/example2.png)
 
 ### The structure of a Mondadaian transcript
 
