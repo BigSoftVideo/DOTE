@@ -1,4 +1,4 @@
-## Help guide for release v1.0.5
+## Help guide for release v1.1.0
 
 This help guide provides you with instructions to get started with basic and more advanced transcription tasks using _DOTE_.
 The help guide gives guidance on all features and functionality, including the _DOTE Pro_ Edition.
@@ -46,6 +46,7 @@ Here is a list of help tutorials on specific topics:
 - [Tips & Tricks](tips.md) - how to get some mundane and special tasks done
 - [Commands and shortcuts guide](commands.md) - a visual guide all in one place
 - [Glossary of key terms](glossary.md) - what you need to know
+- [Integration with DOTEbase](dotebase.md)
 
 ### Browse our _DOTE_ video tutorials <a id='tutorials'></a>
 
