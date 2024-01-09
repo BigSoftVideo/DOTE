@@ -1,6 +1,6 @@
-## Integration with DOTEbase
+## Integration with _DOTEbase_
 
-DOTEbase is our new software package that is designed to support qualitative analysis of large audio-visual data sets.
+_DOTEbase_ is our new software package that is designed to support qualitative analysis of large audio-visual data sets.
 
 We built it because we wanted a software tools to help researchers to analyse larger corpora of data, either before they have been transcribed or after.
 
@@ -18,4 +18,4 @@ The main changes to _DOTE_ are as follows:
 3. Support for importing and exporting Projects with Media Clips.
 Note that Media Clips are not viewable in _DOTE_, only in _DOTEbase_, but the data is stored in each Project.
 
-Users of the Free edition of DOTE will only be able to view Transcript Clips that others have made and shared with them.
+Users of the Free edition of _DOTE_ will only be able to view Transcript Clips that others have made and shared with them.
