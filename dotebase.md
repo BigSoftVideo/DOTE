@@ -18,6 +18,8 @@ The main changes to _DOTE_ are as follows:
 3. Support for importing and exporting Projects with Media Clips.
 4. Support for tracking changes to Transcript Clips in Checkpoints and Autobackups.
 
+[![DOTE clipping](images/dotebase/dote-clipping.png)](images/dotebase/dote-clipping.png)
+
 Note that Media Clips are not viewable in _DOTE_, only in _DOTEbase_, but the data is stored in each Project.
 
 Note that when a Project/Transcript is open in _DOTE_ the same Transcript in a DOTEspace in _DOTEbase_ will be locked so that it cannot be edited in two places at the same time, which would lead to conflicts.
