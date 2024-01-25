@@ -23,7 +23,7 @@ The main changes to _DOTE_ are as follows:
 Note that Media Clips are not viewable in _DOTE_, only in _DOTEbase_, but the data is stored in each Project.
 
 Note that when a Project/Transcript is open in _DOTE_ the same Transcript in a DOTEspace in _DOTEbase_ will be locked so that it cannot be edited in two places at the same time, which would lead to conflicts.
-As soon as a different Transcript is opened in _DOTE_, the previous transcript will be unlocked in _DOTEbase_, so it can be edited again in _DOTEbase_.
+As soon as a different Transcript is opened in _DOTE_, the previous Transcript will be unlocked in _DOTEbase_, so the relevant clips can be edited again in _DOTEbase_.
 
 Note that users of the Free edition of _DOTE_ will only be able to view Transcript Clips that others have made and shared with them.
 They will not be able create nor edit Transcript Clips.
