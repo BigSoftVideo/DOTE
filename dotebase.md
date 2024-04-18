@@ -28,11 +28,13 @@ The main changes to _DOTE_ are as follows:
 Clips do not have to start and terminate at the beginning or end of lines.
 1. Then select CREATE CLIP at the top of the Transcript panel.
 2. There are several options to select when creating the clip:
+    - Add one or more Tags.
+      Autocompletion is available if Tags have already been created in the Transcript.
     - Add a comment note in a text field.
     - Choose the styling (background/foreground colours) and visual style for the clip
         - Colours can be chosen directly from the colour wheel or with [Presets created and edited in _DOTEbase_ using the Colour Swatch Manager](https://bigsoftvideo.github.io/DOTEbase-beta-testing/colour-manager.html) that are in the current Transcript or Project.
     - Add user-defined field names/values.
-3. Click CREATE and the clip will be inserted and displayed in the Transcript.
+1. Click CREATE and the clip will be inserted and displayed in the Transcript.
     - It will also be added to the list of clips in the current Project.
 
 [![DOTE transcript clipping](images/dotebase/dote-clipping2.png)](images/dotebase/dote-clipping2.png)
@@ -42,6 +44,26 @@ When the Transcript is saved, then the clip will appear in _DOTEbase_ if that Tr
 If the same Transcript is open in both _DOTE_ and DOTEbase, then T-Clips in that Transcript cannot be edited in _DOTEbase_.
 _DOTE_ locks the Transcript for editing.
 If _DOTE_ is closed or a different Transcript is opened, then the Transcript is released and can be edited again in _DOTEbase_.
+
+#### Colour Swatches
+
+A simplified Colour Swatch Manager manages the Colours that are available in _DOTE_ in regard to Transcript Clips.
+
+To open the Colour Swatch Manager, click on the colour swatch when editing a T-Clip.
+A panel opens up on the right side.
+
+A colour can be selected by clicking on the colour wheel, entering a value or clicking on a swatch.
+The primary swatch will change colour to the value selected.
+
+If you wish to return to the previous colour before experimenting with swatches in the Manager, then click the `Revert to Previous Colour button` when applicable.
+
+The Colour Swatch Manager has two sections:
+1. The top shows the colour wheel, HEX/RGB numbers and the options to create/edit a Preset.
+2. The bottom lists the Default Colours and the Swatch Presets, as well as any Colours/Presets in relevant DOTEspaces, Projects and Transcripts.
+
+Colour Presets are created and edited only in _DOTEbase_.
+In DOTE, those that are available are displayed for each Transcript or for a Project.
+They can be applied to a Transcript Clip.
 
 ### Editing and deleting Transcript Clips
 
@@ -59,7 +81,7 @@ Make sure that the cursor is inside only one clip.
 
 ### Changing the scope of an existing T-Clip
 
-The scope of a T-Clip can be adjusted using the `Edit Selection` button at the top of the Edit T-Clip box.
+The scope of a T-Clip (eg. from line X/character Y to line W/character Z) can be adjusted using the `Edit Selection` button at the top of the Edit T-Clip box.
 - Scroll to find the original clip.
 - Make a new selection for the scope of the T-clip by dragging the cursor from the onset to the offset character.
 - Click `APPLY NEW SELECTION` button.
@@ -73,4 +95,4 @@ As soon as a different Transcript is opened in _DOTE_, the previous Transcript w
 
 Note that users of the Free edition of _DOTE_ will only be able to view and delete Transcript Clips that others have made and shared with them.
 They will not be able create nor edit Transcript Clips.
-A purchased license will be necessary.
+An activated license will be necessary.
