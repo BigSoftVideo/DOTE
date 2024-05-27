@@ -43,6 +43,14 @@ You can [download](https://www.dote.aau.dk/downloads) a free version of _DOTE_ a
 
 To unlock more features, you will need to purchase the [`DOTE Pro` Edition](pro.md).
 
+### What is _DOTEbase_?
+
+_DOTE_ is integrated with _DOTEbase_, our new software toolkit to suppport qualitative research with audio-visual data and transcripts.
+DOTEbase requires a licence for DOTE, it does not have a free edition.
+Find out more about [all the tools available in _DOTEbase_](https://bigsoftvideo.github.io/DOTEbase), as well as [_DOTE_'s integration](dotebase.md) with _DOTEbase_.
+
+[![DOTEbase](images/dotebase/dotebase-logo.png)](images/dotebase/dotebase-logo.png)
+
 ### How do I get help?
 
 There is a lot to get familiar with, but we hope it is worth it.
