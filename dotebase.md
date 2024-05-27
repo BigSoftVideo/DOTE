@@ -32,7 +32,7 @@ Clips do not have to start and terminate at the beginning or end of lines.
       Autocompletion is available if Tags have already been created in the Transcript.
     - Add a comment note in a text field.
     - Choose the styling (background/foreground colours) and visual style for the clip
-        - Colours can be chosen directly from the colour wheel or with [Presets created and edited in _DOTEbase_ using the Colour Swatch Manager](https://bigsoftvideo.github.io/DOTEbase-beta-testing/colour-manager.html) that are in the current Transcript or Project.
+        - Colours can be chosen directly from the colour wheel or with [Presets created and edited in _DOTEbase_ using the Colour Swatch Manager](https://bigsoftvideo.github.io/DOTEbase/colour-manager.html) that are in the current Transcript or Project.
     - Add user-defined field names/values.
 1. Click CREATE and the clip will be inserted and displayed in the Transcript.
     - It will also be added to the list of clips in the current Project.
@@ -59,10 +59,10 @@ If you wish to return to the previous colour before experimenting with swatches 
 
 The Colour Swatch Manager has two sections:
 1. The top shows the colour wheel, HEX/RGB numbers and the options to create/edit a Preset.
-2. The bottom lists the Default Colours and the Swatch Presets, as well as any Colours/Presets in relevant DOTEspaces, Projects and Transcripts.
+2. The bottom lists the Default Colours and the Swatch Presets, as well as any Colours/Presets in relevant Projects and Transcripts.
 
 Colour Presets are created and edited only in _DOTEbase_.
-In DOTE, those that are available are displayed for each Transcript or for a Project.
+In _DOTE_, those that are available (because they were created in _DOTEbase_) are displayed for each Transcript or for a Project.
 They can be applied to a Transcript Clip.
 
 ### Editing and deleting Transcript Clips
@@ -88,7 +88,7 @@ The scope of a T-Clip (eg. from line X/character Y to line W/character Z) can be
 
 [![T-Clip Scope](images/dotebase/clip-scope.png)](images/dotebase/clip-scope.png)
 
-Note that [Media Clips](https://bigsoftvideo.github.io/DOTEbase-beta-testing/media-clip.html) are not viewable in _DOTE_, only in _DOTEbase_; however, the Media Clip meta-data is still stored locally in each Project folder.
+Note that [Media Clips](https://bigsoftvideo.github.io/DOTEbase/media-clip.html) are not viewable in _DOTE_, only in _DOTEbase_; however, the Media Clip meta-data is still stored locally in each Project folder.
 
 Note that when a Project/Transcript is open in _DOTE_ the same Transcript in a DOTEspace in _DOTEbase_ will be locked so that it cannot be edited in two places at the same time, which would lead to conflicts.
 As soon as a different Transcript is opened in _DOTE_, the previous Transcript will be unlocked in _DOTEbase_, so the relevant clips can be edited again in _DOTEbase_.
@@ -96,3 +96,8 @@ As soon as a different Transcript is opened in _DOTE_, the previous Transcript w
 Note that users of the Free edition of _DOTE_ will only be able to view and delete Transcript Clips that others have made and shared with them.
 They will not be able create nor edit Transcript Clips.
 An activated license will be necessary.
+
+### Clip Presets
+
+[Clip Presets](https://bigsoftvideo.github.io/DOTEbase/clip-presets.html) are not available in _DOTE_ when creating/editing a Transcript Clip.
+Use _DOTEbase_ to create, edit and apply your Clip Presets to Clips.
