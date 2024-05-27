@@ -1,6 +1,6 @@
 ## Integration with _DOTEbase_
 
-_DOTEbase_ is our new software package that is designed to support qualitative analysis of large audio-visual data sets.
+[_DOTEbase_](https://bigsoftvideo.github.io/DOTEbase/) is our new software package that is designed to support qualitative analysis of large audio-visual data sets.
 
 We built it because we wanted a software tools to help researchers to analyse larger corpora of data, either before they have been transcribed or after.
 
