@@ -207,3 +207,29 @@ If you do have sync-codes also on overlapping speaker lines or subtier lines (Mo
 _DOTE_ uses an algorithm to select the speech to be displayed, how much to display, and how to treat overlapping speech.
 
 If you wish to edit and fine-tune your exported subtitles, then we recommend the open source [Subtitle Edit](https://nikse.dk/SubtitleEdit/).
+
+### Import from JSON
+
+For those who wish to import from OpenWhisper, which exports for _DOTE_, then we offer a way to import from JSON provided the data structure is standardised for _DOTE_.
+
+1. Select `Import Transcript from JSON` from the `File` menu.
+2. Select the JSON file on your file system to import.
+3. Choose from the options:
+    - Keep or remove punctuation symbols.
+    - Keep or remove the initial capital on each line.
+4. Select Import.
+5. The Transcript will be added to the current Project, so make sure the audio/video file and the transcript are comparable.
+
+### Import from SRT file
+
+For those who wish to import from other software (that can export to SRT) or from already generated time-coded subtitles, then we offer an import tool.
+
+1. Select `Import Transcript from SRT` from the `File` menu.
+2. Select an SRT file on your file system to import.
+3. Choose from the options:
+    - Give a name to each line.
+    This will give a single speaker identification within DOTE.
+    - Keep or remove punctuation symbols.
+    - Keep or remove the initial capital on each line.
+4. Select Import.
+5. The Transcript will be added to the current Project, so make sure the audio/video file and the transcript are comparable.
