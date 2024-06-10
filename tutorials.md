@@ -9,7 +9,7 @@ We have created more than 40 online videos (6 hours of delicious content), inclu
 - Introduction to _DOTE_ video — [Basic](https://www.youtube.com/watch?v=1Ebm30ChHxg&list=PLQJhL9BD4W1Trh8mKzPnQ0fqj8J1H00Cd)
 - How to navigate the online help guide — [Basic](https://www.youtube.com/watch?v=meYMj7DsYHE&list=PLQJhL9BD4W1Trh8mKzPnQ0fqj8J1H00Cd&index=24)
 - How to install _DOTE_ — [Basic](https://www.youtube.com/watch?v=zbB6lczk4f8&list=PLQJhL9BD4W1QD1AD1gGCcOXSUbwu_iNT1&index=1) — [Advanced](https://www.youtube.com/watch?v=RDbYopAerCw&list=PLQJhL9BD4W1Rf33H5FOhn7dbgcH6PEWg5&index=8)
-- Key differences between _DOTE_ (free) and _DOTE Pro_ Editions - [Basic](https://www.youtube.com/watch?v=48sfGoE0T2E)
+- Key differences between Free and _Pro_ Editions - [Basic](https://www.youtube.com/watch?v=48sfGoE0T2E)
 - How to activate the license key — [Basic](https://www.youtube.com/watch?v=IRiWKZYIViA&list=PLQJhL9BD4W1QD1AD1gGCcOXSUbwu_iNT1&index=16)
 - How to work with _DOTE_ projects — [Basic](https://www.youtube.com/watch?v=7oHE1KsIGTo&list=PLQJhL9BD4W1QD1AD1gGCcOXSUbwu_iNT1&index=7) — [Advanced](https://www.youtube.com/watch?v=GkjMwL6zqmM&list=PLQJhL9BD4W1Rf33H5FOhn7dbgcH6PEWg5&index=5)
 - How to use the media manager  — [Basic](https://www.youtube.com/watch?v=enN7aKYZEGg&list=PLQJhL9BD4W1QD1AD1gGCcOXSUbwu_iNT1&index=9) — [Advanced](https://www.youtube.com/watch?v=-xIPZAJoNkU&list=PLQJhL9BD4W1Rf33H5FOhn7dbgcH6PEWg5&index=7)

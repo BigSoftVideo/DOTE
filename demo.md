@@ -14,7 +14,7 @@ We make no claim that the demo transcripts are authoritative or complete; they a
 For example, a folder in your `Documents` called `My DOTE Projects`.
 1. Enter a name for your imported Demo Project or select the default name.
 2. After you have imported the Project, you can open one of the Demo Transcripts in that Project using `Open Transcript` or `File ➔ Open Transcript` or <kbd>CTRL</kbd>+<kbd>O</kbd> [or <kbd>⌘</kbd>+<kbd>O</kbd> on macOS] using the`Project Manager`.
-There are seven Transcripts to choose from, though some only work properly with the _DOTE Pro_ Edition.
+There are seven Transcripts to choose from, though some only work properly with the _Pro_ Edition.
 1. The Transcript should open, and you will see the waveform, video and prepared Transcript.
 
 NOTE: Do _not_ store the Demo Project in the same folder tree as the DOTE application itself.
