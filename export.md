@@ -6,6 +6,8 @@ In this release, we support `Export to RTF`, since all word processors on differ
 
 Changes to `Export to RTF` default options will persist across _DOTE_ sessions, but changes to `Export to SRT` options will not (because they are dependent on the specifc transcript translation subtiers).
 
+We also offer [Import from JSON](#import-json) and [Import from SRT](#import-srt), which are useful for importing from other applications.
+
 ### How to export to RTF <a id='rtf'></a>
 
 1. Select `File ➔ Export To RTF` from the menu.
@@ -208,7 +210,7 @@ _DOTE_ uses an algorithm to select the speech to be displayed, how much to displ
 
 If you wish to edit and fine-tune your exported subtitles, then we recommend the open source [Subtitle Edit](https://nikse.dk/SubtitleEdit/).
 
-### Import from JSON
+### Import from JSON <a id='import-json'></a>
 
 For those who wish to import from OpenWhisper, which exports for _DOTE_, then we offer a way to import from JSON provided the data structure is standardised for _DOTE_.
 
@@ -220,7 +222,7 @@ For those who wish to import from OpenWhisper, which exports for _DOTE_, then we
 4. Select Import.
 5. The Transcript will be added to the current Project, so make sure the audio/video file and the transcript are comparable.
 
-### Import from SRT file
+### Import from SRT file <a id='import-srt'></a>
 
 For those who wish to import from other software (that can export to SRT) or from already generated time-coded subtitles, then we offer an import tool.
 
