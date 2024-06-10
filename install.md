@@ -113,9 +113,9 @@ You may have to request permission from your IT services to install these softwa
 And you may have to unlock a folder (on macOS) to be able to install into that folder.
 Finally, you may not have access rights to the standard folder for installation (on macOS), so select a public folder that you do have access to.
 
-### _DOTE Pro_ license key
+### PRO Editions license key
 
-You will need to purchase and enter a [license key](pro.md#license) to unlock the premium features in _DOTE Pro_.
+You will need to purchase and enter a [license key](pro.md#license) to unlock the premium features in _DOTE_.
 
 ### Updating to a new release
 
