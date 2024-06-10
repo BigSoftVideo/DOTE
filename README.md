@@ -41,12 +41,12 @@ You can [download](https://www.dote.aau.dk/downloads) a free version of _DOTE_ a
 - If there are updates, you will find the [latest release on the Webshop](https://www.dote.aau.dk/downloads), and a list of new features and bug fixes on the [release page](https://github.com/BigSoftVideo/DOTE/releases) on our public GitHub repository.
 - DOTE has native support for Windows 10 and 11, as well as for macOS, including the new Apple Silicon with M-series.
 
-To unlock more features, you will need to purchase the [`DOTE Pro` Edition](pro.md).
+To unlock the premium features, you will need to purchase one of the [PRO Editions](pro.md) from our webshop.
 
 ### What is _DOTEbase_?
 
 _DOTE_ is integrated with _DOTEbase_, our new software toolkit to suppport qualitative research with audio-visual data and transcripts.
-To use _DOTEbase_ a licence for _DOTE_ is required.
+To use _DOTEbase_ a PRO or PRO COMMUNITY Edition licence is required.
 There is no free edition, but some simple features of _DOTEbase_ are available in _DOTE_'s free edition.
 Find out more about [all the tools available in _DOTEbase_](https://bigsoftvideo.github.io/DOTEbase), as well as [_DOTE_'s integration](dotebase.md) with _DOTEbase_.
 
