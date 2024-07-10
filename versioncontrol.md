@@ -1,5 +1,7 @@
 ## Two backup systems
 
+Watch [basic](https://www.youtube.com/watch?v=ERUz7esZ5go) and [advanced](https://www.youtube.com/watch?v=06sZFfw7ask) video tutorials on YouTube.
+
 _DOTE_ has two different and independent backup systems to keep track of your editing work and to support reliable backtracking to an earlier version. Grand! 🎊
 
 The backup systems will enable a user to restore a prior state of a transcript at a particular point in time, including the [transcript text](transcript.md), [sync-codes](sync-code.md), [named subtier types](tiers.md) and some local Editor settings in [Transcript Options](settings.md#options).
@@ -101,6 +103,8 @@ DOTE implements a simple version control for a single user, but experienced user
 [![Checkpoint Peeking](images/versioncontrol/checkpoint-peek.png)](images/versioncontrol/checkpoint-peek.png)
 
 #### How to use checkpoints
+
+Watch [video tutorial](https://www.youtube.com/watch?v=1LmINMDzfxk) on YouTube.
 
 - At any time, you can click on `Checkpoints` and see a list of prior checkpoints for the current transcript.
 - After making some meaningful changes to a transcript, it is a good idea to create a new checkpoint.

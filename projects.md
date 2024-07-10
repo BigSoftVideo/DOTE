@@ -1,5 +1,7 @@
 ## What are _DOTE_ Projects?
 
+Watch [basic](https://www.youtube.com/watch?v=7oHE1KsIGTo) and [advanced](https://www.youtube.com/watch?v=GkjMwL6zqmM) video tutorials on YouTube.
+
 A _DOTE_ Project is a folder containing all the Transcripts for a specific audio or video clip (media source).
 You can give this folder a unique and informative name.
 Always keep this Project folder, files and subfolders together, otherwise _DOTE_ will not be able to recover older edited versions nor underlining, sync-codes and video-cues.

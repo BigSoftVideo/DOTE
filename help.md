@@ -5,9 +5,13 @@ The help guide gives guidance on all features and functionality, including the _
 Some of the functionality described will not be available in the free Edition of _DOTE_.
 See the [comparison chart on our webshop](https://www.dote.aau.dk/license-compare#compare-detail).
 
+Watch [video tutorial](https://www.youtube.com/watch?v=meYMj7DsYHE) on YouTube.
+
 ### Where are the release notes?
 
 The [release notes](https://github.com/BigSoftVideo/DOTE/releases/) for the current release are on GitHub, as are release notes for earlier versions.
+
+Watch [video tutorial](https://www.youtube.com/watch?v=x_HvKftJsQw) about latest release on YouTube.
 
 ### How to download and install _DOTE_
 

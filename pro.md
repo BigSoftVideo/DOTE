@@ -1,5 +1,7 @@
 ## Free vs PRO and PRO COMMUNITY Editions
 
+Watch [video tutorial](https://www.youtube.com/watch?v=48sfGoE0T2E) on YouTube.
+
 _DOTE_ software is available in several Editions:
 
 1. The Free Edition is an open build that can be installed by anyone, though it lacks premium features.
@@ -16,6 +18,8 @@ There is an additional [PRO COMMUNITY](https://bigsoftvideo.github.io/DOTE-Pro-C
 Go to our [WEBSHOP](https://www.dote.aau.dk) to purchase a license and read more information about Editions.
 
 ### Activating _DOTE_ with the a PRO Edition license<a id='license'></a>
+
+Watch [video tutorial](https://www.youtube.com/watch?v=IRiWKZYIViA) on YouTube.
 
 To unlock the full feature set of _DOTE_, you will have to do the following:
 

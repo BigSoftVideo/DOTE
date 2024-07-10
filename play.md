@@ -1,5 +1,7 @@
 ## Video and audio playback
 
+Watch [basic](https://www.youtube.com/watch?v=v86-xkdVwL4) and [advanced](https://www.youtube.com/watch?v=t8yD07eSFWs) video tutorials on YouTube.
+
 There are two ways to playback the media associated with the current _DOTE_ project.
 
 [![Play](images/play/play-buttons.png)](images/play/play-buttons.png)

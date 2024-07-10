@@ -1,5 +1,7 @@
 ## Errors and Warnings
 
+Watch [video tutorial](https://www.youtube.com/watch?v=Ux4APu6ww4k) on YouTube.
+
 For basic warnings and errors that occur when using _DOTE_, a popup box will appear in the bottom left of the user interface.
 These popups try to explain the problem and recommend a solution (if possible).
 Usually, they do not interrupt the normal functioning of _DOTE_.

@@ -32,6 +32,7 @@ Here you will find ideas and solutions to specific tasks that you might wish to 
 - [Can I add emojis 🗣 to my Transcripts?](#tip10)
 - [Can I create Transcripts using other conventions?](#tip14)
 - [Can I convert transcripts created with other software to use in _DOTE_?](#tip15)
+- [Can I use AI to automatically recognise speech in _DOTE_?](#tip37)
 - [Can I copy and paste transcripts from publications into _DOTE_?](#tip16)
 - [Be cautious when editing sync-codes, video-cues and underlinings](#tip11)
 - [Be patient with Waveform generation, Checkpoint peeking, Exporting and Importing Projects and transcript heuristics](#tip12)
@@ -350,6 +351,17 @@ If you would like to program a convertor, then the data structures required in _
 The main things to look for are converting underlining and, if relevant, transcoding to sync-codes, as well as reformatting the transcript to match speaker-id + <kbd>COLON</kbd> + <kbd>TAB</kbd>.
 If you do write a convertor, then please use Javascript/Typescript, port it to GitHub, and publish it to NPM.
 Then we can build it into _DOTE_ for the next release.
+
+### Can I use AI to automatically recognise speech in _DOTE_? <a id='tip37'></a>
+
+_DOTE_ does not support automatic recognition of speech out of the box.
+However, it does support importing from MacWhisper, a version of OpenWhisper for macOS.
+See the following videos on You Tube:
+- [Import transcripts from 3rd party (AI based transcription Macwhisper)](https://www.youtube.com/watch?v=8DztBbRGozU)
+- [Transcribing Danish talk with Macwhisper and _DOTE_](https://www.youtube.com/watch?v=qxoFy19cv7M)
+- [Transcription battle between AI and humans!](https://www.youtube.com/watch?v=Vj91ofEkwzc)
+
+See [Importing from JSON](export.md#import-json).
 
 ### Can I copy and paste transcripts from publications into _DOTE_? <a id='tip16'></a>
 

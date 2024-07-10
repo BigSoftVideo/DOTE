@@ -1,5 +1,7 @@
 ## In what ways can _DOTE_ support your transcription practices
 
+Watch [How to Start a New Transcript](https://www.youtube.com/watch?v=raBDE5520gY) and [How to Edit a Transcript](https://www.youtube.com/watch?v=7JGCKmTg_6Q) video tutorials on YouTube.
+
 There are several ways in which _DOTE_ can help support transcription:
 
 1. [1st time through](#first)
@@ -55,6 +57,8 @@ One can do that just by positioning the playhead on the timeline and pressing <k
 1. If necessary, add some [video-cues](cues.md) to automatically change the view in the video panel to highlight the phenomena of interest at that point in the video and the Transcript.
 1. When the transcript is complete, then [Export to RTF](export.md) or [Export to SRT](export.md).
 
+Watch [video tutorial](https://www.youtube.com/watch?v=0fELQTTOiW0) on YouTube.
+
 ### Next time through <a id='next'></a>
 
 In the case of next time through, an already created transcript is revisited and revised.
@@ -79,6 +83,8 @@ This is useful to find the best point on the [timeline](timeline.md) to insert a
 
 ### Import transcript and conform <a id='conform'></a>
 
+Watch [video tutorial](https://www.youtube.com/watch?v=Npfmg7MpCZw) on YouTube.
+
 In the case of revising an extant transcript (created in other software or copy/pasted from a published transcript) which needs to be heavily edited to match the _DOTE_ conventions.
 
 [![Import and conform](images/howto/conform.png)](images/howto/conform.png)
@@ -100,6 +106,18 @@ A typical strategy to use _DOTE_ to revise a transcript could be the following:
 
 ### Review transcript by someone else <a id='review'></a>
 
+A new method of making comments and annotations ([Transcript-Clips](dotebase.md)) on a Transcript is available for PRO and PRO COMMUNITY Edition users in _DOTE_ v1.1.0+.
+This method interfaces nicely with DOTEbase, our new software to support qualitative analysis of transcripts.
+
+Watch the [video on YouTube](https://www.youtube.com/watch?v=x_HvKftJsQw).
+
+This method is not available for Free Edition users of _DOTE_.
+However, transcript clips made by someone else in an exported Project that is imported into _DOTE_ can be viewed by Free Edition users. 
+
+#### Older method of making comments
+
+Watch [video tutorial](https://www.youtube.com/watch?v=hc3CH9oOsKQ) on YouTube.
+
 [![Review](images/howto/review.png)](images/howto/review.png)
 
 In the last case, a transcript already prepared in _DOTE_ by someone else (eg. a colleague or a student) is shared and reviewed.
@@ -115,11 +133,11 @@ _DOTE_ gives the following support:
 A typical strategy to use _DOTE_ to comment on someone else's transcript could be the following:
 
 1. Import the shared transcript into the correct project folder.
-1. Open [Checkpoints](versioncontrol.md) to see a list of changes made by the original author(s).
-1. Making comments
+2. Open [Checkpoints](versioncontrol.md) to see a list of changes made by the original author(s).
+3. Making comments
     1. Make a small change or changes to the transcript.
     Keep them small and focused so they are easy to account for.
-    1. If helpful, write a technical comment (everything after `//`) on the same line as the change.
-    1. Create a checkpoint with a useful message documenting the change(s) you made.
-    1. Repeat.
-1. Export the transcript and share with the original author(s) or others.
+    2. If helpful, write a technical comment (everything after `//`) on the same line as the change.
+    3. Create a checkpoint with a useful message documenting the change(s) you made.
+    4. Repeat.
+4. Export the transcript and share with the original author(s) or others.

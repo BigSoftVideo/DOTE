@@ -1,5 +1,7 @@
 ## Transcribing in the Editor
 
+Watch [basic](https://www.youtube.com/watch?v=dqEehi8Jaa0) and [advanced](https://www.youtube.com/watch?v=U3yPPHZ-yak) video tutorials on YouTube.
+
 Once a Project with a Transcript is created or opened, with an [attached media file](media.md), then you can immediately type in the Transcript Editor.
 
 [![Editor](images/transcript/editor.png)](images/transcript/editor.png)
@@ -50,6 +52,8 @@ Just add a three-letter code for each extra language sub-tier (eg. _eng_).
 
 #### TAB, SPACE and LINE BREAK
 
+Watch [video tutorial](https://www.youtube.com/watch?v=vJf6e4Birhg) on YouTube.
+
 - After a speaker name, there should _always_ be a <kbd>TAB</kbd>, followed by the transcription text for that speaker.
 - Do the same for speaker continuation on new lines and for lines with pauses or comments.
 
@@ -71,6 +75,8 @@ A notional margin indicator can be set as a default in [Settings](settings.md) a
 - To get context specific help, then use the shortcut <kbd>CTRL</kbd>+<kbd>ENTER</kbd> or <kbd>⌘</kbd>+<kbd>ENTER</kbd>.
 
 #### Autocompletion <a id='autocomplete'></a>
+
+Watch [video tutorial](https://www.youtube.com/watch?v=-8s8c1pVeLQ) on YouTube.
 
 - If your cursor is in the speaker name column, then as you type a list of known and default speaker + named subtier types will appear in a drop-down list.
 
