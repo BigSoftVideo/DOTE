@@ -1,4 +1,24 @@
-## How to download and install _DOTE_
+## _DOTE_ v2.0 install and update
+
+We have recently released v2.0 of _DOTE_.
+We think it is a fantastic improvement on v1.0 that incorporates many suggestions from our user base.
+
+If you are new to _DOTE_, then just follow the instructions below.
+
+If you have already installed _DOTE_ v1.0, then you need to upgrade.
+We _strongly recommend_ that you backup all your _DOTE_ projects and transcripts to a safe place.
+The update will migrate a bunch of hidden files in each of your project and transcript folders only when you open an already existing _DOTE_ project or a transcript in a project.
+If something goes wrong, then you can simply replace all the files and folders from your backup.
+
+#### Updating to a new release
+
+When you run _DOTE_, it will remind you if there is a new release available online.
+It is up to you to manually [download the new release](https://www.dote.aau.dk/download/) and install it.
+
+To update _DOTE_ on both operating systems, just close _DOTE_, download the update and follow the same procedure above.
+_DOTE_ will be updated and restart automatically.
+
+### How to download and install _DOTE_
 
 Watch [basic](https://www.youtube.com/watch?v=zbB6lczk4f8) and [advanced](https://www.youtube.com/watch?v=RDbYopAerCw) video tutorials on YouTube.
 
@@ -118,11 +138,3 @@ Finally, you may not have access rights to the standard folder for installation 
 ### PRO Editions license key
 
 You will need to purchase and enter a [license key](pro.md#license) to unlock the premium features in _DOTE_.
-
-### Updating to a new release
-
-When you rung _DOTE_, it will remind you if there is a new release available online.
-It is up to you to manually download the new release and install it.
-
-To update _DOTE_ on both operating systems, just close _DOTE_, download the update and follow the same procedure above.
-_DOTE_ will be updated and restart automatically.

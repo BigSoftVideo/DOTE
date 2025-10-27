@@ -7,6 +7,13 @@ See the [comparison chart on our webshop](https://www.dote.aau.dk/license-compar
 
 Watch [video tutorial](https://www.youtube.com/watch?v=meYMj7DsYHE) on YouTube.
 
+### Which version am I using?
+
+If you have recently downloaded the v2.0 release to install or update _DOTE_, then you are on the right webpage.
+
+If you are still using the older v1.0 releases of _DOTE_, then you need to go to the [archived help guide](help.v1/help.md).
+We recommend that you [upgrade](install.md) as soon as possible to v2.0.
+
 ### Where are the release notes?
 
 The [release notes](https://github.com/BigSoftVideo/DOTE/releases/) for the current release are on GitHub, as are release notes for earlier versions.
