@@ -7,7 +7,7 @@ If you are new to _DOTE_, then just follow the instructions below.
 
 If you have already installed _DOTE_ v1.0, then you need to upgrade.
 We _strongly recommend_ that you backup all your _DOTE_ projects and transcripts to a safe place.
-The update will migrate a bunch of hidden files in each of your project and transcript folders only when you open an already existing _DOTE_ project or a transcript in a project.
+The update will migrate a bunch of hidden files in each of your project and transcript folders to the new data structures only when you open an already existing _DOTE_ project or a transcript in a project.
 If something goes wrong, then you can simply replace all the files and folders from your backup.
 
 #### Updating to a new release
@@ -24,7 +24,7 @@ Watch [basic](https://www.youtube.com/watch?v=zbB6lczk4f8) and [advanced](https:
 
 _DOTE_ is a desktop application that runs on your local computer.
 It is very easy to download and install the software and run it on the Windows and Mac desktop platforms.
-It should run on the latest versions of Microsoft Windows 10 or 11 and also Apple macOS (10.10 Yosemite or later; also macOS 12 for the newer Apple Silicon M-series).
+It should run on the latest versions of Microsoft Windows 11 and also Apple macOS (10.10 Yosemite or later; also macOS 12 for the Apple Silicon M-series).
 Let us know if you have a problem installing and running _DOTE_ on these platforms.
 Theoretically, it should also run on Linux, but we don't support this.
 Contact us if you are interested in using _DOTE_ on this platform.
@@ -61,6 +61,11 @@ The first thing you need to do after installing _DOTE_ is agree to the Terms and
 If you do, then _DOTE_ won't ask again on that machine.
 If you don't, then _DOTE_ will not start.
 
+### PRO Editions license key
+
+You will need to purchase and enter a [license key](pro.md#license) to unlock the premium features in _DOTE_.
+If you are upgrading, then you do not need to re-enter these details.
+
 ### Installation problems <a id='problems'></a>
 
 On Windows, the installation may fail because Windows Defender does not recognise the software.
@@ -83,10 +88,6 @@ This is a local problem with how your computer has been setup by a security cons
 
 ### Installing other open source packages that _DOTE_ needs for specific purposes
 
-#### Installing Git <a id='git'></a>
-
-To use Checkpoints and to view Autobackups, you will need to install the free open-source software called _Git_ on your computer. See [Checkpoints](versioncontrol.md#setup).
-
 #### Installing FFmpeg <a id='ffmpeg'></a>
 
 _DOTE_ can import many audio formats on its own in order to generate a waveform automatically, but not all.
@@ -95,11 +96,13 @@ If you have trouble generating a waveform for a video or audio clip, then one ca
 Alternatively, you can let _DOTE_ install the free, open source _FFmpeg_ on your computer and add the folder path to `ffmpeg.exe` to your _DOTE_ [Settings](settings.md).
 
 1. Go to Settings and scroll down to the bottom to see the `Additional Audio & Video Format Support` section.
-2. Reset the file path (if it is blank or has an incorrect file path).
-3. Select `Download FFmpeg and FFprobe`.
+2. Click the button `Install or Configure FFmpeg`
+3. Click `Download & Install FFmpeg Add-On`.
 4. The files will be downloaded and installed.
 5. The "Not found" indicators should change to "Available".
 6. Try restarting _DOTE_ if something looks amiss.
+7. You may need to `Reset Path to Default` if it is incorrect file path, eg. you upgraded to v2.0 and the file path is still for v1.0.
+8. If all else fails, `Remove Add-On`, and reinstall.
 
 BEFORE:
 
@@ -134,7 +137,3 @@ For a [macOS](https://evermeet.cx/ffmpeg/) installation, the folder path might l
 You may have to request permission from your IT services to install these software.
 And you may have to unlock a folder (on macOS) to be able to install into that folder.
 Finally, you may not have access rights to the standard folder for installation (on macOS), so select a public folder that you do have access to.
-
-### PRO Editions license key
-
-You will need to purchase and enter a [license key](pro.md#license) to unlock the premium features in _DOTE_.

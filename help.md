@@ -63,12 +63,14 @@ Here is a list of help tutorials on specific topics:
 
 We have made a bunch of [video tutorials](tutorials.md) you can view to learn how to use _DOTE_.
 
-### User bug reports
+### User error and bug reports
+
+You can easily submit an [error report](logfile.md) to our developers using the link "Report an Error to the Developers" under the `Help` menu.
 
 How to enter a [bug report issue](https://github.com/BigSoftVideo/DOTE/issues/new/choose) if you find anything that doesn't seem to work.
 
 In many cases it helps us if you attach the [_DOTE_ logfile](logfile.md) to the bug report.
-The folder on your computer in which the logfiles are stored can be accessed by the link under the `Help` menu.
+The folder on your computer in which the logfiles are stored can be accessed by the link "Open LogFile directory" under the `Help` menu.
 
 ### User feature requests
 
