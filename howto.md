@@ -57,7 +57,7 @@ One can do that just by positioning the playhead on the timeline and pressing <k
 1. If necessary, add some [video-cues](cues.md) to automatically change the view in the video panel to highlight the phenomena of interest at that point in the video and the Transcript.
 1. When the transcript is complete, then [Export to RTF](export.md) or [Export to SRT](export.md).
 
-Watch [video tutorial](https://www.youtube.com/watch?v=0fELQTTOiW0) on YouTube.
+watch the [video tutorial](https://www.youtube.com/watch?v=0fELQTTOiW0) on YouTube.
 
 ### Next time through <a id='next'></a>
 
@@ -83,7 +83,7 @@ This is useful to find the best point on the [timeline](timeline.md) to insert a
 
 ### Import transcript and conform <a id='conform'></a>
 
-Watch [video tutorial](https://www.youtube.com/watch?v=Npfmg7MpCZw) on YouTube.
+watch the [video tutorial](https://www.youtube.com/watch?v=Npfmg7MpCZw) on YouTube.
 
 In the case of revising an extant transcript (created in other software or copy/pasted from a published transcript) which needs to be heavily edited to match the _DOTE_ conventions.
 
@@ -116,7 +116,7 @@ However, transcript clips made by someone else in an exported Project that is im
 
 #### Older method of making comments
 
-Watch [video tutorial](https://www.youtube.com/watch?v=hc3CH9oOsKQ) on YouTube.
+watch the [video tutorial](https://www.youtube.com/watch?v=hc3CH9oOsKQ) on YouTube.
 
 [![Review](images/howto/review.png)](images/howto/review.png)
 

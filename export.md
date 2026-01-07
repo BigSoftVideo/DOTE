@@ -1,6 +1,6 @@
 ## Publish the _DOTE_ transcript
 
-Watch the [basic](https://www.youtube.com/watch?v=0VaMNLsFYWc) and [advanced](https://www.youtube.com/watch?v=QkTr54XvqTA) video tutorials on YouTube.
+Watch [basic](https://www.youtube.com/watch?v=0VaMNLsFYWc) and [advanced](https://www.youtube.com/watch?v=QkTr54XvqTA) video tutorials on YouTube.
 
 From  _DOTE_, you can publish your transcript to different formats readable by other software. Wow! 🤘🏻
 
@@ -179,7 +179,7 @@ Here are some guides about how to alter the appearance of the transcript in Micr
 
 ### How to export to subtitles (`SRT`) <a id='srt'></a>
 
-Watch the [basic](https://www.youtube.com/watch?v=1X3Es1fftPA) and [advanced](https://www.youtube.com/watch?v=IusIOK8TLIM) video tutorials on YouTube.
+Watch [basic](https://www.youtube.com/watch?v=1X3Es1fftPA) and [advanced](https://www.youtube.com/watch?v=IusIOK8TLIM) video tutorials on YouTube.
 
 It is also possible to export the basic speaker turns to subtitles that are timed to the original video clip, with all the timing, subtiers, alignment symbols and overlap brackets removed. The only condition for this to work correctly is that you have already manually added [sync-codes](sync-code.md) on the HEAD lines of every [neighbourhood](glossary.md#neighbourhood), otherwise _DOTE_ has no idea which lines should appear when as the video plays.
 

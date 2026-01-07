@@ -1,6 +1,6 @@
 ## Settings and Transcript Options
 
-Watch [video tutorial](https://www.youtube.com/watch?v=udlOrRBs1z0) on YouTube.
+watch the [video tutorial](https://www.youtube.com/watch?v=udlOrRBs1z0) on YouTube.
 
 There are two main ways to change settings for the use of _DOTE_ in general and for the current Transcript.
 

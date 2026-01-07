@@ -1,6 +1,6 @@
 ## Free vs PRO and PRO COMMUNITY Editions
 
-Watch [video tutorial](https://www.youtube.com/watch?v=48sfGoE0T2E) on YouTube.
+watch the [video tutorial](https://www.youtube.com/watch?v=48sfGoE0T2E) on YouTube.
 
 _DOTE_ software is available in several Editions:
 
@@ -19,7 +19,7 @@ Go to our [WEBSHOP](https://www.dote.aau.dk) to purchase a license and read more
 
 ### Activating _DOTE_ with the a PRO Edition license<a id='license'></a>
 
-Watch [video tutorial](https://www.youtube.com/watch?v=IRiWKZYIViA) on YouTube.
+watch the [video tutorial](https://www.youtube.com/watch?v=IRiWKZYIViA) on YouTube.
 
 To unlock the full feature set of _DOTE_, you will have to do the following:
 

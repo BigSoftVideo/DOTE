@@ -1,6 +1,6 @@
 ## Exporting and importing Transcripts and Projects to File
 
-Watch [video tutorial](https://www.youtube.com/watch?v=w_u5ESNRelY) on YouTube.
+watch the [video tutorial](https://www.youtube.com/watch?v=w_u5ESNRelY) on YouTube.
 
 Once you have created a _DOTE_ Project and one or more Transcripts in that project, you may wish to share them with others.
 This is relatively straightforward provided you understand how _DOTE_ [projects and transcripts are structured](projects.md).

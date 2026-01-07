@@ -1,6 +1,6 @@
 ## Video-cues
 
-Watch the [basic](https://www.youtube.com/watch?v=g3OEV6xrsTI) and [advanced](https://www.youtube.com/watch?v=zvCNKN2V5dQ) video tutorials on YouTube.
+Watch [basic](https://www.youtube.com/watch?v=g3OEV6xrsTI) and [advanced](https://www.youtube.com/watch?v=zvCNKN2V5dQ) video tutorials on YouTube.
 
 A _video-cue_ is a cue to transition to a specific view of the current 360 or 2D video at a specific timecode in the video media file.
 The idea is to bring a _cinematic experience_ to working with transcripts, such as zoom, pan and jump cut.
@@ -14,7 +14,7 @@ Sync-codes index specific lines in the transcript (in the Editor panel) to speci
 In contrast, video-cues index specific views of the current media source(s) to specific timecodes in the media timeline.
 Video-cues have no connection to the Editor, and they are managed on their own timeline.
 
-Watch [video tutorial](https://www.youtube.com/watch?v=vCE8AY_HmiU) on YouTube.
+watch the [video tutorial](https://www.youtube.com/watch?v=vCE8AY_HmiU) on YouTube.
 
 ### Adding video-cues <a id='add-cue'></a>
 

@@ -1,6 +1,6 @@
 ## Commands and keyboard shortcuts
 
-Watch [video tutorial](https://www.youtube.com/watch?v=_gZ18OZW34U) on YouTube.
+watch the [video tutorial](https://www.youtube.com/watch?v=_gZ18OZW34U) on YouTube.
 
 Below are two graphical guides to the many commands and shortcuts for _DOTE_.
 The first is a simple guide to the basic commands and shortcuts you need to get by.
