@@ -1,6 +1,6 @@
 ## Primary tier and subtier types
 
-Watch [basic](https://www.youtube.com/watch?v=jHvoOJguWKM) and [advanced](https://www.youtube.com/watch?v=vcgl_hqjMAE) video tutorials on YouTube.
+Watch the [basic](https://www.youtube.com/watch?v=jHvoOJguWKM) and [advanced](https://www.youtube.com/watch?v=vcgl_hqjMAE) video tutorials on YouTube.
 
 Subtiers are essential for multimodal transcription (eg. using the [Mondadaian conventions](mondada.md)).
 With subtier types, _DOTE_ can provide much more help and spot those errors which are so easily introduced manually in complex transcripts and yet hard for humans to locate.

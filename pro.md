@@ -1,6 +1,6 @@
 ## Free vs PRO and PRO COMMUNITY Editions
 
-watch the [video tutorial](https://www.youtube.com/watch?v=48sfGoE0T2E) on YouTube.
+Watch the [video tutorial](https://www.youtube.com/watch?v=48sfGoE0T2E) on YouTube.
 
 _DOTE_ software is available in several Editions:
 

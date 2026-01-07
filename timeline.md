@@ -1,6 +1,6 @@
 ## Timelines and waveforms
 
-watch the [video tutorial](https://www.youtube.com/watch?v=2RsvEEo5ICQ) on YouTube.
+Watch the [video tutorial](https://www.youtube.com/watch?v=2RsvEEo5ICQ) on YouTube.
 
 The main timeline includes a waveform generated and cached when the video for the current project is first opened.
 For some video and audio files, a waveform cannot be generated.

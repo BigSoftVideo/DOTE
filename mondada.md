@@ -1,6 +1,6 @@
 ## Mondadaian style transcription conventions supported by *DOTE*
 
-watch the [video tutorial](https://www.youtube.com/watch?v=GWlJe1bbBYs) on YouTube.
+Watch the [video tutorial](https://www.youtube.com/watch?v=GWlJe1bbBYs) on YouTube.
 
 Documentation of the multimodal transcription conventions developed by Lorenza Mondada can be found here:
 

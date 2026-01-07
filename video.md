@@ -1,6 +1,6 @@
-## Video Panels
+## Media Panels
 
-Watch [basic](https://www.youtube.com/watch?v=timdqQNxgAY) and [advanced](https://www.youtube.com/watch?v=a2bbS73WUfw) video tutorials on YouTube.
+Watch the [basic](https://www.youtube.com/watch?v=timdqQNxgAY) and [advanced](https://www.youtube.com/watch?v=a2bbS73WUfw) video tutorials on YouTube.
 
 When you start _DOTE_ or create a new project, only one video panel is displayed by default: the `Primary Video` panel.
 Select and drag the `window divider` at the bottom to adjust the relative size of the video panels.

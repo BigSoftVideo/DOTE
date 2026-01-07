@@ -1,6 +1,6 @@
 ## Publish the _DOTE_ transcript
 
-Watch [basic](https://www.youtube.com/watch?v=0VaMNLsFYWc) and [advanced](https://www.youtube.com/watch?v=QkTr54XvqTA) video tutorials on YouTube.
+Watch the [basic](https://www.youtube.com/watch?v=0VaMNLsFYWc) and [advanced](https://www.youtube.com/watch?v=QkTr54XvqTA) video tutorials on YouTube.
 
 From  _DOTE_, you can publish your transcript to different formats readable by other software. Wow! 🤘🏻
 

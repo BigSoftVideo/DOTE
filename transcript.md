@@ -1,6 +1,6 @@
 ## Transcribing in the Editor
 
-Watch [basic](https://www.youtube.com/watch?v=dqEehi8Jaa0) and [advanced](https://www.youtube.com/watch?v=U3yPPHZ-yak) video tutorials on YouTube.
+Watch the [basic](https://www.youtube.com/watch?v=dqEehi8Jaa0) and [advanced](https://www.youtube.com/watch?v=U3yPPHZ-yak) video tutorials on YouTube.
 
 Once a Project with a Transcript is created or opened, with an [attached media file](media.md), then you can immediately type in the Transcript Editor.
 
