@@ -43,7 +43,7 @@ Here is a list of help tutorials on specific topics:
 - [Importing transcripts from 3rd party JSON file](importJSON.md) - import transcripts from other sources
 - [Media manager](media.md) - manage your audiovisual data
 - [Timeline/waveform panel](timeline.md) - intuitive navigation of timecoded data
-- [Primary and secondary 360/2D video view panels](video.md) - multiple media and views (unique to _DOTE_)
+- [Primary and secondary 360/2D video view panels](media-panel.md) - multiple media and views (unique to _DOTE_)
 - [Audiovisual playback](play.md) - silky-smooth audiovisual playback while typing
 - [Transcript editor](transcript.md) - with transcript heuristics (unique to _DOTE_)
 - [Conventions supported by _DOTE_](conventions.md) - conforming transcripts to a clear style (unique to _DOTE_)

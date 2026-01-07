@@ -44,7 +44,7 @@ The Lego Demo Project contains the following media and Transcripts:
 In the Demo Project, there are several examples of Transcripts of the same event made following [two different conventions](conventions.md).
 
 1. [Open each Transcript](projects.md#open-transcript).
-1. You can [play through the video](video.md) and check the two partial [Transcripts](transcript.md) that have already been made according to Jeffersonian and Mondadaian [conventions](conventions.md).
+1. You can [play through the video](media-panel.md) and check the two partial [Transcripts](transcript.md) that have already been made according to Jeffersonian and Mondadaian [conventions](conventions.md).
 1. The Transcripts already have some [sync-codes](sync-code.md) and [video-cues](cues.md) that should work automatically when you play the video or click on the sync-code either in the appropriate [timeline](timeline.md) or the editor panel (sync-codes).
 Test them to see the result.
 1. Try some of the _DOTE_ functionality yourself:

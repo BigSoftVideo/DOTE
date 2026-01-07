@@ -6,7 +6,7 @@ Once you have created a _DOTE_ Project and one or more Transcripts in that proje
 This is relatively straightforward provided you understand how _DOTE_ [projects and transcripts are structured](projects.md).
 _DOTE_ provides support for exporting any Project and its Transcripts, as well as exporting individual Transcripts.
 It also provides support for importing a complete Project and its Transcripts, as well as individual Transcripts that reside in an already existing Project.
-This means that one can share a Project with [video data, waveforms](video.md), [transcripts](transcript.md) and [checkpoints](versioncontrol.md), for example.
+This means that one can share a Project with [video data, waveforms](media-panel.md), [transcripts](transcript.md) and [checkpoints](versioncontrol.md), for example.
 And one can share the current version of a Transcript with others who already have the Project with the necessary audio or video data.
 In the latter case, one is sharing a very small file, since there is no need to share the same video data repeatedly.
 You can also decide to include or exclude all the checkpoints and/or autobackups in the shareable Project or Transcript.

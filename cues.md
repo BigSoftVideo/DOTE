@@ -20,20 +20,20 @@ watch the [video tutorial](https://www.youtube.com/watch?v=vCE8AY_HmiU) on YouTu
 
 [![Video-cues](images/cues/video-cue-add.png)](images/cues/video-cue-add.png)
 
-1. Open the [video-cue timeline](media.md#media) for the specific video source that is to be cued in the [Primary video panel](video.md).
-2. Turn on [lock video to video-cue](video.md#video-tips) by selecting the slider button in the target video panel(s).
+1. Open the [video-cue timeline](media.md#media) for the specific video source that is to be cued in the [Primary video panel](media-panel.md).
+2. Turn on [lock video to video-cue](media-panel.md#video-tips) by selecting the slider button in the target video panel(s).
 3. Play the video and pause at the point to be video-cued.
-4. Adjust the view in the [Primary video panel](video.md).
+4. Adjust the view in the [Primary video panel](media-panel.md).
 5. Enter a video-cue by clicking on the `ADD VIDEO-CUE` button on the left side of the media timeline.
     - Assign the video-cue to the relevant video media source.
     - In video-cue options, select a _jump cut_ (immediate transition between two views) or a _smooth transition_ (a smooth pan between two views) for the video-cue.
     A smooth transition will track linearly from one view to another over a one second duration.
     This adds a cinematic feel to playing your videos in _DOTE_. Woah! 🎦
-    - At any time you can replace the current view for a specific video-cue by selecting the video-cue, altering the view on the [Primary Video panel](video.md) to your liking, and clicking the `Change View` button.
+    - At any time you can replace the current view for a specific video-cue by selecting the video-cue, altering the view on the [Primary Video panel](media-panel.md) to your liking, and clicking the `Change View` button.
 6. You can drag the video-cue in the timeline to a new time between adjacent video-cues.
     - The video-cue may need to tweaked in order to get the effect desired, eg. a smooth tracking pan/zoom that follows the action.
 
-If at any time you try to create, edit or move a video-cue when the [lock video to video-cue](video.md#video-tips) slider button is not selected, then _DOTE_ will warn you that video-cues will not be tracked in the video panels unless you toggle them on in one or both video panels.
+If at any time you try to create, edit or move a video-cue when the [lock video to video-cue](media-panel.md#video-tips) slider button is not selected, then _DOTE_ will warn you that video-cues will not be tracked in the video panels unless you toggle them on in one or both video panels.
 
 ### Editing a video-cue <a id='edit-cue'></a>
 
@@ -47,7 +47,7 @@ There are two ways to edit a video-cue:
 
 2. Or just right click on the video-cue in the relevant timeline.
 This can be useful when playing the video in the relevant video-cue, changing the viewport (no matter what the timecode), and then right clicking on the relevant video-cue.
-The video-cue can then be updated with the current viewport in the [Primary Video panel](video.md).
+The video-cue can then be updated with the current viewport in the [Primary Video panel](media-panel.md).
 
 #### What can be edited?
 
@@ -58,7 +58,7 @@ Clicking it will change the viewport for the selected video for the current vide
 
 - Video-cues can be deleted.
     - Select the video-cue, open the video-cue panel, and choose `Delete`.
-- The [Primary and Secondary Video panels](video.md) can be independently locked to the bookmarked video-cue.
+- The [Primary and Secondary Video panels](media-panel.md) can be independently locked to the bookmarked video-cue.
     - On each video view, click on the video-cue lock button.
     - The primary video panel is locked to follow video-cues by default; the secondary video panel is set to save viewport by default.
 

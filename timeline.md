@@ -8,7 +8,7 @@ In that case, the waveform will be blank.
 See [Tips & Tricks](tips.md) for ideas how to solve this.
 The main timeline is also used for managing sync-codes.
 
-To control volume and manage [video-cues](video.md), another independent [video-cue timeline/waveform](#media) associated with the media source in the [primary video panel](video.md) is available.
+To control volume and manage [video-cues](media-panel.md), another independent [video-cue timeline/waveform](#media) associated with the media source in the [primary video panel](media-panel.md) is available.
 
 ### Some tips for using all timelines
 
@@ -41,7 +41,7 @@ The transcript will be automatically scrolled to keep the current segment visibl
 If your Project has multiple media sources, and more than one is activated in your current Transcript via the [Media Manager](media.md), then you can independently decide which waveform is displayed on the timeline and which audio track is played:
 
 - `Waveform select`
-    - Display the waveform of the current video in the [primary video panel](video.md): `Follow Primary Video`.
+    - Display the waveform of the current video in the [primary video panel](media-panel.md): `Follow Primary Video`.
     - Or always display the waveform of the selected video.
 
 [![Select waveform](images/timeline/select1.png)](images/timeline/select1.png)
@@ -80,6 +80,6 @@ The video-cue timeline controls the basic audio levels of media sources.
 To mute and unmute the audio, press the `M` button.
 To adjust the volume, press the speaker button and slide the volume up and down.
 
-Furthermore, a prime use of the video-cue timeline is to manage [video-cues](cues.md) that control how the current active video is displayed in the [video panel](video.md).
+Furthermore, a prime use of the video-cue timeline is to manage [video-cues](cues.md) that control how the current active video is displayed in the [video panel](media-panel.md).
 
 A [complete list of commands and shortcuts](commands.md) is available.

@@ -33,7 +33,7 @@ The height of the [main timeline panel](timeline.md) can be adjusted using the h
 
 ### The video panel(s) <a id='video'></a>
 
-The height of the [video panel](video.md) can be adjusted using the horizontal divider lines.
+The height of the [video panel](media-panel.md) can be adjusted using the horizontal divider lines.
 The video panels can be opened or hidden by clicking the `Primary Video` and `Secondary Video` buttons at the top left.
 
 ### The video-cue timeline panel <a id='media'></a>

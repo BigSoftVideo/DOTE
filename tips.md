@@ -245,7 +245,7 @@ Those who receive and import the Project will only have access to the anonymised
 ### Why would I use the secondary video view? <a id='tip18'></a>
 
 For many use cases, one video view is adequate for transcribing.
-However, there are other use cases in which it is very useful to have a [second independent, but synced view](video.md) on the same video clip.
+However, there are other use cases in which it is very useful to have a [second independent, but synced view](media-panel.md) on the same video clip.
 
 - If the video clip is 2D, then it can be useful to open the `Secondary video` panel and zoom in on a rectangular portion of the video screen, while at the same time viewing the zoomed out view of the whole video screen.
 - If the video clip is 360, then it can be useful to set up a locked primary view using [video-cues](cues.md) to zoom in (and pan) around the spherical video.

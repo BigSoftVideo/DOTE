@@ -123,7 +123,7 @@ During playback, this selected section will [Play](play.md) repeatedly.
 
 The [Media Manager](media.md) is a tool to add media files to an individual [Project](project.md).
 It is used to import (by copying), configure and delete media files, as well as make them [Active](#active) in the current Transcript.
-A Project can contain multiple media files, and each Transcript in a Project can activate one or more of these media to use in the [Timeline](timeline.md) and [Video Panel(s)](video.md).
+A Project can contain multiple media files, and each Transcript in a Project can activate one or more of these media to use in the [Timeline](timeline.md) and [Video Panel(s)](media-panel.md).
 
 ### Neighbourhood <a id='neighbourhood'></a>
 
@@ -319,7 +319,7 @@ See [Git](#git), [Autobackup](#autobackup) and [Checkpoint](#checkpoint).
 
 ### Video-cue <a id='video-cue'></a>
 
-A [Video-cue](cues.md) is a unique point on the [Timeline](timeline.md) that indicates that a change in the [Viewport](#viewport) of a [Video Panel](video.md) is to be performed.
+A [Video-cue](cues.md) is a unique point on the [Timeline](timeline.md) that indicates that a change in the [Viewport](#viewport) of a [Video Panel](media-panel.md) is to be performed.
 This function automates the presentation of media during [Playback](play.md) in a more cinematic fashion.
 A limited set of virtual [Recam](#recam) camera movements are supported.
 
@@ -327,7 +327,7 @@ See also [Zoom](#zoom), [Pan](#pan), [Smooth Transition](#smooth) and [Jump Cut]
 
 ### Video Panel <a id='video-panel'></a>
 
-A [Video Panel](video.md) is a unique panel in the DOTE UI dedicated to displaying a selected video media file according to the user's wishes.
+A [Video Panel](media-panel.md) is a unique panel in the DOTE UI dedicated to displaying a selected video media file according to the user's wishes.
 Both 2D and 360-degree video can be displayed in a Video Panel.
 Moreover, the video can be zoomed and panned, and transitions can be sudden or smooth when using [Video-cues](cues.md).
 

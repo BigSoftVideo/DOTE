@@ -66,7 +66,7 @@ Otherwise, select an already created _DOTE_ Projects folder.
     - For example, if you named your Project "MyFirstProject" and chose `Documents/DoteProjects` for the parent folder, than your Project files will reside inside the folder `Documents/DoteProjects/MyFirstProject`.
 1. Once this is done, add a media source to your Project using [Media Manager](media.md).
 1. After adding and selecting a media source and saving in Media Manager, a waveform will be generated (if it hasn't already been generated).
-And if the media selected is a video, then it will appear in the [video panel](video.md).
+And if the media selected is a video, then it will appear in the [video panel](media-panel.md).
 
 Note: The path to the current Project folder on your computer's file system is displayed in [Transcript Options](settings.md#options).
 Clicking on that path will open it in your file browser.
