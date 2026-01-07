@@ -1,6 +1,6 @@
 ## Demo project
 
-If this is your first time, we would like you to try out _DOTE_ using our demo LEGO project.
+If this is your first time, we recommend that you try out _DOTE_ using our demo LEGO project.
 The demo project is freely available under a [Creative Commons Attribution Non Commercial Share Alike 4.0 (CC BY-NC-SA) International license](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode) license.
 The [original data](https://doi.org/10.5278/ojs.quivirr.v1.2020.a0003) is published online.
 We make no claim that the demo transcripts are authoritative or complete; they are simple illustrative of some of the core functionality of _DOTE_.
@@ -9,6 +9,7 @@ We make no claim that the demo transcripts are authoritative or complete; they a
 
 1. [Download the latest Lego Demo Project](https://www.dote.aau.dk/downloads) file and store it somewhere on your computer. [Earlier releases](https://github.com/BigSoftVideo/DOTE/releases) of the Demo project can be found on our public GitHub repository.
 2. Open _DOTE_ and select `File ➔ Import`.
+See our [help page on Importing](import.md) for more details.
 3. Select the Import `DOTE Project` option and press `Continue >`.
 4. Browse and locate the Project file that you downloaded (with the extension `.doteProject`) on your file system.
 5. Select an `Unpack Directory` where the folders and files will be unpacked and stored on your file system.
@@ -18,9 +19,9 @@ There is no need to change the default options.
 1. Click `Start Import`.
 2. After you have imported the Project, you can open one of the Demo Transcripts in that Project using `Open Transcript` or `File ➔ Open Transcript` or <kbd>CTRL</kbd>+<kbd>O</kbd> [or <kbd>⌘</kbd>+<kbd>O</kbd> on macOS] using the`Project Manager`.
 There are seven Transcripts to choose from, though some only work properly with the _Pro_ Edition.
-1. The Transcript should open, and you will see the waveform, video and prepared Transcript.
+1. The Transcript should open, and you will see the Waveform in the Timeline panel, a video in a Media Panel and the prepared transcript in the Transcript panel.
 
-NOTE: Do _not_ store the Demo Project in the same folder tree as the DOTE application itself.
+NOTE: Do _not_ store the unpacked Demo Project in the same folder tree as the DOTE application itself.
 Please see the [_Where to store your DOTE projects?_](projects.md#storing) help section for more information on solving issues when using remote folders (Windows) and volumes (macOS) for storing projects.
 
 [![DOTE UI](images/UI/UI.png)](images/UI/UI.png)
