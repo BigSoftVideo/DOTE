@@ -1,6 +1,6 @@
 ## Media Manager
 
-Watch [basic](https://www.youtube.com/watch?v=enN7aKYZEGg) and [advanced](https://www.youtube.com/watch?v=-xIPZAJoNkU) video tutorials on YouTube.
+Watch the [basic](https://www.youtube.com/watch?v=enN7aKYZEGg) and [advanced](https://www.youtube.com/watch?v=-xIPZAJoNkU) video tutorials on YouTube.
 
 _DOTE_ projects can contain one or more media files associated with that Project.
 Media such as audio and video files can be imported directly into a new Project.

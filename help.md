@@ -9,6 +9,8 @@ Watch [video tutorial](https://www.youtube.com/watch?v=meYMj7DsYHE) on YouTube.
 
 ### Which version am I using?
 
+Click the link `About` under the `Help` menu to find out which version you are using.
+
 If you have recently downloaded the v2.0 release to install or update _DOTE_, then you are on the right webpage.
 
 If you are still using the older v1.0 releases of _DOTE_, then you need to go to the [archived help guide](help.v1/help.md).
@@ -65,7 +67,7 @@ We have made a bunch of [video tutorials](tutorials.md) you can view to learn ho
 
 ### User error and bug reports
 
-You can easily submit an [error report](logfile.md) to our developers using the link "Report an Error to the Developers" under the `Help` menu.
+You can easily submit an [error report](logfile.md) to our developers using the link `Report an Error to the Developers` under the `Help` menu.
 
 How to enter a [bug report issue](https://github.com/BigSoftVideo/DOTE/issues/new/choose) if you find anything that doesn't seem to work.
 

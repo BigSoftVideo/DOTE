@@ -20,7 +20,7 @@ _DOTE_ will be updated and restart automatically.
 
 ### How to download and install _DOTE_
 
-Watch [basic](https://www.youtube.com/watch?v=zbB6lczk4f8) and [advanced](https://www.youtube.com/watch?v=RDbYopAerCw) video tutorials on YouTube.
+Watch the [basic](https://www.youtube.com/watch?v=zbB6lczk4f8) and [advanced](https://www.youtube.com/watch?v=RDbYopAerCw) video tutorials on YouTube.
 
 _DOTE_ is a desktop application that runs on your local computer.
 It is very easy to download and install the software and run it on the Windows and Mac desktop platforms.

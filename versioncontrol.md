@@ -1,6 +1,6 @@
-## Two backup systems
+## Two backup systems are better than one!
 
-Watch [basic](https://www.youtube.com/watch?v=ERUz7esZ5go) and [advanced](https://www.youtube.com/watch?v=06sZFfw7ask) video tutorials on YouTube.
+Watch the [basic](https://www.youtube.com/watch?v=ERUz7esZ5go) and [advanced](https://www.youtube.com/watch?v=06sZFfw7ask) video tutorials on YouTube.
 
 _DOTE_ has two different and independent backup systems to keep track of your editing work and to support reliable backtracking to an earlier version. Grand! 🎊
 
@@ -96,9 +96,9 @@ Autobackups and Checkpoints are independent version control systems.
 
 ### Checkpoints in a Transcript <a id='checkpoint'></a>
 
-The _checkpoint_ system uses a special version control system behind the scenes, namely _Git_.
+The _Checkpoint_ system uses a special version control system behind the scenes, namely _Git_.
 _Git_ is a secure, free, open source software with absolutely no advertising or spyware.
-DOTE implements a simple version control for a single user, but experienced users can also use GitHub and a Git GUI to collaborate on shared transcripts in a distributed manner.
+DOTE implements a simple version control for a single user, but experienced users could also use GitHub and a Git GUI to collaborate on shared transcripts in a distributed manner.
 
 [![Checkpoint Peeking](images/versioncontrol/checkpoint-peek.png)](images/versioncontrol/checkpoint-peek.png)
 
