@@ -1,0 +1,1 @@
+Renamed to [Media Manager](media-manager.md) in v2.0. Click the link.
