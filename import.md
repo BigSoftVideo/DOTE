@@ -31,8 +31,8 @@ To export a Project, do the following:
 3. A dialogue box will appear with several options:
     - `Include Checkpoint history` - Include or exclude all checkpoints in each of the selected Transcripts.
     - `Include Autobackup history` - Include or exclude all autobackups in each of the selected Transcripts.
-    - `Include Active Media files` - Include or exclude all active media in each Transcript (see [Media Manager](media.md))
-    - `Include all Media files` - Include or exclude all media files (active or inactive) for the Project (see [Media Manager](media.md)).
+    - `Include Active Media files` - Include or exclude all active media in each Transcript (see [Media Manager](media-manager.md))
+    - `Include all Media files` - Include or exclude all media files (active or inactive) for the Project (see [Media Manager](media-manager.md)).
     - `Filter by name` - If you have lots of Transcripts in a Project, then you can filter out by typing a string of characters.
 4. Choose which Transcripts to include in the export from the list of available transcripts.
 5. Click `Export`.

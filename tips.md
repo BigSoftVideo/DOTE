@@ -42,7 +42,7 @@ Here you will find ideas and solutions to specific tasks that you might wish to 
 
 ### What is a Project? <a id='tip27'></a>
 
-A _DOTE_ [Project](project.md) is a container for one or more [media clips](media.md) and one or more Transcripts.
+A _DOTE_ [Project](project.md) is a container for one or more [media clips](media-manager.md) and one or more Transcripts.
 In practical terms, it is a folder on your computer's file system.
 The guiding principle is that a Project _represents a single event_, which can be transcribed in different ways.
 The single event may have been recorded with one device or many (cameras and/or microphones), but all the recordings are synchronised to match the duration of the event.
@@ -65,7 +65,7 @@ There are a variety of reasons for this.
 
 If you haven't installed FFmpeg on your computer, then we recommend that you do this first, and manually add the file path in [Settings](settings.md#ffmpeg).
 FFmpeg is a powerful open source video processor, which we cannot include inside DOTE for licensing reasons.
-Restart _DOTE_ and create a new Project and import the media again or open [Media Manager](media.md) and regenerate the waveform using the button on the far right for the relevant media.
+Restart _DOTE_ and create a new Project and import the media again or open [Media Manager](media-manager.md) and regenerate the waveform using the button on the far right for the relevant media.
 
 Another solution is to transcode the video into a format that _DOTE_ can understand and reimport it into the _DOTE_ project.
 
@@ -230,15 +230,15 @@ There are several ways to deal with this, assuming that the Transcript does not 
 - First, one can simply [export the Project](import.md) without any media (nor active media) included.
 In that case, those who receive and import the Project would only be able to see the Transcript(s).
 Any sync-codes or video-cues that are present simply won't work because there is no media.
-- Second, one can use the [Media Manager](media.md) to add an extra proxy media clip that is audio only, if that is acceptably anonymised.
+- Second, one can use the [Media Manager](media-manager.md) to add an extra proxy media clip that is audio only, if that is acceptably anonymised.
 Most video editing software allows the audio track to be stripped off and exported as a WAV or MP3 file.
-When the Project is ready to export, use the [Media Manager](media.md) to turn off all active media, except for the audio only clip.
+When the Project is ready to export, use the [Media Manager](media-manager.md) to turn off all active media, except for the audio only clip.
 Then export the Project, including only active media.
 Those who receive and import the Project will only have access to the audio only proxy media, and any sync-codes present will work, but video-cues will not.
-- Third, one can use the [Media Manager](media.md) to add an extra proxy media clip that is an anonymised version of the video.
+- Third, one can use the [Media Manager](media-manager.md) to add an extra proxy media clip that is an anonymised version of the video.
 There are different solutions to anonymising video clips, which will not be elaborated on here.
 And if there are more than one active video clips, one or more can be anonymised
-When the Project is ready to export, use the [Media Manager](media.md) to turn off all active media, except for the anonymised video clip(s).
+When the Project is ready to export, use the [Media Manager](media-manager.md) to turn off all active media, except for the anonymised video clip(s).
 Then export the Project, including only active media.
 Those who receive and import the Project will only have access to the anonymised proxy media, and any sync-codes and video-cues present will work.
 
@@ -257,7 +257,7 @@ The primary [Timeline](timeline.md) is placed at the top above the primary video
 It is where most of the work happens, time intervals, looping, playback.
 It is also where the [sync-codes](sync-code.md) are indicated.
 The secondary Timeline(s) are placed below the video panel(s).
-There is a secondary Timeline for each [media source](media.md) attached to a Transcript.
+There is a secondary Timeline for each [media source](media-manager.md) attached to a Transcript.
 If you use them, these are where the [video-cues](cues.md) are indicated.
 Moreover, if the Timelines are independent (and not synced), then one can focus each Timeline at different zoom levels, eg. the primary Timeline could be zoomed right in on an 8-second excerpt, while the secondary Timeline is zoomed out to give a macro-perspective on the whole clip.
 

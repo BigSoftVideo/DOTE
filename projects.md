@@ -64,7 +64,7 @@ You can change this in [Transcript Options](settings.md#options) later.
 Once you create a Project, a new folder within the _DOTE_ Projects folder will be created with the name that you specified.
 Otherwise, select an already created _DOTE_ Projects folder.
     - For example, if you named your Project "MyFirstProject" and chose `Documents/DoteProjects` for the parent folder, than your Project files will reside inside the folder `Documents/DoteProjects/MyFirstProject`.
-1. Once this is done, add a media source to your Project using [Media Manager](media.md).
+1. Once this is done, add a media source to your Project using [Media Manager](media-manager.md).
 1. After adding and selecting a media source and saving in Media Manager, a waveform will be generated (if it hasn't already been generated).
 And if the media selected is a video, then it will appear in the [video panel](media-panel.md).
 
@@ -72,7 +72,7 @@ Note: The path to the current Project folder on your computer's file system is d
 Clicking on that path will open it in your file browser.
 
 Note: It is not permitted to create _nested_ Projects, ie. one cannot create a new Project inside another Project.
-If we allowed this, then chaos would ensue with regard to [version control](versioncontrol.md) and [media file storage](media.md).
+If we allowed this, then chaos would ensue with regard to [version control](versioncontrol.md) and [media file storage](media-manager.md).
 
 > **NOTE: Creating a waveform when a media file is first imported or the waveform is regenerated can take time. This could take more than 5 seconds. Progress is visible as the waveform appears gradually from left to right in the timeline.**
 
@@ -81,7 +81,7 @@ If we allowed this, then chaos would ensue with regard to [version control](vers
 > **NOTE: If _DOTE_ fails to display a video or generate a visual waveform, then try transcoding the audio or video file to a more common MP4 or WAV format, such as for YouTube or Vimeo.
 > See the [Tips & Tricks](tips.md) for instructions how to do that using _HandBrake_, for example.
 > After you have exported a transcoded video, then import it into the same project or create a new project.
-> If you give it the same name, then select `Regenerate Waveform` in the [Media Manager](media.md).
+> If you give it the same name, then select `Regenerate Waveform` in the [Media Manager](media-manager.md).
 > If you return to the main editor after selecting this option, then you will see the transcript being regenerated.
 > If that fails, however, then create a new project and try to import it again.
 > Or see the [Installation guide](install.md#ffmpeg) for an alternative solution using _FFmpeg_ that will generate a waveform for a wider range of audio and video formats.**
@@ -183,7 +183,7 @@ As a result, in this case, you may lose certain video panel settings and the vid
 ### Create a new Transcript in the current Project <a id='new-transcript'></a>
 
 1. To create a new Transcript in the _current_ Project that is open, with the same media sources available, then click on `File ➔ New Transcript`.
-Each project can host multiple transcripts of the same video clip(s) added with [Media Manager](media.md).
+Each project can host multiple transcripts of the same video clip(s) added with [Media Manager](media-manager.md).
 1. Give the Transcript a name.
 1. Select the [conventions](conventions.md) you prefer.
 You can change this in [Transcript Options](settings.md#options) later.

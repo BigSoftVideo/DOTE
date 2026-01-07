@@ -25,7 +25,7 @@ Some of these menu commands do not have shortcuts.
 
 ### The function buttons <a id='function'></a>
 
-The basic functions for [version control](versioncontrol.md) and [managing media](media.md) are easily accessible via these buttons.
+The basic functions for [version control](versioncontrol.md) and [managing media](media-manager.md) are easily accessible via these buttons.
 
 ### The main timeline panel <a id='timeline'></a>
 

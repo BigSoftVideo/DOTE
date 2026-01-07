@@ -199,7 +199,7 @@ Both Autobackups and Checkpoints track the changes made to the text in the Edito
 This includes underlining and sync-codes, as well as [Transcript Options](settings.md#options)) panel (eg. font size, margins, subtiers and conventions).
 Thus, if one restores (or resets) to an earlier Autobackup or Checkpoint, then not only will the Transcript revert back to the earlier state, but also the basic options for the layout of the Transcript in [Transcript Options](settings.md#options) will also be reverted.
 
-On the other hand, in regard to Checkpoints the following are not tracked: [video-cues](cues.md) and a range of other [Settings](settings.md) are _not_ tracked, including [active media](media.md), projection views, [warning/error toggles](errors.md), locking video views, [muting, volume](timeline.md), etc.
+On the other hand, in regard to Checkpoints the following are not tracked: [video-cues](cues.md) and a range of other [Settings](settings.md) are _not_ tracked, including [active media](media-manager.md), projection views, [warning/error toggles](errors.md), locking video views, [muting, volume](timeline.md), etc.
 They cannot be recovered from earlier Checkpoints, but they will be recovered from earlier Autobackups.
 
 ### Using GitHub and a Git GUI to collaborate on shared Transcripts <a id='GitHub'></a>

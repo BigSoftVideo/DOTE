@@ -6,14 +6,14 @@ When you start _DOTE_ or create a new project, only one media panel is displayed
 You can add more media panels to display the same video source (different zoom/pan) or different video sources that have been added in the Media Manager.
 
 Select and drag the `window divider` at the bottom to adjust the relative size of the media panels.
-The video format, either 360 or 2D, must be set in the [Media Manager](media.md), so that the video will appear correctly.
+The video format, either 360 or 2D, must be set in the [Media Manager](media-manager.md), so that the video will appear correctly.
 For 360 videos, one can choose from three different projection systems for each media panel.
 Experiment to see which one suits your 360 video recording.
 
 Watch the [video tutorial](https://www.youtube.com/watch?v=eBWNqeIo450) on YouTube.
 
 The `Primary Video` panel can be hidden, so no video is displayed.
-Selecting `Secondary Video` will open a second media panel _for the same_ video source, though the source can be changed using the pull-down menu of [active media](media.md) in the current Transcript.
+Selecting `Secondary Video` will open a second media panel _for the same_ video source, though the source can be changed using the pull-down menu of [active media](media-manager.md) in the current Transcript.
 Both media panels can be independently manipulated to show different parts of the same or a different 2D or 360 video image simultaneously.
 This means one can simultaneously zoom in on one viewpoint of the video image while also looking at a second viewpoint at a different zoom scale or in another direction.
 Or one can open the view from one camera, while also looking at the view from a different one.
@@ -23,7 +23,7 @@ Lush! 🌱
 
 ### More than one video available in active media
 
-If one has imported _more than one_ video source into the current Project using [Media Manager](media.md), and made them active for the current Transcript, then the media panel will list the available videos in a pull-down menu at the top left of the media panel.
+If one has imported _more than one_ video source into the current Project using [Media Manager](media-manager.md), and made them active for the current Transcript, then the media panel will list the available videos in a pull-down menu at the top left of the media panel.
 
 [![Media panel](images/video/slider1.png)](images/video/slider1.png) Lock to Video-cues
 

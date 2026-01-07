@@ -30,7 +30,7 @@ Please see the [_Where to store your DOTE projects?_](projects.md#storing) help 
 
 The Lego Demo Project contains the following media and Transcripts:
 
-- Six synchronised media sources (see [Media Manager](media.md)), including 2D video, 360-degree video and wireless mic audio.
+- Six synchronised media sources (see [Media Manager](media-manager.md)), including 2D video, 360-degree video and wireless mic audio.
 - Seven alternative transcripts:
     - Transcripts that work with the _free_ Edition of _DOTE_. This is because there are restrictions on the number (2) of media sources that can be activated per Transcript. Thus, playback following video-cues is limited to just two active videos.
     - Transcripts that only work with the _Pro_ Edition of _DOTE_. All media sources can be activated, and there is no limit to selecting media sources and switching between active videos using video-cues.

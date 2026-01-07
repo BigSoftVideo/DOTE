@@ -91,7 +91,7 @@ This is a local problem with how your computer has been setup by a security cons
 #### Installing FFmpeg <a id='ffmpeg'></a>
 
 _DOTE_ can import many audio formats on its own in order to generate a waveform automatically, but not all.
-If you have trouble generating a waveform for a video or audio clip, then one can either transcode the clip (see [Tips](tips.md)) and try again by importing the new video or by regenerating the waveform (see [Media Manager](media.md)).
+If you have trouble generating a waveform for a video or audio clip, then one can either transcode the clip (see [Tips](tips.md)) and try again by importing the new video or by regenerating the waveform (see [Media Manager](media-manager.md)).
 
 Alternatively, you can let _DOTE_ install the free, open source _FFmpeg_ on your computer and add the folder path to `ffmpeg.exe` to your _DOTE_ [Settings](settings.md).
 

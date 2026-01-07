@@ -42,7 +42,7 @@ Some of the settings are only changed when the Settings dialog box is closed.
 ##### Video
 
 - Option to automatically restart media playback from the beginning when the end of the recording is reached.
-- The default [video format](media.md#add).
+- The default [video format](media-manager.md#add).
 - The default display projection for 360 videos.
 
 ##### Conventions
@@ -71,7 +71,7 @@ If the video being played is encoded with a different frame rate than in Setting
 ##### External software
 
 - Optional folder path to installed _FFmpeg_ software for waveform generation.
-_DOTE_ does its best internally to create a waveform for every media file added with [Media Manager](media.md).
+_DOTE_ does its best internally to create a waveform for every media file added with [Media Manager](media-manager.md).
 If this is not working for you, then you can automatically [install _FFmpeg_](install.md#ffmpeg) on your computer and link the file path to _DOTE_.
 We cannot include the open source software package inside _DOTE_ because of software licensing restrictions.
 

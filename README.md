@@ -4,7 +4,7 @@ _DOTE_ is a new type of transcription software developed by the [_BigSoftVideo_ 
 It is tailored for transcribing social conduct, conversation and multimodal interaction for research purposes.
 It has been designed to support two specific standards of transcription for qualitative research, which are commonly used in conversation analysis, for example.
 _DOTE_ has some of the features commonly found in other software -- such as [video playback](play.md), a [timeline and a visual waveform](timeline.md), [synced playback](sync-code.md) -- but these features are streamlined and easier to use in _DOTE_.
-Moreover, it has enhanced features that do _not_ exist in any legacy software so far, including [transcript parsing](errors.md), [smart auto-completion](transcript.md#autocomplete), [transcript heuristics](jefferson.md#realign), [multi-video window playback](media.md) (with subtitles), [360 video support](media.md), [video-cues](cues.md), [export to publishable document](export.md) (and subtitles) and [version control](versioncontrol.md).
+Moreover, it has enhanced features that do _not_ exist in any legacy software so far, including [transcript parsing](errors.md), [smart auto-completion](transcript.md#autocomplete), [transcript heuristics](jefferson.md#realign), [multi-video window playback](media-manager.md) (with subtitles), [360 video support](media-manager.md), [video-cues](cues.md), [export to publishable document](export.md) (and subtitles) and [version control](versioncontrol.md).
 There are many more features and enhancements planned for the future.
 
 ### What does _DOTE_ stand for?

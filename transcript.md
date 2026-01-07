@@ -2,7 +2,7 @@
 
 Watch the [basic](https://www.youtube.com/watch?v=dqEehi8Jaa0) and [advanced](https://www.youtube.com/watch?v=U3yPPHZ-yak) video tutorials on YouTube.
 
-Once a Project with a Transcript is created or opened, with an [attached media file](media.md), then you can immediately type in the Transcript Editor.
+Once a Project with a Transcript is created or opened, with an [attached media file](media-manager.md), then you can immediately type in the Transcript Editor.
 
 [![Editor](images/transcript/editor.png)](images/transcript/editor.png)
 

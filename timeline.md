@@ -38,7 +38,7 @@ The transcript will be automatically scrolled to keep the current segment visibl
 
 #### Selecting and locking a specific waveform or audio source
 
-If your Project has multiple media sources, and more than one is activated in your current Transcript via the [Media Manager](media.md), then you can independently decide which waveform is displayed on the timeline and which audio track is played:
+If your Project has multiple media sources, and more than one is activated in your current Transcript via the [Media Manager](media-manager.md), then you can independently decide which waveform is displayed on the timeline and which audio track is played:
 
 - `Waveform select`
     - Display the waveform of the current video in the [primary video panel](media-panel.md): `Follow Primary Video`.

@@ -20,7 +20,7 @@ watch the [video tutorial](https://www.youtube.com/watch?v=vCE8AY_HmiU) on YouTu
 
 [![Video-cues](images/cues/video-cue-add.png)](images/cues/video-cue-add.png)
 
-1. Open the [video-cue timeline](media.md#media) for the specific video source that is to be cued in the [Primary video panel](media-panel.md).
+1. Open the [video-cue timeline](media-manager.md#media) for the specific video source that is to be cued in the [Primary video panel](media-panel.md).
 2. Turn on [lock video to video-cue](media-panel.md#video-tips) by selecting the slider button in the target video panel(s).
 3. Play the video and pause at the point to be video-cued.
 4. Adjust the view in the [Primary video panel](media-panel.md).
