@@ -2,6 +2,8 @@
 
 A brand new feature in v2.0 is the ability to embed subtitles live in a Media Panel while playing the video.
 
+[![TODO: Add image](images/project-info/.png)](images/project-info/.png)
+
 ### Using an already generated SRT file
 
 This feature works by attaching a specific subtitle file that has already been generated and matches the Project to a specific media player.
