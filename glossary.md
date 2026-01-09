@@ -78,7 +78,7 @@ See also [Synchronised Media](#sync).
 
 ### Editor <a id='editor'></a>
 
-The Editor is the [Panel](ui.md) in which the text of the Transcript is created and edited.
+The Editor is the [Transcript Panel](ui.md) in which the text of the Transcript is created and edited.
 
 ### Equirectangular <a id='equi'></a>
 
@@ -99,7 +99,7 @@ It is either a primary speaker line or a [Timing Interval](#interval) line, and 
 
 ### Jump Cut <a id='jump-cut'></a>
 
-[Video-cues](cues.md) can initiate a transition between one view of the video and another that is displayed in the [Viewport](#viewport) of a [Video Panel](#video).
+[Video-cues](cues.md) can initiate a transition between one view of the video and another that is displayed in the [Viewport](#viewport) of a [Media Player Panel](#media-player-panel).
 This transition can be sudden -- a Jump Cut -- or [Smooth](#smooth).
 
 Cf. [Zoom](#zoom) and [Pan](#pan).
@@ -123,7 +123,15 @@ During playback, this selected section will [Play](play.md) repeatedly.
 
 The [Media Manager](media-manager.md) is a tool to add media files to an individual [Project](project.md).
 It is used to import (by copying), configure and delete media files, as well as make them [Active](#active) in the current Transcript.
-A Project can contain multiple media files, and each Transcript in a Project can activate one or more of these media to use in the [Timeline](timeline.md) and [Video Panel(s)](media-panel.md).
+A Project can contain multiple media files, and each Transcript in a Project can activate one or more of these media to use in the [Timeline](timeline.md) and [Media Player Panel(s)](media-panel.md).
+
+### Media Player Panel <a id='media-player-panel'></a>
+
+A [Media Player Panel](media-panel.md) is a unique panel in the _DOTE_ user interface dedicated to displaying a selected video media file according to the user's wishes.
+Both 2D and 360-degree video can be displayed in a Media Player Panel.
+Moreover, the video can be zoomed and panned, and transitions can be sudden or smooth when using [Video-cues](cues.md).
+
+See also [Zoom](#zoom), [Pan](#pan), [Smooth Transition](#smooth) and [Jump Cut](#jump-cut).
 
 ### Neighbourhood <a id='neighbourhood'></a>
 
@@ -152,7 +160,7 @@ See [Non-Sequential Overlap](#ns-overlap).
 
 ### Pan <a id='pan'></a>
 
-[Video-cues](cues.md) can initiate a transition between one view of the video and another that is displayed in the [Viewport](#viewport) of a [Video Panel](#video).
+[Video-cues](cues.md) can initiate a transition between one view of the video and another that is displayed in the [Viewport](#viewport) of a [Media Player Panel](#media-player-panel).
 A Pan transition smoothly and linearly tracks between an initial view of the video and a target view.
 This is only true if the same media is selected and [Smooth Transition](#smooth) is selected.
 
@@ -213,7 +221,7 @@ In future releases, an optional, dedicated micro score-based tool will be smartl
 
 ### Smooth Transition <a id='smooth'></a>
 
-[Video-cues](cues.md) can initiate a transition between one view of the video and another that is displayed in the [Viewport](#viewport) of a [Video Panel](#video).
+[Video-cues](cues.md) can initiate a transition between one view of the video and another that is displayed in the [Viewport](#viewport) of a [Media Player Panel](#media-player-panel).
 A Smooth Transition smoothly and linearly transforms between an initial view of the video and a target view; otherwise there is a sudden transition.
 
 See also [Zoom](#zoom), [Pan](#pan) and [Jump Cut](#jump-cut).
@@ -310,6 +318,7 @@ Moreover, DOTE makes heuristic suggestions to [Realign](#align) [Neighbourhoods]
 ### User Interface (UI) <a id='ui'></a>
 
 The [User Interface](ui.md) is the visual (and aural) presentation of the computer application to the user.
+The User Interface is made up of a menu bar, a ribbon with functional buttons and a variety of panels for specific tools.
 
 ### Version Control <a id='version'></a>
 
@@ -319,27 +328,19 @@ See [Git](#git), [Autobackup](#autobackup) and [Checkpoint](#checkpoint).
 
 ### Video-cue <a id='video-cue'></a>
 
-A [Video-cue](cues.md) is a unique point on the [Timeline](timeline.md) that indicates that a change in the [Viewport](#viewport) of a [Video Panel](media-panel.md) is to be performed.
+A [Video-cue](cues.md) is a unique point on the [Timeline](timeline.md) that indicates that a change in the [Viewport](#viewport) of a [Media Player Panel](media-panel.md) is to be performed.
 This function automates the presentation of media during [Playback](play.md) in a more cinematic fashion.
 A limited set of virtual [Recam](#recam) camera movements are supported.
 
 See also [Zoom](#zoom), [Pan](#pan), [Smooth Transition](#smooth) and [Jump Cut](#jump-cut).
 
-### Video Panel <a id='video-panel'></a>
-
-A [Video Panel](media-panel.md) is a unique panel in the DOTE UI dedicated to displaying a selected video media file according to the user's wishes.
-Both 2D and 360-degree video can be displayed in a Video Panel.
-Moreover, the video can be zoomed and panned, and transitions can be sudden or smooth when using [Video-cues](cues.md).
-
-See also [Zoom](#zoom), [Pan](#pan), [Smooth Transition](#smooth) and [Jump Cut](#jump-cut).
-
 ### Viewport <a id='viewport'></a>
 
-The Viewport is the rectangular portion of the video that is currently visible in the frame of the [Video Panel](#video-panel).
+The Viewport is the rectangular portion of the video that is currently visible in the frame of the [Media Player Panel](#media-player-panel).
 
 ### Warnings and Errors <a id='error'></a>
 
-DOTE can flag [Warnings and Errors](errors.md) in the use of DOTE, as well as in the Editor.
+DOTE can flag [Warnings and Errors](errors.md) in the use of _DOTE_, as well as in the Transcript Editor.
 
 ### Waveform <a id='waveform'></a>
 
@@ -348,7 +349,7 @@ When imported into a Project using [Media Manager](media-manager.md), the wavefo
 
 ### Zoom <a id='zoom'></a>
 
-[Video-cues](cues.md) can initiate a transition between one view of the video and another that is displayed in the [Viewport](#viewport) of a [Video Panel](#video).
+[Video-cues](cues.md) can initiate a transition between one view of the video and another that is displayed in the [Viewport](#viewport) of a [Media Player Panel](#media-player-panel).
 A Zoom transition smoothly and linearly tracks between an initial view of the video and a target view by zooming in or out.
 This is only true if the same media is selected and [Smooth Transition](#smooth) is selected.
 
