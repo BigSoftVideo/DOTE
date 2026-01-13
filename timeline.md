@@ -2,25 +2,31 @@
 
 Watch the [video tutorial](https://www.youtube.com/watch?v=2RsvEEo5ICQ) on YouTube.
 
-The main timeline includes a waveform generated and cached when the video for the current project is first opened.
+A Timeline panel includes a waveform generated and cached when the video for the current project is first opened.
 For some video and audio files, a waveform cannot be generated.
 In that case, the waveform will be blank.
 See [Tips & Tricks](tips.md) for ideas how to solve this.
-The main timeline is also used for managing sync-codes.
 
-To control volume and manage [video-cues](media-panel.md), another independent [video-cue timeline/waveform](#media) associated with the media source in the [primary video panel](media-panel.md) is available.
+A Timeline panel is also used for viewing managing [Sync-codes](sync-code.md) and [Video-cues](cues.md).
 
-### Some tips for using all timelines
 
-- The timeline + waveform can be zoomed in and out using the mouse.
-- The timeline segment can be dragged using the mouse.
+### Some tips for using the Timeline panel
+
+- A Timeline panel with a waveform can be zoomed in and out using the mouse.
+- A timeline segment can be dragged using the mouse.
 - The current timeline segment can be adjusted using the drag-handles at each end of the segment.
 - Timelines can be independently zoomed and scrolled, unless all timelines are locked in sync.
 - During playback, the current time (playhead) on the timeline will always be visible.
 - Inserted sync-codes and video-cues can be dragged to a new position on the timeline.
     - Sync-codes cannot be dragged over other sync-codes for obvious reasons.
+- Timeline panels can display sync-code functionality and/or video-cue functionality, and they can both be hidden from view independently.
 
-### Main timeline only
+### Adding and focusing Timeline panels
+
+More than one Timeline panel can be open at the same time.
+This enables an ability to focus on different timescales simultaneously, as well as having one Timeline for sync-codes and another for video-cues.
+
+### Time on the Timeline panel
 
 The main timeline displays the current time at the position of the playhead, the highlighted selection interval (looping) and the total length of the audio or video source.
 
@@ -41,18 +47,20 @@ The transcript will be automatically scrolled to keep the current segment visibl
 If your Project has multiple media sources, and more than one is activated in your current Transcript via the [Media Manager](media-manager.md), then you can independently decide which waveform is displayed on the timeline and which audio track is played:
 
 - `Waveform select`
-    - Display the waveform of the current video in the [primary video panel](media-panel.md): `Follow Primary Video`.
-    - Or always display the waveform of the selected video.
+    - Display the waveform of a specific video in the [Media Player panel](media-panel.md): 
+    - `Follow lowest Media Player`.
+    - ...
 
 [![Select waveform](images/timeline/select1.png)](images/timeline/select1.png)
 
 - `Audio source`
-    - Play the audio track of the current video in the primary video panel: `Follow Primary Video`.
-    - Or always play the audio track (solo) of the selected video.
+    - Play the audio track of a specific video in the [Media Player panel](media-panel.md): 
+    - `Follow lowest Media Player`.
+    - ...
 
 [![Select waveform](images/timeline/select2.png)](images/timeline/select2.png)
 
-This is useful with complex multi-source projects in which you wish to view one video in the video panel, while playing the audio track of another and displaying the waveform of a third media source (eg. an audio recording from a wireless mic).
+This is useful with complex multi-source projects in which you wish to view one video in the Media Player panel, while playing the audio track of another and displaying the waveform of a third media source (eg. an audio recording from a wireless mic).
 
 #### Looping <a id='loop'></a>
 
@@ -70,16 +78,11 @@ There are several ways to loop shorter segments of the timeline:
 
 - With the `Loop Repeat` button at the top right of the main timeline panel, one can toggle between single play through of the selected segment or looping continuously.
 
-### Video-cue timeline only  <a id='video-cue'></a>
+### Video-cues on a Timeline  <a id='video-cue'></a>
 
 [![Video-cue timeline](images/timeline/video-cue-timeline.png)](images/timeline/video-cue-timeline.png)
 
-The waveform on this timeline is independently scrollable and zoomable, yet the playhead and selection will synchronise with the main timeline.
-The video-cue timeline can be shrunk down by clicking on the arrow button.
-The video-cue timeline controls the basic audio levels of media sources.
-To mute and unmute the audio, press the `M` button.
-To adjust the volume, press the speaker button and slide the volume up and down.
-
-Furthermore, a prime use of the video-cue timeline is to manage [video-cues](cues.md) that control how the current active video is displayed in the [video panel](media-panel.md).
+[Video-cues](cues.md) can also be displayed on a Timeline panel.
+The prime use of the Video-cue element is to manage [video-cues](cues.md) that control how the current active video is displayed in a [Media Player panel](media-panel.md).
 
 A [complete list of commands and shortcuts](commands.md) is available.
