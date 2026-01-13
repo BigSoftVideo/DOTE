@@ -128,6 +128,10 @@ The indicator is just a guide; _DOTE_ does not enforce word wrapping.
 - The raw transcript text is saved in the `transcript.txt` file under the [Project](projects.md) folder you created.
 It can be opened or copied in a word processor and formatted accordingly. In this release, underlining is not present in the plain text file; in future, it will be exportable in an RTF version of the transcript.
 
+### Creating and editing Transcript Clips with Annotations
+
+[Transcript Clips](transcript-clip.md) with annotations, tags and styling can be created, edited and deleted by selecting a chunk of text in the currently loaded Transcript.
+
 ### Other commands and shortcuts
 
 There are more complex editing commands available that you can explore, such as multicursor, change all occurrences or search/replace.
