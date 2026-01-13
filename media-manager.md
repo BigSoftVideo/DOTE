@@ -24,8 +24,8 @@ More than one media file can be added to a Project.
     - In addition, more than one file can be selected at the same time (using the file browser in your OS) to batch import.
 1. If relevant, select which video format from the pull-down list, eg. `2D` or `360`.
 If "360" is present in the filename, then it is assumed that the video is `360` equirectangular format.
-1. If relevant, select which Video Projection you prefer, ie. how the 360 equirectangular format is rendered in the [video panel](media-panel.md).
-This can be changed at any time from the pull-down menu at the top of the video panel.
+1. If relevant, select which Video Projection you prefer, ie. how the 360 equirectangular format is rendered in the [Media Player panel](media-panel.md).
+This can be changed at any time from the pull-down menu at the top of the Media Player panel.
 Experiment to see which Projection you prefer; there are subtle differences.
 
 NOTE:
@@ -48,7 +48,7 @@ watch the [video tutorial](https://www.youtube.com/watch?v=_WLkZVxamhY) on YouTu
 [![Projection](images/media/projection.png)](images/media/projection.png)
 
 - Audio only formats can be imported as well.
-    In that case, the video panel will be empty.
+    In that case, the Media Player panel will be empty.
     - Audio formats supported include `WAV`, `MP3`, `OGG`.
     - Mono and stereo tracks are supported at present (not ambisonic).
 
@@ -68,8 +68,8 @@ AFTER:
 
 1. Select one or more media sources from the list to be activated or de-activated by clicking the tickbox.
 1. Click `Close`.
-1. The active media will be available in the [Video panel](media-panel.md) of the current Transcript.
-The video will be loaded and the waveform will be automatically generated when the media source is selected in the Video panel.
+1. The active media will be available in the [Media Player panel](media-panel.md) of the current Transcript.
+The video will be loaded and the waveform will be automatically generated when the media source is selected in the Media Player panel.
 If the waveform does not appear, then the waveform can be regenerated in the `Media Manager` for each media source.
 If this does not work, see [these instructions](projects.md#waveform-troubles).
 

@@ -54,7 +54,7 @@ One can do that just by positioning the playhead on the timeline and pressing <k
 1. Save the Transcript frequently using <kbd>CTRL</kbd>+<kbd>S</kbd> (or <kbd>⌘</kbd>+<kbd>S</kbd>).
 1. Whenever appropriate, and frequently, create a [new checkpoint](versioncontrol.md) to account for the work you have done since the last checkpoint.
 1. As you type, _DOTE_ will try to help you by flagging potential [errors and warnings](errors.md) according to its model of what a good transcript should be.
-1. If necessary, add some [video-cues](cues.md) to automatically change the view in the video panel to highlight the phenomena of interest at that point in the video and the Transcript.
+1. If necessary, add some [video-cues](cues.md) to automatically change the view in the Media Player panel to highlight the phenomena of interest at that point in the video and the Transcript.
 1. When the transcript is complete, then [Export to RTF](export.md) or [Export to SRT](export.md).
 
 watch the [video tutorial](https://www.youtube.com/watch?v=0fELQTTOiW0) on YouTube.

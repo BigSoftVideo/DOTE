@@ -14,7 +14,7 @@ We have created more than 40 online videos (6 hours of delicious content), inclu
 - How to work with _DOTE_ projects — [Basic](https://www.youtube.com/watch?v=7oHE1KsIGTo&list=PLQJhL9BD4W1QD1AD1gGCcOXSUbwu_iNT1&index=7) — [Advanced](https://www.youtube.com/watch?v=GkjMwL6zqmM&list=PLQJhL9BD4W1Rf33H5FOhn7dbgcH6PEWg5&index=5)
 - How to use the media manager  — [Basic](https://www.youtube.com/watch?v=enN7aKYZEGg&list=PLQJhL9BD4W1QD1AD1gGCcOXSUbwu_iNT1&index=9) — [Advanced](https://www.youtube.com/watch?v=-xIPZAJoNkU&list=PLQJhL9BD4W1Rf33H5FOhn7dbgcH6PEWg5&index=7)
 - How to playback media — [Basic](https://www.youtube.com/watch?v=v86-xkdVwL4&list=PLQJhL9BD4W1QD1AD1gGCcOXSUbwu_iNT1&index=8) — [Advanced](https://www.youtube.com/watch?v=t8yD07eSFWs&list=PLQJhL9BD4W1Rf33H5FOhn7dbgcH6PEWg5&index=6)
-- How to use the video panel(s) — [Basic](https://www.youtube.com/watch?v=timdqQNxgAY&list=PLQJhL9BD4W1QD1AD1gGCcOXSUbwu_iNT1&index=2) — [Advanced](https://www.youtube.com/watch?v=a2bbS73WUfw&list=PLQJhL9BD4W1Rf33H5FOhn7dbgcH6PEWg5&index=1)
+- How to use the Media Player panel(s) — [Basic](https://www.youtube.com/watch?v=timdqQNxgAY&list=PLQJhL9BD4W1QD1AD1gGCcOXSUbwu_iNT1&index=2) — [Advanced](https://www.youtube.com/watch?v=a2bbS73WUfw&list=PLQJhL9BD4W1Rf33H5FOhn7dbgcH6PEWg5&index=1)
 - How to use the timeline(s) — [Basic](https://www.youtube.com/watch?v=2RsvEEo5ICQ&list=PLQJhL9BD4W1QD1AD1gGCcOXSUbwu_iNT1&index=4)
 - How to edit your transcript — [Basic](https://www.youtube.com/watch?v=dqEehi8Jaa0&list=PLQJhL9BD4W1QD1AD1gGCcOXSUbwu_iNT1&index=14) — [Advanced](https://www.youtube.com/watch?v=U3yPPHZ-yak&list=PLQJhL9BD4W1Rf33H5FOhn7dbgcH6PEWg5&index=11)
 - How to use sync-codes — [Basic](https://www.youtube.com/watch?v=PLUGMdFsbu4&list=PLQJhL9BD4W1QD1AD1gGCcOXSUbwu_iNT1&index=5) — [Advanced](https://www.youtube.com/watch?v=kQK1JImIn9w&list=PLQJhL9BD4W1Rf33H5FOhn7dbgcH6PEWg5&index=3)
@@ -47,7 +47,7 @@ We have created more than 40 online videos (6 hours of delicious content), inclu
 - Tip 7 - [Let _DOTE_ realign stuff for you](https://www.youtube.com/watch?v=wxdd4oequqc&list=PLQJhL9BD4W1SuuJ8LvN1F6OEw3_wc1j1E&index=5)
 - Tip 8 - [Add video-cues to highlight phenomena visually](https://www.youtube.com/watch?v=vCE8AY_HmiU&list=PLQJhL9BD4W1SuuJ8LvN1F6OEw3_wc1j1E&index=9)
 - Tip 9 - [Add checkpoints regularly with informative messages](https://www.youtube.com/watch?v=1LmINMDzfxk&list=PLQJhL9BD4W1SuuJ8LvN1F6OEw3_wc1j1E&index=8)
-- Tip 10 - [Open extra video panels to hone in on an action](https://www.youtube.com/watch?v=eBWNqeIo450&list=PLQJhL9BD4W1SuuJ8LvN1F6OEw3_wc1j1E&index=7)
+- Tip 10 - [Open extra Media Player panels to hone in on an action](https://www.youtube.com/watch?v=eBWNqeIo450&list=PLQJhL9BD4W1SuuJ8LvN1F6OEw3_wc1j1E&index=7)
 - Tip 11 - [How to import audiovisual data into a project (possible problems)](https://www.youtube.com/watch?v=_WLkZVxamhY&list=PLQJhL9BD4W1SuuJ8LvN1F6OEw3_wc1j1E&index=11)
 - Tip 12 - [How to use proportional timed intervals](https://www.youtube.com/watch?v=4eQw0LBZ04Y&list=PLQJhL9BD4W1SuuJ8LvN1F6OEw3_wc1j1E&index=12)
 

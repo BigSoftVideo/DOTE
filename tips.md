@@ -253,10 +253,10 @@ The unlocked `Secondary video` view can focus in on a different angle and zoom o
 
 ### Why do I need more than one Timeline? <a id='tip24'></a>
 
-The primary [Timeline](timeline.md) is placed at the top above the primary video panel.
+The primary [Timeline](timeline.md) is placed at the top above the primary Media Player panel.
 It is where most of the work happens, time intervals, looping, playback.
 It is also where the [sync-codes](sync-code.md) are indicated.
-The secondary Timeline(s) are placed below the video panel(s).
+The secondary Timeline(s) are placed below the Media Player panel(s).
 There is a secondary Timeline for each [media source](media-manager.md) attached to a Transcript.
 If you use them, these are where the [video-cues](cues.md) are indicated.
 Moreover, if the Timelines are independent (and not synced), then one can focus each Timeline at different zoom levels, eg. the primary Timeline could be zoomed right in on an 8-second excerpt, while the secondary Timeline is zoomed out to give a macro-perspective on the whole clip.
