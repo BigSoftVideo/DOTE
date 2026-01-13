@@ -62,7 +62,7 @@ Messages are usually in the active, imperative voice describing the changes made
 
 A comment is a message in a Transcript by a transcriber that concisely describes something happening in the data that cannot be easily represented using the traditional conventions, eg. in the [Jeffersonian conventions](jefferson.md) comments are written within double parentheses: `((comment))`.
 
-Cf. [Technical Comment](#tech-comment)
+Cf. [Technical Comment](#tech-comment) and [Transcript Clip](#transcript-clip).
 
 ### Conventions <a id='conventions'></a>
 
@@ -72,7 +72,7 @@ _DOTE_ has been implemented to adhere as closely as possible to two standardised
 ### CS Mode <a id='cs-mode'></a>
 
 When a media [Activated](#active) in a Transcript is played back, there is a toggle option in the [Editor panel](transcript.md) called [CS Mode](sync-code.md#cs-mode) that synchronises playback with the relevant lines of the Transcript that match the timecode segment on the [Timeline](timeline.md).
-In _DOTE_, this is only possible if [Sync-codes](sync-code.md) have been manually added to the Transcript.
+In _DOTE_, this is only possible if [Sync-codes](sync-code.md) have already been manually added to the Transcript.
 
 See also [Synchronised Media](#sync).
 
@@ -249,7 +249,9 @@ There are four basic Subtier Types: `.translation`, `@gloss`, `/action`, `#categ
 ### Subtitle <a id='subtitle'></a>
 
 `DOTE` can [generate and export Subtitles](export.md) derived from the Transcript in the Editor.
-These subtitles are in a file in `SRT` format and can be overlaid on the video by most external media players during playback.
+These subtitles are stored in a file using the `SRT` format.
+SRT subtitles can be overlaid on the video by most external media players during playback.
+They can also be overlaid during live playback of video in a [Media Player Panel](#media-player-panel) in _DOTE_.
 
 ### Sync-code <a id='sync-code'></a>
 
@@ -271,7 +273,7 @@ Thus, a transcriber can mark up the Transcript line-by-line with brief meta-mess
 Consecutive Technical Comments at the beginning of the Transcript are treated as a simple form of meta-data.
 Technical Comments can be hidden when [exporting the Transcript to RTF or Subtitles](export.md).
 
-Cf. [Comment](#comment).
+Cf. [Comment](#comment) and [Transcript Clip](#transcript-clip).
 
 ### Tier <a id='tier'></a>
 
@@ -304,6 +306,16 @@ See also [Proportional Timing Interval](#pti).
 ### Transcript <a id='transcript'></a>
 
 A Transcript is a specific textual object in _DOTE_ that is created and edited in the [Editor](#editor).
+
+### Transcript Clip <a id='transcript-clip'></a>
+
+A [Transcript Clip](transcript-clip.md) is an annotation or note attached to a specific segment of a Transcript.
+It contains a comment, tags and styling.
+The scope of the Clip is from a starting character/line to an ending character/line in a Transcript.
+
+Transcript Clips can be assigned a specific shape and line/box and background colour.
+
+Transcript Clips are also known as T-Clips.
 
 ### Transcript Heuristics <a id='heuristics'></a>
 
