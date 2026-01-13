@@ -25,10 +25,10 @@ The basic functions for [version control](versioncontrol.md) and [managing media
 
 The height of the [main timeline panel](timeline.md) can be adjusted using the horizontal divider line.
 
-#### The video panel(s) <a id='media-player'></a>
+#### The Media Player panel(s) <a id='media-player'></a>
 
-The height of the [video panel](media-panel.md) can be adjusted using the horizontal divider lines.
-The video panels can be opened or hidden by clicking the `Primary Video` and `Secondary Video` buttons at the top left.
+The height of the [Media Player panel](media-panel.md) can be adjusted using the horizontal divider lines.
+The Media Player panels can be opened or hidden by clicking the `Primary Video` and `Secondary Video` buttons at the top left.
 
 #### The Transcript panel <a id='editor'></a>
 
@@ -37,17 +37,22 @@ The editor panel has a minimap scroll bar, which displays information about inci
 
 ### Adjusting a panel
 
-The left section (timelines, video panels) can be collapsed using the `<<` button.
+The left section (timelines, Media Player panels) can be collapsed using the `<<` button.
 This is useful when you wish to focus (in zen mode) on editing your transcript, esp. with long lines.
 The right section (editor) can be collapsed using the `>>` button.
 This is useful when you wish to present your video without the transcript.
 The panels can be adjusted by grabbing and dragging the divider lines.
-Additionally, some panels (video panels, video-cue timeline) can be hidden.
+Additionally, some panels (Media Player panels, video-cue timeline) can be hidden.
 In general, the _DOTE_ window size and the position of the panels is saved between sessions.
 
 ### Modes of informativeness
 
-To enable the user to quickly change the amount of information displayed in all panels, there are several predefined modes that show or hide text, buttons, ribbons, etc. in the user interface and all panels-
+To enable the user to quickly change the amount of information displayed across the user interface, there are several predefined modes that show or hide text, buttons, ribbons, etc. in the user interface and all open panels.
+
+- Automatic
+- Full
+- Compact
+- Minimal
 
 ### Layouts
 
