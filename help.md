@@ -43,14 +43,14 @@ Here is a list of help tutorials on specific topics:
 - [Importing transcripts from 3rd party files](importJSON.md) - import transcripts from other sources
 - [Media manager](media-manager.md) - manage your audiovisual data
 - [Timeline panel](timeline.md) - intuitive navigation of timecoded data
-- [Media Player panel](media-panel.md) - multiple media and views (unique to _DOTE_)
+- [Media Player panel](media-panel.md) - multiple media and views including 360-degree video (unique to _DOTE_)
 - [Audiovisual playback](play.md) - silky-smooth audiovisual playback while typing
 - [Transcript editor](transcript.md) - with transcript heuristics (unique to _DOTE_)
 - [Conventions supported by _DOTE_](conventions.md) - conforming transcripts to a clear style (unique to _DOTE_)
 - [Primary tier and subtier types](tiers.md) - adding multimodal complexity (unique to _DOTE_)
 - [Find and replace tool](find.md) - powerful and accurate search
 - [Publishing to RTF and subtitles](export.md) - create publishable transcripts and subtitles (unique to _DOTE_)
-- [Subtitle overlay](subtitles.md) - overlaying stylised subtitles in a Media Player panel
+- [Subtitle overlay](subtitles.md) - overlaying stylised subtitles in a Media Player panel (unique to _DOTE_)
 - [Sync-codes](sync-code.md) - linking transcripts to audiovisual playback
 - [Video-cues](cues.md) - bringing cinema to audiovisual playback (unique to _DOTE_)
 - [Transcript clip](transcript-clip.md) - add stylish annotations and tags to a transcript
