@@ -1,4 +1,12 @@
-## Errors and Warnings
+## Errors when using DOTE and editing a Transcript
+
+There are two types of errors: 1) when using DOTE something goes wrong; 2) when editing a Transcript, DOTE detects a possible error or can give a warning that something is not right in the transcript.
+
+### Errors in the use of _DOTE_
+
+With v2.0, we have implemented a better way to automatically and manually report errors encountered when using DOTE.
+
+### Errors and Warnings in the Editor
 
 Watch the [video tutorial](https://www.youtube.com/watch?v=Ux4APu6ww4k) on YouTube.
 
