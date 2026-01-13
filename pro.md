@@ -10,8 +10,7 @@ The premium features will be greyed out and unavailable.
 1. The PRO and PRO COMMUNITY Editions (paid) provide licenses for the same software with premium functionality and no restriction on the number of transcript lines.
 One time payment for one license that can be installed on up to three computers.
 
-A license is granted for access to the current release version of _DOTE_, including hotfixes and minor updates (eg. from `v1.1` to `v1.2`).
-With each new major release (eg. from `v1` to `v2`), a new license or an upgrade is required.
+A license is granted for access to the current release version of _DOTE_, including hotfixes and updates.
 
 There is an additional [PRO COMMUNITY](https://bigsoftvideo.github.io/DOTE-Pro-Community/) Edition that gives the user exclusive access to fast-track bug reports and feature requests, as well as private access to new beta versions before public release.
 
