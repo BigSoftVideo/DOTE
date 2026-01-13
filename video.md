@@ -1,1 +1,1 @@
-Renamed to [Media Panel](media-panel.md) in v2.0. Click the link.
+Renamed to [Media Player panel](media-panel.md) in v2.0. Click the link.
