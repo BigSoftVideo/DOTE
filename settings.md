@@ -8,7 +8,7 @@ Note that all changes to settings and options are done immediately and cannot be
 
 ### Settings
 
-`Settings` can be opened from the `File` menu, eg. `File ➔ Settings`.
+`Settings` can be opened from the `File` menu, eg. `File ➔ Settings`, or by clicking the Settings icon on the ribbon at the top right of the DOTE window.
 
 There are several different types of settings that affect the operation of _DOTE_:
 
@@ -33,33 +33,47 @@ Some of the settings are only changed when the Settings dialog box is closed.
 
 - [Autobackup](versioncontrol.md#autobackup) time interval default.
 
-##### Editor
+##### Transcript Editor
 
+- The default [conventions](conventions.md) used for every new Transcript.
 - Font size default.
 - Width of name column default.
-- Display page-width margin default.
+- Show or hide user-defined page-width margin.
+- Show or hide mini-map.
+- Auto-hide mini-map (if enabled).
+- Select vertical scaling of mini-map (if enabled).
+- Enable or disable highlighting of other occurrences of word/phrase.
+- Enable or disable highlighting of other occurrences of selected characters.
+- Enable or disable auto-completion suggestions.
+- Display or ignore warnings about missing overlap endings.
 
-##### Video
+##### Media Preferences
 
 - Option to automatically restart media playback from the beginning when the end of the recording is reached.
+- Option to require shift key (default) to be held when selecting a segment on the timeline.
 - The default [video format](media-manager.md#add).
 - The default display projection for 360 videos.
+- Apply oversampling to video playback and paused video image display.
 
-##### Conventions
-
-- The default [conventions](conventions.md) for every new Transcript.
-
-##### Subtier
+##### Mondadaian action alignment symbols
 
 - The default [subtier alignment symbols](tiers.md#assign) can be defined and ordered by the user.
 The default list includes some of the most commonly used symbols in the Mondadaian system.
 Note that this list can be rearranged by selecting, dragging and dropping an item in the list.
 
+##### Additional audio and video decoding
+
+- Install or config FFmpeg manually if necessary.
+
+##### Application error reporting
+
+- Select the most appropriate error reporting mode.
+
 ##### Shortcuts
 
 - A number of common [shortcuts](commands.md) can be redefined by the user.
 
-##### Jump intervals
+##### Custom media controls
 
 - The user can redefine the jump intervals for short jump forward/back and long jump forward/back.
 The defaults are 1 second for the short jump and 4 seconds for the long.
@@ -68,12 +82,11 @@ The jumps can be activated using the [playback buttons or the playback shortcuts
 The default is 30fps.
 If the video being played is encoded with a different frame rate than in Settings, then frame forward/back may either jump more than one frame or no frame occasionally.
 
-##### External software
+##### Other settings
 
-- Optional folder path to installed _FFmpeg_ software for waveform generation.
-_DOTE_ does its best internally to create a waveform for every media file added with [Media Manager](media-manager.md).
-If this is not working for you, then you can automatically [install _FFmpeg_](install.md#ffmpeg) on your computer and link the file path to _DOTE_.
-We cannot include the open source software package inside _DOTE_ because of software licensing restrictions.
+- Number of recent transcripts to list in Project Manager.
+- Option to disable clicking outside of dialog box to cancel.
+- Option to disable animated reminder to turn on follow video-cues in specific circumstances.
 
 [![Transcript Options](images/settings/ffmpeg-installed.png)](images/settings/ffmpeg-installed.png)
 
@@ -83,20 +96,29 @@ We cannot include the open source software package inside _DOTE_ because of soft
 
 [![Transcript Options](images/settings/options.png)](images/settings/options.png)
 
+The path to the Project folder on your computer's file system is displayed and can be opened by clicking the button `Open Directory`.
+
 There are several different types of options that affect how the Editor works.
 Some of these are inherited from `Settings` and can be overridden on a transcript by transcript basis.
 They can be "reset" to the Default if they vary from that in `Settings`.
 
 [![Transcript Options](images/settings/overridden2.png)](images/settings/overridden2.png)
 
+#### Override settings in this transcript only
+
 Many of these options are only changed when the Transcript Options dialog box is closed.
 
-- The path to the Project folder on your computer's file system is displayed.
 Click the button and the folder will be opened in your file browser.
 - Font size for the current Transcript in the [Editor](ui.md).
-- Width of name column for the current Transcript in the Editor.
-- Display page-width margin for the current Transcript in the Editor.
+- Width of name column for the current Transcript.
+- Display page-width margin for the current Transcript.
+- Display or ignore warnings about missing overlap endings.
 - The [conventions](conventions.md) used for this Transcript.
+
+#### Transcript automation
+
+There are Transcrip settings to automate the auto-completion and recognition of subtiers.
+
 - The [translation and gloss subtiers](tiers.md) for this Transcript.
 One or more than one of each can be added.
 If such a subtier is added, then it will also be autocompleted after typing and autocompleting a new speaker in the Transcript Editor.
