@@ -13,6 +13,8 @@ Note: over over the buttons and you will see the relevant shortcut.
 - To play and pause the video, press <kbd>CTRL</kbd>+<kbd>SPACE</kbd> [<kbd>⌘</kbd>+<kbd>N</kbd> on macOS].
 - To play the video and return on pause to the current position of the playhead in the timeline.
     - <kbd>CTRL</kbd>+<kbd>SHIFT</kbd>+<kbd>SPACE</kbd> [<kbd>⌘</kbd>+<kbd>⇧</kbd>+<kbd>N</kbd> on macOS]
+    - This is useful when trying to track down the onset of some action/speech/overlap in the video(s).
+Returning to the start point allows one to recalibrate accurately the onset and replay than when the playhead pauses later during normal playback.
 - To jump back, press <kbd>CTRL</kbd>+<kbd>J</kbd> [<kbd>⌘</kbd>+<kbd>J</kbd>] and to jump forwards press <kbd>CTRL</kbd>+<kbd>K</kbd>.
 Add the <kbd>SHIFT</kbd> or <kbd>⇧</kbd> key to jump by a bigger interval.
     - <kbd>CTRL</kbd>+<kbd>J</kbd>/<kbd>⌘</kbd>+<kbd>J</kbd> = 1 second back
@@ -22,6 +24,9 @@ Add the <kbd>SHIFT</kbd> or <kbd>⇧</kbd> key to jump by a bigger interval.
 - To step forward or backwards by one frame (may skip a frame)
     - <kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>J</kbd> or [<kbd>⌘</kbd>+<kbd>⌥</kbd>+<kbd>J</kbd>] = one frame back
     - <kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>K</kbd> or [<kbd>⌘</kbd>+<kbd>⌥</kbd>+<kbd>K</kbd>] = one frame forward
+ - To jump to the onset or close of a selected segment of the timeline
+    - <kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>[</kbd> or [<kbd>⌘</kbd>+<kbd>⌥</kbd>+<kbd>[</kbd>] = onset of selected segment
+    - <kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>]</kbd> or [<kbd>⌘</kbd>+<kbd>⌥</kbd>+<kbd>]</kbd>] = close of selected segment
 
 See the guide to using the [Timeline](timeline.md) for help on looping.
 
