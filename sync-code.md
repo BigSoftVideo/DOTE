@@ -20,7 +20,7 @@ Select the sync-code, right click, and choose delete.
 
 ### Turning on CS Mode to synchronise the Transcript with the Media during playback <a id='cs-mode'></a>
 
-Unless `CS Mode` (show highlight of current sync-code block) is turned on, the Transcript will not automatically synchronise with the timeline during playback.
+Unless `CS Mode` (show highlight of current sync-code block) is turned on, the Editor will not automatically highlight the currently relevant block of transcript lines during playback.
 You can turn on `CS Mode`  mode by clicking the button at the top right of the Editor to enable the current [sync-code](sync-code.md) block to be highlighted as you play the media.
 
 [![CS Mode](images/sync-code/cs-mode.png)](images/sync-code/cs-mode.png)
@@ -28,7 +28,7 @@ You can turn on `CS Mode`  mode by clicking the button at the top right of the E
 ### Notes
 
 - If you delete whole lines that have sync-codes attached, then those sync-codes will also be deleted.
-- Please note that edits to sync-codes are not tracked by the user interface in _DOTE_.
-For instance, if you move a sync-code to a different line or to another position on the timeline, then you cannot undo those actions with the standard shortcuts.
-However, sync-codes are tracked by Checkpoints and Autobackups, so if you revert to an earlier Checkpoint or Autobackup, then the sync-codes will be restored as well.
-- Also note that copying a line in the editor which has a sync-code and pasting the line does not copy the sync-code to the new location.
+- Please note that edits to sync-codes are tracked by _DOTE_.
+For instance, if you move a sync-code to a different line or to another position on the timeline, then you can undo those actions with the Undo/Redo function, but not with the standard shortcuts.
+Moreover, sync-codes are tracked by Checkpoints and Autobackups, so if you revert to an earlier Checkpoint or Autobackup, then the sync-codes will be restored as well.
+- Also note that copying a line in the editor which has a sync-code and pasting the line does not copy the original sync-code to the new location.

@@ -12,13 +12,17 @@ On the other hand, [Checkpoints](#checkpoint) are a user-driven system of backup
 Note that [Autobackup](#autobackup) is not the same process as _saving_ a Transcript using `File ➔ Save Transcript` or <kbd>CTRL</kbd>+<kbd>S</kbd> [or <kbd>⌘</kbd>+<kbd>S</kbd> on macOS].
 Autobackup makes a _new copy_ of the current Transcript and writes that to disk so the previous state can be recovered, while saving writes the Transcript data to disk.
 Autobackup does _not_ save the current Transcript automatically; that is a manual decision by the user.
-It just makes a series of backup copies at regular intervals if there are any new changes since the last one.
+It just makes a series of backup copies at regular intervals only if there are any new changes since the last one.
 
 [![Checkpoints and Autobackups](images/versioncontrol/buttons.png)](images/versioncontrol/buttons.png)
 
 We strongly recommend you try Checkpoints when using _DOTE_, especially since checkpoints will support informative, fine-grained control over the changes you make as you transcribe.
 
-It is important to note that you should still frequently manually save your editing of a transcript:
+Although they both involve the user in making meaningful comments, Checkpoints and [Transcript Clips](transcript-clip.md) do not have the same function.
+Checkpoints are useful for tracking the changes you make to a transcript as you edit it in order to leave a trace of the substantive changes that would otherwise be forgotten.
+[Transcript clips](transcript-clip.md) are useful for making notes and annotations on the transcript as you analyse it.
+
+It is important to note that you should not rely on Autobackups; you should still frequently manually save your editing of a transcript:
 
 - If no new Checkpoints have been made and Autobackup is turned off, then any unsaved changes will be lost if the computer or _DOTE_ crashes, for example.
 Hint: save your work frequently and make checkpoints regularly.

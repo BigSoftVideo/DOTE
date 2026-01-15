@@ -76,7 +76,7 @@ If we allowed this, then chaos would ensue with regard to [version control](vers
 
 > **NOTE: Creating a waveform when a media file is first imported or the waveform is regenerated can take time. This could take more than 5 seconds. Progress is visible as the waveform appears gradually from left to right in the timeline.**
 
-<a id='waveform-troubles'></a>
+### Waveform troubles <a id='waveform-troubles'></a>
 
 > **NOTE: If _DOTE_ fails to display a video or generate a visual waveform, then try transcoding the audio or video file to a more common MP4 or WAV format, such as for YouTube or Vimeo.
 > See the [Tips & Tricks](tips.md) for instructions how to do that using _HandBrake_, for example.

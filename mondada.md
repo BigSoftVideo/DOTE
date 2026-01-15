@@ -53,7 +53,7 @@ Here is an example in the Mondadaian formatting style that has more than one nei
 
 ```
 1 AAA      A speaks
-2 BBB	   B %speaks% and &continues
+2 BBB      B %speaks% and &continues
 3 bbb        %action%
 4 aaa                     &action-->
 5          (2.0)&(1.0) &
@@ -85,7 +85,7 @@ The full range of features of the style of multimodal transcription are supporte
 
 ### Supporting a variant of the Mondadaian conventions
 
-watch the [video tutorial](https://www.youtube.com/watch?v=4eQw0LBZ04Y) on YouTube.
+Watch the [video tutorial](https://www.youtube.com/watch?v=4eQw0LBZ04Y) on YouTube.
 
 _DOTE_ also supports a variant of the Mondadaian conventions that orients to a proportional timing interval.
 
