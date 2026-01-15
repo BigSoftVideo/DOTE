@@ -1,4 +1,4 @@
-## Settings and Transcript Options
+## Application Settings and Transcript Options
 
 Watch the [video tutorial](https://www.youtube.com/watch?v=udlOrRBs1z0) on YouTube.
 
@@ -33,19 +33,36 @@ Some of the settings are only changed when the Settings dialog box is closed.
 
 - [Autobackup](versioncontrol.md#autobackup) time interval default.
 
-##### Transcript Editor
+##### Transcript Editor <a id='editor-settings'></a>
 
 - The default [conventions](conventions.md) used for every new Transcript.
 - Font size default.
+  - Change the size of the font in the Editor.
+  See also scaling the whole user interface independently.
 - Width of name column default.
+  - Change the width in characters of the name column.
+  Sometimes, the width needs to be enlarged to match the length of the longest participant name (speaker id).
 - Show or hide user-defined page-width margin.
+  - A vertical line can be added in the editor to signal a right margin for lines of transcript to comfortably fit.
 - Show or hide mini-map.
+  - The editor has a default mini-map that shows a condensed visual representation of the whole transcript next to the scroll bar on the right side.
+  It can be hidden.
 - Auto-hide mini-map (if enabled).
+  - The mini-map can be hidden when not in focus.
 - Select vertical scaling of mini-map (if enabled).
+  - The extent and quality of the representation shown in the mini-map can be adjusted.
 - Enable or disable highlighting of other occurrences of word/phrase.
+  - The default in the editor is for all occurrences of a word that is selected to be highlighted throughout the transcript.
+  This can be turned off.
 - Enable or disable highlighting of other occurrences of selected characters.
+  - The default in the editor is for all occurrences of a string of characters that is selected to be highlighted throughout the transcript.
+  This can be turned off.
 - Enable or disable auto-completion suggestions.
+  - The default in the editor is for certain key strokes to trigger auto-completion suggestions, eg. typing 's' can trigger the suggestions for the character string for "soft" or "slow" to be suggested.
+  - This can be turned off.
 - Display or ignore warnings about missing overlap endings.
+  - The default in the editor is for overlaps marked by an onset `[` to require a closing `]` on the same line.
+  This can be ignored according to your preference.
 
 ##### Media Preferences
 
@@ -63,11 +80,14 @@ Note that this list can be rearranged by selecting, dragging and dropping an ite
 
 ##### Additional audio and video decoding
 
-- Install or config FFmpeg manually if necessary.
+- Install or configure FFmpeg manually if necessary.
 
-##### Application error reporting
+##### Application error reporting <a id='error-settings'></a>
 
-- Select the most appropriate error reporting mode.
+- Select the most appropriate error reporting mode:
+  - Disabled. Nothing is ever sent to the developers.
+  - Enabled, but only the user can send an error report manually to the developers.
+  - Enabled, with the additional permission that errors discovered by DOTE will automatically be sent to the developers.
 
 ##### Shortcuts
 
@@ -92,7 +112,7 @@ If the video being played is encoded with a different frame rate than in Setting
 
 ### Transcript Options <a id='options'></a>
 
-`Transcript Options` can be opened from the `Project` menu, eg. `Project ➔ Transcript Options`, or by clicking the `Options ⚙` button at the top left of the [Transcript Editor](editor.md).
+`Transcript Options` can be opened from the `Project` menu, eg. `Project ➔ Transcript Options`, or by clicking the `Options ⚙` button at the top right of the [Transcript Editor](editor.md) panel.
 
 [![Transcript Options](images/settings/options.png)](images/settings/options.png)
 
@@ -117,7 +137,7 @@ Click the button and the folder will be opened in your file browser.
 
 #### Transcript automation
 
-There are Transcrip settings to automate the auto-completion and recognition of subtiers.
+There are Transcript options to automate the auto-completion and recognition of subtiers.
 
 - The [translation and gloss subtiers](tiers.md) for this Transcript.
 One or more than one of each can be added.
