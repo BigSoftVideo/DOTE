@@ -10,34 +10,45 @@ Cool! 🍦
 [![Video-cues](images/cues/video-cue-edit.png)](images/cues/video-cue-edit.png)
 
 Note that video-cues are independent of [sync-codes](sync-code.md).
-Sync-codes index specific lines in the transcript (in the Editor panel) to specific timecodes in the media timeline.
-In contrast, video-cues index specific views of the current media source(s) to specific timecodes in the media timeline.
-Video-cues have no connection to the Editor, and they are managed on their own timeline.
+Sync-codes index specific lines in the transcript (in the Editor panel) to specific timecodes in a [Timeline panel](Timeline.md).
+In contrast, video-cues index specific views of the current media source(s) to specific timecodes in a Timeline panel.
+Video-cues have no connection to the [Transcript Editor](transcript.md), and they are managed on a different layer on a Timeline panel.
 
-watch the [video tutorial](https://www.youtube.com/watch?v=vCE8AY_HmiU) on YouTube.
+Watch the [video tutorial](https://www.youtube.com/watch?v=vCE8AY_HmiU) on YouTube.
+
+### Viewing video-cues <a id='view-cue'></a>
+
+TODO: [![Video-cues](images/cues/video-cue-view.png)](images/cues/video-cue-view.png)
+
+The video-cues can be viewed in a Timeline panel.
+The video-cues are signalled by the green 🟢 colour and the clapboard icon 🎬 on the right side of a Timeline.
+If there are any video-cues already inserted, then they will appear as inverted green triangles along the top of a Timeline panel.
+Clicking the clapboard icon will show/hide the video-cues.
 
 ### Adding video-cues <a id='add-cue'></a>
 
 [![Video-cues](images/cues/video-cue-add.png)](images/cues/video-cue-add.png)
 
-1. Open the [video-cue timeline](media-manager.md#media) for the specific video source that is to be cued in the [Primary Media Player panel](media-panel.md).
-2. Turn on [lock video to video-cue](media-panel.md#video-tips) by selecting the slider button in the target Media Player panel(s).
-3. Play the video and pause at the point to be video-cued.
-4. Adjust the view in the [Primary Media Player panel](media-panel.md).
-5. Enter a video-cue by clicking on the `ADD VIDEO-CUE` button on the left side of the media timeline.
+1. Make sure that the video-cue tool is open on a [Timeline panel](#view-cue).
+2. Select a specific video source in a [Media Player panel](media-panel.md) that shows the video and view that you wish to cue.
+3. Turn on the [follow video-cues](media-panel.md#video-tips) button in the same Media Player panel.
+4. Play the video and pause at the point to be video-cued.
+5. Adjust the viewport in the same [Media Player panel](media-panel.md).
+6. Create a new video-cue by clicking on the `ADD VIDEO-CUE` button on the right side of the Timeline panel.
     - Assign the video-cue to the relevant video media source.
-    - In video-cue options, select a _jump cut_ (immediate transition between two views) or a _smooth transition_ (a smooth pan between two views) for the video-cue.
-    A smooth transition will track linearly from one view to another over a one second duration.
+    - In video-cue options, select a _jump cut_ (immediate transition between two views) or a _smooth transition_ (a smooth pan between two views) for the video-cue. For the latter, you can select the transition duration (default 2 seconds).
+    A smooth transition will track linearly from one view to another over the user-specified duration.
+    This is only really appropriate for transitions within the same video, such as moving from a medium shot to a close-up or panning across the scene of a 360-degree video to show different participants or ongoing actions.
     This adds a cinematic feel to playing your videos in _DOTE_. Woah! 🎦
-    - At any time you can replace the current view for a specific video-cue by selecting the video-cue, altering the view on the [Primary Media Player panel](media-panel.md) to your liking, and clicking the `Change View` button.
-6. You can drag the video-cue in the timeline to a new time between adjacent video-cues.
+    - At any time you can replace the current view for a specific video-cue by selecting the video-cue, altering the view on the [Media Player panel](media-panel.md) to your liking, and clicking the `Change View` button.
+7. You can drag the video-cue in the timeline to a new time between adjacent video-cues.
     - The video-cue may need to tweaked in order to get the effect desired, eg. a smooth tracking pan/zoom that follows the action.
 
-If at any time you try to create, edit or move a video-cue when the [lock video to video-cue](media-panel.md#video-tips) slider button is not selected, then _DOTE_ will warn you that video-cues will not be tracked in the Media Player panels unless you toggle them on in one or both Media Player panels.
+If at any time you try to create, edit or move a video-cue when the [follow video-cues](media-panel.md#video-tips) button is not selected, then _DOTE_ will warn you that video-cues will not be tracked in the Media Player panels unless you toggle them on in one or both Media Player panels.
 
 ### Editing a video-cue <a id='edit-cue'></a>
 
-There are two ways to edit a video-cue:
+There are three ways to edit a video-cue:
 
 1. Select the desired video-cue on the media timeline, then press the `MODIFY VIDEO-CUE` button.
 
@@ -48,6 +59,10 @@ There are two ways to edit a video-cue:
 2. Or just right click on the video-cue in the relevant timeline.
 This can be useful when playing the video in the relevant video-cue, changing the viewport (no matter what the timecode), and then right clicking on the relevant video-cue.
 The video-cue can then be updated with the current viewport in the [Primary Media Player panel](media-panel.md).
+
+3. Alternatively, you can adjust the zoom/pan of the video directly in that Media Player panel and two icons will appear:
+    - Apply currently displayed video plus viewport to current video-cue
+    - Cancel
 
 #### What can be edited?
 
@@ -62,6 +77,8 @@ Clicking it will change the viewport for the selected video for the current vide
     - On each video view, click on the video-cue lock button.
     - The primary Media Player panel is locked to follow video-cues by default; the secondary Media Player panel is set to save viewport by default.
 
-Please note that edits to video-cues are not tracked by the UI in _DOTE_.
-For instance, if you move a video-cue to another position on the timeline, then you cannot undo those actions with the standard shortcuts.
-Moreover, video-cues are _not_ tracked by [Checkpoints and Autobackups](versioncontrol.md), so if you revert to an earlier Checkpoint or Autobackup, then the video-cues will _not_ be restored to their earlier state.
+Please note that edits to video-cues are tracked by the UI in _DOTE_.
+For instance, if you move a video-cue to another position on the timeline, then you can undo those actions with the [Undo/Redo](undo.md) function.
+Moreover, video-cues are tracked by [Checkpoints and Autobackups](versioncontrol.md), so if you revert to an earlier Checkpoint or Autobackup, then the video-cues will be restored to their earlier state.
+
+TODO: check with @alex that that tracking is enabled now.
