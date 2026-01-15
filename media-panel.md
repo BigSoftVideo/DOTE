@@ -19,17 +19,17 @@ This means one can simultaneously zoom in on one viewpoint of the video image wh
 Or one can open the view from one camera, while also looking at the view from a different one.
 Lush! 🌱
 
-[![Media panel](images/video/video.png)](images/video/video.png)
+[![Media panel](images/media-player/video.png)](images/media-player/video.png)
 
 ### More than one video available in active media
 
 If one has imported _more than one_ video source into the current Project using [Media Manager](media-manager.md), and made them active for the current Transcript, then the media panel will list the available videos in a pull-down menu at the top left of the media panel.
 
-[![Media panel](images/video/slider1.png)](images/video/slider1.png) Lock to Video-cues
+[![Media panel](images/media-player/slider1.png)](images/media-player/slider1.png) Lock to Video-cues
 
-[![Media panel](images/video/slider2.png)](images/video/slider2.png) Save viewport
+[![Media panel](images/media-player/slider2.png)](images/media-player/slider2.png) Save viewport
 
-[![Media panel](images/video/slider3.png)](images/video/slider3.png) Freeview
+[![Media panel](images/media-player/slider3.png)](images/media-player/slider3.png) Freeview
 
 1. One can manually switch between active videos and viewports on the fly.
 However, this is only possible if the primary media panel is _not locked_ to Video-cues; if it is locked, then it will always follow the active video selected in video-cues.

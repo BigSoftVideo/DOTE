@@ -18,7 +18,7 @@ If the JSON format is correct, then there are two options when importing the fil
 1. Remove punctuation from the text strings.
 2. Remove capitalisation from the initial character on each line (if present).
 
-[![Import JSON](images/importJSON/importJSON.png)](images/importJSON/importJSON.png)
+[![Import JSON](images/import/importJSON.png)](images/import/importJSON.png)
 
 The transcript will be imported into the currently open Transcript, so if you wish to import into a blank Transcript, then first use `New Transcript` from the `File` menu.
 
