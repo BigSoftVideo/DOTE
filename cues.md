@@ -36,13 +36,16 @@ Clicking the clapboard icon will show/hide the video-cues.
 5. Adjust the viewport in the same [Media Player panel](media-panel.md).
 6. Create a new video-cue by clicking on the `ADD VIDEO-CUE` button on the right side of the Timeline panel.
     - Assign the video-cue to the relevant video media source.
-    - In video-cue options, select a _jump cut_ (immediate transition between two views) or a _smooth transition_ (a smooth pan between two views) for the video-cue. For the latter, you can select the transition duration (default 2 seconds).
+    - In video-cue options, select a _jump cut_ (immediate transition between two views) or a _smooth transition_ (a smooth pan between two views) for the video-cue.
+    - For the smooth transition, you can select the transition duration (default 2 seconds) and it when created it will appear as green tail line that gets stronger as it approaches the apex of the full transition.
+    The length of the tail is proportional to the duration specified.
     A smooth transition will track linearly from one view to another over the user-specified duration.
     This is only really appropriate for transitions within the same video, such as moving from a medium shot to a close-up or panning across the scene of a 360-degree video to show different participants or ongoing actions.
     This adds a cinematic feel to playing your videos in _DOTE_. Woah! 🎦
-    - At any time you can replace the current view for a specific video-cue by selecting the video-cue, altering the view on the [Media Player panel](media-panel.md) to your liking, and clicking the `Change View` button.
+    - At any time you can replace the current view for a specific video-cue by selecting the video-cue, altering the view on the [Media Player panel](media-panel.md) to your liking, and clicking the `Change View` button that appears in the Media Player panel.
 7. You can drag the video-cue in the timeline to a new time between adjacent video-cues.
     - The video-cue may need to tweaked in order to get the effect desired, eg. a smooth tracking pan/zoom that follows the action.
+    Sometimes it takes a few iterations to get the desired effect.
 
 If at any time you try to create, edit or move a video-cue when the [follow video-cues](media-panel.md#video-tips) button is not selected, then _DOTE_ will warn you that video-cues will not be tracked in the Media Player panels unless you toggle them on in one or both Media Player panels.
 
@@ -73,9 +76,8 @@ Clicking it will change the viewport for the selected video for the current vide
 
 - Video-cues can be deleted.
     - Select the video-cue, open the video-cue panel, and choose `Delete`.
-- The [Primary and Secondary Media Player panels](media-panel.md) can be independently locked to the bookmarked video-cue.
-    - On each video view, click on the video-cue lock button.
-    - The primary Media Player panel is locked to follow video-cues by default; the secondary Media Player panel is set to save viewport by default.
+- [Media Player panels](media-panel.md) can be independently locked to the bookmarked video-cue.
+    - On each Media Player panel, click on the video-cue lock button as desired.
 
 Please note that edits to video-cues are tracked by the UI in _DOTE_.
 For instance, if you move a video-cue to another position on the timeline, then you can undo those actions with the [Undo/Redo](undo.md) function.
