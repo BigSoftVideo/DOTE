@@ -5,7 +5,8 @@ It is tailored for transcribing social conduct, conversation and multimodal inte
 It has been designed to support two specific standards of transcription for qualitative research, which are commonly used in conversation analysis, for example.
 _DOTE_ has some of the features commonly found in other software -- such as [video playback](play.md), a [timeline and a visual waveform](timeline.md), [synced playback](sync-code.md) -- but these features are streamlined and easier to use in _DOTE_.
 Moreover, it has enhanced features that do _not_ exist in any legacy software so far, including [transcript parsing](errors.md), [smart auto-completion](transcript.md#autocomplete), [transcript heuristics](jefferson.md#realign), [multi-video window playback](media-manager.md) (with subtitles), [360 video support](media-manager.md), [video-cues](cues.md), [export to publishable document](export.md) (and subtitles) and [version control](versioncontrol.md).
-There are many more features and enhancements planned for the future.
+Version 1.0 was released in 2022 and the completely revised version 2.0 was released in 2026.
+There are many more features and enhancements planned for the future, many of which tie in with [DOTEbase](https://bigsoftvideo.github.io/DOTEbase/help.html), our complementary software package to support qualitative analysis of audio-visual data and transcripts.
 
 ### What does _DOTE_ stand for?
 
@@ -30,7 +31,7 @@ If you prefer software that primarily supports [CAQDAS](https://en.wikipedia.org
 If you would like to create a score-based transcript with fine-timing across subtier categories, then _DOTE_ is _not_ for you.
 Try [_ELAN_](https://archive.mpi.nl/tla/elan), instead.
 If you would like to create a graphic comic transcript, then try [_Comic Life_](https://plasq.com).
-And if you want an AI to do automatic transcription _for_ you, then look elsewhere, or try the OpenWhisper solution that can export the result in a DOTE readable format.
+And if you want an AI to do automatic transcription _for_ you, then look elsewhere, or try the OpenWhisper solution that can export the result in a _DOTE_ readable format importable into _DOTE_.
 
 ### How do I try _DOTE_?
 
