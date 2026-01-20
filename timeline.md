@@ -33,7 +33,7 @@ The main timeline displays the current time at the position of the playhead, the
 [![Main timeline](images/timeline/main-timeline.png)](images/timeline/main-timeline.png)
 
 - The times are given to the nearest tenth-of-a-second (0.1s).
-- In _Show/hide highlight of current sync-code block_ (CS) mode, the current transcript segment in the editor between adjacent sync-codes will be highlighted as the video plays.
+- In _Show/hide highlight of current sync-code block_ (CS) mode, the current transcript segment in the editor between adjacent [sync-codes](sync-code.md) will be highlighted as the video plays.
 The transcript will be automatically scrolled to keep the current segment visible as the video plays.
     - The mode can be toggled on/off using the button at the top right of the Editor panel.
 
