@@ -6,22 +6,22 @@ Transcript Clips (or T-clips) can be created and edited in _DOTE_ (and _DOTEbase
 
 TODO: [![Transcript Clips](images/clips/t-clips.png)](images/clips/t-clips.png)
 
-### Making T-clips
+### Creating T-clips
 
 1. The first step is to locate the relevant transcript that you wish to clip from.
 1. Find the relevant lines to be clipped.
 1. Select those lines using your mouse by dragging from the onset character/line to the offset character/line.
 Clips do not have to start and terminate at the beginning or end of lines.
-1. Then click the `CREATE CLIP` button in the respective Transcript panel.
+1. Then click the `Create a New Transcript Clip` button in the Transcript Editor panel.
 1. There are several options to fill out or select when creating the clip:
-  - Add [Tag(s)](tags.md)
-  - Add a comment note
-  - Choose the styling (background/foreground [colours](colour-manager.md)) and visual style for the clip
-  - Add user-defined field names/values
+    - Add [Tag(s)](tags.md)
+    - Add a comment note
+    - Choose the styling (background/foreground [colours](colour-manager.md)) and visual style for the clip
+    - Add user-defined field names/values
 1. Click CREATE and the clip will be inserted and displayed in the Transcript.
 1. It will also be added to the list of clips in the current Project.
 
-### Editing and deleting Transcript Clips
+### Editing and deleting T-Clips
 
 T-clips can be edited and deleted.
 
@@ -35,11 +35,12 @@ T-clips can be edited and deleted.
 
 - Click uniquely inside the T-clip in a transcript panel.
 Make sure that the cursor is inside only one clip.
-- Select Delete Clip at Cursor.
+- Right click and select `Delete Clip` or click the `Delete Clip at cursor` 🗑️ button in the `Annotations` section at the top left of the Transcript Editor.
 
 ### Changing the scope of an existing T-Clip
 
 The scope of a T-Clip can be adjusted using the `Edit Selection` button at the top of the Edit T-Clip box.
+
 - Scroll to find the original clip.
 - Make a new selection for the scope of the T-clip by dragging the cursor from the onset to the offset character.
 - Click `APPLY NEW SELECTION` button.
