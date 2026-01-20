@@ -51,7 +51,7 @@ There are several options that one can tweak to find the best presentation:
 - Display Timing - for very brief subtitles, you can enforce that they remain on screen for a minimum period
 - Allow subtitle overlap/stacking - allow subtitles with a dense timing to appear simultaneously
 
-### Using live generated subtitles
+### Plans for generating live subtitles
 
 We plan to allow DOTE to generate subtitles live for a specific transcript, so that every time a video is played subtitles will be displayed that draw upon the current state of the transcript, ie. edits will show up immediately in a Media Player panel during playback.
 This functionality is not yet available.
