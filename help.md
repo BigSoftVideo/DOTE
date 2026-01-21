@@ -11,16 +11,20 @@ watch the [video tutorial](https://www.youtube.com/watch?v=meYMj7DsYHE) on YouTu
 
 Click the link `About` under the `Help` menu to find out which version you are using.
 
-If you have recently downloaded the v2.0 release to install or update _DOTE_, then you are on the right webpage.
+If you have recently [downloaded the v2.0](https://www.dote.aau.dk/download/) release to install or update _DOTE_, then you are on the right webpage.
 
 If you are still using the older v1.0 releases of _DOTE_, then you need to go to the [archived help guide](help.v1/help.md).
 We recommend that you [upgrade](install.md) as soon as possible to v2.0.
+
+### What is new in v2.0?
+
+You can find a [quick overview](new-v2.md) of some of the key features in v2.0.
 
 ### Where are the release notes?
 
 The [release notes](https://github.com/BigSoftVideo/DOTE/releases/) for the current release are on GitHub, as are release notes for earlier versions.
 
-watch the [video tutorial](https://www.youtube.com/watch?v=x_HvKftJsQw) about latest release on YouTube.
+Watch the [video tutorial](https://www.youtube.com/watch?v=x_HvKftJsQw) about latest release on YouTube.
 
 ### How to download and install _DOTE_
 

@@ -1,6 +1,6 @@
 ## _DOTE_ v2.0 install and update
 
-We have recently released v2.0 of _DOTE_.
+We have recently released [v2.0](new-v2.md) of _DOTE_.
 We think it is a fantastic improvement on v1.0 that incorporates many suggestions from our user base.
 
 If you are new to _DOTE_, then just follow the instructions below.
