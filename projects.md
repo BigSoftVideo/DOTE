@@ -187,7 +187,10 @@ Each project can host multiple transcripts of the same video clip(s) added with 
 1. Give the Transcript a name.
 1. Select the [conventions](conventions.md) you prefer.
 You can change this in [Transcript Options](settings.md#options) later.
-1. Click `Create`.
+1. Choose the following options:
+   - Keep Video-cues - it is useful to reuse any video-cues that are already tracked in the currently open Transcript.
+   - Preserve Video Viewports - this preserves any saved viewports in any Media Player panels.
+2. Click `Create`.
 
 [![New Transcript](images/projects/new-transcript.png)](images/projects/new-transcript.png)
 
@@ -209,6 +212,9 @@ A new Transcript in the current Project will be created from the current Transcr
    - "Copy Video-cues" - This is useful to toggle on if you wish to keep the same active media and video-cues in the new Transcript.
    - "Open copied Transcript when completed" - Toggle off if you don't want to immediately open the new Transcript.
 
-Select `Overwrite/Save` and the new Transcript will be quickly created (and opened).
+Select `Save` and the new Transcript will be quickly created (and opened).
+The original Transcript will still be listed in the list of Transcripts in the current Project.
+It can be edited independently of the new, forked Transcript that has its own life.
+This is useful for using an already developed Transcript as the origin of a shell (don't copy Transcript text) or spin-off version, while drawing on the same set of Sync-codes (copy sync-codes) and/or Video-cues (copy video-cues).
 
 That's it! You are ready to start [transcribing](transcript.md).
