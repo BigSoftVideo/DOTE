@@ -9,7 +9,7 @@ There are several ways in which _DOTE_ can help support transcription:
 1. [Import transcript and conform](#conform)
 1. [Review transcript by someone else](#review)
 
-Below we will outline some of the key tools and resources that _DOTE_ provides for each of these methods.
+Below we outline some of the key tools and resources that _DOTE_ provides for each of these methods.
 There are links to the help guide for more in-depth guidance, as well as tutorial videos on our DOTE YouTube channel.
 
 ### 1st time through <a id='first'></a>
@@ -29,35 +29,40 @@ _DOTE_ gives the following support:
 A typical strategy to use _DOTE_ for a 'first time through' could be the following:
 
 1. Create a [new project](projects.md#new-project).
+1. Give the Project and the first Transcript each an informative name.
 1. Select the [conventions](conventions.md) you prefer.
 You can change this in [Transcript Options](settings.md#options) later.
     - If using the Jeffersonian conventions, then don't forget to add later any translation and interlinear gloss [subtiers](tiers.md) in [Transcript Options](settings.md#options).
     - If using the Mondadaian conventions, then add later your favourite alignment symbols in [Settings](settings.md), then add your named action [subtier](tiers.md) types and assigned symbols in [Transcript Options](settings.md#options).
-1. Add a video using Media Manager
+1. Click Create and a new Project will be created and the new, blank transcript will be opened.
+1. Add at least one video source using [Media Manager](media-manager.md).
     - Set the video format and projection if relevant.
-    - Activate the video and close.
+    - Make the video _active_ and close.
+1. Decide on what mode you want for the [user interface](ui.md) and a tailored [layout of panels](layout.md) appropriate for the transcription task.
 1. Add any metadata at the top of the Editor following the characters <kbd>//</kbd> (a technical comment) on each line.
-1. If you have [Checkpoints](versioncontro.md) setup (see [Installing Git](install.md)), then create your first checkpoint.
-1. Position the playhead on the [timeline](timeline.md) when you wish to begin transcribing and add a [sync-code](sync-code.md) to a new line in the editor.
+3. Consider using [Checkpoints](versioncontro.md) to track your changes.
+Create your first checkpoint with an informative name.
+4. Position the playhead on the [timeline](timeline.md) when you wish to begin transcribing and add a [sync-code](sync-code.md) to a new line in the editor.
     - You can turn on `CS` (show highlight of current sync-code block) mode to enable the current [sync-code](sync-code.md) block to be highlighted as you play the media.
-1. Start replaying the audio or video file using the [playback controls](play.md).
-1. Type the speaker-id, followed by a <kbd>:</kbd> and a <kbd>TAB</kbd>.
+5. Start replaying the audio or video file using the [playback controls](play.md).
+6. Type the speaker-id, followed by a <kbd>:</kbd> and a <kbd>TAB</kbd>.
     - Every time you add a new speaker-id, then autocomplete will offer it next time in addition to the others already used.
     It will do so as you begin to type the first letters of the speaker-id.
     - If you have setup a [translation subtier](tiers.md) in the [Transcript Options](settings.md#options), then that subtier will also be autocompleted if you select an already used speaker-id from the list.
-1. After the single <kbd>TAB</kbd> on each line, [type your transcription](transcript.md).
+7. After the single <kbd>TAB</kbd> on each line, [type your transcription](transcript.md).
     - If you wish to add a pause or comment on its own line, then type <kbd>TAB</kbd> on a new line and then the pause or comment.
-1. If you need a special symbol or pair, then type <kbd>CTRL</kbd>+<kbd>ENTER</kbd> (or <kbd>⌘</kbd>+<kbd>ENTER</kbd>).
+8. If you need a special symbol or pair, then type <kbd>CTRL</kbd>+<kbd>ENTER</kbd> (or <kbd>⌘</kbd>+<kbd>ENTER</kbd>).
 Select from the list or continue typing.
-1. Whenever appropriate, enter a [new sync-code](sync-code.md) on a line.
+1. Whenever appropriate, frequently enter a [new sync-code](sync-code.md) on a line.
 One can do that just by positioning the playhead on the timeline and pressing <kbd>CTRL</kbd>+<kbd>M</kbd> (or <kbd>⌘</kbd>+<kbd>M</kbd>).
+Then you can quickly jump around the emerging transcript body by clicking on a sync-code.
 1. Save the Transcript frequently using <kbd>CTRL</kbd>+<kbd>S</kbd> (or <kbd>⌘</kbd>+<kbd>S</kbd>).
-1. Whenever appropriate, and frequently, create a [new checkpoint](versioncontrol.md) to account for the work you have done since the last checkpoint.
-1. As you type, _DOTE_ will try to help you by flagging potential [errors and warnings](errors.md) according to its model of what a good transcript should be.
-1. If necessary, add some [video-cues](cues.md) to automatically change the view in the Media Player panel to highlight the phenomena of interest at that point in the video and the Transcript.
-1. When the transcript is complete, then [Export to RTF](export.md) or [Export to SRT](export.md).
+2. Whenever appropriate, and frequently, create a [new checkpoint](versioncontrol.md) to account for the work you have done since the last checkpoint.
+3. As you type, _DOTE_ will try to help you by flagging potential [errors and warnings](errors.md) according to its model of what a good transcript should be (eg. Jeffersonian or Mondadaian [conventions](conventions.md)).
+4. If necessary, add some [video-cues](cues.md) to automatically change the view in the Media Player panel to highlight the phenomena of interest at that point in the video and the Transcript.
+5. When the transcript is complete, then [Export to RTF](exportRTF.md) or [Export to SRT](exportSRT.md) or another [Export option](export.md).
 
-watch the [video tutorial](https://www.youtube.com/watch?v=0fELQTTOiW0) on YouTube.
+Watch the [video tutorial](https://www.youtube.com/watch?v=0fELQTTOiW0) on YouTube.
 
 ### Next time through <a id='next'></a>
 
@@ -76,20 +81,24 @@ A typical strategy to use _DOTE_ for a 'next time through' could be the followin
 
 1. If they have been added, use the sync-codes to jump to a line or lines or start at the beginning.
 1. Make sure that `CS` (show highlight of current sync-code block) mode as well as `Warnings` and `Errors` are toggled on.
-1. [Play the audio/video](play.md) and look for ways to improve the Transcript.
-1. Use <kbd>CTRL</kbd>+<kbd>J</kbd> and <kbd>CTRL</kbd>+<kbd>K</kbd> (or <kbd>⌘</kbd>+<kbd>J</kbd> or <kbd>K</kbd>) to move back and forward to relisten to excerpts.
-1. Use <kbd>CTRL</kbd>+<kbd>SHIFT</kbd>+<kbd>SPACE</kbd> (or <kbd>⌘</kbd>+<kbd>⇧</kbd>+<kbd>N</kbd>) to play and then return to the starting position on the timeline.
+2. Open and arrange [Media Player panels](media-panel.md) to look for alternative camera positions or to zoom in on interesting phenomena.
+3. [Play the audio/video](play.md) and look for ways to improve the Transcript.
+4. Use <kbd>CTRL</kbd>+<kbd>J</kbd> and <kbd>CTRL</kbd>+<kbd>K</kbd> (or <kbd>⌘</kbd>+<kbd>J</kbd> or <kbd>K</kbd>) to move back and forward to relisten to excerpts.
+5. Use <kbd>CTRL</kbd>+<kbd>SHIFT</kbd>+<kbd>SPACE</kbd> (or <kbd>⌘</kbd>+<kbd>⇧</kbd>+<kbd>N</kbd>) to play and then return to the starting position on the timeline.
 This is useful to find the best point on the [timeline](timeline.md) to insert a new [sync-code](sync-code.md).
 
 ### Import transcript and conform <a id='conform'></a>
 
-watch the [video tutorial](https://www.youtube.com/watch?v=Npfmg7MpCZw) on YouTube.
+Watch the [video tutorial](https://www.youtube.com/watch?v=Npfmg7MpCZw) on YouTube.
 
-In the case of revising an extant transcript (created in other software or copy/pasted from a published transcript) which needs to be heavily edited to match the _DOTE_ conventions.
+In the case of revising an already existing transcript (created in other software or copy/pasted from a published transcript) which needs to be heavily edited to match the _DOTE_ conventions.
+
+The first step is to [import](import.md) the correctly formatted file.
+There are several possibilities in _DOTE_.
 
 [![Import and conform](images/howto/conform.png)](images/howto/conform.png)
 
-_DOTE_ gives the following support:
+_DOTE_ gives the following support for editing the imported transcript:
 
 - Adjust and reformat to fit _DOTE_ [conventions](tips.md#tip1).
 - Use [multicursor](transcript.md) to adjust and repair malformatted blocks.
@@ -106,21 +115,22 @@ A typical strategy to use _DOTE_ to revise a transcript could be the following:
 
 ### Review transcript by someone else <a id='review'></a>
 
-A new method of making comments and annotations ([Transcript-Clips](dotebase.md)) on a Transcript is available for PRO and PRO COMMUNITY Edition users in _DOTE_ v1.1.0+.
-This method interfaces nicely with DOTEbase, our new software to support qualitative analysis of transcripts.
+A new method of making comments and annotations ([Transcript-Clips](dotebase.md)) on a Transcript is available for PRO and PRO COMMUNITY Edition users in _DOTE_ v2.0+.
+This new method involves creating [Transcript Clips](transcript-clip.md) in the Editor that annotate and tag review comments, and then sharing the [exported Project or Transcript](export.md) with them to view.
+This method interfaces nicely with [_DOTEbase_](https://bigsoftvideo.github.io/DOTEbase), our companion software to support qualitative analysis of transcripts and audio-visual data.
 
 Watch the [video on YouTube](https://www.youtube.com/watch?v=x_HvKftJsQw).
 
 This method is not available for Free Edition users of _DOTE_.
-However, transcript clips made by someone else in an exported Project that is imported into _DOTE_ can be viewed by Free Edition users. 
+However, transcript clips made by someone else in an exported Project that is imported into _DOTE_ can be viewed by Free Edition users.
 
 #### Older method of making comments
 
-watch the [video tutorial](https://www.youtube.com/watch?v=hc3CH9oOsKQ) on YouTube.
+Watch the [video tutorial](https://www.youtube.com/watch?v=hc3CH9oOsKQ) on YouTube.
 
 [![Review](images/howto/review.png)](images/howto/review.png)
 
-In the last case, a transcript already prepared in _DOTE_ by someone else (eg. a colleague or a student) is shared and reviewed.
+In this case, a transcript already prepared in _DOTE_ by someone else (eg. a colleague or a student) is shared and reviewed.
 _DOTE_ gives the following support:
 
 - Open a shared transcript prepared with _DOTE_ in a copy of the project.
