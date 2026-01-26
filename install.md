@@ -24,10 +24,11 @@ Watch [basic](https://www.youtube.com/watch?v=zbB6lczk4f8) and [advanced](https:
 
 _DOTE_ is a desktop application that runs on your local computer.
 It is very easy to download and install the software and run it on the Windows and Mac desktop platforms.
-It should run on the latest versions of Microsoft Windows 11 and also Apple macOS (10.10 Yosemite or later; also macOS 12 for the Apple Silicon M-series).
+It should run on the latest versions of Microsoft Windows 11 and also Apple macOS (10.10 Yosemite or later; also macOS 12+ for the Apple Silicon M-series).
 Let us know if you have a problem installing and running _DOTE_ on these platforms.
 Theoretically, it should also run on Linux, but we don't support this.
 Contact us if you are interested in using _DOTE_ on this platform.
+If you can provide financing to support _DOTE_ development specifically for Linux then let us know.
 Note that only one instance of _DOTE_ is allowed to run at the same time.
 
 Choose the correct and latest version for your operating system from our [_DOTE_ Webshop](https://www.dote.aau.dk/downloads) or you can browse archived [releases](https://github.com/BigSoftVideo/DOTE/releases) on our public _DOTE_ GitHib repository.
@@ -96,13 +97,8 @@ If you have trouble generating a waveform for a video or audio clip, then one ca
 Alternatively, you can let _DOTE_ install the free, open source _FFmpeg_ on your computer and add the folder path to `ffmpeg.exe` to your _DOTE_ [Settings](settings.md).
 
 1. Go to Settings and scroll down to the bottom to see the `Additional Audio & Video Format Support` section.
-2. Click the button `Install or Configure FFmpeg`
-3. Click `Download & Install FFmpeg Add-On`.
-4. The files will be downloaded and installed.
-5. The "Not found" indicators should change to "Available".
-6. Try restarting _DOTE_ if something looks amiss.
-7. You may need to `Reset Path to Default` if it is incorrect file path, eg. you upgraded to v2.0 and the file path is still for v1.0.
-8. If all else fails, `Remove Add-On`, and reinstall.
+1. Because _DOTE_ installs _FFmpeg_ automatically, it should report " FFMPEG INSTALLED".
+1. If not, then see the instructions below to manually install it.
 
 BEFORE:
 
@@ -118,12 +114,19 @@ NOTE: After using _DOTE_ to install _FFmpeg_, if you reinstall _DOTE_ or update 
 
 ##### Installing FFmpeg yourself
 
+You may prefer to install it yourself as follows:
+
+1. In [Settings](settings.md), click the button `Install or Configure FFmpeg`
+2. Click `Download & Install FFmpeg Add-On`.
+3. The files will be downloaded and installed.
+4. The "Not found" indicators should change to "Available".
+5. Try restarting _DOTE_ if something looks amiss.
+6. You may need to `Reset Path to Default` if it is incorrect file path, eg. you upgraded to v2.0 and the file path is still for v1.0.
+7. If all else fails, `Remove Add-On`, and reinstall.
+
+If you wish to use a known version that you have installed yourself on your computer in a specific location, then click `Manually Set Path`.
 Both _ffmpeg_ and _ffprobe_ have to be installed.
 See [these instructions](https://bbc.github.io/bbcat-orchestration-docs/installation-mac-manual/) for more detail if you get stuck.
-
-1. Manually set the file path to the folder in which you installed the `ffmpeg.exe` and `ffprobe.exe` files (in the same folder).
-2. The "Not found" indicators should change to "Available".
-3. Try restarting _DOTE_ if something looks amiss.
 
 For a [Windows](https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-essentials.zip) installation, the folder path might look like this, depending on how you installed it:
 - `C:\FFmpeg\bin\`
