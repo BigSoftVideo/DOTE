@@ -2,7 +2,8 @@
 
 Watch the [video tutorial](https://www.youtube.com/watch?v=HPYFak345mo) on YouTube.
 
-Transcript Clips (or T-clips) can be created and edited in _DOTE_ (and _DOTEbase_) provided you have purchased and activated the Pro or Pro Community Edition.
+Transcript Clips (or T-clips) can only be created and edited in _DOTE_ (and _DOTEbase_) if you have purchased and activated the Pro or Pro Community Edition.
+In the Free Edition, they can only be viewed and deleted.
 
 TODO: [![Transcript Clips](images/clips/t-clips.png)](images/clips/t-clips.png)
 
@@ -18,8 +19,7 @@ Clips do not have to start and terminate at the beginning or end of lines.
     - Add a comment note
     - Choose the styling (background/foreground [colours](colour-manager.md)) and visual style for the clip
     - Add user-defined field names/values
-1. Click CREATE and the clip will be inserted and displayed in the Transcript.
-1. It will also be added to the list of clips in the current Project.
+1. Click CREATE and the clip will be inserted and displayed in the Transcript (make sure that display clips is toggled on at the top of the Transcript Editor panel).
 
 ### Editing and deleting T-Clips
 
@@ -35,7 +35,7 @@ T-clips can be edited and deleted.
 
 - Click uniquely inside the T-clip in a transcript panel.
 Make sure that the cursor is inside only one clip.
-- Right click and select `Delete Clip` or click the `Delete Clip at cursor` 🗑️ button in the `Annotations` section at the top left of the Transcript Editor.
+- Right click and select `Delete Clip` or click the `Delete Clip at cursor` 🗑️ button in the `Annotations` section at the top of the Transcript Editor.
 
 ### Changing the scope of an existing T-Clip
 
