@@ -16,31 +16,47 @@ Below we elaborate on Export Project or Transcript to file.
 Click the links above to find more information on the other export options.
 Please read the [crucial information about Projects and Transcripts](export.md#things-to-note-about-projects-and-transcripts-in-order-to-successfully-import-them) that you need to know before importing them.
 
-### Importing a Project from a file <a id='import-project'></a>
+### Importing a Project from a file with native DOTE format <a id='import-project'></a>
 
 To import a Project you have received as a file with the native DOTE format, follow these steps:
 
-1. Select `File ➔ Import Project from File with native DOTE format`.
-2. Locate the exported Project file (`.doteProject`) on your file system and click `Open`.
-3. Select a destination directory/folder or use the suggested default.
-4. Enter a unique name for your imported Project.
+1. Select `File ➔ Import`.
+1. Click on the relevant `Continue` button for "DOTE Project".
+1. Specify the "Source File" location for the Project file (`.doteProject`) to import.
+1. Select a destination directory/folder under "Unpack Directory".
+1. Enter a unique name for your imported Project Name.
+1. Choose from the DOTE Project Import Options:
+    - Show Transcript Browser after import.
+    - Overwrite if Project already exists.
 If there already is a Project with that name, you can overwrite it.
 Be aware that this is destructive and the overwritten Project cannot be recovered.
-1. After you have imported the Project, you can open a shared Transcript in that Project using `Open Transcript` or `File ➔ Open Transcript` or <kbd>CTRL</kbd>+<kbd>O</kbd> [or <kbd>⌘</kbd>+<kbd>O</kbd> on macOS] using the `Project Manager`.
+1. When ready, click on `Start Import`.
 
 [![Import Project](images/import/import-project.png)](images/import/import-project.png)
 
+A Preview is not available for importing a Project.
+
 ### Importing a Transcript from a file with native DOTE format <a id='import-transcript'></a>
+
+It is important to note that one can only import a Transcript from a file with native DOTE format into an already existing Project.
+That Project must contain the active media sources (see [Media Manager](media-manager.md)) that match those expected by the imported Transcript.
+This option is designed for users to share Transcripts quickly when all who are sharing also share the same Project.
+Rather than sharing the relatively large media files every time one wishes to share just a Transcript (eg. Export/Import Project), the much smaller Transcript export file does not take up much disk space.
 
 To import a single Transcript that has been shared (as a file with the native DOTE format) into a local Project, then do the following:
 
-1. Open the target Project in `DOTE` by opening one of its Transcripts using `Open Transcript` or `File ➔ Open Transcript` or <kbd>CTRL</kbd>+<kbd>O</kbd> [or <kbd>⌘</kbd>+<kbd>O</kbd> on macOS] using the `Project Manager`.
-1. Select `File ➔ Import Transcript from File`.
-1. Locate the exported Transcript file (`.dote`) on your file system and click `Open`.
-1. The Transcript will be imported into the currently open Project (shown in the dialog box).
-1. Enter a unique name for your imported Transcript.
-If there already is a Transcript with that name, you can overwrite it.
-Be aware that this is destructive and the overwritten Transcript cannot be recovered.
-1. After you have imported the Transcript, you can open it using `Open Transcript` or `File ➔ Open Transcript` or <kbd>CTRL</kbd>+<kbd>O</kbd> [or <kbd>⌘</kbd>+<kbd>O</kbd> on macOS] using the `Project Manager`.
+1. Select `File ➔ Import`.
+1. Click on the relevant `Continue` button for "DOTE Transcript".
+1. Specify the "Source File" location for the Project file (`.dote`) to import.
+1. Enter a unique name for your imported Project Name.
+If there already is a Project with that name, you can overwrite it.
+Be aware that this is destructive and the overwritten Project cannot be recovered.
+1. Choose from the DOTE Project Import Options:
+    - Load Transcript after import.
+    - Overwrite if Transcript already exists.
+    - Add to recent projects.
+1. When ready, click on `Start Import`.
 
 [![Import Transcript from File](images/import/import-transcript.png)](images/import/import-transcript.png)
+
+A Preview is not available for importing a Transcript.

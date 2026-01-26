@@ -4,7 +4,18 @@ Watch the [basic](https://www.youtube.com/watch?v=1X3Es1fftPA) and [advanced](ht
 
 It is also possible to export the basic speaker turns to subtitles that are timed to the original video clip, with all the timing, subtiers, alignment symbols and overlap brackets removed. The only condition for this to work correctly is that you have already manually added [sync-codes](sync-code.md) on the HEAD lines of every [neighbourhood](glossary.md#neighbourhood), otherwise _DOTE_ has no idea which lines should appear when as the video plays.
 
-Select `Export to SRT`, choose your options, and give a filename and location for the exported `SRT` file.
+In _DOTE_ v2.0 it is now possible to load exported subtitle files into a Media Player panel.
+This means one can playback videos with different [live subtitles](subtitles.md) according to need.
+
+### How to export
+
+1. Select `File ➔ Export` from the menu.
+2. Click on the relevant `Continue` button for "SRT Subtitle".
+1. Specify the "Destination File" location for the exported file (`.srt`).
+The default filename suggested will be the same as the name of the Transcript in `DOTE`.
+1. Choose your options from the check boxes, drop-down list and variables.
+2. Select `EXPORT`.
+3. You can find the SRT file in the folder you selected.
 
 [![Export to SRT](images/export/exportSRT.png)](images/export/exportSRT.png)
 
@@ -14,7 +25,7 @@ It updates according to your choices made in the left panel.
 If there are serious errors (those that interfere with parsing the transcript) in the transcript that _DOTE_ has trouble with, then this will be indicated on a line-by-line basis.
 The Preview panel will be blank, and the transcript _cannot_ be exported to subtitles until the errors are fixed.
 
-Options available:
+### Options available
 
 - Select language (if `.translation` subtiers are specified in [Transcript Options](settings.md#options))
     - Include original language

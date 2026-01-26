@@ -8,12 +8,15 @@ We also offer [Import from JSON](#import-json) and [Import from SRT](#import-srt
 
 ### How to export to RTF <a id='rtf'></a>
 
-1. Select `File ➔ Export To RTF` from the menu.
-1. Choose your options from the check boxes, drop-down list and variables.
-1. Select `EXPORT`.
-1. Select a location and filename for the RTF export.
-1. After a short pause, _DOTE_ will return to display the transcript.
-1. You can find the RTF file in the folder you selected.
+1. Select `File ➔ Export` from the menu.
+2. Click on the relevant `Continue` button for "RTF Document".
+3. Specify the "Destination File" location for the exported file (`.rtf`).
+The default filename suggested will be the same as the name of the Transcript in `DOTE`.
+4. Choose your options from the check boxes, drop-down list and variables.
+5. Select `EXPORT`.
+6. Select a location and filename for the RTF export.
+7. After a short pause, _DOTE_ will return to display the transcript.
+8. You can find the RTF file in the folder you selected.
 
 On the right is a preview panel that shows all the lines of the current transcript (or selected lines only) and updates according to your choices made in the left panel.
 

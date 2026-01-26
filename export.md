@@ -45,19 +45,19 @@ Shareable exported Transcript files will always be small in size.
 To export a Project, do the following:
 
 1. Open the Project in `DOTE` by opening one of its Transcripts using `Open Transcript` or `File ➔ Open Transcript` or <kbd>CTRL</kbd>+<kbd>O</kbd> [or <kbd>⌘</kbd>+<kbd>O</kbd> on macOS] using the `Project Manager`.
-2. Select `File ➔ Export`.
-3. Select `Export Project to file`.
-4. A dialogue box will appear with several options:
-    - `Include Checkpoint history` - Include or exclude all checkpoints in each of the selected Transcripts.
-    - `Include Autobackup history` - Include or exclude all autobackups in each of the selected Transcripts.
-    - `Include Active Media files` - Include or exclude all active media in each Transcript (see [Media Manager](media-manager.md))
-    - `Include all Media files` - Include or exclude all media files (active or inactive) for the Project (see [Media Manager](media-manager.md)).
-    - `Filter by name` - If you have lots of Transcripts in a Project, then you can filter out by typing a string of characters.
-5. Choose which Transcripts to include in the export from the list of available transcripts.
-6. Click `Export`.
-7. Specify the location for the exported Project file (`.doteProject`).
-8. Click `Save`.
-9. Share that file with others, who can import it.
+1. Select `File ➔ Export`.
+1. Click on the relevant `Continue` button for "DOTE Project".
+1. Specify the "Destination File" location for the exported Project file (`.doteProject`).
+The default filename suggested will be the same as the name of the Project in `DOTE`.
+2. A dialogue box will appear with several options:
+    - `Include Checkpoints` - Include or exclude all checkpoints in each of the selected Transcripts.
+    - `Include Autobackups` - Include or exclude all autobackups in each of the selected Transcripts.
+    - `Include All Media Files` - Include or exclude all media files (active or inactive) for the Project (see [Media Manager](media-manager.md)).
+    - `Include Active Media Files` - Include or exclude all active media in each selected Transcript (see [Media Manager](media-manager.md)).
+    - `Include Clips Data` - Include or exclude any [Transcript Clips](transcript-clip.md) in each selected Transcript.
+3. Choose which Transcripts to include in the export from the list of available transcripts.
+4. When ready, click `Start Export`.
+5. Share that file with others, who can [import](import.md) it.
 
 [![Export Project](images/import/export-project.png)](images/import/export-project.png)
 
@@ -68,11 +68,14 @@ To export a Project, do the following:
 If you wish to share a single Transcript, then follow these steps:
 
 1. Open that Transcript using `Open Transcript` or `File ➔ Open Transcript` or <kbd>CTRL</kbd>+<kbd>O</kbd> [or <kbd>⌘</kbd>+<kbd>O</kbd> on macOS] to open the `Project Manager`.
-1. Select `File ➔ Export Transcript to File`.
+1. Select `File ➔ Export`.
+1. Click on the relevant `Continue` button for "DOTE Transcript".
+1. Specify the "Destination File" location for the exported file (`.dote`).
+The default filename suggested will be the same as the name of the Transcript in `DOTE`.
 1. You can choose to include or exclude the complete checkpoint history and/or autobackup history for that specific Transcript.
-1. Click on `Export` and select a destination directory/folder and a filename.
-The filename suggested will be the same as the name of the Transcript in `DOTE`.
-1. Click `Save` and the exported Transcript file will be created and saved (`.dote`).
+1. You can choose to include or exclude all Transcript Clips in the Transcript to be exported.
+1. When ready, click on `Start Export`.
+1. Share that file with others, who can [import](import.md) it into the correct project on their computer with the essential media files.
 
 [![Export Transcript to File](images/import/export-transcript.png)](images/import/export-transcript.png)
 
