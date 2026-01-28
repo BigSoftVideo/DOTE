@@ -1,38 +1,41 @@
-## Media Panels
+## How to use Media Player panels
 
 Watch the [basic](https://www.youtube.com/watch?v=timdqQNxgAY) and [advanced](https://www.youtube.com/watch?v=a2bbS73WUfw) video tutorials on YouTube.
 
-When you start _DOTE_ or create a new project, only one media panel is displayed in the standard default layout.
-You can add more media panels to display the same video source (different zoom/pan) or different video sources that have been added in the Media Manager.
-
-Select and drag the `window divider` at the bottom to adjust the relative size of the media panels.
-The video format, either 360 or 2D, must be set in the [Media Manager](media-manager.md), so that the video will appear correctly.
+When you start _DOTE_ or create a new project, only one Media Player panel is displayed in the standard default layout.
+You can add more Media Player panels to display the same video source (different zoom/pan) or different video sources that have been added in the Media Manager.
+The video format, either 360 or 2D, must be set in the [Media Manager](media-manager.md), so that the video will appear correctly in a Media Player panel.
 For 360 videos, one can choose from three different projection systems for each media panel.
 Experiment to see which one suits your 360 video recording.
 
 Watch the [video tutorial](https://www.youtube.com/watch?v=eBWNqeIo450) on YouTube.
 
-The `Primary Video` panel can be hidden, so no video is displayed.
-Selecting `Secondary Video` will open a second media panel _for the same_ video source, though the source can be changed using the pull-down menu of [active media](media-manager.md) in the current Transcript.
-Both media panels can be independently manipulated to show different parts of the same or a different 2D or 360 video image simultaneously.
-This means one can simultaneously zoom in on one viewpoint of the video image while also looking at a second viewpoint at a different zoom scale or in another direction.
-Or one can open the view from one camera, while also looking at the view from a different one.
+You can open as many Media Player panels as you wish.
+Each one can contain any active media source in your current Project.
+This means one can simultaneously zoom in on one viewpoint of the video image in one Media Player panel while also looking at a second viewpoint at a different zoom scale or in another direction in a second Media Player panel.
+Or one can open the view from one camera in one Media Player panel, while also looking at the view from a different camera in a second Media Player panel.
 Lush! 🌱
 
-[![Media panel](images/media-player/video.png)](images/media-player/video.png)
+[![Media panel](images/media-player/panels.png)](images/media-player/panels.png)
 
 ### More than one video available in active media
 
-If one has imported _more than one_ video source into the current Project using [Media Manager](media-manager.md), and made them active for the current Transcript, then the media panel will list the available videos in a pull-down menu at the top left of the media panel.
+If one has imported _more than one_ video source into the current Project using [Media Manager](media-manager.md), and made them active for the current Transcript, then the Media Player panel will list the available videos in a pull-down menu at the top left of each Media Player panel.
 
-[![Media panel](images/media-player/slider1.png)](images/media-player/slider1.png) Lock to Video-cues
+Lock to Video-cues:
 
-[![Media panel](images/media-player/slider2.png)](images/media-player/slider2.png) Save viewport
+[![Media panel](images/media-player/slider1.png)](images/media-player/slider1.png)
 
-[![Media panel](images/media-player/slider3.png)](images/media-player/slider3.png) Freeview
+Save viewport:
+
+[![Media panel](images/media-player/slider2.png)](images/media-player/slider2.png)
+
+Freeview:
+
+[![Media panel](images/media-player/slider3.png)](images/media-player/slider3.png)
 
 1. One can manually switch between active videos and viewports on the fly.
-However, this is only possible if the primary media panel is _not locked_ to Video-cues; if it is locked, then it will always follow the active video selected in video-cues.
+However, this is only possible if a Media Player panel is _not locked_ to Video-cues; if it is locked, then it will always follow the active video selected in video-cues.
 2. By clicking the save viewport button, and thus follow Video-cues is deactivated, then one can automatically save and restore whatever video is selected and any changes to its viewport in the current media panel.
 3. In addition, if freeview is selected, and thus follow Video-cues and save viewport are deactivated, the active media showing in the primary media panel can be selected manually, as can the zoom and pan.
 Changes will not be saved.
@@ -41,14 +44,9 @@ If at any time you try to create, edit or move a video-cue when the [lock video 
 
 Depending on the quality and bit rate of the videos and the power of your computer, one can play/loop the video and switch live between synchronised videos of the event that the current Project (and Transcripts) covers.
 
-One may need to use the `Secondary Video` to setup another view for the same or an alternative video source, especially with 360 videos.
-This is very useful when multiple cameras (and mics) were used to collect data, and the originals have been edited into shorter synchronised clips to be imported into _DOTE_.
-Sometimes one has to switch to a different camera or mic in order to be able to see or hear the action.
-Fantasmagoric! 🤸🏻‍♂️🥳
+### Some tips for using the Media Player panels <a id='video-tips'></a>
 
-### Some tips for using the media panels <a id='video-tips'></a>
-
-- The relative size of the media panels can be changed by selecting and dragging the divider between them.
+- The relative size of the Media Player panels can be changed by selecting and dragging the divider between them.
 - One can zoom in by using <kbd>right click</kbd> and dragging the mouse vertically (or use the shuttle wheel on a mouse or two fingers on a touchpad).
 - One can reposition the focus of the primary or secondary view using <kbd>left click</kbd> and dragging the mouse.
 This is especially useful for composite 2D video clips and 360 video clips.
