@@ -2,8 +2,8 @@
 
 This is the old help guide for release v1.0 of _DOTE_, which provides you with instructions to get started with basic and more advanced transcription tasks using _DOTE_.
 
-PLEASE (if possible) [INSTALL OR UPGRADE to the latest release of v2.0 of DOTE](/install.md) as soon as possible.
-And use the [new help guide](/help.md) instead of this one.
+PLEASE (if possible) [INSTALL OR UPGRADE to the latest release of v2.0 of DOTE](../install.md) as soon as possible.
+And use the [new help guide](../help.md) instead of this one.
 
 The help guide gives guidance on all features and functionality, including the _Pro_ Editions.
 Some of the functionality described will not be available in the free Edition of _DOTE_.
