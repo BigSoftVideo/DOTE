@@ -111,7 +111,7 @@ The current audio track will be playable (but the video will not be visible).
 And you can use [Find](find.md) to locate a text string in the earlier version.
 Because you are only peeking at an earlier version, the Transcript and the sync-codes will _not_ be editable.
 
-TODO: [![Compare off](images/versioncontrol/compare-off.png)](images/versioncontrol/compare-off.png)
+[![Compare off](images/versioncontrol/compare-off.png)](images/versioncontrol/compare-off.png)
 
 When it is toggled on, the Compare function displays several bits of useful information:
 
@@ -138,18 +138,18 @@ In future releases, one will be able to compare any checkpoint with any earlier 
 1. By default, the Compare function is toggled on (see tick box).
 You can turn it off and on as you see fit.
 
-TODO: [![Compare](images/versioncontrol/compare-autobackups.png)](images/versioncontrol/compare-autobackups.png)
+[![Compare](images/versioncontrol/compare-autobackups.png)](images/versioncontrol/compare-autobackups.png)
 
 1. If you turn Compare mode off, then you will see the Transcript _and_ sync-codes, which you can use to jump around.
 The current audio track will be playable (but the video will not be visible).
 And you can use [Find](find.md) to locate a text string in the earlier version.
 Because you are only peeking at an earlier version, the Transcript and the sync-codes will _not_ be editable.
 
-TODO: [![Compare off](images/versioncontrol/compare-autobackups-off.png)](images/versioncontrol/compare-autobackups-off.png)
+[![Compare off](images/versioncontrol/compare-autobackups-off.png)](images/versioncontrol/compare-autobackups-off.png)
 
 When it is toggled on, the Compare function displays several bits of useful information:
 
-TODO: [![Compare](images/versioncontrol/compare-autobackups2.png)](images/versioncontrol/compare-autobackups2.png)
+[![Compare](images/versioncontrol/compare-autobackups2.png)](images/versioncontrol/compare-autobackups2.png)
 
 - By default, the comparison displayed on the right panel is between the current state of the Transcript if there are unsaved changes and the state it was when the last autobackup was made.
 - If you select and peek at a specific autobackup in the past, then the comparison displayed is between the peeked autobackup and the previous one.
