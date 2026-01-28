@@ -6,9 +6,10 @@ There are two ways to playback the media associated with the current _DOTE_ proj
 
 [![Play](images/play/play-buttons.png)](images/play/play-buttons.png)
 
-1. Use the video transport buttons above the main timeline.
-2. Use the shortcuts, see below.
-Note: over over the buttons and you will see the relevant shortcut.
+1. Use the video transport buttons in the Media Playback Controls panel.
+If it is not visible, then add it to your layout by clicking on `Panels & Layouts` button on the top ribbon bar, and then Add `New Panel: Media Player Controls`.
+1. Click on the buttons... OR use the shortcuts, see below.
+Note: hover over the buttons and you will see a description and the relevant shortcut.
 
 - To play and pause the video, press <kbd>CTRL</kbd>+<kbd>SPACE</kbd> [<kbd>⌘</kbd>+<kbd>N</kbd> on macOS].
 - To play the video and return on pause to the current position of the playhead in the timeline.
