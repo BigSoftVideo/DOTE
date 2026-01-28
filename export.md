@@ -1,8 +1,10 @@
-## Publish the _DOTE_ transcript  <a id='publish'></a>
+## Export a _DOTE_ Project and/or Transcript  <a id='publish'></a>
 
 Watch the [basic](https://www.youtube.com/watch?v=0VaMNLsFYWc) and [advanced](https://www.youtube.com/watch?v=QkTr54XvqTA) video tutorials on YouTube.
 
-From within _DOTE_, you can publish your transcript to different formats readable by other software. Wow! 🤘🏻
+From within _DOTE_, you can export your Project bundled with all the Media files and/or Transcripts or you can export your Transcript to different formats readable by other software.
+You can even export your Transcript Clips to import in other software.
+Wow! 🤘🏻
 
 From release v2.0, we have build an integrated and unified, step-by-step export manager.
 
