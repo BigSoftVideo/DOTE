@@ -5,6 +5,9 @@ Watch the [basic](https://www.youtube.com/watch?v=0VaMNLsFYWc) and [advanced](ht
 From within _DOTE_, you can publish your transcript to different formats readable by other software. Wow! 🤘🏻
 
 From release v2.0, we have build an integrated and unified, step-by-step export manager.
+
+[![Export Project](images/export/export.png)](images/export/export.png)
+
 The manager guides a user through the steps required to export to a variety of formats:
 
 1. [Export Project to file with native DOTE format](#exporting-a-project)

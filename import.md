@@ -3,6 +3,9 @@
 Watch the [video tutorial](https://www.youtube.com/watch?v=w_u5ESNRelY) on YouTube.
 
 With release v2.0, _DOTE_ has a unified and integrated Import Manager that guides the user step-by-step through the import process.
+
+[![Import Project](images/import/import.png)](images/import/import.png)
+
 The following data can be imported into _DOTE_:
 
 1. [Import Project from file with native DOTE format](#importing-a-project-from-a-file)
