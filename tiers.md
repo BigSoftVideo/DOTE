@@ -169,7 +169,7 @@ KT/hand:
 
 ### How to realign alignment symbols across subtiers in a neighbourhood <a id='realign'></a>
 
-watch the [video tutorial](https://www.youtube.com/watch?v=wxdd4oequqc) on YouTube.
+Watch the [video tutorial](https://www.youtube.com/watch?v=wxdd4oequqc) on YouTube.
 
 With its transcript heuristics, _DOTE_ scans all subtiers for those subtier types and assigned symbols listed in the [Transcript Options](settings.md#options).
 If the correct symbols are present, but are misaligned, then _DOTE_ can do a pretty good job of realigning them.
