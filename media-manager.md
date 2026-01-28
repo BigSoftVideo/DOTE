@@ -10,7 +10,7 @@ Note: it is essential to use synced media files that have the same IN and OUT po
 Otherwise, if you have used sync-codes or video-cues, then switching between media sources for the same transcript will simply not work because the timecodes for both will not align correctly across media.
 Syncing media clips is something to undertake outside _DOTE_, eg. with video editor software.
 
-watch the [video tutorial](https://www.youtube.com/watch?v=cKWagutZV4I) on YouTube.
+Watch the [video tutorial](https://www.youtube.com/watch?v=cKWagutZV4I) on YouTube.
 
 [![Media Manager](images/media-manager/media-manager.png)](images/media-manager/media-manager.png)
 
