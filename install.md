@@ -100,9 +100,13 @@ Alternatively, you can let _DOTE_ install the free, open source _FFmpeg_ on your
 1. Because _DOTE_ installs _FFmpeg_ automatically, it should report " FFMPEG INSTALLED".
 1. If not, then see the instructions below to manually install it.
 
-BEFORE:
+WARNING:
 
 [![FFmpeg missing](images/settings/ffmpeg-missing.png)](images/settings/ffmpeg-missing.png)
+
+MISSING:
+
+[![FFmpeg missing](images/settings/ffmpeg-missing2.png)](images/settings/ffmpeg-missing2.png)
 
 AFTER:
 
