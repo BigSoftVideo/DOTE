@@ -10,6 +10,8 @@ Note that all changes to settings and options are done immediately and cannot be
 
 `Settings` can be opened from the `File` menu, eg. `File ➔ Settings`, or by clicking the Settings icon on the ribbon at the top right of the DOTE window.
 
+[![Settings](images/settings/settings-button.png)](images/settings/settings-button.png)
+
 There are several different types of settings that affect the operation of _DOTE_:
 
 - Version control
