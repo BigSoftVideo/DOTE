@@ -7,8 +7,9 @@ For some video and audio files, a waveform cannot be generated.
 In that case, the waveform will be blank.
 See [Tips & Tricks](tips.md) for ideas how to solve this.
 
-A Timeline panel is also used for viewing managing [Sync-codes](sync-code.md) and [Video-cues](cues.md).
+[![Timeline](images/timeline/timeline.png)](images/timeline/timeline.png)
 
+A Timeline panel is also used for viewing managing [Sync-codes](sync-code.md) and [Video-cues](cues.md).
 
 ### Some tips for using the Timeline panel
 
@@ -28,11 +29,19 @@ This enables an ability to focus on different timescales simultaneously, as well
 
 ### Time on the Timeline panel
 
-The main timeline displays the current time at the position of the playhead, the highlighted selection interval (looping) and the total length of the audio or video source.
+A Timeline displays the current time at the position of the playhead, the highlighted selection interval (looping) and the total length of the audio or video source.
 
-[![Main timeline](images/timeline/main-timeline.png)](images/timeline/main-timeline.png)
+[![Time](images/timeline/time.png)](images/timeline/time.png)
 
 - The times are given to the nearest tenth-of-a-second (0.1s).
+
+### Sync-codes on the Timeline
+
+[![Sync-code timeline](images/timeline/sync-code-timeline.png)](images/timeline/sync-code-timeline.png)
+
+The Sync-codes are shown on the Timeline.
+Display can be toggled on/off at the top left of the Timeline.
+
 - In _Show/hide highlight of current sync-code block_ (CS) mode, the current transcript segment in the editor between adjacent [sync-codes](sync-code.md) will be highlighted as the video plays.
 The transcript will be automatically scrolled to keep the current segment visible as the video plays.
     - The mode can be toggled on/off using the button at the top right of the Editor panel.
