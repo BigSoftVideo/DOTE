@@ -2,15 +2,21 @@
 
 Watch the [basic](https://www.youtube.com/watch?v=7oHE1KsIGTo) and [advanced](https://www.youtube.com/watch?v=GkjMwL6zqmM) video tutorials on YouTube.
 
-A _DOTE_ Project is a folder containing all the Transcripts for a specific audio or video clip (media source).
-You can give this folder a unique and informative name.
-Always keep this Project folder, files and subfolders together, otherwise _DOTE_ will not be able to recover older edited versions nor underlining, sync-codes and video-cues.
-Each transcript folder contains the plain `transcript.txt` file and other hidden files needed to support _DOTE_ for that specific Project.
-Each transcript can be given a unique and informative name.
-Each project is stored in a _DOTE_ Projects master folder.
-You can decide the name of this folder and where it is located on your operating system.
-You can make multiple, independent Projects in this folder.
-One can also have multiple _DOTE_ Projects master folders, for example on different drives or removable media.
+A _DOTE_ Project is stored as a folder on your file system, which contains all the Transcripts for a specific audio or video clip (media source).
+You can give this (Project) folder a unique and informative name.
+Always keep this Project folder, files and subfolders together on your file system, otherwise _DOTE_ will not be able to recover older edited versions nor underlining, sync-codes and video-cues.
+Each Transcript folder on your file system contains the plain `transcript.txt` file and other hidden files needed to support _DOTE_ for that specific Project:
+
+- Each Transcript can be given a unique and informative name.
+- Each Project is usually stored in a _DOTE_ Projects master folder.
+- You can decide the name of this folder and where it is located on your file system.
+- You can make multiple, independent Projects in this folder.
+- One can also have multiple _DOTE_ Projects master folders, for example on different drives or removable media.
+- Generally, Projects are colour-coded orange and Transcripts are blue.
+- _DOTE_ can assign a special icon to the Project and Transcript folders on your file system.
+
+[![Folder icons](images/projects/folders-icons2.png)](images/projects/folders-icons2.png)
+[![Folder icons](images/projects/folders-icons.png)](images/projects/folders-icons.png)
 
 Note that _DOTE_ is _not_ a cloud service.
 It is a desktop application that stores data on your local computer's file system.
@@ -137,7 +143,7 @@ The panel has three vertical panes (see Figure):
     - A list of all known Projects and their Transcripts in all subfolders beneath the current folder open in the middle pane.
     - The Project names are in grey and the Transcript names are highlighted on a blue background.
 
-Note that in some of the panes, recognised _DOTE_ Projects are highlighted in green and recognised Transcripts (in Projects) are highlighted with a blue background.
+Note that in some of the panes, recognised _DOTE_ Projects are highlighted with an orange background and recognised Transcripts (in Projects) are highlighted with a blue background.
 
 [![Highlight status](images/projects/highlight.png)](images/projects/highlight.png)
 
@@ -151,7 +157,7 @@ It is also possible to rename a project or a Transcript in the `Project Manger`:
 
 [![Rename-Delete](images/projects/rename-delete.png)](images/projects/rename-delete.png)
 
-It is also possible to delete a project or a Transcript in the `Project Manager`:
+It is also possible to delete a Project or a Transcript in the `Project Manager`:
 - Click the delete icon next to the Transcript or Project listed in the middle panel (_Folder Browser_).
 - Confirm the deletion.
 - The deleted file(s) will be placed in the Recycle Bin/Trash.
@@ -159,6 +165,20 @@ It is also possible to delete a project or a Transcript in the `Project Manager`
 This is because a Project should always contain at least one Transcript (even if blank).
 - Deleting a Project will also delete all Transcripts in that Project.
 Be careful!
+
+##### Icons and Information
+
+There are two other buttons available for each Project and Transcript listed in the folder browser in the Project Manager:
+
+[![Icons and Information](images/projects/icons.png)](images/projects/icons.png)
+
+- Add/Remove Folder icon from folder or directory on your file system.
+As outlined above, _DOTE_ stores Projects in folders and Transcripts in subfolders on your file system.
+If you wish to display DOTE specific icons on your file system, then toggle this on.
+If toggled off, then the default icons for folders are displayed on your file system.
+- Information.
+This function is not yet implemented.
+Find Project & Transcript Information in the [Project Info](project-info.md).
 
 #### Problems with orphan Transcripts and corrupted Transcripts <a id='orphan-corrupt'></a>
 
