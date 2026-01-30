@@ -6,11 +6,14 @@ With DOTE v2.0 it has become much easier to send the developers an Error Report 
 One can manually submit an Error Report, usually when the user detects that some sort of error has occurred, or _DOTE_ will automatically submit an error report because it has detected an error (a notification pops up that it has done so).
 
 To change the way in which error reporting works, open the [application Settings](settings.md#error-settings) from the button on the top right of the DOTE window or from the `File` menu.
-The section on 
+
+[![Select waveform](images/errors/reporting-options.png)](images/errors/reporting-options.png)
 
 ### Manually submit an Error Report
 
 You can easily submit an [error report](logfile.md) to our developers using the link `Report an Error to the Developers` under the `Help` menu.
+
+[![Select waveform](images/errors/error-manual.png)](images/errors/error-manual.png)
 
 1. Type a description of the error in the `Error Description` box.
 2. Optionally you can add your email address for possible correspondence with the developers.
@@ -21,6 +24,8 @@ You can downscale what is sent to just your textual description and/or just the 
 You can also toggle off the other inclusions.
 1. Details of what will be sent can be previewed at the bottom.
 2. When ready, click `Submit Report`.
+
+[![Select waveform](images/errors/error-detail.png)](images/errors/error-detail.png)
 
 The automatic Error Report submission process has the same options.
 
@@ -33,7 +38,7 @@ that was created just before you experienced the bug, or attach multiple logfile
 The correct log folder can be opened from the _DOTE_ `Help` menu.
 The screenshot below shows what might be contained within that folder.
 
-![Screenshot of the folder containing the logfiles](images/errors/log-folder.png)
+![[Folder containing logfiles](images/errors/log-folder.png)](images/errors/log-folder.png)
 
 Alternatively, you can navigate to the log file folder manually as follows.
 
