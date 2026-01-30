@@ -15,15 +15,17 @@ With v2.0, two types of sync-codes can be added to synchronise lines of the tran
 
 This type of sync-code synchronises a line to one timestamp.
 It has no duration.
-A punctual sync-code is indicated on the Timeline by a purple triangle.
+A punctual sync-code is indicated on the Timeline by a purple triangle (see above image).
+
+[![Sync-codes](images/sync-code/punctual-sync-code.png)](images/sync-code/punctual-sync-code.png)
 
 1. Play the video and pause at the point to be sync-coded.
 Enter a punctual sync-code by clicking on the clock that appears when you move the mouse cursor over the space before the line number on the line desired in the transcript panel.
 Sync-codes can be added using the shortcut <kbd>CTRL</kbd>+<kbd>M</kbd> or <kbd>⌘</kbd>+<kbd>M</kbd> on the current line.
 1. You can drag the sync-code in the transcript editor to a new line between adjacent sync-codes.
-1. You can drag the sync-code in the timeline to a new position (timecode) between adjacent sync-codes.
-1. A selected sync-code can be nudged on the timeline by a small increment using the shortcuts <kbd>CTRL</kbd>+<kbd>H</kbd> or <kbd>⌘</kbd>+<kbd>H</kbd> for a backwards nudge and <kbd>CTRL</kbd>+<kbd>L</kbd> or <kbd>⌘</kbd>+<kbd>L</kbd> for a forwards nudge.
-1. Sync-codes can be deleted.
+2. You can drag the sync-code in the timeline to a new position (timecode) between adjacent sync-codes.
+3. A selected sync-code can be nudged on the timeline by a small increment using the shortcuts <kbd>CTRL</kbd>+<kbd>H</kbd> or <kbd>⌘</kbd>+<kbd>H</kbd> for a backwards nudge and <kbd>CTRL</kbd>+<kbd>L</kbd> or <kbd>⌘</kbd>+<kbd>L</kbd> for a forwards nudge.
+4. Sync-codes can be deleted.
 Select the sync-code, right click, and choose delete.
 Or select the line which the sync-code links.
 Press the delete sync-code button at the top left of the Transcript Editor or the left side of the Timeline (in purple).
@@ -32,14 +34,16 @@ Press the delete sync-code button at the top left of the Transcript Editor or th
 
 This type of sync-code synchronises a line to start at one timestamp and end at another.
 It has duration.
-A ranged sync-code shows the duration with a purple line between two anchor points at the bottom of the Timeline (if sync-code mode is toggled on).
+A ranged sync-code synchronises a line to a time segment with duration, ie. it has a start and an end point.
+It is indicated in the Editor and the Timeline by a special icon (not a clock).
+It shows the duration with a purple line between two anchor points at the bottom of the Timeline (if sync-code mode is toggled on).
 
-TODO: [![Sync-codes](images/sync-code/ranged-sync-code.png)](images/sync-code/ranged-sync-code.png)
+[![Sync-codes](images/sync-code/ranged-sync-code.png)](images/sync-code/ranged-sync-code.png)
 
 1. Play the video and pause at the point to start the ranged sync-code.
-1. Press <kbd>SHIFT</kbd> and drag along the Timeline to create a selection.
-2. Click on a line in the Transcript Editor that is to be synced.
-3. Enter a ranged sync-code by clicking on the ranged sync-code button at the top left of the Transcript Editor or the left of the Timeline panel.
+2. Press <kbd>SHIFT</kbd> and drag along the Timeline to create a selection.
+3. Click on a line in the Transcript Editor that is to be synced.
+4. Enter a ranged sync-code by clicking on the ranged sync-code button at the top left of the Transcript Editor or the left of the Timeline panel.
 Sync-codes can be added using the shortcut <kbd>CTRL</kbd>+<kbd>SHIFT</kbd>+<kbd>M</kbd> or <kbd>⌘</kbd>+<kbd>SHIFT</kbd>+<kbd>M</kbd> on the current line.
 1. You can drag each ranged sync-code in the transcript editor to a new line between adjacent sync-codes.
 2. You can drag each end of the ranged sync-code in the timeline to a new position (timecode) between adjacent sync-codes.
