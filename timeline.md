@@ -42,14 +42,9 @@ A Timeline displays the current time at the position of the playhead, the highli
 The Sync-codes are shown on the Timeline.
 Display can be toggled on/off at the top left of the Timeline.
 
-- In _Show/hide highlight of current sync-code block_ (CS) mode, the current transcript segment in the editor between adjacent [sync-codes](sync-code.md) will be highlighted as the video plays.
-The transcript will be automatically scrolled to keep the current segment visible as the video plays.
-    - The mode can be toggled on/off using the button at the top right of the Editor panel.
+Note that ranged sync-codes with a duration are indicated by a continuous bar with an onset and offset on the Timeline.
 
-[![Toggles](images/timeline/toggle.png)](images/timeline/main-toggle.png)
-
-- Inserted sync-codes can be dragged to a new line in the transcript editor.
-    - Sync-codes cannot be dragged over other sync-codes for obvious reasons.
+[![Ranged sync-code](images/timeline/ranged.png)](images/timeline/ranged.png)
 
 #### Selecting and locking a specific waveform or audio source
 
@@ -57,7 +52,7 @@ If your Project has multiple media sources, and more than one is activated in yo
 
 - `Waveform select`
     - Display the waveform of a specific video in the [Media Player panel](media-panel.md): 
-    - `Follow lowest Media Player`.
+    - `Follow lowest Media Panel`.
     - ...
 
 [![Select waveform](images/timeline/select1.png)](images/timeline/select1.png)
@@ -93,5 +88,10 @@ There are several ways to loop shorter segments of the timeline:
 
 [Video-cues](cues.md) can also be displayed on a Timeline panel.
 The prime use of the Video-cue element is to manage [video-cues](cues.md) that control how the current active video is displayed in a [Media Player panel](media-panel.md).
+
+Note that Video-cues that have a transition with a duration are indicated with a tail leading up to the apex of the transition.
+You will have to zoom in on the Timeline to see this effect because they are usually of short duration, eg. 2-5 seconds.
+
+[![Video-cue transition](images/timeline/video-cue-transition.png)](images/timeline/video-cue-transition.png)
 
 A [complete list of commands and shortcuts](commands.md) is available.
