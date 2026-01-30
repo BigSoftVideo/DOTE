@@ -16,8 +16,6 @@ There are links to the help guide for more in-depth guidance, as well as tutoria
 
 In this case, a _DOTE_ project is created and a new transcript is started.
 
-[![New Project](images/howto/new-project.png)](images/howto/new-project.png)
-
 _DOTE_ gives the following support:
 
 - Autocomplete to assist with speaker-ids, [subtier types and alignment symbols](tiers.md), key transcription symbols and overlaps.
@@ -26,41 +24,45 @@ _DOTE_ gives the following support:
 - Suggest solutions in the error and warning popup messages.
 - Suggest [fixes for alignment issues](tiers.md#realign).
 
+[![New Project](images/howto/new-project.png)](images/howto/new-project.png)
+
 A typical strategy to use _DOTE_ for a 'first time through' could be the following:
 
 1. Create a [new project](projects.md#new-project).
-1. Give the Project and the first Transcript each an informative name.
-1. Select the [conventions](conventions.md) you prefer.
+2. Give the Project and the first Transcript each an informative name.
+3. Select the [conventions](conventions.md) you prefer.
 You can change this in [Transcript Options](settings.md#options) later.
     - If using the Jeffersonian conventions, then don't forget to add later any translation and interlinear gloss [subtiers](tiers.md) in [Transcript Options](settings.md#options).
     - If using the Mondadaian conventions, then add later your favourite alignment symbols in [Settings](settings.md), then add your named action [subtier](tiers.md) types and assigned symbols in [Transcript Options](settings.md#options).
 1. Click Create and a new Project will be created and the new, blank transcript will be opened.
-1. Add at least one video source using [Media Manager](media-manager.md).
+2. Add at least one video source using [Media Manager](media-manager.md).
     - Set the video format and projection if relevant.
     - Make the video _active_ and close.
-1. Decide on what mode you want for the [user interface](ui.md) and a tailored [layout of panels](layout.md) appropriate for the transcription task.
-1. Add any metadata at the top of the Editor following the characters <kbd>//</kbd> (a technical comment) on each line.
-3. Consider using [Checkpoints](versioncontro.md) to track your changes.
+3. Decide on what mode you want for the [user interface](ui.md) and a tailored [layout of panels](layout.md) appropriate for the transcription task.
+4. Add any metadata at the top of the Editor following the characters <kbd>//</kbd> (a technical comment) on each line.
+5. Consider using [Checkpoints](versioncontro.md) to track your changes.
 Create your first checkpoint with an informative name.
-4. Position the playhead on the [timeline](timeline.md) when you wish to begin transcribing and add a [sync-code](sync-code.md) to a new line in the editor.
+1. Position the playhead on the [timeline](timeline.md) when you wish to begin transcribing and add a [sync-code](sync-code.md) to a new line in the editor.
     - You can turn on `CS` (show highlight of current sync-code block) mode to enable the current [sync-code](sync-code.md) block to be highlighted as you play the media.
-5. Start replaying the audio or video file using the [playback controls](play.md).
-6. Type the speaker-id, followed by a <kbd>:</kbd> and a <kbd>TAB</kbd>.
+2. Start replaying the audio or video file using the [playback controls](play.md).
+3. Type the speaker-id, followed by a <kbd>:</kbd> and a <kbd>TAB</kbd>.
     - Every time you add a new speaker-id, then autocomplete will offer it next time in addition to the others already used.
     It will do so as you begin to type the first letters of the speaker-id.
     - If you have setup a [translation subtier](tiers.md) in the [Transcript Options](settings.md#options), then that subtier will also be autocompleted if you select an already used speaker-id from the list.
-7. After the single <kbd>TAB</kbd> on each line, [type your transcription](transcript.md).
+4. After the single <kbd>TAB</kbd> on each line, [type your transcription](transcript.md).
     - If you wish to add a pause or comment on its own line, then type <kbd>TAB</kbd> on a new line and then the pause or comment.
-8. If you need a special symbol or pair, then type <kbd>CTRL</kbd>+<kbd>ENTER</kbd> (or <kbd>⌘</kbd>+<kbd>ENTER</kbd>).
+5. If you need a special symbol or pair, then type <kbd>CTRL</kbd>+<kbd>ENTER</kbd> (or <kbd>⌘</kbd>+<kbd>ENTER</kbd>).
 Select from the list or continue typing.
 1. Whenever appropriate, frequently enter a [new sync-code](sync-code.md) on a line.
 One can do that just by positioning the playhead on the timeline and pressing <kbd>CTRL</kbd>+<kbd>M</kbd> (or <kbd>⌘</kbd>+<kbd>M</kbd>).
 Then you can quickly jump around the emerging transcript body by clicking on a sync-code.
 1. Save the Transcript frequently using <kbd>CTRL</kbd>+<kbd>S</kbd> (or <kbd>⌘</kbd>+<kbd>S</kbd>).
-2. Whenever appropriate, and frequently, create a [new checkpoint](versioncontrol.md) to account for the work you have done since the last checkpoint.
-3. As you type, _DOTE_ will try to help you by flagging potential [errors and warnings](errors.md) according to its model of what a good transcript should be (eg. Jeffersonian or Mondadaian [conventions](conventions.md)).
-4. If necessary, add some [video-cues](cues.md) to automatically change the view in the Media Player panel to highlight the phenomena of interest at that point in the video and the Transcript.
-5. When the transcript is complete, then [Export to RTF](exportRTF.md) or [Export to SRT](exportSRT.md) or another [Export option](export.md).
+1. Whenever appropriate, and frequently, create a [new checkpoint](versioncontrol.md) to account for the work you have done since the last checkpoint.
+1. As you type, _DOTE_ will try to help you by flagging potential [errors and warnings](errors.md) according to its model of what a good transcript should be (eg. Jeffersonian or Mondadaian [conventions](conventions.md)).
+1. If you need to Undo some steps while editing, then use the [Undo Manager](undo.md).
+In the Editor, you can just use  <kbd>CRTL</kbd> + <kbd>Z</kbd> or  <kbd>⌘</kbd> + <kbd>Z</kbd> to undo text edits.
+2. If necessary, add some [video-cues](cues.md) to automatically change the view in the Media Player panel to highlight the phenomena of interest at that point in the video and the Transcript.
+3. When the transcript is complete, then [Export to RTF](exportRTF.md) or [Export to Subtitles](exportSRT.md) or choose another [Export](export.md) option.
 
 Watch the [video tutorial](https://www.youtube.com/watch?v=0fELQTTOiW0) on YouTube.
 
@@ -119,10 +121,12 @@ A new method of making comments and annotations ([Transcript-Clips](dotebase.md)
 This new method involves creating [Transcript Clips](transcript-clip.md) in the Editor that annotate and tag review comments, and then sharing the [exported Project or Transcript](export.md) with them to view.
 This method interfaces nicely with [_DOTEbase_](https://bigsoftvideo.github.io/DOTEbase), our companion software to support qualitative analysis of transcripts and audio-visual data.
 
+[![T-clips](images/howto/clips.png)](images/howto/clips.png)
+
 Watch the [video on YouTube](https://www.youtube.com/watch?v=x_HvKftJsQw).
 
-This method is not available for Free Edition users of _DOTE_.
-However, transcript clips made by someone else in an exported Project that is imported into _DOTE_ can be viewed by Free Edition users.
+Note that the creation and editing of transcript clips is not available for Free Edition users of _DOTE_.
+However, transcript clips made by someone else in an [exported Transcript(export.md)] that is imported into _DOTE_ can be viewed by Free Edition users provided the display of annotations is toggled on in the Editor.
 
 #### Older method of making comments
 
