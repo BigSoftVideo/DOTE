@@ -2,12 +2,14 @@
 
 Watch the [video tutorial](https://www.youtube.com/watch?v=HPYFak345mo) on YouTube.
 
-Transcript Clips (or T-clips) can only be created and edited in _DOTE_ (and _DOTEbase_) if you have purchased and activated the Pro or Pro Community Edition.
-In the Free Edition, they can only be viewed and deleted.
+Transcript Clips (or T-clips) can only be created and edited in _DOTE_ (or _DOTEbase_) if you have purchased and activated the Pro or Pro Community Edition.
+In the Free Edition, they can only be viewed and deleted in _DOTE_.
 
-TODO: [![Transcript Clips](images/clips/t-clips.png)](images/clips/t-clips.png)
+[![Transcript Clips](images/clips/t-clips.png)](images/clips/t-clips.png)
 
 ### Creating T-clips
+
+[![Transcript Clips](images/clips/t-clips-add.png)](images/clips/t-clips-add.png)
 
 1. The first step is to locate the relevant transcript that you wish to clip from.
 1. Find the relevant lines to be clipped.
@@ -15,11 +17,20 @@ TODO: [![Transcript Clips](images/clips/t-clips.png)](images/clips/t-clips.png)
 Clips do not have to start and terminate at the beginning or end of lines.
 1. Then click the `Create a New Transcript Clip` button in the Transcript Editor panel.
 1. There are several options to fill out or select when creating the clip:
-    - Add [Tag(s)](tags.md)
-    - Add a comment note
-    - Choose the styling (background/foreground [colours](colour-manager.md)) and visual style for the clip
-    - Add user-defined field names/values
+    - Add [Tag(s)](tags.md).
+    - Add an annotation in the form of a plain text comment.
+    - Choose the styling (background/foreground [colours](colour-manager.md)) and visual style for the clip:
+        - underline
+        - box
+        - circle
+        - highlight
+        - strike-through
+        - crossed-off
+        - bracket
+    - Add optional user-defined field names/values.
 1. Click CREATE and the clip will be inserted and displayed in the Transcript (make sure that display clips is toggled on at the top of the Transcript Editor panel).
+
+[![Transcript Clips](images/clips/t-clips-edit.png)](images/clips/t-clips-edit.png)
 
 ### Editing and deleting T-Clips
 
@@ -27,7 +38,7 @@ T-clips can be edited and deleted.
 
 #### Method 1
 
-- Hover over the clip and select the pencil edit or delete icon in the T-clip panel that opens.
+- Hover over the clip and select the pencil ✏️ edit or delete ❌ icon in the T-clip panel that opens.
 
 [![Transcript Clips](images/clips/t-clips-delete.png)](images/clips/t-clips-delete.png)
 
@@ -41,11 +52,13 @@ Make sure that the cursor is inside only one clip.
 
 The scope of a T-Clip can be adjusted using the `Edit Selection` button at the top of the Edit T-Clip box.
 
+[![T-Clip Scope](images/clips/clip-scope.png)](images/clips/clip-scope.png)
+
 - Scroll to find the original clip.
 - Make a new selection for the scope of the T-clip by dragging the cursor from the onset to the offset character.
 - Click `APPLY NEW SELECTION` button.
 
-[![T-Clip Scope](images/clips/clip-scope.png)](images/clips/clip-scope.png)
+[![T-Clip Scope](images/clips/clip-scope2.png)](images/clips/clip-scope2.png)
 
 ### Interchangeable Transcript Clips in _DOTE_ and _DOTEbase_
 
