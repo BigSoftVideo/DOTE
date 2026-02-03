@@ -5,54 +5,83 @@ The _DOTE_ user interface is comprised of several panels that can be resized and
 ### Main panels in the user interface
 
 1. [The menu bar](#menu)
-2. [The function buttons](#function)
-3. [The Timeline panel](#timeline)
-4. [The Media Player panel(s)](#media-player)
-5. [The editor panel](#editor)
+2. [The ribbon bar](#ribbon)
+3. [The Media Controls panel](#play)
+4. [The Timeline panel(s)](#timeline)
+5. [The Media Player panel(s)](#media-player)
+6. [The Editor panel](#editor)
 
 [![DOTE UI](images/UI/UI-simple.png)](images/UI/UI-simple.png)
 
 #### The menu bar <a id='menu'></a>
 
+[![Meny bar](images/UI/UI-menu.png)](images/UI/UI-menu.png)
+
 Some, but not all, of the commands and shortcuts are available from the pull-down menus.
 Some of these menu commands do not have shortcuts.
 
-#### The ribbon bar <a id='function'></a>
+#### The ribbon bar <a id='ribbon'></a>
 
-The basic functions for [version control](versioncontrol.md) and [managing media](media-manager.md) are easily accessible via these ribbon bar buttons.
+[![Ribbon bar](images/UI/UI-ribbon.png)](images/UI/UI-ribbon.png)
 
-#### The timeline panel <a id='timeline'></a>
+The basic functions for [Panels & Layout](ui.md), [Undo](undo.md), [version control](versioncontrol.md), [Project Manager](projects.md), [Media Manager](media-manager.md), [Project Info](project-info.md) and [DOTE Settings](settings.md) are easily accessible via these ribbon bar buttons.
+Hover over a button to see a pop-up description.
 
-The height of the [main timeline panel](timeline.md) can be adjusted using the horizontal divider line.
+#### The Media Controls panel <a id='play'></a>
+
+[![Play Transport](images/UI/UI-play.png)](images/UI/UI-play.png)
+
+The buttons for controlling [playback and selecting/looping segments](play.md).
+Hover over a button to see a pop-up description.
+
+#### The Timeline panel(s) <a id='timeline'></a>
+
+[![Timeline](images/UI/UI-timeline.png)](images/UI/UI-timeline.png)
+
+The height of the [main timeline panel](timeline.md) can be adjusted using the horizontal or vertical divider lines between it and another panel.
 
 #### The Media Player panel(s) <a id='media-player'></a>
 
-The height of the [Media Player panel](media-panel.md) can be adjusted using the horizontal divider lines.
-The Media Player panels can be opened or hidden by clicking the `Primary Video` and `Secondary Video` buttons at the top left.
+[![Media Player](images/UI/UI-media-player.png)](images/UI/UI-media-player.png)
 
-#### The Transcript panel <a id='editor'></a>
+The height of the [Media Player](media-panel.md) panel can be adjusted using the horizontal or vertical divider lines between it and another panel.
+The panel can be expanded to full screen and the options hidden.
 
-The width of the [Transcript panel](transcript.md) can be adjusted using the vertical divider line.
-The editor panel has a minimap scroll bar, which displays information about incidences and type of incidence of a selection made in the editor.
+#### The Editor panel <a id='editor'></a>
+
+[![Editor](images/UI/UI-editor.png)](images/UI/UI-editor.png)
+
+The width of the [Editor](transcript.md) panel can be adjusted using the horizontal or vertical divider line between it and another panel.
+The Editor panel can never be closed, though it can be hidden in a Tab on another panel.
+
+[![Editor tab](images/UI/UI-tab.png)](images/UI/UI-tab.png)
 
 ### Adding a new panel
 
 Some tools can be added as new panels repeatedly, eg. Media Player panel and Timeline Panel.
-Some panels can only have one instance but can be removed from the user interface, eg. Media Playback panel.
+Some panels can only have one instance but can be removed from the user interface, eg. Play Transport panel.
 Other panels cannot be removed from the user interface, eg. Transcript Editor panel.
 
-[![TODO: Add image](images/ui/.png)](images/ui/.png)
+[![Add panel](images/UI/add-panel.png)](images/UI/add-panel.png)
 
 - Click on the Panels & Layouts button at the top left of the ribbon bar.
 - Select from the `Add New Panel` list.
 
-### Adjusting a panel
+### Resizing a panel
 
 The panels can be adjusted by grabbing and dragging the divider lines between panels.
-Additionally, some panels (Media Player panels, Timelines) can be hidden.
+Additionally, some panels (Media Player panels, Timelines) can be hidden as tabs behind another panel.
 In general, the _DOTE_ window size and placement, and the position and size of the panels, is saved between sessions.
 
-[![TODO: Add image](images/ui/.png)](images/ui/.png)
+[![Adjust panel](images/UI/adjust-panel.png)](images/UI/adjust-panel.png)
+
+### Maximize a panel
+
+Some panels can also be maximised, eg. the Media Player panels and the Editor panel, by clicking the maximize icon at the top right of the panel.
+When combined with Zen panel action (see below), then the video is prioritised for a presentation.
+To minimize back to its original position, click the minimize icon at the top right of the panel.
+
+[![Adjust panel](images/UI/panel-max.png)](images/UI/panel-max.png)
 
 ### Adjusting the position of panels
 
@@ -64,13 +93,13 @@ Panels can be grabbed and moved around the user interface.
 1. A grey rectangle will indicate the new position that it could be dropped into or a TAB will be highlighted.
 1. Drop the panel in the location desired.
 
-[![TODO: Add image](images/ui/.png)](images/ui/.png)
+[![TODO: Add image](images/UI/panel-position.png)](images/UI/panel-position.png)
 
 ### Application layout modes
 
 To enable the user to quickly change the amount of information displayed across the user interface, there are several predefined modes that show or hide text, buttons, ribbons, etc. in the user interface and all open panels.
 
-[![TODO: Add image](images/ui/.png)](images/ui/.png)
+[![Application layout modes](images/UI/layout.png)](images/UI/layout.png)
 
 Select from the `Panels & Layouts` button menu:
 
@@ -83,12 +112,16 @@ Select from the `Panels & Layouts` button menu:
 
 Also, from the `Panels & Layouts` button menu, there are some quick actions that modify the presentation of information in panels:
 
-[![TODO: Add image](images/ui/.png)](images/ui/.png)
+[![Panel actions](images/UI/panel-actions.png)](images/UI/panel-actions.png)
 
 - Full - show all information (verbal not just icons) - this also changes to Complete mode.
 - Zen - hide everything (including verbal and panel options) - this also changes to Minimal mode.
 - Reveal all optional panel controls (just the controls).
 - Collapse all optional panel controls - they can be expanded universally via Reveal option or individually expanded using the shrink/expand button on each relevant panel.
+
+Zen mode in action:
+
+[![DOTE UI Zen](images/UI/UI-zen.png)](images/UI/UI-zen.png)
 
 ### Layouts
 
