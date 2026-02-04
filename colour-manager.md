@@ -51,8 +51,8 @@ When you have the right amount of transparency, click the tick button to save th
 
 ### Colour Presets shared between _DOTE_ and _DOTEspace_
 
-- Colours assigned in _DOTE_ are exportable and importable in _DOTEbase_.
-- Presets cannot be created in _DOTE_.
-- Presets assigned in _DOTEbase_ are usable but not editable in _DOTE_.
-
 _DOTEbase_ has a more sophisticated [Colour Swatch Manager](https://bigsoftvideo.github.io/DOTEbase/colour-manager.html) than available in _DOTE_.
+
+- Colours assigned in _DOTE_ are exportable and importable in _DOTEbase_.
+- Presets, however, cannot be created in _DOTE_.
+- Presets can be assigned in _DOTEbase_ and are usable but not editable in _DOTE_.
