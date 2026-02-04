@@ -90,7 +90,6 @@ If we allowed this, then chaos would ensue with regard to [version control](vers
 > If you give it the same name, then select `Regenerate Waveform` in the [Media Manager](media-manager.md).
 > If you return to the main editor after selecting this option, then you will see the transcript being regenerated.
 > If that fails, however, then create a new project and try to import it again.
-> Or see the [Installation guide](install.md#ffmpeg) for an alternative solution using _FFmpeg_ that will generate a waveform for a wider range of audio and video formats.**
 
 ## Open a Project <a id='open-project'></a>
 
@@ -102,17 +101,23 @@ Selecting `File ➔ Open Project` will open the `Project Manager`.
 Projects are saved when a [Transcript in a Project is saved](#saving).
 Project settings are saved automatically when changes are made.
 
+When there are changes made to the text in the Transcript in the [Editor](transcript.md) or to [Sync-codes](sync-code.md) in the Editor or [Timeline](timeline.md), then a warning is flagged in the top ribbon that the Transcript is `Unsaved`.
+This will disappear when the Project/Transcript is manually saved.
+
+[![Transcripts in the Project Manager](images/projects/unsaved.png)](images/projects/unsaved.png)
+
 ## Save a Transcript in a Project <a id='saving'></a>
 
-1. To save the current Transcript, then select `File ➔ Save Transcript` or <kbd>CTRL</kbd>+<kbd>S</kbd> [or <kbd>⌘</kbd>+<kbd>S</kbd> on macOS.
-Saving is _not_ the same as [Autobackup](versioncontrol.md#autobackup).
+To save the current Transcript, then select `File ➔ Save Transcript` or <kbd>CTRL</kbd>+<kbd>S</kbd> [or <kbd>⌘</kbd>+<kbd>S</kbd> on macOS.
+
+- Saving is _not_ the same as [Autobackup](versioncontrol.md#autobackup).
 Saving the current Transcript writes the Transcript data to disk, while Autobackup makes a new copy and writes that to disk so the previous state can be recovered.
 Autobackup does _not_ save the current Transcript automatically; that is a manual decision by the user.
 It just makes a series of backup copies at regular intervals.
 
 ### Open a Transcript in a Project <a id='open-transcript'></a>
 
-To open the last saved Transcript/Project, then just run _DOTE_.
+To open the last saved Transcript/Project in the next session, then just run _DOTE_.
 It automatically loads the last opened Transcript if it is accessible on the file system.
 
 To open a previously saved Transcript, then select `Open Transcript` or `File ➔ Open Transcript` or <kbd>CTRL</kbd>+<kbd>O</kbd> [or <kbd>⌘</kbd>+<kbd>O</kbd> on macOS] using the `Project Manager`.
