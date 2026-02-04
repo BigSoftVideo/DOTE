@@ -23,35 +23,42 @@ It is best to store the generated subtitle file in the [Project](projects.md) fo
 
 Subtitles contained in the plain text SRT file can be loaded into any Media Player panel.
 They are specific to that Media Player.
-These are the steps to load an SRT file.
+
+[![Subtitles](images/subtitles/subtitles-load.png)](images/subtitles/subtitles-load.png)
+
+These are the steps to load an SRT file:
 
 1. Select a Media Player panel.
-1. Click on the subtitles button at the top of the panel.
-1. Click on `Enable Subtitles` in the dialog box that opens.
-1. Click on `Import SRT file` and search for and select an SRT (`.srt`) file to import.
+2. Click on the subtitles button at the top of the panel.
+3. Click on `Enable Subtitles` in the dialog box that opens.
+4. Click on `Import SRT File` and search for and select an SRT (`.srt`) file to import.
+If you have SRT files already stored in the Project folder on your file system, they will be listed automatically in the drop-down.
 1. A preview should appear in the video window.
-1. You can navigate the subtitles by clicking on the `<` or `>` buttons underneath the video preview.
-1. Change the options as appropriate (see below).
-1. Click on the Save button.
+2. You can navigate the subtitles by clicking on the `<` or `>` buttons underneath the video preview.
+3. Change the options as appropriate (see below).
+4. Click on the `Save` button.
 
 ### Options for viewing subtitles
 
 There are several options that one can tweak to find the best presentation:
 
-- Font Family - select an appropriate serif or non serif font
-- Font Size - select an appropriate font size
-- Font Color - select an appropriate fill color for the characters
-- Vertical Position (%) - adjust the vertical position in the Media Player panel
-- Show Text Outline - add an outline for readability on all backgrounds
-  - Outline Color - select an appropriate outline color
-  - Outline Width (% of height) - adjust the width of the outline to make the characters pop
-- Show Text Glow - add a glow to the text
-  - Glow Color - select an appropriate glow color
-  - Glow Blur (% of height) - adjust the width of the glow to make the characters pop
-- Display Timing - for very brief subtitles, you can enforce that they remain on screen for a minimum period
-- Allow subtitle overlap/stacking - allow subtitles with a dense timing to appear simultaneously
+[![Subtitles](images/subtitles/subtitles-options.png)](images/subtitles/subtitles-options.png)
+
+- Font Family - select an appropriate serif or non serif font.
+- Font Size - select an appropriate font size.
+- Font Color - select an appropriate fill color for the characters.
+- Max Characters Per Line - select how many characters to display in a line before it is wrapped.
+- Vertical Position (%) - adjust the vertical position in the Media Player panel.
+- Show/Hide Text Outline - add an outline for readability on all backgrounds.
+  - Outline Color - select an appropriate outline color.
+  - Outline Width (% of height) - adjust the width of the outline to make the characters pop.
+- Show/Hide Text Glow - add a glow to the text.
+  - Glow Color - select an appropriate glow color.
+  - Glow Blur (% of height) - adjust the width of the glow to make the characters pop.
+- Minimum Display Duration - for very brief subtitles, you can enforce that they remain on screen for a minimum period of time.
+- Allow subtitle overlap/stacking - allow subtitles with a dense timing to appear stacked with older above newer.
 
 ### Plans for generating live subtitles
 
-We plan to allow DOTE to generate subtitles live for a specific transcript, so that every time a video is played subtitles will be displayed that draw upon the current state of the transcript, ie. edits will show up immediately in a Media Player panel during playback.
+We plan to allow _DOTE_ to generate live subtitles for a specific transcript, so that every time a video is played subtitles will be displayed that draw upon the current state of the transcript, ie. edits will show up immediately in a Media Player panel during playback.
 This functionality is not yet available.
