@@ -1,6 +1,6 @@
 ## What are the key new features in DOTE v2.0?
 
-We have been working on a massive update to _DOTE_ for over a year. 
+We have been working on a massive update to _DOTE_ for over a year.
 Now it has been released, here are some of the key features you can enjoy.
 
 ### Revamped user interface
@@ -17,7 +17,7 @@ The [Project Manager](projects.md)📂 is now easier to use with more informatio
 
 ### Project & Transcript Information
 
-A completely new feature is a [handy condensed list of nifty information](project-info.md)ℹ️ about your Projects and Transcripts and their meta-date within _DOTE_.
+A completely new feature is a [handy condensed list of nifty information](project-info.md)ℹ️ about your Projects and Transcripts and their meta-data within _DOTE_.
 
 ### Integrated Import and Export step-by-step guides
 
