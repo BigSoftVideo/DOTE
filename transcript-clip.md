@@ -2,6 +2,11 @@
 
 Watch the [video tutorial](https://www.youtube.com/watch?v=HPYFak345mo) on YouTube.
 
+Transcript Clips are rich annotations on selected segments of a Transcript.
+Multiple and overlapping Clips can be made on a Transcript.
+
+[![Transcript Clips](images/clips/clipping.png)](images/clips/clipping.png)
+
 Transcript Clips (or T-clips) can only be created and edited in _DOTE_ (or _DOTEbase_) if you have purchased and activated the Pro or Pro Community Edition.
 In the Free Edition, they can only be viewed and deleted in _DOTE_.
 
