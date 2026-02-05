@@ -17,8 +17,9 @@ Here you will find ideas and solutions to specific tasks that you might wish to 
 - [How do I reuse a Transcript with sync-codes to create a new Transcript?](#tip17)
 - [How do I use _DOTE_ to comment and tag an audiovisual source before transcribing?](#tip9)
 - [How do I see hidden characters in the Editor?](#tip23)
+- [How do I give a presentation with subtitles using _DOTE_?](#tip38)
 - [How to use proxy videos to share Projects with sensitive video clips?](#tip31)
-- [How do I report an error or problem using the log files?](#tip5)
+- [How do I report an error or problem when using _DOTE_?](#tip5)
 - [Why do I need more than one Timeline?](#tip24)
 - [Why would I use more than one Media Player panel?](#tip18)
 - [Why can I not copy/paste underlined text?](#tip19)
@@ -164,13 +165,12 @@ This is useful, for example, when editing a transcript and adding/deleting chara
 - Alternatively, use the shortcut <kbd>CTRL</kbd>+<kbd>.</kbd> or <kbd>⌘</kbd>+<kbd>.</kbd> to open the realignment dialog box.
 - All considering, _DOTE_ does a pretty good job, but it may fail on very complex or non-standard cases.
 
-### How do I report an error or problem using the log files? <a id='tip5'></a>
+### How do I report an error or problem when using _DOTE_? <a id='tip5'></a>
 
 You can decide how [error reporting](errors.md) is managed by _DOTE_.
 Error reporting can be automated or manual, including user-selected details such as DOTE's operation at the time of the error, anonymised transcript details and log files.
 
-In order to give you better help, our developers may need to look at the associated log file.
-There are [instructions](logfile.md) to help you locate the relevant log file if this becomes necessary.
+You can also send an [Error Report](logfile.md) to the developers directly from within _DOTE_.
 
 ### How do I manually make short excerpts of a Transcript with consistent line numbering? <a id='tip6'></a>
 
@@ -236,6 +236,22 @@ The tag/comment Transcript can be reopened later to locate other interesting phe
 If you wish to see any hidden characters in the Editor (eg. `SPACE`, `TAB`, `RETURN`), then select all the text that is of interest.
 The hidden characters will be highlighted in light grey over a light blue background.
 This can be useful for spotting unnecessary or spurious characters that have infiltrated the body of the Transcript.
+
+### How do I give a presentation with subtitles using _DOTE_? <a id='tip38'></a>
+
+If you wish to play one of your media sources full screen for a presentation with no other panels visible, then that is easy with _DOTE_.
+Just click on the maximize panel button on the top right of the [Media Player](media-panel.md) panel.
+Under [Panels & Layouts](ui.md), you might also wish to change the Application Layout Mode to `Minimal` and/or the Panel Action to `Zen`.
+
+If you wish to play one of your media sources full screen with subtitles, then that is also easy to setup.
+Click on the [Subtitles](subtitles.md) button at the top of the [Media Player](media-panel.md) panel that you wish to play full screen.
+Then click on the maximize panel button on the top right of the [Media Player](media-panel.md) panel.
+Under [Panels & Layouts](ui.md), you might also wish to change the Application Layout Mode to `Minimal` and/or the Panel Action to `Zen`.
+
+If you wish to play more than one of your media sources at the same time with different subtitles, then _DOTE_ does the trick!
+[Configure a new layout](layout.md) with only the two or Media Player panels visible in a side-by-side or stacked vertical arrangement, ie. all other panels are hidden or closed.
+Click on the [Subtitles](subtitles.md) button at the top of each [Media Player](media-panel.md) panel and configure each with a different subtitle file.
+Under [Panels & Layouts](ui.md), you might also wish to change the Application Layout Mode to `Minimal` and/or the Panel Action to `Zen`.
 
 ### How to use proxy videos to share Projects with sensitive video clips? <a id='tip31'></a>
 
