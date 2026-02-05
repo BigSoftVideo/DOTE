@@ -2,6 +2,8 @@
 
 For those who wish to import from other software (that can export to SRT) or from already generated time-coded subtitles (see how to [export SRT subtitles](exportSRT.md) from _DOTE_), then we offer an import tool.
 
+[![Import SRT](images/import/import-srt.png)](images/import/import-srt.png)
+
 1. Select `File ➔ Import`.
 1. Click on the relevant `Continue` button for "SRT Subtitle".
 1. Specify the "Source File" location for the Basic Text file (`.srt`) to import.

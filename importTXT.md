@@ -2,6 +2,8 @@
 
 It is possible to import a rather plain transcript text from a basic text format file, with an extension such as `.txt` or `.rtf`.
 
+[![Import TXT](images/import/import-txt.png)](images/import/import-txt.png)
+
 ### How import a basic text file into a Transcript
 
 To import a basic text file into a new Transcript, follow these steps:

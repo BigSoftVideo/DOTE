@@ -5,6 +5,8 @@ See the MacWhisper website for more details.
 Currently, MacWhisper only works on macOS (and not all OS versions).
 A Windows version is forthcoming.
 
+[![Import Whisper](images/import/import-whisper.png)](images/import/import-whisper.png)
+
 For those who wish to import from Whisper, which exports for _DOTE_, then we offer a way to import provided the data structure is standardised for _DOTE_.
 The file extension should be `.whisper`, `.whisperx`, `.dpte` or `.json`.
 
