@@ -2,6 +2,8 @@
 
 This export function is specifically for exporting just the Transcript Clips in the current Transcript to a common data format (JSON) that can be read and parsed by other software tools.
 
+[![Export JSON](images/export/export-json.png)](images/export/export-json.png)
+
 ### Exporting to JSON
 
 1. Select `File ➔ Export` from the menu.

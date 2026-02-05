@@ -64,7 +64,7 @@ The default filename suggested will be the same as the name of the Project in `D
 4. When ready, click `Start Export`.
 5. Share that file with others, who can [import](import.md) it.
 
-[![Export Project](images/import/export-project.png)](images/import/export-project.png)
+[![Export Project](images/export/export-project.png)](images/export/export-project.png)
 
 > **NOTE: Exporting and Importing Projects with Media files may take some time to complete, depending on the access speed of your storage device and the size of the media files. When importing, all the media files have to be written to the location of the new Project. This could take more than 5 seconds.**
 
@@ -82,7 +82,7 @@ The default filename suggested will be the same as the name of the Transcript in
 1. When ready, click on `Start Export`.
 1. Share that file with others, who can [import](import.md) it into the correct project on their computer with the essential media files.
 
-[![Export Transcript to File](images/import/export-transcript.png)](images/import/export-transcript.png)
+[![Export Transcript to File](images/export/export-transcript.png)](images/export/export-transcript.png)
 
 ### Notes
 
