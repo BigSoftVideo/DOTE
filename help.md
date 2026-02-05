@@ -11,6 +11,8 @@ Watch the [video tutorial](https://www.youtube.com/watch?v=meYMj7DsYHE) on YouTu
 
 Click the link `About` under the `Help` menu to find out which version you are using.
 
+[![DOTE UI](images/help/about.png)](images/help/about.png)
+
 If you have recently [downloaded the v2.0](https://www.dote.aau.dk/download/) release to install or update _DOTE_, then you are on the right webpage.
 
 If you are still using the older v1.0 releases of _DOTE_, then you need to go to the [archived help guide](help.v1/help.md).
@@ -35,7 +37,8 @@ _DOTE_ can be installed on the Microsoft Windows and Apple macOS desktop platfor
 ### _DOTE_ Lego demo Project
 
 Try the [_DOTE_ Lego demo Project](demo.md).
-There are two Transcript versions according to [Jeffersonian and Mondadaian conventions](conventions.md).
+There are several different transcript versions made according to [Jeffersonian and Mondadaian conventions](conventions.md).
+Some work well with the Free Edition of _DOTE_ (with restrictions) and others are more appropriate for the fully featured Pro and Pro Community Editions.
 
 ### Help pages on using _DOTE_
 
@@ -43,8 +46,8 @@ Here is a list of help tutorials on specific topics:
 
 - [Layout of the user interface](ui.md) - easy-to-use and functional
 - [Creating, opening and saving transcription projects](projects.md) - easy project management
-- [Exporting and importing projects and transcripts to file](import.md) - share your transcripts efficiently
-- [Importing transcripts from 3rd party files](importJSON.md) - import transcripts from other sources
+- [Exporting projects, transcripts and clips](export.md) - share your transcripts efficiently
+- [Importing projects and transcripts](import.md) - import shared transcripts efficiently
 - [Media manager](media-manager.md) - manage your audiovisual data
 - [Timeline panel](timeline.md) - intuitive navigation of timecoded data
 - [Media Player panel](media-panel.md) - multiple media and views including 360-degree video (unique to _DOTE_)
@@ -58,12 +61,13 @@ Here is a list of help tutorials on specific topics:
 - [Sync-codes](sync-code.md) - linking transcripts to audiovisual playback
 - [Video-cues](cues.md) - bringing cinema to audiovisual playback (unique to _DOTE_)
 - [Transcript clip](transcript-clip.md) - add stylish annotations and tags to a transcript
-- [Undo/Redo](undo.md) - undoing and redoing changes while editing the transcript
+- [Undo/Redo](undo.md) - undoing and redoing changes while editing
 - [Checkpoints and autobackups](versioncontrol.md) - two safe and reliable backup systems (unique to _DOTE_)
 - [Project & transcript information](project-info.md) - display information and stats about the current project and its associated transcripts
 - [Settings and Transcript Options](settings.md) - a tailorable UI and Transcript fit for a Queen
 - [Errors when using DOTE and editing a transcript](errors.md) - letting you know what might go wrong
 - [How to transcribe with _DOTE_](howto.md) - practical advice for different transcription practices
+- [Error reporting](logfile.md) - report bugs directly to the developers
 - [Tips & Tricks](tips.md) - how to get some mundane and special tasks done
 - [Commands and shortcuts guide](commands.md) - a visual guide all in one place
 - [Glossary of key terms](glossary.md) - what you need to know
@@ -98,6 +102,8 @@ Please [submit a suggestion](https://github.com/BigSoftVideo/DOTE/issues/new/cho
 
 If you are using the free edition of _DOTE_, then there are some public channels on our [Discord server](https://discord.gg/8BmuHP7xh4).
 We cannot guarantee that we have time to respond to everything posted in these free public channels.
+
+[![Discord](images/help/discord.png)](images/help/discord.png)
 
 If you have purchased the license for the _Pro_ Edition, then you will be invited to a private Discord channel for Pro features on our server.
 You will be able to share ideas and experiences quickly, and to fix issues interactively with other users and the developers.
