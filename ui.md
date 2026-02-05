@@ -2,7 +2,7 @@
 
 The _DOTE_ user interface is comprised of several panels that can be resized and relocated within the DOTE application window.
 
-### Main panels in the user interface
+### Main bars and panels in the user interface
 
 1. [The menu bar](#menu)
 2. [The ribbon bar](#ribbon)
@@ -11,43 +11,45 @@ The _DOTE_ user interface is comprised of several panels that can be resized and
 5. [The Media Player panel(s)](#media-player)
 6. [The Editor panel](#editor)
 
+The different bars and panels are indicated on this screenshot:
+
 [![DOTE UI](images/UI/UI-simple.png)](images/UI/UI-simple.png)
 
-#### The menu bar <a id='menu'></a>
+#### 1. The menu bar <a id='menu'></a>
 
-[![Meny bar](images/UI/UI-menu.png)](images/UI/UI-menu.png)
+[![Menu bar](images/UI/UI-menu.png)](images/UI/UI-menu.png)
 
 Some, but not all, of the commands and shortcuts are available from the pull-down menus.
 Some of these menu commands do not have shortcuts.
 
-#### The ribbon bar <a id='ribbon'></a>
+#### 2. The ribbon bar <a id='ribbon'></a>
 
 [![Ribbon bar](images/UI/UI-ribbon.png)](images/UI/UI-ribbon.png)
 
 The basic functions for [Panels & Layout](ui.md), [Undo](undo.md), [version control](versioncontrol.md), [Project Manager](projects.md), [Media Manager](media-manager.md), [Project Info](project-info.md) and [DOTE Settings](settings.md) are easily accessible via these ribbon bar buttons.
 Hover over a button to see a pop-up description.
 
-#### The Media Controls panel <a id='play'></a>
+#### 3. The Media Controls panel <a id='play'></a>
 
 [![Play Transport](images/UI/UI-play.png)](images/UI/UI-play.png)
 
 The buttons for controlling [playback and selecting/looping segments](play.md).
 Hover over a button to see a pop-up description.
 
-#### The Timeline panel(s) <a id='timeline'></a>
+#### 4. The Timeline panel(s) <a id='timeline'></a>
 
 [![Timeline](images/UI/UI-timeline.png)](images/UI/UI-timeline.png)
 
 The height of the [main timeline panel](timeline.md) can be adjusted using the horizontal or vertical divider lines between it and another panel.
 
-#### The Media Player panel(s) <a id='media-player'></a>
+#### 5. The Media Player panel(s) <a id='media-player'></a>
 
 [![Media Player](images/UI/UI-media-player.png)](images/UI/UI-media-player.png)
 
 The height of the [Media Player](media-panel.md) panel can be adjusted using the horizontal or vertical divider lines between it and another panel.
 The panel can be expanded to full screen and the options hidden.
 
-#### The Editor panel <a id='editor'></a>
+#### 6. The Editor panel <a id='editor'></a>
 
 [![Editor](images/UI/UI-editor.png)](images/UI/UI-editor.png)
 
@@ -114,6 +116,12 @@ Also, from the `Panels & Layouts` button menu, there are some quick actions that
 
 [![Panel actions](images/UI/panel-actions.png)](images/UI/panel-actions.png)
 
+- Enlarge UI - Increase the font size of all panels, menus and bars.
+Shortcut is `F10` or `Function key 10`.
+Repeat to keep increasing.
+- Shrink UI - Decrease the font size of all panels, menus and bars
+Shortcut is `F9` or `Function key 9`.
+Repeat to keep decreasing.
 - Full - show all information (verbal not just icons) - this also changes to Complete mode.
 - Zen - hide everything (including verbal and panel options) - this also changes to Minimal mode.
 - Reveal all optional panel controls (just the controls).
