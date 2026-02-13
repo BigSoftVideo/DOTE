@@ -6,7 +6,8 @@ We think it is a fantastic improvement on v1.0 that incorporates many suggestion
 If you are new to _DOTE_, then just follow the instructions below.
 
 If you have already installed _DOTE_ v1.0, then you need to upgrade.
-We _strongly recommend_ that you backup all your _DOTE_ projects and transcripts to a safe place.
+
+> We _strongly recommend_ that you backup all your _DOTE_ projects and transcripts to a safe place.
 The update will migrate a bunch of hidden files in each of your project and transcript folders to the new data structures only when you open an already existing _DOTE_ project or a transcript in a project.
 If something goes wrong, then you can simply replace all the files and folders from your backup.
 
@@ -34,7 +35,7 @@ Note that only one instance of _DOTE_ is allowed to run at the same time.
 Choose the correct and latest version for your operating system from our [_DOTE_ Webshop](https://www.dote.aau.dk/downloads) or you can browse archived [releases](https://github.com/BigSoftVideo/DOTE/releases) on our public _DOTE_ GitHib repository.
 
 - **Windows**
-    - To install the Windows version, `double click` on the `EXE` file.
+    - To install the Windows version, `double click` on the installer file that was downloaded.
     - If you get a Windows warning message, then click the `More info` link, and choose `RUN ANYWAY`.
     - _DOTE_ will start after the install is complete.
     - The _DOTE_ icon should also appear on your desktop.
@@ -45,7 +46,7 @@ Choose the correct and latest version for your operating system from our [_DOTE_
 [![Windows run anyway](images/install/Win-defender-run.png)](images/install/Win-defender-run.png)
 
 - **macOS**
-    - For macOS, double click on the _DOTE_ icon (`DMG`).
+    - For macOS, double click on the _DOTE_ installer icon (`DMG`).
     - Drag and drop the unpacked `DOTE` app into your `Applications` folder and `double click` to run.
     - NOTE: your macOS system settings may be set to restrict installations.
     - In that case, open `System Preferences`, select `Security & Privacy`, select `General` tab, and select and approve `Allow apps downloaded from`App Store and identified developers`.
