@@ -2,7 +2,18 @@
 
 Watch the [basic](https://www.youtube.com/watch?v=7oHE1KsIGTo) and [advanced](https://www.youtube.com/watch?v=GkjMwL6zqmM) video tutorials on YouTube.
 
-A _DOTE_ Project is stored as a folder on your file system, which contains all the Transcripts for a specific audio or video clip (media source).
+First, the concept and data structures of the Project and the Transcript in _DOTE_ is explained.
+Below that there is a help guide to:
+- [Creating a new Project with an initial Transcript](#new-project)
+- [Creating a new Transcript in the current Project](#new-transcript)
+- [Duplicating the current Transcript](#duplicate)
+- [Saving a Project/Transcript](#saving)
+
+There is also a guide to the [Project Manager](project-manager.md).
+
+### What is a _DOTE_ Project and Transcript?
+
+A _DOTE_ Project is stored as a folder on your file system, which contains all the Transcripts for a specific event with its audio or video clips (media sources).
 You can give this (Project) folder a unique and informative name.
 Always keep this Project folder, files and subfolders together on your file system, otherwise _DOTE_ will not be able to recover older edited versions nor underlining, sync-codes and video-cues.
 Each Transcript folder on your file system contains the plain `transcript.txt` file and other hidden files needed to support _DOTE_ for that specific Project:
@@ -56,7 +67,7 @@ Or else, be very patient and expect access problems! ⌛
 For the same reason, we do NOT recommend using _icloud_ or _Dropbox_ because data will be stored in the cloud; _DOTE_ may have trouble locating files it needs or loading large files, or syncing lots of files may be too slow.
 In addition, it is not a good idea to store sensitive videos and data (unencrypted) on a commercial cloud service since it will almost certainly be surveilled for unknown purposes by the company and third parties. Their bad! 👿
 
-### Quick start to create a new Project with an initial Transcript <a id='new-project'></a>
+### How to create a new Project with an initial Transcript <a id='new-project'></a>
 
 [![New Project](images/projects/new-project.png)](images/projects/new-project.png)
 
@@ -91,120 +102,6 @@ If we allowed this, then chaos would ensue with regard to [version control](vers
 > If you return to the main editor after selecting this option, then you will see the transcript being regenerated.
 > If that fails, however, then create a new project and try to import it again.
 
-## Open a Project <a id='open-project'></a>
-
-To open an already existing Project, one must first [select and open a Transcript in a Project](#open-transcript).
-Selecting `File ➔ Open Project` will open the `Project Manager`.
-
-## Save a Project
-
-Projects are saved when a [Transcript in a Project is saved](#saving).
-Project settings are saved automatically when changes are made.
-
-When there are changes made to the text in the Transcript in the [Editor](transcript.md) or to [Sync-codes](sync-code.md) in the Editor or [Timeline](timeline.md), then a warning is flagged in the top ribbon that the Transcript is `Unsaved`.
-This will disappear when the Project/Transcript is manually saved.
-
-[![Transcripts in the Project Manager](images/projects/unsaved.png)](images/projects/unsaved.png)
-
-## Save a Transcript in a Project <a id='saving'></a>
-
-To save the current Transcript, then select `File ➔ Save Transcript` or <kbd>CTRL</kbd>+<kbd>S</kbd> [or <kbd>⌘</kbd>+<kbd>S</kbd> on macOS.
-
-- Saving is _not_ the same as [Autobackup](versioncontrol.md#autobackup).
-Saving the current Transcript writes the Transcript data to disk, while Autobackup makes a new copy and writes that to disk so the previous state can be recovered.
-Autobackup does _not_ save the current Transcript automatically; that is a manual decision by the user.
-It just makes a series of backup copies at regular intervals.
-
-### Open a Transcript in a Project <a id='open-transcript'></a>
-
-To open the last saved Transcript/Project in the next session, then just run _DOTE_.
-It automatically loads the last opened Transcript if it is accessible on the file system.
-
-To open a previously saved Transcript, then select `Open Transcript` or `File ➔ Open Transcript` or <kbd>CTRL</kbd>+<kbd>O</kbd> [or <kbd>⌘</kbd>+<kbd>O</kbd> on macOS] using the `Project Manager`.
-
-To open a Transcript in a Project that is on a different drive or a mapped drive or volume, then you will need to select the drive letter in the `System Folders` panel of the `Project Manager` (see below).
-That drive will be opened and you can locate the correct Project folder and Transcript.
-
-[![Transcripts in the Project Manager](images/projects/open-transcript.png)](images/projects/open-transcript.png)
-
-There are several ways to navigate your Projects and Transcripts in the `Project Manager`.
-The panel has three vertical panes (see Figure):
-- **Left/Top 1**: _System Folders_
-    - Just select to open that folder or drive/volume in the middle pane.
-    - The available Transcripts are shown in the right pane.
-- **Left/Centre 2**: _Bookmarks_
-    - Just select a bookmark to open the bookmarked folder in the middle pane.
-    - Bookmarks can be added and deleted using the icons `+` and `X`.
-    - Selecting `+` adds the current folder open in the middle pane to the list.
-    - A bookmarked entry can be moved up and down in the list by selecting an entry and then click and drag it to a new position in the list.
-- **Left/Bottom 3**: _Five most recent Transcripts_
-    - A list of the 5 most recent Transcripts opened.
-    - The recent Transcript names are highlighted on a blue background.
-- **Middle 4**: _Folder browser_
-    - This is just like the standard file/folder explorer in Windows and macOS platforms.
-    - Navigate up and down the folder hierarchy.
-    - Results are shown in the panel in the right pane.
-- **Right 5**: _All Transcripts within Projects below the selected folder_
-    - A list of all known Projects and their Transcripts in all subfolders beneath the current folder open in the middle pane.
-    - The Project names are in grey and the Transcript names are highlighted on a blue background.
-
-Note that in some of the panes, recognised _DOTE_ Projects are highlighted with an orange background and recognised Transcripts (in Projects) are highlighted with a blue background.
-
-[![Highlight status](images/projects/highlight.png)](images/projects/highlight.png)
-
-Clicking on a Transcript will open it in _DOTE_.
-
-##### Renaming and deleting Projects and Transcripts <a id='rename-delete'></a>
-
-It is also possible to rename a project or a Transcript in the `Project Manger`:
-- Click the rename icon next to the Transcript or Project listed in the middle panel (_Folder Browser_).
-- Choose a new name and confirm.
-
-[![Rename-Delete](images/projects/rename-delete.png)](images/projects/rename-delete.png)
-
-It is also possible to delete a Project or a Transcript in the `Project Manager`:
-- Click the delete icon next to the Transcript or Project listed in the middle panel (_Folder Browser_).
-- Confirm the deletion.
-- The deleted file(s) will be placed in the Recycle Bin/Trash.
-- Deleting the last or only Transcript in a Project will generate a blank Transcript in the same Project.
-This is because a Project should always contain at least one Transcript (even if blank).
-- Deleting a Project will also delete all Transcripts in that Project.
-Be careful!
-
-##### Icons and Information
-
-There are two other buttons available for each Project and Transcript listed in the folder browser in the Project Manager:
-
-[![Icons and Information](images/projects/icons.png)](images/projects/icons.png)
-
-- Add/Remove Folder icon from folder or directory on your file system.
-As outlined above, _DOTE_ stores Projects in folders and Transcripts in subfolders on your file system.
-If you wish to display DOTE specific icons on your file system, then toggle this on.
-If toggled off, then the default icons for folders are displayed on your file system.
-- Information.
-This function is not yet implemented.
-Find Project & Transcript Information in the [Project Info](project-info.md).
-
-#### Problems with orphan Transcripts and corrupted Transcripts <a id='orphan-corrupt'></a>
-
-[![Orphan Transcript](images/projects/orphan-transcript.png)](images/projects/orphan-transcript.png)
-
-NOTE: If an orphan Transcript without a parent Project is discovered, then it will be highlighted in yellow.
-_DOTE_ will not be able to open it until the transcript folder is reunited under its project folder.
-
-NOTE: If a Transcript is corrupted, then it will be highlighted in red.
-
-[![Corrupted Transcript](images/projects/corrupt-transcript.png)](images/projects/corrupt-transcript.png)
-
-This can happen for a variety of reasons, including a computer crash, lack of disk space, or accidental destruction of some of the files in the transcript folder.
-_DOTE_ will offer to restore the Transcript to the last known autobackup.
-
-In the rare case that there are no autobackups available, then _DOTE_ will restore as best it can from the files that are available in the transcript folder.
-
-[![Corrupted Transcript](images/projects/corrupt-transcript-fix.png)](images/projects/corrupt-transcript-fix.png)
-
-As a result, in this case, you may lose certain Media Player panel settings and the video-cues that may have been present in the original.
-
 ### Create a new Transcript in the current Project <a id='new-transcript'></a>
 
 1. To create a new Transcript in the _current_ Project that is open, with the same media sources available, then click on `File ➔ New Transcript`.
@@ -222,7 +119,7 @@ You can change this in [Transcript Options](settings.md#options) later.
 ### Duplicate the current Transcript <a id='duplicate'></a>
 
 Another possibility is to repurpose the current Transcript using the `Save As New Transcript` on the `File` menu.
-A new Transcript in the current Project will be created from the current Transcript.
+A new Transcript in the current Project will be created from the Transcript that is currently loaded.
 
 [![Save As New Transcript](images/projects/save-as.png)](images/projects/save-as.png)
 
@@ -241,5 +138,24 @@ Select `Save` and the new Transcript will be quickly created (and opened).
 The original Transcript will still be listed in the list of Transcripts in the current Project.
 It can be edited independently of the new, forked Transcript that has its own life.
 This is useful for using an already developed Transcript as the origin of a shell (don't copy Transcript text) or spin-off version, while drawing on the same set of Sync-codes (copy sync-codes) and/or Video-cues (copy video-cues).
+
+### Save a Project <a id='saving'></a>
+
+Projects are saved when a [Transcript in a Project is saved](#saving).
+Project settings are saved automatically when changes are made.
+
+When there are changes made to the text in the Transcript in the [Editor](transcript.md) or to [Sync-codes](sync-code.md) in the Editor or [Timeline](timeline.md), then a warning is flagged in the top ribbon that the Transcript is `Unsaved`.
+This will disappear when the Project/Transcript is manually saved.
+
+[![Transcripts in the Project Manager](images/projects/unsaved.png)](images/projects/unsaved.png)
+
+### Save a Transcript in a Project
+
+To save the current Transcript, then select `File ➔ Save Transcript` or <kbd>CTRL</kbd>+<kbd>S</kbd> [or <kbd>⌘</kbd>+<kbd>S</kbd> on macOS.
+
+- Saving is _not_ the same as [Autobackup](versioncontrol.md#autobackup).
+Saving the current Transcript writes the Transcript data to disk, while Autobackup makes a new copy and writes that to disk so the previous state can be recovered.
+Autobackup does _not_ save the current Transcript automatically; that is a manual decision by the user.
+It just makes a series of backup copies at regular intervals.
 
 That's it! You are ready to start [transcribing](transcript.md).
