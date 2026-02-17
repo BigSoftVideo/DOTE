@@ -68,6 +68,7 @@ Other panels cannot be removed from the user interface, eg. Transcript Editor pa
 
 - Click on the Panels & Layouts button at the top left of the ribbon bar.
 - Select from the `Add New Panel` list.
+- Expand the choices `>` for Timeline Waveform to see more options.
 
 ### Resizing a panel
 
@@ -103,7 +104,7 @@ To enable the user to quickly change the amount of information displayed across 
 
 [![Application layout modes](images/UI/layout.png)](images/UI/layout.png)
 
-Select from the `Panels & Layouts` button menu:
+Expand the `Application Layout Modes` `>` from the `Panels & Layouts` button menu:
 
 - Auto - change to one of the other modes according to the size of the window on the desktop.
 - Complete - Show all verbal descriptions + icons.
@@ -112,7 +113,7 @@ Select from the `Panels & Layouts` button menu:
 
 ### Panel Actions
 
-Also, from the `Panels & Layouts` button menu, there are some quick actions that modify the presentation of information in panels:
+Also, expanding `Panel Actions` `>` from the `Panels & Layouts` button menu gives some quick actions that modify the presentation of information in panels:
 
 [![Panel actions](images/UI/panel-actions.png)](images/UI/panel-actions.png)
 
