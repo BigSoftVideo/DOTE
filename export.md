@@ -23,16 +23,16 @@ Below we elaborate on Export Project or Transcript to file.
 Click the links above to find more information on the other export options.
 See the [Notes](#notes) below for more information about data security etc.
 
-### Things to note about Projects and Transcripts in order to successfully import them <a id='info-project'></a>
+### Things to note about Projects and Transcripts in order to successfully export and import them <a id='info-project'></a>
 
 Once you have created a _DOTE_ Project and one or more Transcripts in that project, you may wish to share them with others.
-This is relatively straightforward provided you understand how _DOTE_ [projects and transcripts are structured](projects.md).
+This is relatively straightforward provided you understand how _DOTE_ [Projects and Transcripts are structured](projects.md).
 _DOTE_ provides support for exporting any Project and its Transcripts, as well as exporting individual Transcripts.
 It also provides support for importing a complete Project and its Transcripts, as well as individual Transcripts that reside in an already existing Project.
-This means that one can share a Project with [video data, waveforms](media-panel.md), [transcripts](transcript.md) and [checkpoints](versioncontrol.md), for example.
+This means that one can share a Project with [video data, waveforms](media-panel.md), [Transcripts](transcript.md) and [Checkpoints](versioncontrol.md), for example.
 And one can share the current version of a Transcript with others who already have the Project with the necessary audio or video data.
 In the latter case, one is sharing a very small file, since there is no need to share the same video data repeatedly.
-You can also decide to include or exclude all the checkpoints and/or autobackups in the shareable Project or Transcript.
+You can also decide to include or exclude all the Checkpoints and/or Autobackups in the shareable Project or Transcript.
 
 A good workflow is to first share your Project with someone, including any Transcripts that you wish to share with them.
 After they have imported that Project, you can share just the Transcript(s) for that Project as they are revised.
@@ -50,7 +50,7 @@ Shareable exported Transcript files will always be small in size.
 To export a Project, do the following:
 
 1. Open the Project in `DOTE` by opening one of its Transcripts using `Open Transcript` or `File ➔ Open Transcript` or <kbd>CTRL</kbd>+<kbd>O</kbd> [or <kbd>⌘</kbd>+<kbd>O</kbd> on macOS] using the `Project Manager`.
-1. Select `File ➔ Export`.
+1. Select `File ➔ Export` or click the `Export` button on the ribbon bar.
 1. Click on the relevant `Continue` button for "DOTE Project".
 1. Specify the "Destination File" location for the exported Project file (`.doteProject`).
 The default filename suggested will be the same as the name of the Project in `DOTE`.

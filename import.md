@@ -23,7 +23,7 @@ Please read the [crucial information about Projects and Transcripts](export.md#t
 
 To import a Project you have received as a file with the native DOTE format, follow these steps:
 
-1. Select `File ➔ Import`.
+1. Select `File ➔ Import` or click the `Import` button on the ribbon bar.
 1. Click on the relevant `Continue` button for "DOTE Project".
 1. Specify the "Source File" location for the Project file (`.doteProject`) to import.
 1. Select a destination directory/folder under "Unpack Directory".
