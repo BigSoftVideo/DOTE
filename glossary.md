@@ -1,4 +1,4 @@
-## Glossary of key terms in _DOTE_
+## Glossary of key terms used in _DOTE_
 
 Below is a list of key terms in alphabetical order with short definitions and links to relevant help pages for more information.
 
