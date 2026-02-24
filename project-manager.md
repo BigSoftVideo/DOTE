@@ -97,6 +97,12 @@ This is because a Project should always contain at least one Transcript (even if
 - Deleting a Project will also delete all Transcripts in that Project.
 Be careful!
 
+### Creating a new Project
+
+Projects can be created directly in the Project Manager, in addition to the File Menu.
+
+The option to create a project is only available when a folder is open that is _not_ already a _DOTE_ Project folder or contains a _DOTE_ Project in a subfolder.
+
 ### Project and Transcript Information <a id='info'></a>
 
 Basic information can be found about each Project and Transcript listed in the folder browser before loading a Project/Transcript:

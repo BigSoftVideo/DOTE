@@ -72,8 +72,9 @@ In addition, it is not a good idea to store sensitive videos and data (unencrypt
 [![New Project](images/projects/new-project.png)](images/projects/new-project.png)
 
 1. Open the Project creation panel by selecting `Create Project` or by clicking on `File ➔ New Project`.
-1. Enter a unique name for your Project.
-1. Enter a unique name for your first Transcript in this Project.
+An alternative is to create a new Project from the [Project Manager](project-manager.md).
+2. Enter a unique name for your Project.
+3. Enter a unique name for your first Transcript in this Project.
 "Main" is the default suggestion.
 1. Select the [conventions](conventions.md) you prefer.
 You can change this in [Transcript Options](settings.md#options) later.
@@ -82,7 +83,7 @@ Once you create a Project, a new folder within the _DOTE_ Projects folder will b
 Otherwise, select an already created _DOTE_ Projects folder.
     - For example, if you named your Project "MyFirstProject" and chose `Documents/DoteProjects` for the parent folder, than your Project files will reside inside the folder `Documents/DoteProjects/MyFirstProject`.
 1. Once this is done, add a media source to your Project using [Media Manager](media-manager.md).
-1. After adding and selecting a media source and saving in Media Manager, a waveform will be generated (if it hasn't already been generated).
+2. After adding and selecting a media source and saving in Media Manager, a waveform will be generated (if it hasn't already been generated).
 And if the media selected is a video, then it will appear in the [Media Player panel](media-panel.md).
 
 Note: The path to the current Project folder on your computer's file system is displayed in [Transcript Options](settings.md#options).
