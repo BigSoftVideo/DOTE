@@ -1,6 +1,6 @@
 ## How to use Media Player panels
 
-Watch the [basic](https://www.youtube.com/watch?v=timdqQNxgAY) and [advanced](https://www.youtube.com/watch?v=a2bbS73WUfw) video tutorials on YouTube.
+Watch the [video tutorial](https://youtu.be/dQwelIB2JvM) on YouTube.
 
 When you start _DOTE_ or create a new project, only one Media Player panel is displayed in the standard default layout.
 You can add more Media Player panels to display the same video source (different zoom/pan) or different video sources that have been added in the Media Manager.

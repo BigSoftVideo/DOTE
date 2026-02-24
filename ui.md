@@ -1,5 +1,7 @@
 ## User interface
 
+Please watch the [video tutorial](https://youtu.be/yjY6x5mEfN0).
+
 The _DOTE_ user interface is comprised of several panels that can be resized and relocated within the DOTE application window.
 
 ### Main bars and panels in the user interface

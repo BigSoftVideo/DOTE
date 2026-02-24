@@ -1,11 +1,13 @@
 ## Video-cues
 
-Watch the [basic](https://www.youtube.com/watch?v=g3OEV6xrsTI) and [advanced](https://www.youtube.com/watch?v=zvCNKN2V5dQ) video tutorials on YouTube.
+Watch the [video tutorial](https://youtu.be/X9Q2rwaSPoI) on YouTube.
 
 A _Video-cue_ is a cue to transition to a specific view of the current 360 or 2D video at a specific timecode in the video media file.
 The idea is to bring a _cinematic experience_ to working with transcripts, such as zoom, pan and jump cut.
 This is also called _recamming_, ie. using a virtual camera to show a different view of the original footage.
 Cool! 🍦
+
+The best demonstration of the power of video-cues can be found in our [Lego Demo Project](demo.md), which you can download and import into _DOTE_.
 
 [![Video-cues](images/cues/video-cue-edit.png)](images/cues/video-cue-edit.png)
 
@@ -13,8 +15,6 @@ Note that Video-cues are independent of [sync-codes](sync-code.md).
 Sync-codes index specific lines in the transcript (in the Editor panel) to specific timecodes in a [Timeline panel](Timeline.md).
 In contrast, Video-cues index specific views of the current media source(s) to specific timecodes in a Timeline panel.
 Video-cues have no connection to the [Transcript Editor](transcript.md), and they are managed on a different layer on a Timeline panel.
-
-Watch the [video tutorial](https://www.youtube.com/watch?v=vCE8AY_HmiU) on YouTube.
 
 ### Viewing Video-cues <a id='view-cue'></a>
 

@@ -1,5 +1,7 @@
 ## Embedding subtitles in video playback in a Media Player Panel
 
+Please watch the [video tutorial](https://youtu.be/Gvp1U11mfLU).
+
 A brand new feature in v2.0 is the ability to embed subtitles live in a Media Player Panel while playing the video.
 
 [![Subtitles](images/subtitles/subtitles.png)](images/subtitles/subtitles.png)
