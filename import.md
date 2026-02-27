@@ -48,7 +48,7 @@ Rather than sharing the relatively large media files every time one wishes to sh
 
 To import a single Transcript that has been shared (as a file with the native DOTE format) into a local Project, then do the following:
 
-1. Select `File ➔ Import`.
+1. Select `File ➔ Import` or click the `Import` button on the right of the ribbon bar.
 1. Click on the relevant `Continue` button for "DOTE Transcript".
 1. Specify the "Source File" location for the Project file (`.dote`) to import.
 1. Enter a unique name for your imported Project Name.

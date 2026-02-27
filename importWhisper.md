@@ -1,5 +1,7 @@
 ## Import from Whisper format file <a id='import-json'></a>
 
+Watch the [video tutorial]() on YouTube.
+
 We only directly support [`Whisper`](https://goodsnooze.gumroad.com/l/macwhisper) at present, which can export a transcript in the correct `.dote` or `.json` format suitable for _DOTE_, as well as in native formats (`.whisper`, `.xwhisperx`).
 See the MacWhisper website for more details.
 Currently, MacWhisper only works on macOS (and not all OS versions).
@@ -10,7 +12,7 @@ A Windows version is forthcoming.
 For those who wish to import from Whisper, which exports for _DOTE_, then we offer a way to import provided the data structure is standardised for _DOTE_.
 The file extension should be `.whisper`, `.whisperx`, `.dpte` or `.json`.
 
-1. Select `File ➔ Import`.
+1. Select `File ➔ Import` or click the `Import` button on the right of the ribbon bar.
 2. Click on the relevant `Continue` button for "Whisper Format".
 3. Specify the "Source File" location for the Whisper file to import.
 4. Enter a unique name for your new Transcript Name.

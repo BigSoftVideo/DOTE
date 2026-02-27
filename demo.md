@@ -8,7 +8,7 @@ We make no claim that the demo transcripts are authoritative or complete; they a
 ### Here are some instructions to import the Demo Project
 
 1. [Download the latest Lego Demo Project](https://www.dote.aau.dk/downloads) file and store it somewhere on your computer. [Earlier releases](https://github.com/BigSoftVideo/DOTE/releases) of the Demo project can be found on our public GitHub repository.
-2. Open _DOTE_ and select `File ➔ Import`.
+2. Open _DOTE_ and select `File ➔ Import` or click the `Import` button on the right of the ribbon bar.
 See our [help page on Importing](import.md) for more details.
 3. Select the Import `DOTE Project` option and press `Continue >`.
 4. Browse and locate the Project file that you downloaded (with the extension `.doteProject`) on your file system.

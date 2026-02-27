@@ -8,7 +8,7 @@ It is possible to import a rather plain transcript text from a basic text format
 
 To import a basic text file into a new Transcript, follow these steps:
 
-1. Select `File ➔ Import`.
+1. Select `File ➔ Import` or click the `Import` button on the right of the ribbon bar.
 2. Click on the relevant `Continue` button for "Basic Text File".
 3. Specify the "Source File" location for the Basic Text file (`.txt` or `.rtf`) to import.
 4. Enter a unique name for your new Transcript Name.

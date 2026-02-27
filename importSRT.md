@@ -4,7 +4,7 @@ For those who wish to import from other software (that can export to SRT) or fro
 
 [![Import SRT](images/import/import-srt.png)](images/import/import-srt.png)
 
-1. Select `File ➔ Import`.
+1. Select `File ➔ Import` or click the `Import` button on the right of the ribbon bar.
 1. Click on the relevant `Continue` button for "SRT Subtitle".
 1. Specify the "Source File" location for the Basic Text file (`.srt`) to import.
 1. Enter a unique name for your new Transcript Name.
