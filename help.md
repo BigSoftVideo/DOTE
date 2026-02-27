@@ -45,27 +45,27 @@ Some work well with the Free Edition of _DOTE_ (with restrictions) and others ar
 Here is a list of help tutorials on specific topics:
 
 - [Layout of the user interface](ui.md) - easy-to-use and functional
-- [Creating, opening and saving transcription projects](projects.md) - easy project management
-- [Exporting projects, transcripts and clips](export.md) - share your transcripts efficiently
-- [Importing projects and transcripts](import.md) - import shared transcripts efficiently
-- [Media manager](media-manager.md) - manage your audiovisual data
+- [Creating, opening and saving transcription Projects](projects.md) - easy project management
+- [Exporting Projects, Transcripts and Clips](export.md) - share your transcripts efficiently
+- [Importing Projects and Transcripts](import.md) - import shared transcripts efficiently
+- [Media Manager](media-manager.md) - manage your audiovisual data
 - [Timeline panel](timeline.md) - intuitive navigation of timecoded data
 - [Media Player panel](media-panel.md) - multiple media and views including 360-degree video (unique to _DOTE_)
 - [Audiovisual playback](play.md) - silky-smooth audiovisual playback while typing
-- [Transcript editor](transcript.md) - with transcript heuristics (unique to _DOTE_)
+- [Transcript Editor](transcript.md) - with transcript heuristics (unique to _DOTE_)
 - [Conventions supported by _DOTE_](conventions.md) - conforming transcripts to a clear style (unique to _DOTE_)
-- [Primary tier and subtier types](tiers.md) - adding multimodal complexity (unique to _DOTE_)
-- [Find and replace tool](find.md) - powerful and accurate search
+- [Primary Tier and Subtier types](tiers.md) - adding multimodal complexity (unique to _DOTE_)
+- [Find and Replace tool](find.md) - powerful and accurate search
 - [Publishing to RTF and subtitles](export.md) - create publishable transcripts and subtitles (unique to _DOTE_)
 - [Subtitle overlay](subtitles.md) - overlaying stylised subtitles in a Media Player panel (unique to _DOTE_)
 - [Sync-codes](sync-code.md) - linking transcripts to audiovisual playback
 - [Video-cues](cues.md) - bringing cinema to audiovisual playback (unique to _DOTE_)
-- [Transcript clip](transcript-clip.md) - add stylish annotations and tags to a transcript
-- [Undo/Redo](undo.md) - undoing and redoing changes while editing
-- [Checkpoints and autobackups](versioncontrol.md) - two safe and reliable backup systems (unique to _DOTE_)
-- [Project & transcript information](project-info.md) - display information and stats about the current project and its associated transcripts
+- [Transcript Clip](transcript-clip.md) - add stylish annotations and tags to a transcript
+- [Undo/Redo](undo.md) - undoing and redoing changes while editing (unique to _DOTE_)
+- [Checkpoints and Autobackups](versioncontrol.md) - two safe and reliable backup systems (unique to _DOTE_)
+- [Project & Transcript information](project-info.md) - display information and stats about the current project and its associated transcripts
 - [Settings and Transcript Options](settings.md) - a tailorable UI and Transcript fit for a Queen
-- [Errors when using DOTE and editing a transcript](errors.md) - letting you know what might go wrong
+- [Errors when using _DOTE_ and editing a transcript](errors.md) - letting you know what might go wrong
 - [How to transcribe with _DOTE_](howto.md) - practical advice for different transcription practices
 - [Error reporting](logfile.md) - report bugs directly to the developers
 - [Tips & Tricks](tips.md) - how to get some mundane and special tasks done
@@ -101,7 +101,7 @@ Please [submit a suggestion](https://github.com/BigSoftVideo/DOTE/issues/new/cho
 ### Using our _DISCORD_ server
 
 If you are using the free edition of _DOTE_, then there are some public channels on our [Discord server](https://discord.gg/8BmuHP7xh4).
-We cannot guarantee that we have time to respond to everything posted in these free public channels.
+We cannot guarantee that we have time to respond to everything posted in these free public channels, but we try our best.
 
 [![Discord](images/help/discord.png)](images/help/discord.png)
 
