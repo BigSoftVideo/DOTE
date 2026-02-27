@@ -73,14 +73,14 @@ The default filename suggested will be the same as the name of the Project in `D
 If you wish to share a single Transcript, then follow these steps:
 
 1. Open that Transcript using `Open Transcript` or `File ➔ Open Transcript` or <kbd>CTRL</kbd>+<kbd>O</kbd> [or <kbd>⌘</kbd>+<kbd>O</kbd> on macOS] to open the `Project Manager`.
-1. Select `File ➔ Export`.
-1. Click on the relevant `Continue` button for "DOTE Transcript".
-1. Specify the "Destination File" location for the exported file (`.dote`).
+2. Select `File ➔ Export` or click the `Export` button on the ribbon bar.
+3. Click on the relevant `Continue` button for "DOTE Transcript".
+4. Specify the "Destination File" location for the exported file (`.dote`).
 The default filename suggested will be the same as the name of the Transcript in `DOTE`.
 1. You can choose to include or exclude the complete checkpoint history and/or autobackup history for that specific Transcript.
-1. You can choose to include or exclude all Transcript Clips in the Transcript to be exported.
-1. When ready, click on `Start Export`.
-1. Share that file with others, who can [import](import.md) it into the correct project on their computer with the essential media files.
+2. You can choose to include or exclude all Transcript Clips in the Transcript to be exported.
+3. When ready, click on `Start Export`.
+4. Share that file with others, who can [import](import.md) it into the correct project on their computer with the essential media files.
 
 [![Export Transcript to File](images/export/export-transcript.png)](images/export/export-transcript.png)
 

@@ -6,7 +6,7 @@ This export function is specifically for exporting just the Transcript Clips in 
 
 ### Exporting to JSON
 
-1. Select `File ➔ Export` from the menu.
+1. Select `File ➔ Export` from the menu or click the `Export` button on the ribbon bar.
 1. Click on the relevant `Continue` button for "Transcript Clips (JSON)".
 1. Specify the "Destination File" location for the exported file (`.json`).
 The default filename suggested will be the same as the name of the Transcript in `DOTE`.

@@ -9,7 +9,7 @@ This means one can playback videos with different [live subtitles](subtitles.md)
 
 ### How to export
 
-1. Select `File ➔ Export` from the menu.
+1. Select `File ➔ Export` from the menu or click the `Export` button on the ribbon bar.
 2. Click on the relevant `Continue` button for "SRT Subtitle".
 1. Specify the "Destination File" location for the exported file (`.srt`).
 The default filename suggested will be the same as the name of the Transcript in `DOTE`.
