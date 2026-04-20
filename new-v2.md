@@ -19,6 +19,10 @@ The [Project Manager](projects.md)📂 is now easier to use with more informatio
 
 A completely new feature is a [handy condensed list of nifty information](project-info.md)ℹ️ about your Projects and Transcripts and their meta-data within _DOTE_.
 
+### Merge two or more Transcripts
+
+A completely new feature to make it easier to [merge together Transcripts](merge-transcripts.md) when the labour of transcribing is divided up amongst multiple transcribers, who can work independently on different sections of the Project.
+
 ### Integrated Import and Export step-by-step guides
 
 We have integrated all the different import and export possibilities into one step-by-step guide called [Import](import.md) and [Export](export.md).
