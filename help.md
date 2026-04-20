@@ -64,6 +64,7 @@ Here is a list of help tutorials on specific topics:
 - [Undo/Redo](undo.md) - undoing and redoing changes while editing (unique to _DOTE_)
 - [Checkpoints and Autobackups](versioncontrol.md) - two safe and reliable backup systems (unique to _DOTE_)
 - [Project & Transcript information](project-info.md) - display information and stats about the current project and its associated transcripts
+- [Merge two or more Transcripts](merge-transcripts.md) - great for teamwork and dividing up the labour
 - [Settings and Transcript Options](settings.md) - a tailorable UI and Transcript fit for a Queen
 - [Errors when using _DOTE_ and editing a transcript](errors.md) - letting you know what might go wrong
 - [How to transcribe with _DOTE_](howto.md) - practical advice for different transcription practices

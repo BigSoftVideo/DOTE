@@ -159,4 +159,9 @@ Saving the current Transcript writes the Transcript data to disk, while Autoback
 Autobackup does _not_ save the current Transcript automatically; that is a manual decision by the user.
 It just makes a series of backup copies at regular intervals.
 
+### Merge two or more Transripts
+
+It is possible under certain constraints to [merge two or more Transcripts](merge-transcripts.md) in a Project.
+This is a great tool for dividing up the labour of transcribing amongst several transcribers.
+
 That's it! You are ready to start [transcribing](transcript.md).
