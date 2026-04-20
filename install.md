@@ -25,34 +25,37 @@ Watch [basic](https://www.youtube.com/watch?v=zbB6lczk4f8) and [advanced](https:
 
 _DOTE_ is a desktop application that runs on your local computer.
 It is very easy to download and install the software and run it on the Windows and Mac desktop platforms.
-It should run on the latest versions of Microsoft Windows 11 and also Apple macOS (10.10 Yosemite or later; also macOS 12+ for the Apple Silicon M-series).
+It should run on the latest versions of Microsoft Windows 10/11 and also Apple macOS (10.13 High Sierra or later; also macOS 12+ for the Apple Silicon M-series).
 Let us know if you have a problem installing and running _DOTE_ on these platforms.
-Theoretically, it should also run on Linux, but we don't support this.
-Contact us if you are interested in using _DOTE_ on this platform.
-If you can provide financing to support _DOTE_ development specifically for Linux then let us know.
-Note that only one instance of _DOTE_ is allowed to run at the same time.
+Contact us if you are interested in using _DOTE_ on Linux, or if you can provide financing to support _DOTE_ development specifically for Linux.
+Note that only one instance of _DOTE_ is allowed to run at the same time on a given computer. If you need to view more than one transcript at a time, please consider using _DOTEbase_, which provides multi-transcript viewing.
 
 Choose the correct and latest version for your operating system from our [_DOTE_ Webshop](https://www.dote.aau.dk/downloads) or you can browse archived [releases](https://github.com/BigSoftVideo/DOTE/releases) on our public _DOTE_ GitHib repository.
 
-- **Windows**
-    - To install the Windows version, `double click` on the installer file that was downloaded.
-    - If you get a Windows warning message, then click the `More info` link, and choose `RUN ANYWAY`.
-    - _DOTE_ will start after the install is complete.
-    - The _DOTE_ icon should also appear on your desktop.
-    In future, just `double click` the icon and _DOTE_ will start.
+As of **_DOTE_ v2.0**, there are now two types of installers for both Windows and Mac.
+- Most users who use their own devices, or who have administer permissions on their machines should continue to use the '.exe' & '.dmg' installers.
+- For institutional-managed computers, multi-user shared devices, or those with limited administrator access, please use our '.msi' & '.pkg' installers.
+---
+#### **Windows installation**
+- To install the Windows version, `double click` on the installer file that was downloaded.
+- If you get a Windows warning message, then click the `More info` link, and choose `RUN ANYWAY`.
+- _DOTE_ will start after the install is complete.
+- The _DOTE_ icon should also appear on your desktop.
+  In future, just `double click` the icon and _DOTE_ will start.
 
 [![Windows warning](images/install/Win-defender.png)](images/install/Win-defender.png)
 
 [![Windows run anyway](images/install/Win-defender-run.png)](images/install/Win-defender-run.png)
 
-- **macOS**
-    - For macOS, double click on the _DOTE_ installer icon (`DMG`).
-    - Drag and drop the unpacked `DOTE` app into your `Applications` folder and `double click` to run.
-    - NOTE: your macOS system settings may be set to restrict installations.
-    - In that case, open `System Preferences`, select `Security & Privacy`, select `General` tab, and select and approve `Allow apps downloaded from`App Store and identified developers`.
-    You may need to _unlock_ your settings to make these changes.
+---
+#### **MacOS installation**
+- For macOS, double click on the _DOTE_ installer icon (`DMG`).
+- Drag and drop the unpacked `DOTE` app into your `Applications` folder.
+- NOTE: your macOS system settings may be set to restrict installations.
+- If _DOTE_ is prevented due to security restructions, open `System Preferences`, select `Security & Privacy`, select `General` tab, and select and approve `Allow apps downloaded from App Store and identified developers`.
+  You may need to _unlock_ your settings with the padlock to make these changes.
 
-[![macOS install](images/install/dmg.png)](images/install/dmg.png)
+[![macOS install](images/install/dmg.jpg)](images/install/dmg.jpg)
 
 ### End User License Agreement
 
@@ -95,39 +98,35 @@ This is a local problem with how your computer has been setup by a security cons
 _DOTE_ can import many audio formats on its own in order to generate a waveform automatically, but not all.
 If you have trouble generating a waveform for a video or audio clip, then one can either transcode the clip (see [Tips](tips.md)) and try again by importing the new video or by regenerating the waveform (see [Media Manager](media-manager.md)).
 
-Alternatively, you can let _DOTE_ install the free, open source _FFmpeg_ on your computer and add the folder path to `ffmpeg.exe` to your _DOTE_ [Settings](settings.md).
+Alternatively, you can let _DOTE_ install the free and open source _FFmpeg_ application on your computer, and add the folder path to `ffmpeg.exe` to your _DOTE_ [Settings](settings.md).
 
 1. Go to Settings and scroll down to the bottom to see the `Additional Audio & Video Format Support` section.
-1. Because _DOTE_ installs _FFmpeg_ automatically, it should report " FFMPEG INSTALLED".
-1. If not, then see the instructions below to manually install it.
+1. Because _DOTE_ installs _FFmpeg_ automatically, it should report "FFMPEG INSTALLED".
+1. If not, then:
+    1. In [Settings](settings.md), click the button `Install or Configure FFmpeg`
+    2. Click `Download & Install FFmpeg Add-On`.
+    3. The files will be downloaded and installed.
+    4. The "Not found" indicators should change to "Available".
+    5. Under some circumstances you may need to `Reset Path to Default` first if you upgraded to v2.0 and the file path is still for v1.0.
+    5. Try restarting _DOTE_ if something looks amiss, or try `Remove Add-On`, and then retry to reinstall.
 
-WARNING:
+<!-- WARNING:
 
-[![FFmpeg missing](images/settings/ffmpeg-missing.png)](images/settings/ffmpeg-missing.png)
+[![FFmpeg missing](images/settings/ffmpeg-missing.png)](images/settings/ffmpeg-missing.png) -->
 
-MISSING:
+###### FFMPEG MISSING:
 
-[![FFmpeg missing](images/settings/ffmpeg-missing2.png)](images/settings/ffmpeg-missing2.png)
+> [![FFmpeg missing](images/settings/ffmpeg-missing2.png)](images/settings/ffmpeg-missing2.png)
 
-AFTER:
+###### AFTER DOWNLOAD:
 
-[![FFmpeg installed](images/settings/ffmpeg-installed.png)](images/settings/ffmpeg-installed.png)
+> [![FFmpeg installed](images/settings/ffmpeg-installed.png)](images/settings/ffmpeg-installed.png)
 
 Like many other software, _DOTE_ has to do this extra step because of licensing restrictions.
 
-NOTE: After using _DOTE_ to install _FFmpeg_, if you reinstall _DOTE_ or update to a newer version, then _FFmpeg_ will be reinstalled automatically.
+NOTE: After using _DOTE_ to install _FFmpeg_ once you will not have to redo this step if you reinstall _DOTE_ or update to a newer version. _DOTE_ will remember you decision and reinstall _FFmpeg_ automatically.
 
-##### Installing FFmpeg yourself
-
-You may prefer to install it yourself as follows:
-
-1. In [Settings](settings.md), click the button `Install or Configure FFmpeg`
-2. Click `Download & Install FFmpeg Add-On`.
-3. The files will be downloaded and installed.
-4. The "Not found" indicators should change to "Available".
-5. Try restarting _DOTE_ if something looks amiss.
-6. You may need to `Reset Path to Default` if it is incorrect file path, eg. you upgraded to v2.0 and the file path is still for v1.0.
-7. If all else fails, `Remove Add-On`, and reinstall.
+#### Installing FFmpeg yourself:
 
 If you wish to use a known version that you have installed yourself on your computer in a specific location, then click `Manually Set Path`.
 Both _ffmpeg_ and _ffprobe_ have to be installed.
