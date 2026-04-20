@@ -41,8 +41,10 @@ It will only work when a Transcript Clip is present at the current location of t
 
 #### The fourth cluster is for formatting text
 
-The only button is for adding and removing underlines.
-Select some text and click the button.
+The underline button is for adding and removing underlines to selected text. - Select some text and click the button.
+
+The other button is to manually trigger a context-menu at the cursor position in the transcript. Normally this menu can be triggered at any time by pressing [ <kbd>CTRL</kbd> + <kbd>ENTER</kbd> ] OR [ <kbd>⌘</kbd> + <kbd>ENTER</kbd>]
+This menu provides quick access to common / relevant symbols for the cursors position in the transcript.
 
 #### The fifth cluster is for display of errors and warnings
 
@@ -179,8 +181,8 @@ More fixed symbols and pairs will be added in later releases, as well as a user-
 
 ### Where is the edited Transcript stored?
 
-- The raw transcript text is saved in the `transcript.txt` file under the [Project](projects.md) folder you created.
-It can be opened or copied in a word processor and formatted accordingly. In this release, underlining is not present in the plain text file; in future, it will be exportable in an RTF version of the transcript.
+- The raw transcript text is saved in the `transcript.txt` file in the Transcript folder that you created within the parent [Project](projects.md) folder.
+It can be opened or copied in a word processor and formatted accordingly. However underlining is not present in the plain text file, and exporting your transcript to [RTF format](exportRTF.md) is highly recommended for opening your transcript in a standard word processor.
 
 ### Creating and editing Transcript Clips with Annotations
 

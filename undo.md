@@ -18,8 +18,8 @@ Once you have made a change on top of the Undo state that you have rolled back t
 It is still possible to undo and redo simple textual changes in the Editor panel.
 Note that this only applies to changes to the typed text, not underlining, and only to sync-codes if they are repositioned because of a textual edit, eg. a line is inserted or deleted.
 
-- Use the shortcut <kbd>CRTL</kbd> + <kbd>Z</kbd> or  <kbd>⌘</kbd> + <kbd>Z</kbd> on macOS to undo the most recent edit.
-- Use <kbd>CRTL</kbd> + <kbd>Y</kbd> or  <kbd>⌘</kbd> + <kbd>Y</kbd> to redo the most recent action that was undone.
+- Use the shortcut [ <kbd>CRTL</kbd> + <kbd>Z</kbd> ] -OR- [ <kbd>⌘</kbd> + <kbd>Z</kbd> ] to undo the most recent edit.
+- Use [ <kbd>CRTL</kbd> + <kbd>Y</kbd> ] -OR- [ <kbd>⌘</kbd> + <kbd>SHIFT</kbd> + <kbd>Z</kbd> ] to redo the most recent action that was undone.
 - Editing actions can be successively undone step-by-step in reverse order of how they done.
 - Note, as discussed above, that some undo operations will require other actions outside of the Editor to be undone as well.
 
@@ -35,6 +35,10 @@ When a Video-cue is created or edited/moved/deleted, an Undo and a Redo button a
 
 When a Media Player panel is altered (eg. change of view or video selection or subtitles), an Undo and a Redo button appears on each Media Player panel at the top.
 
+### Changes to Transcript Clips & Annotations
+
+To undo changes to Clips & Annotations you may find it easier to use the Undo Manager to find a point before the change to rollback to.
+
 ### Opening the Undo Manager
 
 The Undo Manager allows the user to track all the recent changes and adjust the number of operations that can be undone in the history.
@@ -44,8 +48,7 @@ The Undo Manager keeps a stack of changes for four types of actions.
 - The stacks are indicated by four columns, in which the history of relevant actions is listed.
 - At the top is last known change.
 - At the bottom is the oldest change.
-- Not every single keystroke generates an action. 
-Actions are granular.
+- Not every single keystroke generates an action. Actions are granular, and often stored in batches if they happen in quick succession.
 - Sometimes actions in one column are connected to another action in another column.
 This is indication by the colour and, when an action is selected, by a highlighting of interdependent actions.
 
