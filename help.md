@@ -112,3 +112,7 @@ If you have purchased the license for the _Pro Community_ Edition, then you will
 ### How to cite _DOTE_
 
 If you are using _DOTE_ for transcription, then we would appreciate that you [cite it](citeDOTE.md) where appropriate.
+
+### Structure of our meta-data files
+
+If you are interested in inspecting the meta-data files used within DOTE Projects & Transcripts, see our detailed [JSON file documentation](json-formats.md).
