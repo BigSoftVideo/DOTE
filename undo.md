@@ -40,12 +40,6 @@ When a [Video-cue](cues.md) is created or edited/moved/deleted, a green Undo and
 
 [![Undoing actions](images/undo/undo-cue.png)](images/undo/undo-cue.png)
 
-### Simple Undo/Redo in a Media Player panel
-
-When a [Media Player](media-panel.md) panel is altered while following [Video-cues](cues.md) (eg. change of view or video selection or subtitles), a green Undo and a green Redo button appear on the Media Player panel at the right side.
-
-[![Undoing actions](images/undo/undo-media-panel.png)](images/undo/undo-media-panel.png)
-
 ### Changes to Transcript Clips & Annotations
 
 To undo editing changes to [Clips & Annotations](transcript-clip.md) you may find it easier to use the Undo Manager to find a point before the change to rollback to.
