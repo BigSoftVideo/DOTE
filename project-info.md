@@ -16,6 +16,7 @@ The Project & Transcript Information panel assembles a range of helpful data abo
 - Video-cues
 - Checkpoints
 - Autobackups
+- Merge Transcripts
 
 [![Project Info](images/project-info/project-info.png)](images/project-info/project-info.png)
 
@@ -96,3 +97,7 @@ This segment displays the following information gathered from the currently open
 - The date/time of the last known autobackup.
 
 [![Autobackups info](images/project-info/info-autobackups.png)](images/project-info/info-autobackups.png)
+
+- Merge Transcripts
+
+This function is [documented elsewhere](merge-transcripts.md).

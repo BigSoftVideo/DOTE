@@ -1,6 +1,6 @@
 ## Export a _DOTE_ Project and/or Transcript  <a id='publish'></a>
 
-Watch the [basic](https://www.youtube.com/watch?v=0VaMNLsFYWc) and [advanced](https://www.youtube.com/watch?v=QkTr54XvqTA) video tutorials on YouTube.
+Watch the [video tutorial on YouTube](https://www.youtube.com/watch?v=64OV1PYg6R4).
 
 From within _DOTE_, you can export your Project bundled with all the Media files and/or Transcripts or you can export your Transcript to different formats readable by other software.
 You can even export your Transcript Clips to import in other software.
@@ -13,11 +13,11 @@ From release v2.0, we have build an integrated and unified, step-by-step export 
 The manager guides a user through the steps required to export to a variety of formats:
 
 1. [Export Project to file with native DOTE format](#exporting-a-project)
-1. [Export Transcript to file with native DOTE format](#exporting-a-transcript-to-a-file)
-1. [Export transcript to RTF document](exportRTF.md)
-1. [Export transcript to SRT subtitle file](exportSRT.md)
-1. [Export transcript clips to JSON](exportJSON.md)
-1. [Export transcript clips to CSV](exportCSV.md)
+2. [Export Transcript to file with native DOTE format](#exporting-a-transcript-to-a-file)
+3. [Export transcript to RTF document](exportRTF.md)
+4. [Export transcript to SRT subtitle file](exportSRT.md)
+5. [Export transcript clips to JSON](exportJSON.md)
+6. [Export transcript clips to CSV](exportCSV.md)
 
 Below we elaborate on Export Project or Transcript to file.
 Click the links above to find more information on the other export options.

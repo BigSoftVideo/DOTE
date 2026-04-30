@@ -65,6 +65,9 @@ Some of the settings are only changed when the Settings dialog box is closed.
 - Display or ignore warnings about missing overlap endings.
   - The default in the editor is for overlaps marked by an onset `[` to require a closing `]` on the same line.
   This can be ignored according to your preference.
+- Use greyscale transcript theme.
+  - The default is full colour for the presentation of the transcript, eg. showing speakers, overlaps, comments, etc highlighted in different colours.
+  Toggle on flattens the transcript and removes the colour coding.
 
 ##### Media Preferences
 

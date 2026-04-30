@@ -1,6 +1,6 @@
 ## Importing Data into _DOTE_ <a id='import'></a>
 
-Watch the [video tutorial](https://www.youtube.com/watch?v=w_u5ESNRelY) on YouTube.
+Watch the [video tutorial](https://www.youtube.com/watch?v=leB3mDiIrTw) on YouTube.
 
 With release v2.0, _DOTE_ has a unified and integrated Import Manager that guides the user step-by-step through the import process.
 
@@ -9,11 +9,11 @@ With release v2.0, _DOTE_ has a unified and integrated Import Manager that guide
 The following data can be imported into _DOTE_:
 
 1. [Import Project from file with native DOTE format](#importing-a-project-from-a-file)
-1. [Import Transcript from file with native DOTE format](#importing-a-transcript-from-a-file)
-1. [Import Basic Text file](importTXT.md)
-1. [Import from SRT subtitle file](importSRT.md)
-1. [Import from OpenWhisper format file](importWhisper.md)
-1. [Import transcript clips from JSON file](importJSON.md)
+2. [Import Transcript from file with native DOTE format](#importing-a-transcript-from-a-file)
+3. [Import Basic Text file](importTXT.md)
+4. [Import from SRT subtitle file](importSRT.md)
+5. [Import from OpenWhisper format file](importWhisper.md)
+6. [Import transcript clips from JSON file](importJSON.md)
 
 Below we elaborate on Export Project or Transcript to file.
 Click the links above to find more information on the other export options.

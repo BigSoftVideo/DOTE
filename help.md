@@ -5,8 +5,6 @@ The help guide gives guidance on all features and functionality, including the _
 Some of the functionality described will not be available in the free Edition of _DOTE_.
 See the [comparison chart on our webshop](https://www.dote.aau.dk/license-compare#compare-detail).
 
-Watch the [video tutorial](https://www.youtube.com/watch?v=meYMj7DsYHE) on YouTube.
-
 ### Which version am I using?
 
 Click the link `About` under the `Help` menu to find out which version you are using.
@@ -64,6 +62,7 @@ Here is a list of help tutorials on specific topics:
 - [Undo/Redo](undo.md) - undoing and redoing changes while editing (unique to _DOTE_)
 - [Checkpoints and Autobackups](versioncontrol.md) - two safe and reliable backup systems (unique to _DOTE_)
 - [Project & Transcript information](project-info.md) - display information and stats about the current project and its associated transcripts
+- [Merge two or more Transcripts](merge-transcripts.md) - great for teamwork and dividing up the labour
 - [Settings and Transcript Options](settings.md) - a tailorable UI and Transcript fit for a Queen
 - [Errors when using _DOTE_ and editing a transcript](errors.md) - letting you know what might go wrong
 - [How to transcribe with _DOTE_](howto.md) - practical advice for different transcription practices
