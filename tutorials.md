@@ -7,21 +7,21 @@ The new videos are available on our [v2.0 playlist](https://www.youtube.com/play
 
 We will be adding to this list when we upload new 🆕 video tutorials to our YouTube channel in 2026.
 
-The video tutorials mostly come in two flavours: a **basic** version and an **advanced** version.
+The video tutorials mostly come in two flavours: a **basic** version and sometimes an **advanced** version.
 
 We have created more than 50 online videos (8 hours of delicious content), including:
 
 ### New videos for v2.0
-- What's new in v2.0 - [Basic]() 🆕
+- What's new in v2.0 - [Basic](https://www.youtube.com/watch?v=Or8bALCP4zE) 🆕
 - How to use the User Interface - [Basic](https://youtu.be/yjY6x5mEfN0) 🆕
 - How to setup DOTE (Settings and Options) - [Basic](https://youtu.be/4ZRAs8DX-eo) 🆕
 - How to use the Media Player panel(s) — [Basic](https://youtu.be/dQwelIB2JvM) 🆕
 - How to embed Subtitles - [Basic](https://youtu.be/Gvp1U11mfLU) 🆕
 - How to use the Timeline(s) — [Basic](https://youtu.be/Oo8EaHRTtFQ) 🆕
 - How to use Video-cues — [Basic](https://youtu.be/X9Q2rwaSPoI) 🆕
-- How to Undo/Redo - [Basic]() - [Advanced]() 🆕
-- How to export Projects, Transcripts and Clips — [Basic]() — [Advanced]() 🆕
-- How to import Projects and Transcripts — [Basic]() — [Advanced]() 🆕
+- How to Undo/Redo - [Basic](https://www.youtube.com/watch?v=pYV9iSf-rSo) 🆕
+- How to export Projects, Transcripts and Clips — [Basic](https://www.youtube.com/watch?v=64OV1PYg6R4) 🆕
+- How to import Projects and Transcripts — [Basic](https://www.youtube.com/watch?v=leB3mDiIrTw) 🆕
 - How to use Whisper speech recognition with _DOTE_ - [Basic](https://www.youtube.com/watch?v=7bWMcnJhPGc) 🆕
 
 ### Older videos for v1.0 that still work for v2.0
