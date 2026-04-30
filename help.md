@@ -5,8 +5,6 @@ The help guide gives guidance on all features and functionality, including the _
 Some of the functionality described will not be available in the free Edition of _DOTE_.
 See the [comparison chart on our webshop](https://www.dote.aau.dk/license-compare#compare-detail).
 
-Watch the [video tutorial](https://www.youtube.com/watch?v=meYMj7DsYHE) on YouTube.
-
 ### Which version am I using?
 
 Click the link `About` under the `Help` menu to find out which version you are using.

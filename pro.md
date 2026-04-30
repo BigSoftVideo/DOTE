@@ -1,14 +1,13 @@
 ## Free vs PRO and PRO COMMUNITY Editions
 
-Watch the [video tutorial](https://www.youtube.com/watch?v=48sfGoE0T2E) on YouTube.
-
 _DOTE_ software is available in several Editions:
 
 1. The Free Edition is an open build that can be installed by anyone, though it lacks premium features.
-One can use this to transcribe data according to both Jeffersonian and Mondadaian conventions and export to RTF (simple format) ready for publication, though the number of lines per transcript is restricted.
+For example, one can use this Edition to transcribe data according to both Jeffersonian and Mondadaian conventions and export to RTF (simple format) ready for publication, though the number of lines per transcript is restricted.
 The premium features will be greyed out and unavailable.
 1. The PRO and PRO COMMUNITY Editions (paid) provide licenses for the same software with premium functionality and no restriction on the number of transcript lines.
 One time payment for one license that can be installed on up to three computers.
+1. The AAU Edition, which is only for staff and students at Aalborg University.
 
 A license is granted for access to the current release version of _DOTE_, including hotfixes and updates.
 
@@ -16,7 +15,7 @@ There is an additional [PRO COMMUNITY](https://bigsoftvideo.github.io/DOTE-Pro-C
 
 Go to our [WEBSHOP](https://www.dote.aau.dk) to purchase a license and read more information about Editions.
 
-### Activating _DOTE_ with the a PRO Edition license<a id='license'></a>
+### Activating _DOTE_ with a PRO Edition license<a id='license'></a>
 
 Watch the [video tutorial](https://www.youtube.com/watch?v=IRiWKZYIViA) on YouTube.
 
