@@ -1,4 +1,6 @@
-## How to use the undo/redo manager
+## How to Use the Undo/Redo Manager
+
+Watch the [video tutorial on YouTube](https://www.youtube.com/watch?v=pYV9iSf-rSo).
 
 With v2.0 we have implemented an extra Undo/redo Manager that tracks changes to changes that are more invisible, but which may be desirable to undo, such as underlining, as well as video-cues.
 

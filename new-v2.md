@@ -3,6 +3,8 @@
 We have been working on a massive update to _DOTE_ for over a year.
 Now it has been released, here are some of the key features you can enjoy.
 
+Watch the [introduction video to what's new](https://www.youtube.com/watch?v=Or8bALCP4zE) on YouTube.
+
 ### Revamped user interface
 
 There are many changes to the [user interface](ui.md)💻 that make it more flexible and tailorable to your needs.
