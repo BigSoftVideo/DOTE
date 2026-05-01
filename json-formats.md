@@ -1,6 +1,6 @@
-# DOTE JSON File Formats
+# _DOTE_ JSON File Formats
 
-Reference for every JSON file that DOTE reads and writes when loading or saving Projects and Transcripts.
+Reference for every JSON file that _DOTE_ reads and writes when loading or saving Projects and Transcripts.
 
 ---
 
