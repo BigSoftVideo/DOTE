@@ -1,8 +1,8 @@
 ## Application Settings and Transcript Options
 
-Watch the [video tutorial](https://youtu.be/4ZRAs8DX-eo) on YouTube.
-
 There are two main ways to change settings for the use of _DOTE_ in general and for the current Transcript.
+
+Watch the [video tutorial](https://youtu.be/4ZRAs8DX-eo) on YouTube.
 
 Note that all changes to settings and options are done immediately and cannot be undone using a shortcut or by cancelling.
 

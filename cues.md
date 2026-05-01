@@ -1,11 +1,11 @@
 ## Video-cues
 
-Watch the [video tutorial](https://youtu.be/X9Q2rwaSPoI) on YouTube.
-
 A _Video-cue_ is a cue to transition to a specific view of the current 360 or 2D video at a specific timecode in the video media file.
 The idea is to bring a _cinematic experience_ to working with transcripts, such as zoom, pan and jump cut.
 This is also called _recamming_, ie. using a virtual camera to show a different view of the original footage.
 Cool! 🍦
+
+Watch the [video tutorial](https://youtu.be/X9Q2rwaSPoI) on YouTube.
 
 The best demonstration of the power of video-cues can be found in our [Lego Demo Project](demo.md), which you can download and import into _DOTE_.
 

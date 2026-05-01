@@ -1,10 +1,12 @@
 ## How to Tag your Clips
 
-Watch [basic](https://www.youtube.com/watch?v=UMl8ocvjA2k) and [advanced](https://www.youtube.com/watch?v=XILneBfDqAs) video tutorials on YouTube.
-
 Any [Transcript Clip](transcript-clip.md) can have multiple Tags assigned to it.
 
 [![Tags](images/tags/tags1.png)](images/tags/tags1.png)
+
+Watch [basic](https://www.youtube.com/watch?v=UMl8ocvjA2k) and [advanced](https://www.youtube.com/watch?v=XILneBfDqAs) video tutorials on YouTube.
+
+Tags have the following properties:
 
 - Tags can be entered when creating a Clip.
 - Recent Tags in _DOTE_ are autocompletable, ie. all known Tags in the current Project are listed according to what Tags have already been added.

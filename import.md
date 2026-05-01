@@ -1,8 +1,8 @@
 ## Importing Data into _DOTE_ <a id='import'></a>
 
-Watch the [video tutorial](https://www.youtube.com/watch?v=leB3mDiIrTw) on YouTube.
-
 With release v2.0, _DOTE_ has a unified and integrated Import Manager that guides the user step-by-step through the import process.
+
+Watch the [video tutorial](https://www.youtube.com/watch?v=leB3mDiIrTw) on YouTube.
 
 [![Import Project](images/import/import.png)](images/import/import.png)
 

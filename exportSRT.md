@@ -1,8 +1,8 @@
 ## How to export to subtitles (`SRT`) <a id='export-srt'></a>
 
-Watch the [basic](https://www.youtube.com/watch?v=1X3Es1fftPA) and [advanced](https://www.youtube.com/watch?v=IusIOK8TLIM) video tutorials on YouTube.
+It is possible to export the basic speaker turns to subtitles that are timed to the original video clip, with all the timing, subtiers, alignment symbols and overlap brackets removed. The only condition for this to work correctly is that you have already manually added [sync-codes](sync-code.md) on the HEAD lines of every [neighbourhood](glossary.md#neighbourhood), otherwise _DOTE_ has no idea which lines should appear when as the video plays.
 
-It is also possible to export the basic speaker turns to subtitles that are timed to the original video clip, with all the timing, subtiers, alignment symbols and overlap brackets removed. The only condition for this to work correctly is that you have already manually added [sync-codes](sync-code.md) on the HEAD lines of every [neighbourhood](glossary.md#neighbourhood), otherwise _DOTE_ has no idea which lines should appear when as the video plays.
+Watch the [basic](https://www.youtube.com/watch?v=1X3Es1fftPA) and [advanced](https://www.youtube.com/watch?v=IusIOK8TLIM) video tutorials on YouTube.
 
 In _DOTE_ v2.0 it is now possible to load exported subtitle files into a Media Player panel.
 This means one can playback videos with different [live subtitles](subtitles.md) according to need.

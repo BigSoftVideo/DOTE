@@ -1,14 +1,12 @@
 ## How to use Media Player panels
 
-Watch the [video tutorial](https://youtu.be/dQwelIB2JvM) on YouTube.
-
 When you start _DOTE_ or create a new project, only one Media Player panel is displayed in the standard default layout.
 You can add more Media Player panels to display the same video source (different zoom/pan) or different video sources that have been added in the Media Manager.
 The video format, either 360 or 2D, must be set in the [Media Manager](media-manager.md), so that the video will appear correctly in a Media Player panel.
 For 360 videos, one can choose from three different projection systems for each media panel.
 Experiment to see which one suits your 360 video recording.
 
-Watch the [video tutorial](https://www.youtube.com/watch?v=eBWNqeIo450) on YouTube.
+Watch the [video tutorial](https://youtu.be/dQwelIB2JvM) on YouTube.
 
 You can open as many Media Player panels as you wish.
 Each one can contain any active media source in your current Project.

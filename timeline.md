@@ -1,13 +1,13 @@
 ## Timelines and waveforms
 
-Watch the [video tutorial](https://youtu.be/Oo8EaHRTtFQ) on YouTube.
-
 A Timeline panel includes a waveform generated and cached when the video for the current project is first opened.
 For some video and audio files, a waveform cannot be generated.
 In that case, the waveform will be blank.
 See [Tips & Tricks](tips.md) for ideas how to solve this.
 
 [![Timeline](images/timeline/timeline.png)](images/timeline/timeline.png)
+
+Watch the [video tutorial](https://youtu.be/Oo8EaHRTtFQ) on YouTube.
 
 A Timeline panel is also used for viewing managing [Sync-codes](sync-code.md) and [Video-cues](cues.md).
 

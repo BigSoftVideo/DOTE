@@ -1,11 +1,11 @@
 ## Sync-codes
 
-Watch [basic](https://www.youtube.com/watch?v=PLUGMdFsbu4) and [advanced](https://www.youtube.com/watch?v=kQK1JImIn9w) video tutorials on YouTube.
-
 A _sync-code_ is a bookmark at a specific timestamp (or timecode) in the [timeline](timeline.md) that can be associated with a specific line in the [transcript](transcript.md).
 Once sync-codes are manually added, this allows a user to quickly locate and playback specific lines in the transcript.
 
 [![Sync-codes](images/sync-code/sync-code.png)](images/sync-code/sync-code.png)
+
+Watch the [basic](https://www.youtube.com/watch?v=PLUGMdFsbu4) and [advanced](https://www.youtube.com/watch?v=kQK1JImIn9w) video tutorials on YouTube.
 
 ### Entering and modifying sync-codes
 

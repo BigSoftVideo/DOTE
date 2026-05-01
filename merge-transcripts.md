@@ -1,9 +1,9 @@
 ## How to merge Transcripts in a Project
 
-See the [video tutorial on YouTube](https://www.youtube.com/watch?v=sTfHHR8uItg).
-
 _DOTE_ v2.0 now offers the possibility to merge two or more Transcripts in a Project.
 This is useful if you have a long video and you wish to divide up the labour amongst team members or different transcribers.
+
+See the [video tutorial on YouTube](https://www.youtube.com/watch?v=sTfHHR8uItg).
 
 ### Important to remember
 

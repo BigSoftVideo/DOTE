@@ -1,7 +1,5 @@
 ## In what ways can _DOTE_ support your transcription practices
 
-Watch [How to Start a New Transcript](https://www.youtube.com/watch?v=raBDE5520gY) and [How to Edit a Transcript](https://www.youtube.com/watch?v=7JGCKmTg_6Q) video tutorials on YouTube.
-
 There are several ways in which _DOTE_ can help support transcription:
 
 1. [1st time through](#first)
@@ -11,6 +9,8 @@ There are several ways in which _DOTE_ can help support transcription:
 
 Below we outline some of the key tools and resources that _DOTE_ provides for each of these methods.
 There are links to the help guide for more in-depth guidance, as well as tutorial videos on our DOTE YouTube channel.
+
+Watch [How to Start a New Transcript](https://www.youtube.com/watch?v=raBDE5520gY) and [How to Edit a Transcript](https://www.youtube.com/watch?v=7JGCKmTg_6Q) video tutorials on YouTube.
 
 ### 1st time through <a id='first'></a>
 

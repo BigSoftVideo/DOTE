@@ -1,10 +1,10 @@
 ## Export a _DOTE_ Project and/or Transcript  <a id='publish'></a>
 
-Watch the [video tutorial on YouTube](https://www.youtube.com/watch?v=64OV1PYg6R4).
-
 From within _DOTE_, you can export your Project bundled with all the Media files and/or Transcripts or you can export your Transcript to different formats readable by other software.
 You can even export your Transcript Clips to import in other software.
 Wow! 🤘🏻
+
+Watch the [video tutorial on YouTube](https://www.youtube.com/watch?v=64OV1PYg6R4).
 
 From release v2.0, we have build an integrated and unified, step-by-step export manager.
 

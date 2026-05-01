@@ -1,10 +1,10 @@
 ## Media Manager
 
-Watch the [basic](https://www.youtube.com/watch?v=enN7aKYZEGg) and [advanced](https://www.youtube.com/watch?v=-xIPZAJoNkU) video tutorials on YouTube.
-
 _DOTE_ projects can contain one or more media files associated with that Project.
 Media such as audio and video files can be imported directly into a new Project.
 The function of the `Media Manager` is to be able to add, remove and make active different media sources for your current Project.
+
+Watch the [basic](https://www.youtube.com/watch?v=enN7aKYZEGg) and [advanced](https://www.youtube.com/watch?v=-xIPZAJoNkU) video tutorials on YouTube.
 
 Note: it is essential to use synced media files that have the same IN and OUT points, eg. the start and duration of each clip is the same with respect to the event that was recorded.
 Otherwise, if you have used sync-codes or video-cues, then switching between media sources for the same transcript will simply not work because the timecodes for both will not align correctly across media.

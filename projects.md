@@ -1,13 +1,14 @@
 ## What are _DOTE_ Projects?
 
-Watch the [basic](https://www.youtube.com/watch?v=7oHE1KsIGTo) and [advanced](https://www.youtube.com/watch?v=GkjMwL6zqmM) video tutorials on YouTube.
-
 First, the concept and data structures of the Project and the Transcript in _DOTE_ is explained.
 Below that there is a help guide to:
 - [Creating a new Project with an initial Transcript](#new-project)
 - [Creating a new Transcript in the current Project](#new-transcript)
 - [Duplicating the current Transcript](#duplicate)
 - [Saving a Project/Transcript](#saving)
+
+
+Watch the [basic](https://www.youtube.com/watch?v=7oHE1KsIGTo) and [advanced](https://www.youtube.com/watch?v=GkjMwL6zqmM) video tutorials on YouTube.
 
 There is also a guide to the [Project Manager](project-manager.md).
 

@@ -1,8 +1,8 @@
 ## Colour Swatch Manager
 
-Watch [video tutorial](https://www.youtube.com/watch?v=JByMzZQQT7E) on YouTube.
-
 The Colour Swatch Manager manages the Colours that are available in _DOTE_ in regard to T-Clips.
+
+Watch the [video tutorial](https://www.youtube.com/watch?v=JByMzZQQT7E) on YouTube.
 
 To open the Colour Swatch Manager, click on the colour swatch when [editing a T-Clip](transcript-clip.md).
 A panel opens up on the right side.

@@ -24,7 +24,7 @@ You can find a [quick overview](new-v2.md) of some of the key features in v2.0.
 
 The [release notes](https://github.com/BigSoftVideo/DOTE/releases/) for the current release are on GitHub, as are release notes for earlier versions.
 
-Watch the [video tutorial](https://www.youtube.com/watch?v=x_HvKftJsQw) showing off the latest release on YouTube.
+Watch the [video tutorial](https://www.youtube.com/watch?v=Or8bALCP4zE) showing off the latest release on YouTube.
 
 ### How to download and install _DOTE_
 
