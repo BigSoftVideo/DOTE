@@ -1,4 +1,4 @@
-## Errors and Warnings
+## Errors and Warnings v1.0
 
 Watch [video tutorial](https://www.youtube.com/watch?v=Ux4APu6ww4k) on YouTube.
 

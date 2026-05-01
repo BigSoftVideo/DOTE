@@ -1,4 +1,4 @@
-## Free vs PRO and PRO COMMUNITY Editions
+## Free vs PRO and PRO COMMUNITY Editions v1.0
 
 Watch [video tutorial](https://www.youtube.com/watch?v=48sfGoE0T2E) on YouTube.
 

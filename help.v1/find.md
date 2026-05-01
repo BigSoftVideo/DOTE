@@ -1,4 +1,4 @@
-## Using find (and replace) in the editor panel
+## Using find (and replace) in the editor panel v1.0
 
 There is a powerful find and replace tool in the transcript editor.
 

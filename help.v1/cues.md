@@ -1,4 +1,4 @@
-## Video-cues
+## Video-cues v1.0
 
 Watch [basic](https://www.youtube.com/watch?v=g3OEV6xrsTI) and [advanced](https://www.youtube.com/watch?v=zvCNKN2V5dQ) video tutorials on YouTube.
 

@@ -1,4 +1,4 @@
-## Primary tier and subtier types
+## Primary tier and subtier types v1.0
 
 Watch [basic](https://www.youtube.com/watch?v=jHvoOJguWKM) and [advanced](https://www.youtube.com/watch?v=vcgl_hqjMAE) video tutorials on YouTube.
 

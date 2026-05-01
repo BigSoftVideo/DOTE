@@ -1,4 +1,4 @@
-## What are _DOTE_ Projects?
+## What are _DOTE_ Projects in v1.0?
 
 Watch [basic](https://www.youtube.com/watch?v=7oHE1KsIGTo) and [advanced](https://www.youtube.com/watch?v=GkjMwL6zqmM) video tutorials on YouTube.
 

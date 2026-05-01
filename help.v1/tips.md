@@ -1,4 +1,4 @@
-## Tips & Tricks
+## Tips & Tricks v1.0
 
 Here you will find ideas and solutions to specific tasks that you might wish to accomplish with _DOTE_.
 

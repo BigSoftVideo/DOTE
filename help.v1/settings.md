@@ -1,4 +1,4 @@
-## Settings and Transcript Options
+## Settings and Transcript Options v1.0
 
 Watch [video tutorial](https://www.youtube.com/watch?v=udlOrRBs1z0) on YouTube.
 

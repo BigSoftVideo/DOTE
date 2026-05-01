@@ -1,4 +1,4 @@
-## In what ways can _DOTE_ support your transcription practices
+## In what ways can _DOTE_ support your transcription practices v1.0
 
 Watch [How to Start a New Transcript](https://www.youtube.com/watch?v=raBDE5520gY) and [How to Edit a Transcript](https://www.youtube.com/watch?v=7JGCKmTg_6Q) video tutorials on YouTube.
 

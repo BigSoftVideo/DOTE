@@ -1,4 +1,4 @@
-## Mondadaian style transcription conventions supported by *DOTE*
+## Mondadaian style transcription conventions supported by *DOTE* v1.0
 
 Watch [video tutorial](https://www.youtube.com/watch?v=GWlJe1bbBYs) on YouTube.
 

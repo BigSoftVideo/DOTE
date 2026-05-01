@@ -1,4 +1,4 @@
-## Exporting and importing Transcripts and Projects to File
+## Exporting and importing Transcripts and Projects to File v1.0
 
 Watch [video tutorial](https://www.youtube.com/watch?v=w_u5ESNRelY) on YouTube.
 

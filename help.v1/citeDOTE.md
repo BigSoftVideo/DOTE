@@ -1,4 +1,4 @@
-## How to cite _DOTE_?
+## How to cite _DOTE_v1.0?
 
 The [_Dote_ Team](contributing.md) would appreciate that you cite _DOTE_ whenever you have used it to create transcripts for publication, presentation or teaching.
 

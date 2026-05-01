@@ -1,4 +1,4 @@
-## Commands and keyboard shortcuts
+## Commands and keyboard shortcuts v1.0
 
 Watch [video tutorial](https://www.youtube.com/watch?v=_gZ18OZW34U) on YouTube.
 

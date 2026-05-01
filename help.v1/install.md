@@ -1,4 +1,4 @@
-## How to download and install _DOTE_
+## How to download and install _DOTE_v1.0
 
 Watch [basic](https://www.youtube.com/watch?v=zbB6lczk4f8) and [advanced](https://www.youtube.com/watch?v=RDbYopAerCw) video tutorials on YouTube.
 

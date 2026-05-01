@@ -1,4 +1,4 @@
-## Sync-codes
+## Sync-codes v1.0
 
 Watch [basic](https://www.youtube.com/watch?v=PLUGMdFsbu4) and [advanced](https://www.youtube.com/watch?v=kQK1JImIn9w) video tutorials on YouTube.
 

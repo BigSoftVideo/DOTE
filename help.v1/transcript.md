@@ -1,4 +1,4 @@
-## Transcribing in the Editor
+## Transcribing in the Editor v1.0
 
 Watch [basic](https://www.youtube.com/watch?v=dqEehi8Jaa0) and [advanced](https://www.youtube.com/watch?v=U3yPPHZ-yak) video tutorials on YouTube.
 

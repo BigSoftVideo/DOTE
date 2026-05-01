@@ -1,4 +1,4 @@
-## Timelines and waveforms
+## Timelines and waveforms v1.0
 
 Watch [video tutorial](https://www.youtube.com/watch?v=2RsvEEo5ICQ) on YouTube.
 

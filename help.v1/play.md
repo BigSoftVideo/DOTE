@@ -1,4 +1,4 @@
-## Video and audio playback
+## Video and audio playback v1.0
 
 Watch [basic](https://www.youtube.com/watch?v=v86-xkdVwL4) and [advanced](https://www.youtube.com/watch?v=t8yD07eSFWs) video tutorials on YouTube.
 

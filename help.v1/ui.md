@@ -1,4 +1,4 @@
-## User interface
+## User interface v1.0
 
 The _DOTE_ user interface is comprised of several panels divided into two main sections: the left is for media control functions and the right is for transcript editor functions.
 The left section (timelines, video panels) can be collapsed using the `<<` button.

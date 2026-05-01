@@ -1,4 +1,4 @@
-## Transcription Conventions supported by *DOTE*
+## Transcription Conventions supported by *DOTE* v1.0
 
 *DOTE* largely agrees closely a standardised set of transcription conventions in conversation analysis based on Gail Jefferson's innovations for a script-based system.
 There is an up-to-date [specification of the Jeffersonian-style conventions supported in *DOTE*](jefferson.md) with additional notes.

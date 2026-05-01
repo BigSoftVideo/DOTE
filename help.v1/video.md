@@ -1,4 +1,4 @@
-## Video Panels
+## Video Panels v1.0
 
 Watch [basic](https://www.youtube.com/watch?v=timdqQNxgAY) and [advanced](https://www.youtube.com/watch?v=a2bbS73WUfw) video tutorials on YouTube.
 

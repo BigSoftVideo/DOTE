@@ -1,4 +1,4 @@
-## Demo project
+## Demo project v1.0
 
 If this is your first time, we would like you to try out _DOTE_ using our demo LEGO project.
 The demo project is freely available under a [Creative Commons Attribution Non Commercial Share Alike 4.0 (CC BY-NC-SA) International license](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode) license.

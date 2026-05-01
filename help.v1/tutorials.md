@@ -1,4 +1,4 @@
-## Video Tutorials
+## Video Tutorials v1.0
 
 We are producing a range of informative video tutorials to help you get familiar with the amazing functionality of _DOTE_.
 The videos are available on our [YouTube channel](https://www.youtube.com/watch?v=1Ebm30ChHxg&list=PLQJhL9BD4W1Trh8mKzPnQ0fqj8J1H00Cd).

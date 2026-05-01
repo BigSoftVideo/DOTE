@@ -1,4 +1,4 @@
-## How to find the logfile
+## How to find the logfile v1.0
 
 Each time _DOTE_ is opened, a new logfile is created. The filename shows the date (`year-month-day`) and time
 (`hour-minute-second`) of creation. When attaching a logfile to a bugreport, select the one

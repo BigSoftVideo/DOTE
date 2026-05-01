@@ -1,4 +1,4 @@
-## Media Manager
+## Media Manager v1.0
 
 Watch [basic](https://www.youtube.com/watch?v=enN7aKYZEGg) and [advanced](https://www.youtube.com/watch?v=-xIPZAJoNkU) video tutorials on YouTube.
 

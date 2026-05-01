@@ -1,4 +1,4 @@
-## Publish the _DOTE_ transcript
+## Publish the _DOTE_ transcript v1.0
 
 Watch [basic](https://www.youtube.com/watch?v=0VaMNLsFYWc) and [advanced](https://www.youtube.com/watch?v=QkTr54XvqTA) video tutorials on YouTube.
 

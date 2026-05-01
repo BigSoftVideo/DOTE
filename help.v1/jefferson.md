@@ -1,4 +1,4 @@
-## Jeffersonian style CA transcription conventions supported by _DOTE_
+## Jeffersonian style CA transcription conventions supported by _DOTE_ v1.0
 
 There are many guides to using the Jeffersonian-derived CA transcription conventions that Gail Jefferson developed.
 The most recent and comprehensive can be found in:

@@ -1,4 +1,4 @@
-## What is _DOTE_?
+## What is _DOTE_ v1.0?
 
 _DOTE_ is a new type of transcription software developed by the [_BigSoftVideo_ team](https://github.com/BigSoftVideo) at [Aalborg University](https://www.bigvideo.aau.dk).
 It is tailored for transcribing social conduct, conversation and multimodal interaction for research purposes.
