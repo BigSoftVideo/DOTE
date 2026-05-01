@@ -2,7 +2,7 @@
 
 There is a powerful find and replace tool in the transcript editor.
 
-[![Video-cues](images.v1/find/find.png)](images.v1/find/find.png)
+[![Video-cues](../images.v1/find/find.png)](../images.v1/find/find.png)
 
 ### How to find an expression? <a id='find'></a>
 
@@ -16,7 +16,7 @@ There is a powerful find and replace tool in the transcript editor.
     - You can toggle match case (`Aa`) or match word (`ab`).
     - You can also toggle the powerful regular expressions (`.*`). See [below](#regex).
 
-[![Video-cues](images.v1/find/find-box.png)](images.v1/find/find-box.png)
+[![Video-cues](../images.v1/find/find-box.png)](../images.v1/find/find-box.png)
 
 ### How to replace the found items with a new expression? <a id='replace'></a>
 
@@ -25,7 +25,7 @@ There is a powerful find and replace tool in the transcript editor.
 1. Type the expression that will replace each match in the REPLACE box.
 1. Replace `CASE-BY-CASE` or `ALL`.
 
-[![Video-cues](images.v1/find/replace.png)](images.v1/find/replace.png)
+[![Video-cues](../images.v1/find/replace.png)](../images.v1/find/replace.png)
 
 - Notes:
     - You can toggle preserve case (`AB`) to keep the case of the original in the replacement.
@@ -67,7 +67,7 @@ If you wish to make sure to only find whole words, then:
 - Turn on whole word in the `Find` dialog box.
 - Or add `\b` to the start and end of your search string, eg. `\bh\W*i\W*m\b` will find only variants of the whole word "him".
 
-[![RegEx](images.v1/find/find-regex.png)](images.v1/find/find-regex.png)
+[![RegEx](../images.v1/find/find-regex.png)](../images.v1/find/find-regex.png)
 
 If you wish to be even more clever, then you can also search for all variants of a word, even if there are internal brackets in the word, eg. `he:(hh)llo`:
 

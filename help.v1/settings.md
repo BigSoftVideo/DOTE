@@ -20,12 +20,12 @@ There are several different types of settings that affect the operation of _DOTE
 - Shortcuts
 - External software
 
-[![Settings](images.v1/settings/settings.png)](images.v1/settings/settings.png)
+[![Settings](../images.v1/settings/settings.png)](../images.v1/settings/settings.png)
 
 Some of these settings can be overridden in the current [Transcript Options](#options).
 If so, then this is indicated in the `Settings`.
 
-[![Settings](images.v1/settings/overridden.png)](images.v1/settings/overridden.png)
+[![Settings](../images.v1/settings/overridden.png)](../images.v1/settings/overridden.png)
 
 Some of the settings are only changed when the Settings dialog box is closed.
 
@@ -75,19 +75,19 @@ _DOTE_ does its best internally to create a waveform for every media file added 
 If this is not working for you, then you can automatically [install _FFmpeg_](install.md#ffmpeg) on your computer and link the file path to _DOTE_.
 We cannot include the open source software package inside _DOTE_ because of software licensing restrictions.
 
-[![Transcript Options](images.v1/settings/ffmpeg-installed.png)](images.v1/settings/ffmpeg-installed.png)
+[![Transcript Options](../images.v1/settings/ffmpeg-installed.png)](../images.v1/settings/ffmpeg-installed.png)
 
 ### Transcript Options <a id='options'></a>
 
 `Transcript Options` can be opened from the `Project` menu, eg. `Project ➔ Transcript Options`, or by clicking the `Options ⚙` button at the top left of the [Transcript Editor](editor.md).
 
-[![Transcript Options](images.v1/settings/options.png)](images.v1/settings/options.png)
+[![Transcript Options](../images.v1/settings/options.png)](../images.v1/settings/options.png)
 
 There are several different types of options that affect how the Editor works.
 Some of these are inherited from `Settings` and can be overridden on a transcript by transcript basis.
 They can be "reset" to the Default if they vary from that in `Settings`.
 
-[![Transcript Options](images.v1/settings/overridden2.png)](images.v1/settings/overridden2.png)
+[![Transcript Options](../images.v1/settings/overridden2.png)](../images.v1/settings/overridden2.png)
 
 Many of these options are only changed when the Transcript Options dialog box is closed.
 

@@ -31,7 +31,7 @@ A typical transcript in the script-based Jeffersonian style has the following fo
 
 This diagram should help simplify the composition of a neighbourhood:
 
-![Diagram showing composition of a neighbourhood](images.v1/conventions/neighbourhoodJ.png)
+![Diagram showing composition of a neighbourhood](../images.v1/conventions/neighbourhoodJ.png)
 
 For example,
 

@@ -4,7 +4,7 @@ Watch [basic](https://www.youtube.com/watch?v=v86-xkdVwL4) and [advanced](https:
 
 There are two ways to playback the media associated with the current _DOTE_ project.
 
-[![Play](images.v1/play/play-buttons.png)](images.v1/play/play-buttons.png)
+[![Play](../images.v1/play/play-buttons.png)](../images.v1/play/play-buttons.png)
 
 1. Use the video transport buttons above the main timeline.
 2. Use the shortcuts, see below.

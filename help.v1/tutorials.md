@@ -70,7 +70,7 @@ You can download them here or from the archive of [_DOTE_-specific tutorials](<h
 - [How to work with _DOTE_ projects — Basic](https://github.com/BigSoftVideo/DOTE/releases/download/v1.0.0-tutorials/DOTE.Projects.doteProject)
 - [How to use the Media Manager — Basic and Advanced](https://github.com/BigSoftVideo/DOTE/releases/download/v1.0.0-tutorials/Media.Manager.doteProject)
 
-[![DOTE Tutorial](images.v1/tutorials/dote-tutorial.png)](images.v1/tutorials/dote-tutorial.png)
+[![DOTE Tutorial](../images.v1/tutorials/dote-tutorial.png)](../images.v1/tutorials/dote-tutorial.png)
 
 Use _DOTE_ to [import each Project](import.md) into your _MY DOTE PROJECTS_ folder, for example.
 When you are done importing, you can just open the Transcript in the Project using `File/Open Transcript` using the `Project Manager`, and you will see a hyperlinked version of the video with a table of contents in the Editor panel.

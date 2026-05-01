@@ -16,7 +16,7 @@ In general, the _DOTE_ window size and the position of the panels is saved betwe
 1. [The video-cue timeline panel](#media)
 1. [The editor panel](#editor)
 
-[![DOTE UI](images.v1/UI/UI-simple.png)](images.v1/UI/UI-simple.png)
+[![DOTE UI](../images.v1/UI/UI-simple.png)](../images.v1/UI/UI-simple.png)
 
 ### The menu bar <a id='menu'></a>
 

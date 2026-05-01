@@ -19,9 +19,9 @@ Choose the correct and latest version for your operating system from our [_DOTE_
     - The _DOTE_ icon should also appear on your desktop.
     In future, just `double click` the icon and _DOTE_ will start.
 
-[![Windows warning](images.v1/install/Win-defender.png)](images.v1/install/Win-defender.png)
+[![Windows warning](../images.v1/install/Win-defender.png)](../images.v1/install/Win-defender.png)
 
-[![Windows run anyway](images.v1/install/Win-defender-run.png)](images.v1/install/Win-defender-run.png)
+[![Windows run anyway](../images.v1/install/Win-defender-run.png)](../images.v1/install/Win-defender-run.png)
 
 - **macOS**
     - For macOS, double click on the _DOTE_ icon (`DMG`).
@@ -30,13 +30,13 @@ Choose the correct and latest version for your operating system from our [_DOTE_
     - In that case, open `System Preferences`, select `Security & Privacy`, select `General` tab, and select and approve `Allow apps downloaded from`App Store and identified developers`.
     You may need to _unlock_ your settings to make these changes.
 
-[![macOS install](images.v1/install/dmg.png)](images.v1/install/dmg.png)
+[![macOS install](../images.v1/install/dmg.png)](../images.v1/install/dmg.png)
 
 ### End User License Agreement
 
 The first thing you need to do after installing _DOTE_ is agree to the Terms and Conditions of the EULA.
 
-[![EULA](images.v1/install/eula.png)](images.v1/install/eula.png)
+[![EULA](../images.v1/install/eula.png)](../images.v1/install/eula.png)
 
 If you do, then _DOTE_ won't ask again on that machine.
 If you don't, then _DOTE_ will not start.
@@ -83,11 +83,11 @@ Alternatively, you can let _DOTE_ install the free, open source _FFmpeg_ on your
 
 BEFORE:
 
-[![FFmpeg missing](images.v1/settings/ffmpeg-missing.png)](images.v1/settings/ffmpeg-missing.png)
+[![FFmpeg missing](../images.v1/settings/ffmpeg-missing.png)](../images.v1/settings/ffmpeg-missing.png)
 
 AFTER:
 
-[![FFmpeg installed](images.v1/settings/ffmpeg-installed.png)](images.v1/settings/ffmpeg-installed.png)
+[![FFmpeg installed](../images.v1/settings/ffmpeg-installed.png)](../images.v1/settings/ffmpeg-installed.png)
 
 Like many other software, _DOTE_ has to do this extra step because of licensing restrictions.
 

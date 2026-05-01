@@ -14,7 +14,7 @@ Autobackup makes a _new copy_ of the current Transcript and writes that to disk 
 Autobackup does _not_ save the current Transcript automatically; that is a manual decision by the user.
 It just makes a series of backup copies at regular intervals if there are any new changes since the last one.
 
-[![Checkpoints and Autobackups](images.v1/versioncontrol/buttons.png)](images.v1/versioncontrol/buttons.png)
+[![Checkpoints and Autobackups](../images.v1/versioncontrol/buttons.png)](../images.v1/versioncontrol/buttons.png)
 
 ### Setting up Checkpoints and Autobackups <a id='setup'></a>
 
@@ -72,7 +72,7 @@ Hint: save your work frequently and make checkpoints regularly.
 
 ### Autobackup and restoring a Transcript <a id='autobackup'></a>
 
-[![Autobackup Peeking](images.v1/versioncontrol/autobackup-peek.png)](images.v1/versioncontrol/autobackup-peek.png)
+[![Autobackup Peeking](../images.v1/versioncontrol/autobackup-peek.png)](../images.v1/versioncontrol/autobackup-peek.png)
 
 _Autobackup_ is built into _DOTE_ in the following manner:
 
@@ -100,7 +100,7 @@ The _checkpoint_ system uses a special version control system behind the scenes,
 _Git_ is a secure, free, open source software with absolutely no advertising or spyware.
 DOTE implements a simple version control for a single user, but experienced users can also use GitHub and a Git GUI to collaborate on shared transcripts in a distributed manner.
 
-[![Checkpoint Peeking](images.v1/versioncontrol/checkpoint-peek.png)](images.v1/versioncontrol/checkpoint-peek.png)
+[![Checkpoint Peeking](../images.v1/versioncontrol/checkpoint-peek.png)](../images.v1/versioncontrol/checkpoint-peek.png)
 
 #### How to use checkpoints
 
@@ -134,7 +134,7 @@ Editing while peeking is not allowed.
 
 _DOTE_ provides a user interface to display exactly what has changed in the Transcript between specific autobackups as well as what has changed in the Transcript between specific checkpoints, eg. between the current version of the Transcript and the previous checkpoint version.
 
-[![Compare](images.v1/versioncontrol/compare.png)](images.v1/versioncontrol/compare.png)
+[![Compare](../images.v1/versioncontrol/compare.png)](../images.v1/versioncontrol/compare.png)
 
 ##### Comparing checkpoints
 
@@ -146,7 +146,7 @@ The current audio track will be playable (but the video will not be visible).
 And you can use [Find](find.md) to locate a text string in the earlier version.
 Because you are only peeking at an earlier version, the Transcript and the sync-codes will _not_ be editable.
 
-[![Compare](images.v1/versioncontrol/compare2.png)](images.v1/versioncontrol/compare2.png)
+[![Compare](../images.v1/versioncontrol/compare2.png)](../images.v1/versioncontrol/compare2.png)
 
 The Compare function displays several useful bits of useful information:
 
@@ -198,7 +198,7 @@ The problem with Autobackups is that without due attention the number of backups
 Each Autobackup does not take up much space on disk, but still the list can grow long.
 A retention policy is needed.
 
-[![Prune Autobackups](images.v1/versioncontrol/prune.png)](images.v1/versioncontrol/prune.png)
+[![Prune Autobackups](../images.v1/versioncontrol/prune.png)](../images.v1/versioncontrol/prune.png)
 
 In the Autobackups panel, _DOTE_ offers 4 strategies to deal with this issue:
 

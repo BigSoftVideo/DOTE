@@ -16,7 +16,7 @@ There are links to the help guide for more in-depth guidance, as well as tutoria
 
 In this case, a _DOTE_ project is created and a new transcript is started.
 
-[![New Project](images.v1/howto/new-project.png)](images.v1/howto/new-project.png)
+[![New Project](../images.v1/howto/new-project.png)](../images.v1/howto/new-project.png)
 
 _DOTE_ gives the following support:
 
@@ -63,7 +63,7 @@ Watch [video tutorial](https://www.youtube.com/watch?v=0fELQTTOiW0) on YouTube.
 
 In the case of next time through, an already created transcript is revisited and revised.
 
-[![Next time through](images.v1/howto/next-time-edit.png)](images.v1/howto/next-time-edit.png)
+[![Next time through](../images.v1/howto/next-time-edit.png)](../images.v1/howto/next-time-edit.png)
 
 _DOTE_ gives the following support:
 
@@ -87,7 +87,7 @@ Watch [video tutorial](https://www.youtube.com/watch?v=Npfmg7MpCZw) on YouTube.
 
 In the case of revising an extant transcript (created in other software or copy/pasted from a published transcript) which needs to be heavily edited to match the _DOTE_ conventions.
 
-[![Import and conform](images.v1/howto/conform.png)](images.v1/howto/conform.png)
+[![Import and conform](../images.v1/howto/conform.png)](../images.v1/howto/conform.png)
 
 _DOTE_ gives the following support:
 
@@ -118,7 +118,7 @@ However, transcript clips made by someone else in an exported Project that is im
 
 Watch [video tutorial](https://www.youtube.com/watch?v=hc3CH9oOsKQ) on YouTube.
 
-[![Review](images.v1/howto/review.png)](images.v1/howto/review.png)
+[![Review](../images.v1/howto/review.png)](../images.v1/howto/review.png)
 
 In the last case, a transcript already prepared in _DOTE_ by someone else (eg. a colleague or a student) is shared and reviewed.
 _DOTE_ gives the following support:

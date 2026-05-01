@@ -40,7 +40,7 @@ To export a Project, do the following:
 7. Click `Save`.
 8. Share that file with others, who can import it.
 
-[![Export Project](images.v1/import/export-project.png)](images.v1/import/export-project.png)
+[![Export Project](../images.v1/import/export-project.png)](../images.v1/import/export-project.png)
 
 > **NOTE: Exporting and Importing Projects with Media files may take some time to complete, depending on the access speed of your storage device and the size of the media files. When importing, all the media files have to be written to the location of the new Project. This could take more than 5 seconds.**
 
@@ -56,7 +56,7 @@ If there already is a Project with that name, you can overwrite it.
 Be aware that this is destructive and the overwritten Project cannot be recovered.
 1. After you have imported the Project, you can open a shared Transcript in that Project using `Open Transcript` or `File ➔ Open Transcript` or <kbd>CTRL</kbd>+<kbd>O</kbd> [or <kbd>⌘</kbd>+<kbd>O</kbd> on macOS] using the `Project Manager`.
 
-[![Import Project](images.v1/import/import-project.png)](images.v1/import/import-project.png)
+[![Import Project](../images.v1/import/import-project.png)](../images.v1/import/import-project.png)
 
 ### Exporting a Transcript to a File <a id='export-transcript'></a>
 
@@ -69,7 +69,7 @@ If you wish to share a single Transcript, then follow these steps:
 The filename suggested will be the same as the name of the Transcript in `DOTE`.
 1. Click `Save` and the exported Transcript file will be created and saved (`.dote`).
 
-[![Export Transcript to File](images.v1/import/export-transcript.png)](images.v1/import/export-transcript.png)
+[![Export Transcript to File](../images.v1/import/export-transcript.png)](../images.v1/import/export-transcript.png)
 
 ### Importing a Transcript from a File <a id='import-transcript'></a>
 
@@ -84,7 +84,7 @@ If there already is a Transcript with that name, you can overwrite it.
 Be aware that this is destructive and the overwritten Transcript cannot be recovered.
 1. After you have imported the Transcript, you can open it using `Open Transcript` or `File ➔ Open Transcript` or <kbd>CTRL</kbd>+<kbd>O</kbd> [or <kbd>⌘</kbd>+<kbd>O</kbd> on macOS] using the `Project Manager`.
 
-[![Import Transcript from File](images.v1/import/import-transcript.png)](images.v1/import/import-transcript.png)
+[![Import Transcript from File](../images.v1/import/import-transcript.png)](../images.v1/import/import-transcript.png)
 
 ### Notes
 

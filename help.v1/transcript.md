@@ -4,7 +4,7 @@ Watch [basic](https://www.youtube.com/watch?v=dqEehi8Jaa0) and [advanced](https:
 
 Once a Project with a Transcript is created or opened, with an [attached media file](media.md), then you can immediately type in the Transcript Editor.
 
-[![Editor](images.v1/transcript/editor.png)](images.v1/transcript/editor.png)
+[![Editor](../images.v1/transcript/editor.png)](../images.v1/transcript/editor.png)
 
 ### Some rules that _DOTE_ follows
 
@@ -27,24 +27,24 @@ Note that emojis are not monospaced, so using them will disrupt vertical alignme
 Once one enters one or more speaker designations, then _DOTE_ will prompt you with a list as you type a new line.
 If one types <kbd>CTRL</kbd>+<kbd>ENTER</kbd> or <kbd>⌘</kbd>+<kbd>ENTER</kbd> before typing, then a drop-down list of all known speakers + known and default named subtier types will appear.
 
-[![Speaker ids](images.v1/transcript/id.png)](images.v1/transcript/id.png)
+[![Speaker ids](../images.v1/transcript/id.png)](../images.v1/transcript/id.png)
 
 This list can get quite long if you have many speakers and many subtier type instances.
 - If a speaker-id is long, then the default id column width can be changed in [Settings](settings.md).
 _DOTE_ will warn you when the speaker designation + named subtier type is too long for the designated column width.
 The default is 8 characters, which is good for short speaker-ids, eg. "ART".
 
-[![Name column in Settings](images.v1/transcript/id-settings.png)](images.v1/transcript/id-settings.png)
+[![Name column in Settings](../images.v1/transcript/id-settings.png)](../images.v1/transcript/id-settings.png)
 
 The name column width can also be changed in each Transcript.
 
-[![Name column in Options](images.v1/transcript/id-options.png)](images.v1/transcript/id-options.png)
+[![Name column in Options](../images.v1/transcript/id-options.png)](../images.v1/transcript/id-options.png)
 
 #### Language subtier type
 
 - Language [sub-tier types](tiers.md) for translations can be set in [Transcript Options](settings.md#options).
 
-[![Subtier types](images.v1/transcript/types.png)](images.v1/transcript/types.png)
+[![Subtier types](../images.v1/transcript/types.png)](../images.v1/transcript/types.png)
 
 Just add a three-letter code for each extra language sub-tier (eg. _eng_).
     - Although the usage of ISO 639-2 language codes is strongly advised, it is not enforced.
@@ -57,7 +57,7 @@ Watch [video tutorial](https://www.youtube.com/watch?v=vJf6e4Birhg) on YouTube.
 - After a speaker name, there should _always_ be a <kbd>TAB</kbd>, followed by the transcription text for that speaker.
 - Do the same for speaker continuation on new lines and for lines with pauses or comments.
 
-[![TABs](images.v1/transcript/tabs.png)](images.v1/transcript/tabs.png)
+[![TABs](../images.v1/transcript/tabs.png)](../images.v1/transcript/tabs.png)
 
 - _Never_ use <kbd>TAB</kbd> in the body of the transcript.
 Use <kbd>SPACE</kbd> instead to create whitespace in the body of the transcript; otherwise, the layout, auto-formatting and transcript heuristics will not work.
@@ -80,12 +80,12 @@ Watch [video tutorial](https://www.youtube.com/watch?v=-8s8c1pVeLQ) on YouTube.
 
 - If your cursor is in the speaker name column, then as you type a list of known and default speaker + named subtier types will appear in a drop-down list.
 
-[![Autocomplete](images.v1/transcript/autocomplete1.png)](images.v1/transcript/autocomplete1.png)
+[![Autocomplete](../images.v1/transcript/autocomplete1.png)](../images.v1/transcript/autocomplete1.png)
 
 - If your cursor is in the body of the transcript, then <kbd>CTRL</kbd>+<kbd>ENTER</kbd> will display a drop-down list of choices for autocompletion will appear.
 These include a range of [single and paired symbols](jefferson.md).
 
-[![Autocomplete](images.v1/transcript/autocomplete2.png)](images.v1/transcript/autocomplete2.png)
+[![Autocomplete](../images.v1/transcript/autocomplete2.png)](../images.v1/transcript/autocomplete2.png)
 
 You can also type the first letter (and second) in the transcript body and a list will appear with a selection matching the letter(s), eg. type <kbd>p</kbd> and a list of pitch related symbols will appear.
 - Some types of paired transcription symbols are automatically completed and highlighted, eg. `(( ))` or `< >` or `{ }`.
@@ -111,7 +111,7 @@ More fixed symbols and pairs will be added in later releases, as well as a user-
 
 The scroll bar shows a _minimap_ of where the other instances of the currently selected text or [FIND](find.md) matches are located in the whole transcript. Neat! 😇
 
-[![Minimap](images.v1/transcript/minimap.png)](images.v1/transcript/minimap.png)
+[![Minimap](../images.v1/transcript/minimap.png)](../images.v1/transcript/minimap.png)
 
 #### Margin indicator <a id='margin'></a>
 

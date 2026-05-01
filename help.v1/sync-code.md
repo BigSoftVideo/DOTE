@@ -5,7 +5,7 @@ Watch [basic](https://www.youtube.com/watch?v=PLUGMdFsbu4) and [advanced](https:
 A _sync-code_ is a bookmark at a specific timestamp (or timecode) in the [timeline](timeline.md) that can be associated with a specific line in the [transcript](transcript.md).
 Once sync-codes are manually added, this allows a user to quickly locate and playback specific lines in the transcript.
 
-[![Sync-codes](images.v1/sync-code/sync-code.png)](images.v1/sync-code/sync-code.png)
+[![Sync-codes](../images.v1/sync-code/sync-code.png)](../images.v1/sync-code/sync-code.png)
 
 ### Entering and modifying sync-codes
 
@@ -23,7 +23,7 @@ Select the sync-code, right click, and choose delete.
 Unless `CS Mode` (show highlight of current sync-code block) is turned on, the Transcript will not automatically synchronise with the timeline during playback.
 You can turn on `CS Mode`  mode by clicking the button at the top right of the Editor to enable the current [sync-code](sync-code.md) block to be highlighted as you play the media.
 
-[![CS Mode](images.v1/sync-code/cs-mode.png)](images.v1/sync-code/cs-mode.png)
+[![CS Mode](../images.v1/sync-code/cs-mode.png)](../images.v1/sync-code/cs-mode.png)
 
 ### Notes
 

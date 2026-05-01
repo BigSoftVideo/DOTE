@@ -12,7 +12,7 @@ Syncing media clips is something to undertake outside _DOTE_, eg. with video edi
 
 Watch [video tutorial](https://www.youtube.com/watch?v=cKWagutZV4I) on YouTube.
 
-[![Media Manager](images.v1/media/media-manager.png)](images.v1/media/media-manager.png)
+[![Media Manager](../images.v1/media/media-manager.png)](../images.v1/media/media-manager.png)
 
 ### How to add a media source to your current Project <a id='add'></a>
 
@@ -43,9 +43,9 @@ Watch [video tutorial](https://www.youtube.com/watch?v=_WLkZVxamhY) on YouTube.
     Importing videos in this format may cause _DOTE_ to freeze or crash, so make sure your videos are formatted in a non-Quicktime `MP4` format.
     - 2D and 360-degree _monoscopic_ _equirectangular_ video formats are supported at present (_not_ stereoscopic).
 
-[![Format](images.v1/media/format.png)](images.v1/media/format.png)
+[![Format](../images.v1/media/format.png)](../images.v1/media/format.png)
 
-[![Projection](images.v1/media/projection.png)](images.v1/media/projection.png)
+[![Projection](../images.v1/media/projection.png)](../images.v1/media/projection.png)
 
 - Audio only formats can be imported as well.
     In that case, the video panel will be empty.
@@ -60,11 +60,11 @@ They are selected from the list of media in the pool and activated.
 
 BEFORE:
 
-[![Inactive media](images.v1/media/inactive.png)](images.v1/media/inactive.png)
+[![Inactive media](../images.v1/media/inactive.png)](../images.v1/media/inactive.png)
 
 AFTER:
 
-[![Activate media](images.v1/media/active.png)](images.v1/media/active.png)
+[![Activate media](../images.v1/media/active.png)](../images.v1/media/active.png)
 
 1. Select one or more media sources from the list to be activated or de-activated by clicking the tickbox.
 1. Click `Close`.
@@ -81,11 +81,11 @@ Clicking on the same column header switches between ascending/descending sort or
 1. A media source can be selected.
 Then click and drag it to a new position vertically in the list and drop.
 
-[![Rearrange media](images.v1/media/drag2.png)](images.v1/media/drag2.png)
+[![Rearrange media](../images.v1/media/drag2.png)](../images.v1/media/drag2.png)
 
 Note that the Media Manager control panel can be resized by dragging the handle at the bottom right.
 
-[![Rearrange media](images.v1/media/drag.png)](images.v1/media/drag.png)
+[![Rearrange media](../images.v1/media/drag.png)](../images.v1/media/drag.png)
 
 ### How to delete a media source from your current Project <a id='delete'></a>
 
@@ -98,4 +98,4 @@ The file(s) will be sent to the Recycle Bin or Trash on your computer.
 If you empty the Recycle Bin or Trash, then the file(s) will be lost.
 If you wish to use the file(s) again, then restore and make a copy first in another location.
 
-[![Delete media](images.v1/media/delete.png)](images.v1/media/delete.png)
+[![Delete media](../images.v1/media/delete.png)](../images.v1/media/delete.png)

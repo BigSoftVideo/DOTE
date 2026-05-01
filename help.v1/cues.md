@@ -7,7 +7,7 @@ The idea is to bring a _cinematic experience_ to working with transcripts, such 
 This is also called _recamming_, ie. using a virtual camera to show a different view of the original footage.
 Cool! 🍦
 
-[![Video-cues](images.v1/cues/video-cue-edit.png)](images.v1/cues/video-cue-edit.png)
+[![Video-cues](../images.v1/cues/video-cue-edit.png)](../images.v1/cues/video-cue-edit.png)
 
 Note that video-cues are independent of [sync-codes](sync-code.md).
 Sync-codes index specific lines in the transcript (in the Editor panel) to specific timecodes in the media timeline.
@@ -18,7 +18,7 @@ Watch [video tutorial](https://www.youtube.com/watch?v=vCE8AY_HmiU) on YouTube.
 
 ### Adding video-cues <a id='add-cue'></a>
 
-[![Video-cues](images.v1/cues/video-cue-add.png)](images.v1/cues/video-cue-add.png)
+[![Video-cues](../images.v1/cues/video-cue-add.png)](../images.v1/cues/video-cue-add.png)
 
 1. Open the [video-cue timeline](media.md#media) for the specific video source that is to be cued in the [Primary video panel](video.md).
 2. Turn on [lock video to video-cue](video.md#video-tips) by selecting the slider button in the target video panel(s).
@@ -41,7 +41,7 @@ There are two ways to edit a video-cue:
 
 1. Select the desired video-cue on the media timeline, then press the `MODIFY VIDEO-CUE` button.
 
-[![Video-cues](images.v1/cues/video-cue-edit2.png)](images.v1/cues/video-cue-edit2.png)
+[![Video-cues](../images.v1/cues/video-cue-edit2.png)](../images.v1/cues/video-cue-edit2.png)
 
 - Using this method means that the viewport should be changed after selecting the video-cue but before pressing the `MODIFY VIDEO-CUE` button, otherwise one cannot change the video-cue to match the selected viewport.
 
@@ -54,7 +54,7 @@ The video-cue can then be updated with the current viewport in the [Primary Vide
 - If a viewport in the Primary video panel has been changed, then the `Set camera to current view` button will be active (otherwise it will be greyed out).
 Clicking it will change the viewport for the selected video for the current video-cue.
 
-[![Video-cues](images.v1/cues/video-cue-edit3.png)](images.v1/cues/video-cue-edit3.png)
+[![Video-cues](../images.v1/cues/video-cue-edit3.png)](../images.v1/cues/video-cue-edit3.png)
 
 - Video-cues can be deleted.
     - Select the video-cue, open the video-cue panel, and choose `Delete`.
