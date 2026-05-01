@@ -1,4 +1,35 @@
-## How to find the logfile
+
+## Submitting an Error Report
+
+With DOTE v2.0 it has become much easier to send the developers an Error Report with useful information.
+
+One can manually submit an Error Report, usually when the user detects that some sort of error has occurred, or _DOTE_ will automatically submit an error report because it has detected an error (a notification pops up that it has done so).
+
+To change the way in which error reporting works, open the [application Settings](settings.md#error-settings) from the button on the top right of the DOTE window or from the `File` menu.
+
+[![Select waveform](images/errors/reporting-options.png)](images/errors/reporting-options.png)
+
+### Manually submit an Error Report
+
+You can easily submit an [error report](logfile.md) to our developers using the link `Report an Error to the Developers` under the `Help` menu.
+
+[![Select waveform](images/errors/error-manual.png)](images/errors/error-manual.png)
+
+1. Type a description of the error in the `Error Description` box.
+2. Optionally you can add your email address for possible correspondence with the developers.
+You can select the email suggested, which is the one registered for the Edition license for your device.
+1. Additionally, you can choose what will be included in the Error Report that is sent.
+The default is to include the full log of errors and warnings, as well as application settings, transcript settings and anonymised Transcript meta-data (not the Transcript itself).
+You can downscale what is sent to just your textual description and/or just the error message (not the log) by toggling between these choices.
+You can also toggle off the other inclusions.
+1. Details of what will be sent can be previewed at the bottom.
+2. When ready, click `Submit Report`.
+
+[![Select waveform](images/errors/error-detail.png)](images/errors/error-detail.png)
+
+The automatic Error Report submission process has the same options.
+
+### How to find the logfile
 
 Each time _DOTE_ is opened, a new logfile is created. The filename shows the date (`year-month-day`) and time
 (`hour-minute-second`) of creation. When attaching a logfile to a bugreport, select the one
@@ -7,11 +38,11 @@ that was created just before you experienced the bug, or attach multiple logfile
 The correct log folder can be opened from the _DOTE_ `Help` menu.
 The screenshot below shows what might be contained within that folder.
 
-![Screenshot of the folder containing the logfiles](images/errors/log-folder.png)
+![[Folder containing logfiles](images/errors/log-folder.png)](images/errors/log-folder.png)
 
-Alternatively, you can navigate to the folder manually as follows.
+Alternatively, you can navigate to the log file folder manually as follows.
 
-### Logfiles on Windows
+### Logfiles on Windows 11
 
 1. Open a file explorer window (for example by pressing <kbd>WIN</kbd>+<kbd>E</kbd>)
 2. Press <kbd>CTRL</kbd> + <kbd>L</kbd>

@@ -1,18 +1,21 @@
 ## Video and audio playback
 
-Watch [basic](https://www.youtube.com/watch?v=v86-xkdVwL4) and [advanced](https://www.youtube.com/watch?v=t8yD07eSFWs) video tutorials on YouTube.
+DOTE supports two ways to playback the media associated with the current _DOTE_ project, namely the Media Playback Controls panel and Keyboard Shortcuts.
 
-There are two ways to playback the media associated with the current _DOTE_ project.
+Watch the [basic](https://www.youtube.com/watch?v=v86-xkdVwL4) and [advanced](https://www.youtube.com/watch?v=t8yD07eSFWs) video tutorials on YouTube.
 
 [![Play](images/play/play-buttons.png)](images/play/play-buttons.png)
 
-1. Use the video transport buttons above the main timeline.
-2. Use the shortcuts, see below.
-Note: over over the buttons and you will see the relevant shortcut.
+1. Use the video transport buttons in the Media Playback Controls panel.
+If it is not visible, then add it to your layout by clicking on `Panels & Layouts` button on the top ribbon bar, and then Add `New Panel: Media Player Controls`.
+1. Click on the buttons... OR use the shortcuts, see below.
+Note: hover over the buttons and you will see a description and the relevant shortcut.
 
 - To play and pause the video, press <kbd>CTRL</kbd>+<kbd>SPACE</kbd> [<kbd>⌘</kbd>+<kbd>N</kbd> on macOS].
 - To play the video and return on pause to the current position of the playhead in the timeline.
     - <kbd>CTRL</kbd>+<kbd>SHIFT</kbd>+<kbd>SPACE</kbd> [<kbd>⌘</kbd>+<kbd>⇧</kbd>+<kbd>N</kbd> on macOS]
+    - This is useful when trying to track down the onset of some action/speech/overlap in the video(s).
+Returning to the start point allows one to recalibrate accurately the onset and replay than when the playhead pauses later during normal playback.
 - To jump back, press <kbd>CTRL</kbd>+<kbd>J</kbd> [<kbd>⌘</kbd>+<kbd>J</kbd>] and to jump forwards press <kbd>CTRL</kbd>+<kbd>K</kbd>.
 Add the <kbd>SHIFT</kbd> or <kbd>⇧</kbd> key to jump by a bigger interval.
     - <kbd>CTRL</kbd>+<kbd>J</kbd>/<kbd>⌘</kbd>+<kbd>J</kbd> = 1 second back
@@ -22,6 +25,9 @@ Add the <kbd>SHIFT</kbd> or <kbd>⇧</kbd> key to jump by a bigger interval.
 - To step forward or backwards by one frame (may skip a frame)
     - <kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>J</kbd> or [<kbd>⌘</kbd>+<kbd>⌥</kbd>+<kbd>J</kbd>] = one frame back
     - <kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>K</kbd> or [<kbd>⌘</kbd>+<kbd>⌥</kbd>+<kbd>K</kbd>] = one frame forward
+ - To jump to the onset or close of a selected segment of the timeline
+    - <kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>[</kbd> or [<kbd>⌘</kbd>+<kbd>⌥</kbd>+<kbd>[</kbd>] = onset of selected segment
+    - <kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>]</kbd> or [<kbd>⌘</kbd>+<kbd>⌥</kbd>+<kbd>]</kbd>] = close of selected segment
 
 See the guide to using the [Timeline](timeline.md) for help on looping.
 

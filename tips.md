@@ -13,14 +13,15 @@ Here you will find ideas and solutions to specific tasks that you might wish to 
 - [How do I realign overlaps and subtiers?](#tip30)
 - [How do I manually make short excerpts of a transcript with consistent line numbering?](#tip6)
 - [How do I manage a default set of alignment symbols for Mondadaian Transcripts?](#tip7)
-- [How do I see all underlinings in a Transcript that has errors or warnings?](#tip8)
+- [How do I see the underlining on a line in a Transcript that has errors or warnings?](#tip8)
 - [How do I reuse a Transcript with sync-codes to create a new Transcript?](#tip17)
 - [How do I use _DOTE_ to comment and tag an audiovisual source before transcribing?](#tip9)
 - [How do I see hidden characters in the Editor?](#tip23)
+- [How do I give a presentation with subtitles using _DOTE_?](#tip38)
 - [How to use proxy videos to share Projects with sensitive video clips?](#tip31)
-- [How do I report an error or problem using the log files?](#tip5)
+- [How do I report an error or problem when using _DOTE_?](#tip5)
 - [Why do I need more than one Timeline?](#tip24)
-- [Why would I use the secondary video view?](#tip18)
+- [Why would I use more than one Media Player panel?](#tip18)
 - [Why can I not copy/paste underlined text?](#tip19)
 - [Why would I use Checkpoints?](#tip29)
 - [Why would I use Video-cues?](#tip32)
@@ -42,16 +43,16 @@ Here you will find ideas and solutions to specific tasks that you might wish to 
 
 ### What is a Project? <a id='tip27'></a>
 
-A _DOTE_ [Project](project.md) is a container for one or more [media clips](media.md) and one or more Transcripts.
+A _DOTE_ [Project](project.md) is a container for one or more [media clips](media-manager.md) and one or more Transcripts.
 In practical terms, it is a folder on your computer's file system.
 The guiding principle is that a Project _represents a single event_, which can be transcribed in different ways.
 The single event may have been recorded with one device or many (cameras and/or microphones), but all the recordings are synchronised to match the duration of the event.
-Note that a user can open the folder in which an existing Project resides by clicking the button in [Transcript Options](settings.md#options).
+Note that a user can open the folder in which an existing Project resides by clicking the `Open Transcript Directory` button in [Transcript Options](settings.md#options) or [Project & Transcript Information](project-info.md).
 
 It is possible to add media clips of different durations, as well as clips that are recordings of different events, to a _single_ Project, but then that defeats the principle built into _DOTE_.
 This practice will result in waveforms and timelines (as well as sync-codes and video-cues) that no longer align and match.
 Furthermore, there may be spurious and unpredictable behavior since it is not a practice that we support.
-We do not recommend stuffing a Project with lots of disparate media clips; instead make a new Project for each event and populate each Project with clips that are synchronised.
+We do not recommend stuffing a Project with lots of disparate and unconnected audio-visual clips; instead make a new Project for each event and populate each Project with clips that are synchronised.
 
 #### What do I call my Projects and my Transcripts? <a id='tip28'></a>
 
@@ -63,9 +64,11 @@ Given that one or more Transcripts can be created in a Project, then each could 
 Sometimes a video or audio file cannot be opened by _DOTE_ or the waveform cannot be generated, neither with the inbuilt waveform generator nor using _FFmpeg_ (in [Settings](settings.md); see the [installation instructions](install.md)).
 There are a variety of reasons for this.
 
-If you haven't installed FFmpeg on your computer, then we recommend that you do this first, and manually add the file path in [Settings](settings.md#ffmpeg).
 FFmpeg is a powerful open source video processor, which we cannot include inside DOTE for licensing reasons.
-Restart _DOTE_ and create a new Project and import the media again or open [Media Manager](media.md) and regenerate the waveform using the button on the far right for the relevant media.
+However, be default _DOTE_ installs FFmpeg for you.
+To check, you can see its status in [Settings]((settings.md#ffmpeg)).
+If it is not installed, then we recommend that you do this manually by clicking on the button in [Settings].
+Restart _DOTE_ and create a new Project and import the media again or open [Media Manager](media-manager.md) and regenerate the waveform using the button on the far right for the relevant media.
 
 Another solution is to transcode the video into a format that _DOTE_ can understand and reimport it into the _DOTE_ project.
 
@@ -86,6 +89,8 @@ You could use this reduced version as a proxy in _DOTE_ for the purposes of tran
 _DOTE_ has some golden rules to make your life easier:
 
 [![Tip 2](images/tips/tip2.png)](images/tips/tip2.png)
+
+In the screenshot above, the TABS (`→`) and SPACES (`·`) are indicated in light grey.
 
 1. _Always_ use a consistent speaker-id _followed by_ a colon <kbd>:</kbd> and _then_ a <kbd>TAB</kbd> at the start of a primary or secondary speaker tier.
 _Never_ use <kbd>SPACE</kbd>s after that colon.
@@ -112,7 +117,7 @@ If you do, then at least turn off error and warning messages to avoid colouring 
 
 Transcripts are stored on your local computer's file system and are accessible when not online.
 They are _not_ stored on the cloud, which would mean that they are only accessible while online.
-Furthermore, _DOTE_ is not like _GoogleDocs_; it does not send your keystrokes to the cloud, leaving no trace on your local computer.
+Furthermore, _DOTE_ is not like _GoogleDocs_; it does _not_ send your keystrokes to the cloud, leaving no trace on your local computer.
 Anything you type in your Transcript is not saved until you decide to [save](projects.md#saving) it.
 And when you save, the changes are stored on your local computer's file system.
 If you create a new [Checkpoint](versioncontrol.md), then that does save the recent changes, but this is also manually triggered by the user.
@@ -141,11 +146,14 @@ You may have to use this shortcut twice: first to pause the loop; second to dese
 1. Repeat from step 1.
     - You may wish to add [sync-codes](sync-code.md) regularly as you proceed.
 
-In this fashion, you can work through the media source(s) incrementally without taking your hands off the keyboard. Try it. You might like it! 😻
+In this fashion, you can work through the media source(s) incrementally without taking your hands off the keyboard.
+Try it.
+You might like it! 😻
 
 ### How do I share a _DOTE_ Project or Transcript with someone else? <a id='tip4'></a>
 
-It is easy to [share a _DOTE_ Project with someone](import.md) using the export/import Project or Transcript functionality in _DOTE_.
+It is easy to [share a _DOTE_ Project with someone](export.md) using the Export Project or Transcript to File functionality in _DOTE_.
+The person who receives the file you exported, can [Import Project or Transcript from File](import.md) into _DOTE_.
 
 ### How do I realign overlaps and subtiers? <a id='tip30'></a>
 
@@ -157,10 +165,12 @@ This is useful, for example, when editing a transcript and adding/deleting chara
 - Alternatively, use the shortcut <kbd>CTRL</kbd>+<kbd>.</kbd> or <kbd>⌘</kbd>+<kbd>.</kbd> to open the realignment dialog box.
 - All considering, _DOTE_ does a pretty good job, but it may fail on very complex or non-standard cases.
 
-### How do I report an error or problem using the log files? <a id='tip5'></a>
+### How do I report an error or problem when using _DOTE_? <a id='tip5'></a>
 
-In order to give you better help, our developers may need to look at the associated log file.
-There are [instructions](logfile.md) to help you locate the relevant log file.
+You can decide how [error reporting](errors.md) is managed by _DOTE_.
+Error reporting can be automated or manual, including user-selected details such as DOTE's operation at the time of the error, anonymised transcript details and log files.
+
+You can also send an [Error Report](logfile.md) to the developers directly from within _DOTE_.
 
 ### How do I manually make short excerpts of a Transcript with consistent line numbering? <a id='tip6'></a>
 
@@ -168,7 +178,7 @@ Some researchers wish to make small excerpts from a long source Transcript with 
 We could implement this feature in _DOTE_, but as soon as a line is added to or deleted from the Transcript in the editor, then the line numbering would change through the rest of the source Transcript.
 Thus, the line numbers of the short excerpts would no longer match the source exported from the new Transcript.
 We feel that it is best to finalise a Transcript by exporting it in full, and then create excerpts manually from that hard-coded source.
-- The best way to do this is to `Export to RTF` with the line numbering your prefer.
+- The best way to do this is to [`Export to RTF`](exportRTF.md) with the line numbering your prefer.
 - Then import the `.RTF` file into a word processor.
 - Copy and paste the relevant lines for each excerpt, including the hard-coded line numbers, into a new document.
 
@@ -177,7 +187,7 @@ We feel that it is best to finalise a Transcript by exporting it in full, and th
 If you would like a specific ordered list of alignment symbols to be always available by default when you create your [subtier names and symbol assignments](tiers-md) in [Transcript Options](settings.md#options) for a specific Transcript, then they can be added and edited in the [Settings](settings.md).
 The default list is ordered, so when adding an alignment symbol using the dropdown list in [Transcript Options](settings.md#options), all the available symbols will appear in a list in that order (if a symbol has already been used, it will not appear in that list).
 
-### How do I see all underlinings in a Transcript that has errors or warnings? <a id='tip8'></a>
+### How do I see the underlining on a line in a Transcript that has errors or warnings? <a id='tip8'></a>
 
 If there are [errors or warnings](errors.md) in your Transcript, then the red or blue line markings may overshadow the underlinings on the same line(s).
 Using the buttons at the top right of the Transcript panel, you can temporarily toggle errors or warnings off in order to see the underlining underneath.
@@ -212,15 +222,36 @@ There are different strategies to accomplish this:
    Autocompletion will suggest appropriate tags on a new line.
    Each tagged line can be anchored with a [Sync-code](sync-code.md) to the timeline, so it is easy to jump to that position in the media and play.
 
+3. A third way is to markup short descriptions of sync-coded content with [Transcript Clips](transcript-clip.md).
+
+4. A fourth way is to use _DOTEbase_ to add [Media Clips](https://bigsoftvideo.github.io/DOTEbase/media-clip.html) to the Project before transcribing anything.
+This is not possible in _DOTE_, which is solely to support transcribing.
+
 Thus, a long audiovisual source can be marked up for possible further exploration without needing to transcribe everything.
 If a shorter clip looks interesting enough to transcribe, then a [Duplicate Transcript](projects.md#duplicate) with sync-codes can be created in the current Project and transcription can start at the timecode of interest marked by the tag/comment.
 The tag/comment Transcript can be reopened later to locate other interesting phenomena to be transcribed.
 
 ### How do I see hidden characters in the Editor? <a id='tip23'></a>
 
-If you wish to see any hidden characters in the Editor (eg. `SPACE`, `TAB`, `RETURN`), then select the text of interest.
+If you wish to see any hidden characters in the Editor (eg. `SPACE`, `TAB`, `RETURN`), then select all the text that is of interest.
 The hidden characters will be highlighted in light grey over a light blue background.
 This can be useful for spotting unnecessary or spurious characters that have infiltrated the body of the Transcript.
+
+### How do I give a presentation with subtitles using _DOTE_? <a id='tip38'></a>
+
+If you wish to play one of your media sources full screen for a presentation with no other panels visible, then that is easy with _DOTE_.
+Just click on the maximize panel button on the top right of the [Media Player](media-panel.md) panel.
+Under [Panels & Layouts](ui.md), you might also wish to change the Application Layout Mode to `Minimal` and/or the Panel Action to `Zen`.
+
+If you wish to play one of your media sources full screen with subtitles, then that is also easy to setup.
+Click on the [Subtitles](subtitles.md) button at the top of the [Media Player](media-panel.md) panel that you wish to play full screen.
+Then click on the maximize panel button on the top right of the [Media Player](media-panel.md) panel.
+Under [Panels & Layouts](ui.md), you might also wish to change the Application Layout Mode to `Minimal` and/or the Panel Action to `Zen`.
+
+If you wish to play more than one of your media sources at the same time with different subtitles, then _DOTE_ does the trick!
+[Configure a new layout](layout.md) with only the two or Media Player panels visible in a side-by-side or stacked vertical arrangement, ie. all other panels are hidden or closed.
+Click on the [Subtitles](subtitles.md) button at the top of each [Media Player](media-panel.md) panel and configure each with a different subtitle file.
+Under [Panels & Layouts](ui.md), you might also wish to change the Application Layout Mode to `Minimal` and/or the Panel Action to `Zen`.
 
 ### How to use proxy videos to share Projects with sensitive video clips? <a id='tip31'></a>
 
@@ -230,36 +261,34 @@ There are several ways to deal with this, assuming that the Transcript does not 
 - First, one can simply [export the Project](import.md) without any media (nor active media) included.
 In that case, those who receive and import the Project would only be able to see the Transcript(s).
 Any sync-codes or video-cues that are present simply won't work because there is no media.
-- Second, one can use the [Media Manager](media.md) to add an extra proxy media clip that is audio only, if that is acceptably anonymised.
+- Second, one can use the [Media Manager](media-manager.md) to add an extra proxy media clip that is audio only, if that is acceptably anonymised.
 Most video editing software allows the audio track to be stripped off and exported as a WAV or MP3 file.
-When the Project is ready to export, use the [Media Manager](media.md) to turn off all active media, except for the audio only clip.
+When the Project is ready to export, use the [Media Manager](media-manager.md) to turn off all active media, except for the audio only clip.
 Then export the Project, including only active media.
 Those who receive and import the Project will only have access to the audio only proxy media, and any sync-codes present will work, but video-cues will not.
-- Third, one can use the [Media Manager](media.md) to add an extra proxy media clip that is an anonymised version of the video.
+- Third, one can use the [Media Manager](media-manager.md) to add an extra proxy media clip that is an anonymised version of the video.
 There are different solutions to anonymising video clips, which will not be elaborated on here.
 And if there are more than one active video clips, one or more can be anonymised
-When the Project is ready to export, use the [Media Manager](media.md) to turn off all active media, except for the anonymised video clip(s).
+When the Project is ready to export, use the [Media Manager](media-manager.md) to turn off all active media, except for the anonymised video clip(s).
 Then export the Project, including only active media.
 Those who receive and import the Project will only have access to the anonymised proxy media, and any sync-codes and video-cues present will work.
 
-### Why would I use the secondary video view? <a id='tip18'></a>
+### Why would I use more than one Media Player panel? <a id='tip18'></a>
 
-For many use cases, one video view is adequate for transcribing.
-However, there are other use cases in which it is very useful to have a [second independent, but synced view](video.md) on the same video clip.
+For many use cases, one Media Player panel is adequate for transcribing, especially with one video source in which there is very little movement of people or the camera.
+However, there are other use cases in which it is very useful to have a [second independent, but synced view](media-panel.md) on the same video clip.
+Moreover, if one has several video recordings (from different cameras) of the same event, then it is highly desirable to have multiple Media Players open, each showing one of the sources simultaneously during playback.
 
-- If the video clip is 2D, then it can be useful to open the `Secondary video` panel and zoom in on a rectangular portion of the video screen, while at the same time viewing the zoomed out view of the whole video screen.
-- If the video clip is 360, then it can be useful to set up a locked primary view using [video-cues](cues.md) to zoom in (and pan) around the spherical video.
-The unlocked `Secondary video` view can focus in on a different angle and zoom of the 360 to simultaneously show an alternative view.
+- If the video clip is 2D, then it can be useful to open a new `Media Player` panel and zoom in on a rectangular portion of the video screen, while at the same time viewing the zoomed out view of the whole video screen.
+- If the video clip is 360-degree, then it can be useful to set up a primary video-cue locked Media Player using [video-cues](cues.md) to zoom in (and pan) around the spherical video.
+A second `Media Player` panel can focus in on a different angle and zoom of the 360 to simultaneously show an alternative view of the action.
 
 ### Why do I need more than one Timeline? <a id='tip24'></a>
 
-The primary [Timeline](timeline.md) is placed at the top above the primary video panel.
-It is where most of the work happens, time intervals, looping, playback.
-It is also where the [sync-codes](sync-code.md) are indicated.
-The secondary Timeline(s) are placed below the video panel(s).
-There is a secondary Timeline for each [media source](media.md) attached to a Transcript.
-If you use them, these are where the [video-cues](cues.md) are indicated.
-Moreover, if the Timelines are independent (and not synced), then one can focus each Timeline at different zoom levels, eg. the primary Timeline could be zoomed right in on an 8-second excerpt, while the secondary Timeline is zoomed out to give a macro-perspective on the whole clip.
+A [Timeline](timeline.md) is a useful tool for monitoring the waveform for a media source.
+It is where most of the work happens, such as working with time intervals, looping and playback.
+It is also where the [sync-codes](sync-code.md) and [video-cues](cues.md) are indicated.
+A second Timeline can be opened to create a different view of a waveform, sync-codes or video-cues, eg. zoomed in or displaying the waveform of a different media source, eg. one Timeline could be zoomed right in on an 8-second excerpt focusing on the sync-codes only, while another Timeline is zoomed out to give a macro-perspective on the whole clip focusing on the video-cues only.
 
 ### Why can I not copy/paste underlined text? <a id='tip19'></a>
 
@@ -313,7 +342,7 @@ Changing the font size in the editor will only change the size of the transcript
 
 ### What is the `Command Palette`? <a id='tip21'></a>
 
-For advanced users, there is a `Command Palette` (<kbd>F1</kbd>) or right click in the editor) that lists all commands that can be executed in the editor, many of which do not have shortcuts.
+For advanced users, there is a `Command Palette` (<kbd>F1</kbd>) or right click in the [Transcript Editor](transcript.md) that lists all commands that can be executed in the editor, many of which do not have shortcuts.
 The long list is searchable.
 Be careful selecting some of the more esoteric commands because they may do something undesirable to your transcript.
 Note: the list of commands included commands that do not work in _DOTE_ (yet).
@@ -339,15 +368,18 @@ On the other hand, unicode symbols are monospaced, so they can be used everywher
 _DOTE_ fully supports two sets of [transcription conventions](conventions.md), namely [Jeffersonian](jefferson.md) and [Mondadaian](mondada.md).
 If you would like to transcribe according to another set, such as GAT2 or your own system, then you can do so in the Editor, but _DOTE_ will not be able to assist you.
 In fact, if you do not follow the basic formatting of a line that is expected by _DOTE_, then errors and warnings will be flagged.
-You can, of course, just toggle off the errors and warnings so they are not displayed, but they are still present, and so they will affect [Export to RTF and Export to SRT](export.md), for example.
+You can, of course, just [toggle off the errors and warnings](errors.md) so they are not displayed, but they are still present, and so they will affect [Export to RTF and Export to SRT](export.md), for example.
 
 ### Can I convert transcripts created with other software to use in _DOTE_? <a id='tip15'></a>
 
-At present, _DOTE_ does not support importing formats derived from other software.
-A simple solution is to just cut and paste the plain text transcript from the original into the Editor, but note that underlining will not be preserved.
+At present, _DOTE_ does not support importing formats derived from other software, unless they are formatted in a recognisable format (see [Import from JSON](importJSON.md) and [Import TXT file](importTXT.md) or [Import from Whisper](importWhisper.md)).
+
+A simple solution to importing is to just cut and paste the plain text transcript from the original into the Editor, but note that underlining will not be preserved.
 Any special timecodes embedded in the original will not be recognised, so the [sync-codes](sync-code.md) will have to be re-entered in _DOTE_.
+
 We may support importing at a later date with simple equivalence, but there are many features of _DOTE_ that are unique and cannot be mapped onto other formats or data structures.
 If you would like to program a convertor, then the data structures required in _DOTE_ can be determined from the `.project.json` file in any [Project folder](projects.md) and the `.transcript.json` and `.media_meta.json` files in any Transcript folder.
+
 The main things to look for are converting underlining and, if relevant, transcoding to sync-codes, as well as reformatting the transcript to match speaker-id + <kbd>COLON</kbd> + <kbd>TAB</kbd>.
 If you do write a convertor, then please use Javascript/Typescript, port it to GitHub, and publish it to NPM.
 Then we can build it into _DOTE_ for the next release.
@@ -361,7 +393,7 @@ See the following videos on You Tube:
 - [Transcribing Danish talk with Macwhisper and _DOTE_](https://www.youtube.com/watch?v=qxoFy19cv7M)
 - [Transcription battle between AI and humans!](https://www.youtube.com/watch?v=Vj91ofEkwzc)
 
-See [Importing from JSON](export.md#import-json).
+See [Importing from Whisper](importWhisper.md).
 
 ### Can I copy and paste transcripts from publications into _DOTE_? <a id='tip16'></a>
 
@@ -377,15 +409,18 @@ If there are mistakes or quirks in the original published transcript, then you w
 ### Be cautious when editing sync-codes, video-cues and underlined text <a id='tip11'></a>
 
 Many editing operations in _DOTE_ can be undone and redone using the shortcut keys <kbd>CTRL</kbd>+<kbd>Z</kbd> and <kbd>CTRL</kbd>+<kbd>Y</kbd>.
-However, some editing operations _cannot_ be undone (and redone):
+
+Non-character based edits, eg. underlining,sync-codes and video-cues, can be undone and redone with the UNDO/REDO buttons.
+In these cases, one has to use the [Undo Manager](undo.md).
+
+Note that some editing operations _cannot_ be undone (and redone) using the standard shortcuts.
+One has to use the Undo Manager. eg.
 
 - Editing [sync-codes](sync-code.md) _cannot_ be undone using the standard shortcut.
-To undo the insertion of a sync-code, select the sync-code and `right click`.
-Select `Delete`.
-- Editing [video-cues](cues.md) _cannot_ be undone.
-To undo the insertion of a video-cue, select the video-cue and press the video-cue edit button or `right click`. In the edit dialog box, you can select `Delete`.
+- Editing [video-cues](cues.md) _cannot_ be undone using the standard shortcut.
 - Adding an underline cannot be _undone_ using the standard shortcut.
-To undo underlining, select the text that was underlined and press <kbd>CTRL</kbd>+<kbd>U</kbd>.
+
+In the above cases, one has to use the Undo Manager.
 
 Also note that sync-codes, video-cues and underlining _cannot_ be copy/pasted into a new location in the transcript or into other programs.
 [Sync-codes](sync-code.md) and underlines do _not_ follow the text or line that is cut or copied.
@@ -418,7 +453,7 @@ You can find out more [information on how to cite here](citeDOTE.md).
 
 ### How was _DOTE_ developed? <a id='tip36'></a>
 
-_DOTE_ was conceived in 2017, prototyped in 2018 and developed in fits and spurts from 2020 to the first release in October 2022.
+_DOTE_ was conceived in 2017, prototyped in 2018 and developed in fits and spurts from 2020 to the first major release in October 2022 and the second major release in Spring 2026.
 
 - The software was developed for the Electron platform in Javascript/Typescript.
 - The online help guide was started in May 2020.

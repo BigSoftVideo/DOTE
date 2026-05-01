@@ -1,8 +1,19 @@
-## Errors and Warnings
+## Errors when using DOTE and editing a Transcript
 
-Watch [video tutorial](https://www.youtube.com/watch?v=Ux4APu6ww4k) on YouTube.
+There are two types of errors: 1. when using _DOTE_ something goes wrong; 2. when editing a Transcript, _DOTE_ detects a possible error or can give a warning that something is not right in the transcript.
+
+### Errors in the use of _DOTE_
+
+With v2.0, we have implemented a better way to automatically and manually report errors encountered when using DOTE.
+
+See how to [Report _DOTE_ Errors directly to the developers](logfile.md).
+
+### Errors and Warnings in the Editor
 
 For basic warnings and errors that occur when using _DOTE_, a popup box will appear in the bottom left of the user interface.
+
+Watch the [video tutorial](https://www.youtube.com/watch?v=Ux4APu6ww4k) on YouTube.
+
 These popups try to explain the problem and recommend a solution (if possible).
 Usually, they do not interrupt the normal functioning of _DOTE_.
 They can be closed by clicking on the `X`.

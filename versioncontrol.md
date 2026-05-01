@@ -1,74 +1,42 @@
-## Two backup systems
-
-Watch [basic](https://www.youtube.com/watch?v=ERUz7esZ5go) and [advanced](https://www.youtube.com/watch?v=06sZFfw7ask) video tutorials on YouTube.
+## Two backup systems are better than one!
 
 _DOTE_ has two different and independent backup systems to keep track of your editing work and to support reliable backtracking to an earlier version. Grand! 🎊
 
-The backup systems will enable a user to restore a prior state of a transcript at a particular point in time, including the [transcript text](transcript.md), [sync-codes](sync-code.md), [named subtier types](tiers.md) and some local Editor settings in [Transcript Options](settings.md#options).
+Watch the [basic](https://www.youtube.com/watch?v=ERUz7esZ5go) and [advanced](https://www.youtube.com/watch?v=06sZFfw7ask) video tutorials on YouTube for more details.
+
+The backup systems will enable a user to restore a prior state of a transcript at a particular point in time, including the [transcript text](transcript.md), [sync-codes](sync-code.md), [video-cues](cues.md), [named subtier types](tiers.md), [transcript-clips](dotebase.md) and some local Editor settings in [Transcript Options](settings.md#options).
 
 [Autobackups](#autobackup) are auto-generated and provide a simple backup in case one is not saving the current Transcript frequently.
 On the other hand, [Checkpoints](#checkpoint) are a user-driven system of backup that is semantic and timely.
 
-Note that [Autobackup](#autobackup) is not the same as _saving_ a Transcript using `File ➔ Save Transcript` or <kbd>CTRL</kbd>+<kbd>S</kbd> [or <kbd>⌘</kbd>+<kbd>S</kbd> on macOS].
+Note that [Autobackup](#autobackup) is not the same process as _saving_ a Transcript using `File ➔ Save Transcript` or <kbd>CTRL</kbd>+<kbd>S</kbd> [or <kbd>⌘</kbd>+<kbd>S</kbd> on macOS].
 Autobackup makes a _new copy_ of the current Transcript and writes that to disk so the previous state can be recovered, while saving writes the Transcript data to disk.
 Autobackup does _not_ save the current Transcript automatically; that is a manual decision by the user.
-It just makes a series of backup copies at regular intervals if there are any new changes since the last one.
+It just makes a series of backup copies at regular intervals only if there are any new changes since the last one.
 
 [![Checkpoints and Autobackups](images/versioncontrol/buttons.png)](images/versioncontrol/buttons.png)
 
-### Setting up Checkpoints and Autobackups <a id='setup'></a>
+We strongly recommend you try Checkpoints when using _DOTE_, especially since checkpoints will support informative, fine-grained control over the changes you make as you transcribe.
 
-To use Checkpoints and to peek at Autobackups, one must first install some free, open-source software called _Git_ on your computer.
-It is totally safe and ad-free if you download from the official site or via your operating system (macOS).
-We strongly recommend you do this when using _DOTE_, especially since checkpoints will support informative, fine-grained control over the changes you make as you transcribe.
-Autobackups will work without _Git_ installed, but you will have to manually restore a specific Autobackup using the file system (look in the hidden autobackup folder in the transcript folder on disk).
+Although they both involve the user in making meaningful comments, Checkpoints and [Transcript Clips](transcript-clip.md) do not have the same function.
+Checkpoints are useful for tracking the changes you make to a transcript as you edit it in order to leave a trace of the substantive changes that would otherwise be forgotten.
+[Transcript clips](transcript-clip.md) are useful for making notes and annotations on the transcript as you analyse it.
 
-<!-- TODO: add instructions and warning about safe.repository command -->
-
-Here are instructions how to download and install _Git_:
-
-- For Windows -
-    - Download [here](https://git-scm.com/download/win).
-    - Choose the 32- or 64-bit version for your version of Windows.
-    - Run the _.exe_ and follow the instructions.
-    - It is usually fine just to accept the default options that are suggested.
-    There are quite a few of them (and some look quite technical but don't worry).
-- For macOS -
-    - After starting _DOTE_, and clicking Checkpoints, then macOS will prompt you to install _Git_.
-    - If this does not happen, then you can also install directly in macOS.
-        - Press <kbd>⌘</kbd>+<kbd>SPACE</kbd> and type <kbd>terminal</kbd>.
-        Press <kbd>ENTER</kbd>.
-        - When the window appears, type <kbd>git</kbd>.
-        Press <kbd>enter</kbd> again.
-        Follow the instructions.
-    - In either case, your macOS may first need to update some files.
-    Update, restart and try again.
-
-Once this is done, then you shouldn't need to worry anymore about _Git_.
-Every now and again, you might wish to download a new version and upgrade by installing it again.
-This may be wise, since security issues may arise that require an upgrade to solve.
-
-#### Git/Checkpoint Troubleshooting <a id='trouble'></a>
-
-Some macOS users have reported the following error when using Checkpoints.
-
-> Failed to initialize checkpoints. Error was: Error: xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
-
-If you get this or a similar error, then do the following (after closing _DOTE_):
-
-1. Press these two keys together: <kbd>⌘</kbd> and <kbd>SPACE</kbd>
-2. Type `terminal` then press <kbd>ENTER</kbd>
-3. Type `xcode-select --install` and press <kbd>ENTER</kbd>
-4. Restart the computer and try again with _DOTE_ Checkpoints.
-
-### How to save a Transcript <a id='saving'></a>
-
-The basic way to save a currently open Transcript is to select `File ➔ Save Transcript` or use the shortcut <kbd>CTRL</kbd>+<kbd>S</kbd> [or <kbd>⌘</kbd>+<kbd>S</kbd> on macOS.
-Doing so will save the unsaved changes in the Transcript to disk.
+It is important to note that you should not rely on Autobackups; you should still frequently manually save your editing of a transcript:
 
 - If no new Checkpoints have been made and Autobackup is turned off, then any unsaved changes will be lost if the computer or _DOTE_ crashes, for example.
 Hint: save your work frequently and make checkpoints regularly.
 - If Autobackup is turned on, but the Autobackup time interval has not been reached, then the most recent changes made since the last autobackup will not be recoverable if the computer crashes, etc.
+Hint: save your work frequently.
+
+### Setting up Checkpoints and Autobackups <a id='setup'></a>
+
+There is nothing to setup in v2.0.
+It now works out-of-the-box.
+
+Note that the _Checkpoint_ system uses a special version control system behind the scenes on your desktop computer, namely _Git_.
+_Git_ is a secure, free, open source software with absolutely no advertising or spyware.
+DOTE implements a simple version control for a single user, but experienced users could also use GitHub and a Git GUI to collaborate on shared transcripts in a distributed manner.
 
 ### Autobackup and restoring a Transcript <a id='autobackup'></a>
 
@@ -94,17 +62,13 @@ Autobackups and Checkpoints are independent version control systems.
 - After the restore is complete, the Transcript will be opened.
 - Also, a new Checkpoint will be created automatically with an informative message to mark that all the new changes in the Transcript are the result of restoring a specific Autobackup.
 
-### Checkpoints in a Transcript <a id='checkpoint'></a>
-
-The _checkpoint_ system uses a special version control system behind the scenes, namely _Git_.
-_Git_ is a secure, free, open source software with absolutely no advertising or spyware.
-DOTE implements a simple version control for a single user, but experienced users can also use GitHub and a Git GUI to collaborate on shared transcripts in a distributed manner.
+### Using Checkpoints while editing a Transcript <a id='checkpoint'></a>
 
 [![Checkpoint Peeking](images/versioncontrol/checkpoint-peek.png)](images/versioncontrol/checkpoint-peek.png)
 
 #### How to use checkpoints
 
-Watch [video tutorial](https://www.youtube.com/watch?v=1LmINMDzfxk) on YouTube.
+Watch the [video tutorial](https://www.youtube.com/watch?v=1LmINMDzfxk) on YouTube.
 
 - At any time, you can click on `Checkpoints` and see a list of prior checkpoints for the current transcript.
 - After making some meaningful changes to a transcript, it is a good idea to create a new checkpoint.
@@ -112,7 +76,7 @@ If there have been changes made (unsaved or saved) since the last checkpoint, th
 - A user can then type in a message that will be attached to a new checkpoint after selecting `Create Checkpoint`.
 If no message is given, then a random three word + emoji phrase is added instead.
 - When a new checkpoint is created, the Transcript and Project is also saved to disk in the usual way.
-- As with autobackup, a user can _peek_ at an earlier checkpoint and play the video and scroll through the Transcript as it was saved at that checkpoint.
+- As with autobackup, a user can _peek_ at an earlier checkpoint and play the video and scroll through the Transcript exactly as it was displayed when that checkpoint was made.
 Editing while peeking is not allowed.
 - The user can then decide to restore to an earlier state of the Transcript up to and including the peeked Checkpoint, _or_ to reset to the earlier state prior to the current peeked Checkpoint, ie. _not_ including the changes in the peeked Checkpoint.
 - Whichever is chosen (restoring or resetting), then there are two choices:
@@ -134,21 +98,24 @@ Editing while peeking is not allowed.
 
 _DOTE_ provides a user interface to display exactly what has changed in the Transcript between specific autobackups as well as what has changed in the Transcript between specific checkpoints, eg. between the current version of the Transcript and the previous checkpoint version.
 
-[![Compare](images/versioncontrol/compare.png)](images/versioncontrol/compare.png)
-
 ##### Comparing checkpoints
 
-1. Open `Checkpoints`.
+1. Open `Checkpoints` from the ribbon bar.
 2. By default, the Compare function is toggled on (see tick box).
 You can turn it off and on as you see fit.
+
+[![Compare](images/versioncontrol/compare.png)](images/versioncontrol/compare.png)
+
 1. If you turn Compare mode off, then you will see the Transcript _and_ sync-codes, which you can use to jump around.
 The current audio track will be playable (but the video will not be visible).
 And you can use [Find](find.md) to locate a text string in the earlier version.
 Because you are only peeking at an earlier version, the Transcript and the sync-codes will _not_ be editable.
 
-[![Compare](images/versioncontrol/compare2.png)](images/versioncontrol/compare2.png)
+[![Compare off](images/versioncontrol/compare-off.png)](images/versioncontrol/compare-off.png)
 
-The Compare function displays several useful bits of useful information:
+When it is toggled on, the Compare function displays several bits of useful information:
+
+[![Compare](images/versioncontrol/compare2.png)](images/versioncontrol/compare2.png)
 
 - By default, the comparison displayed on the right panel is between the current state of the Transcript (saved or unsaved) and the state it was when the last checkpoint was made.
 - If you select and peek at a specific checkpoint in the past, then the comparison displayed is between the peeked checkpoint and the previous one.
@@ -167,15 +134,22 @@ In future releases, one will be able to compare any checkpoint with any earlier 
 
 ##### Comparing Autobackups
 
-1. Open `Autobackups`.
+1. Open `Autobackups` from the ribbon bar.
 1. By default, the Compare function is toggled on (see tick box).
 You can turn it off and on as you see fit.
+
+[![Compare](images/versioncontrol/compare-autobackups.png)](images/versioncontrol/compare-autobackups.png)
+
 1. If you turn Compare mode off, then you will see the Transcript _and_ sync-codes, which you can use to jump around.
 The current audio track will be playable (but the video will not be visible).
 And you can use [Find](find.md) to locate a text string in the earlier version.
 Because you are only peeking at an earlier version, the Transcript and the sync-codes will _not_ be editable.
 
-The Compare function displays several useful bits of useful information:
+[![Compare off](images/versioncontrol/compare-autobackups-off.png)](images/versioncontrol/compare-autobackups-off.png)
+
+When it is toggled on, the Compare function displays several bits of useful information:
+
+[![Compare](images/versioncontrol/compare-autobackups2.png)](images/versioncontrol/compare-autobackups2.png)
 
 - By default, the comparison displayed on the right panel is between the current state of the Transcript if there are unsaved changes and the state it was when the last autobackup was made.
 - If you select and peek at a specific autobackup in the past, then the comparison displayed is between the peeked autobackup and the previous one.
@@ -194,7 +168,7 @@ In future releases, one will be able to compare any autobackup with any earlier 
 
 ### Pruning Autobackups <a id='pruning-backups'></a>
 
-The problem with Autobackups is that without due attention the number of backups keeps increasing.
+A common problem with Autobackups is that without due attention the number of backups keeps increasing.
 Each Autobackup does not take up much space on disk, but still the list can grow long.
 A retention policy is needed.
 
@@ -223,14 +197,18 @@ Note: The chosen strategy is applied to ALL Transcripts, so be careful if you ch
 
 ### What is tracked by Autobackups and Checkpoints? <a id='tracked'></a>
 
+TODO: check with Alex
+
 Both Autobackups and Checkpoints track the changes made to the text in the Editor panel, eg. in the transcript.
 This includes underlining and sync-codes, as well as [Transcript Options](settings.md#options)) panel (eg. font size, margins, subtiers and conventions).
 Thus, if one restores (or resets) to an earlier Autobackup or Checkpoint, then not only will the Transcript revert back to the earlier state, but also the basic options for the layout of the Transcript in [Transcript Options](settings.md#options) will also be reverted.
 
-On the other hand, in regard to Checkpoints the following are not tracked: [video-cues](cues.md) and a range of other [Settings](settings.md) are _not_ tracked, including [active media](media.md), projection views, [warning/error toggles](errors.md), locking video views, [muting, volume](timeline.md), etc.
+On the other hand, in regard to Checkpoints the following are not tracked: [video-cues](cues.md) and a range of other [Settings](settings.md) are _not_ tracked, including [active media](media-manager.md), projection views, [warning/error toggles](errors.md), locking video views, [muting, volume](timeline.md), etc.
 They cannot be recovered from earlier Checkpoints, but they will be recovered from earlier Autobackups.
 
 ### Using GitHub and a Git GUI to collaborate on shared Transcripts <a id='GitHub'></a>
+
+WARNING: Do not proceed unless the team are well versed in the use of Git and GitHub.
 
 If you are experienced with using Git and you have an account on `GitHub`, for example, then you can share _DOTE_ Transcripts with others and collaboratively edit them.
 The transcript folder in any _DOTE_ project is a Git root folder.

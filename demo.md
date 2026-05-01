@@ -1,6 +1,6 @@
 ## Demo project
 
-If this is your first time, we would like you to try out _DOTE_ using our demo LEGO project.
+If this is your first time, we recommend that you try out _DOTE_ using our demo LEGO project.
 The demo project is freely available under a [Creative Commons Attribution Non Commercial Share Alike 4.0 (CC BY-NC-SA) International license](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode) license.
 The [original data](https://doi.org/10.5278/ojs.quivirr.v1.2020.a0003) is published online.
 We make no claim that the demo transcripts are authoritative or complete; they are simple illustrative of some of the core functionality of _DOTE_.
@@ -8,16 +8,20 @@ We make no claim that the demo transcripts are authoritative or complete; they a
 ### Here are some instructions to import the Demo Project
 
 1. [Download the latest Lego Demo Project](https://www.dote.aau.dk/downloads) file and store it somewhere on your computer. [Earlier releases](https://github.com/BigSoftVideo/DOTE/releases) of the Demo project can be found on our public GitHub repository.
-1. Open _DOTE_ and select `File ➔ Import Project from File`.
-1. Locate the Project file that you downloaded (with the extension `.doteProject`) on your file system and click `Open`.
-1. Select a destination directory/folder by clicking `Select Directory`.
-For example, a folder in your `Documents` called `My DOTE Projects`.
-1. Enter a name for your imported Demo Project or select the default name.
+2. Open _DOTE_ and select `File ➔ Import` or click the `Import` button on the right of the ribbon bar.
+See our [help page on Importing](import.md) for more details.
+3. Select the Import `DOTE Project` option and press `Continue >`.
+4. Browse and locate the Project file that you downloaded (with the extension `.doteProject`) on your file system.
+5. Select an `Unpack Directory` where the folders and files will be unpacked and stored on your file system.
+For example, a folder in your standard `Documents` folder called `My DOTE Projects`.
+1. Give the new Project a `Project Name` or keep the default name.
+There is no need to change the default options.
+1. Click `Start Import`.
 2. After you have imported the Project, you can open one of the Demo Transcripts in that Project using `Open Transcript` or `File ➔ Open Transcript` or <kbd>CTRL</kbd>+<kbd>O</kbd> [or <kbd>⌘</kbd>+<kbd>O</kbd> on macOS] using the`Project Manager`.
 There are seven Transcripts to choose from, though some only work properly with the _Pro_ Edition.
-1. The Transcript should open, and you will see the waveform, video and prepared Transcript.
+1. The Transcript should open, and you will see the Waveform in the Timeline panel, a video in a Media Panel and the prepared transcript in the Transcript panel.
 
-NOTE: Do _not_ store the Demo Project in the same folder tree as the DOTE application itself.
+NOTE: Do _not_ store the unpacked Demo Project in the same folder tree as the DOTE application itself.
 Please see the [_Where to store your DOTE projects?_](projects.md#storing) help section for more information on solving issues when using remote folders (Windows) and volumes (macOS) for storing projects.
 
 [![DOTE UI](images/UI/UI.png)](images/UI/UI.png)
@@ -26,7 +30,7 @@ Please see the [_Where to store your DOTE projects?_](projects.md#storing) help 
 
 The Lego Demo Project contains the following media and Transcripts:
 
-- Six synchronised media sources (see [Media Manager](media.md)), including 2D video, 360-degree video and wireless mic audio.
+- Six synchronised media sources (see [Media Manager](media-manager.md)), including 2D video, 360-degree video and wireless mic audio.
 - Seven alternative transcripts:
     - Transcripts that work with the _free_ Edition of _DOTE_. This is because there are restrictions on the number (2) of media sources that can be activated per Transcript. Thus, playback following video-cues is limited to just two active videos.
     - Transcripts that only work with the _Pro_ Edition of _DOTE_. All media sources can be activated, and there is no limit to selecting media sources and switching between active videos using video-cues.
@@ -40,7 +44,7 @@ The Lego Demo Project contains the following media and Transcripts:
 In the Demo Project, there are several examples of Transcripts of the same event made following [two different conventions](conventions.md).
 
 1. [Open each Transcript](projects.md#open-transcript).
-1. You can [play through the video](video.md) and check the two partial [Transcripts](transcript.md) that have already been made according to Jeffersonian and Mondadaian [conventions](conventions.md).
+1. You can [play through the video](media-panel.md) and check the two partial [Transcripts](transcript.md) that have already been made according to Jeffersonian and Mondadaian [conventions](conventions.md).
 1. The Transcripts already have some [sync-codes](sync-code.md) and [video-cues](cues.md) that should work automatically when you play the video or click on the sync-code either in the appropriate [timeline](timeline.md) or the editor panel (sync-codes).
 Test them to see the result.
 1. Try some of the _DOTE_ functionality yourself:

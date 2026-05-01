@@ -1,4 +1,4 @@
-## Glossary of key terms in _DOTE_
+## Glossary of key terms used in _DOTE_
 
 Below is a list of key terms in alphabetical order with short definitions and links to relevant help pages for more information.
 
@@ -22,7 +22,7 @@ See [Equirectangular](#equi) and [Spatial Audio](#spatial-audio).
 
 ### Active Media <a id='active'></a>
 
-When media files are added to a Project using the [Media Manager](media.md) they can be activated to appear in the current Transcript.
+When media files are added to a Project using the [Media Manager](media-manager.md) they can be activated to appear in the current Transcript.
 If a media file is deactivated, it will not be available for use in the current Transcript.
 
 ### Alignment Symbol <a id='align-symbol'></a>
@@ -62,7 +62,7 @@ Messages are usually in the active, imperative voice describing the changes made
 
 A comment is a message in a Transcript by a transcriber that concisely describes something happening in the data that cannot be easily represented using the traditional conventions, eg. in the [Jeffersonian conventions](jefferson.md) comments are written within double parentheses: `((comment))`.
 
-Cf. [Technical Comment](#tech-comment)
+Cf. [Technical Comment](#tech-comment) and [Transcript Clip](#transcript-clip).
 
 ### Conventions <a id='conventions'></a>
 
@@ -72,13 +72,13 @@ _DOTE_ has been implemented to adhere as closely as possible to two standardised
 ### CS Mode <a id='cs-mode'></a>
 
 When a media [Activated](#active) in a Transcript is played back, there is a toggle option in the [Editor panel](transcript.md) called [CS Mode](sync-code.md#cs-mode) that synchronises playback with the relevant lines of the Transcript that match the timecode segment on the [Timeline](timeline.md).
-In _DOTE_, this is only possible if [Sync-codes](sync-code.md) have been manually added to the Transcript.
+In _DOTE_, this is only possible if [Sync-codes](sync-code.md) have already been manually added to the Transcript.
 
 See also [Synchronised Media](#sync).
 
 ### Editor <a id='editor'></a>
 
-The Editor is the [Panel](ui.md) in which the text of the Transcript is created and edited.
+The Editor is the [Transcript Panel](ui.md) in which the text of the Transcript is created and edited.
 
 ### Equirectangular <a id='equi'></a>
 
@@ -99,7 +99,7 @@ It is either a primary speaker line or a [Timing Interval](#interval) line, and 
 
 ### Jump Cut <a id='jump-cut'></a>
 
-[Video-cues](cues.md) can initiate a transition between one view of the video and another that is displayed in the [Viewport](#viewport) of a [Video Panel](#video).
+[Video-cues](cues.md) can initiate a transition between one view of the video and another that is displayed in the [Viewport](#viewport) of a [Media Player Panel](#media-player-panel).
 This transition can be sudden -- a Jump Cut -- or [Smooth](#smooth).
 
 Cf. [Zoom](#zoom) and [Pan](#pan).
@@ -121,9 +121,17 @@ During playback, this selected section will [Play](play.md) repeatedly.
 
 ### Media Manager <a id='media'></a>
 
-The [Media Manager](media.md) is a tool to add media files to an individual [Project](project.md).
+The [Media Manager](media-manager.md) is a tool to add media files to an individual [Project](project.md).
 It is used to import (by copying), configure and delete media files, as well as make them [Active](#active) in the current Transcript.
-A Project can contain multiple media files, and each Transcript in a Project can activate one or more of these media to use in the [Timeline](timeline.md) and [Video Panel(s)](video.md).
+A Project can contain multiple media files, and each Transcript in a Project can activate one or more of these media to use in the [Timeline](timeline.md) and [Media Player Panel(s)](media-panel.md).
+
+### Media Player Panel <a id='media-player-panel'></a>
+
+A [Media Player Panel](media-panel.md) is a unique panel in the _DOTE_ user interface dedicated to displaying a selected video media file according to the user's wishes.
+Both 2D and 360-degree video can be displayed in a Media Player Panel.
+Moreover, the video can be zoomed and panned, and transitions can be sudden or smooth when using [Video-cues](cues.md).
+
+See also [Zoom](#zoom), [Pan](#pan), [Smooth Transition](#smooth) and [Jump Cut](#jump-cut).
 
 ### Neighbourhood <a id='neighbourhood'></a>
 
@@ -152,7 +160,7 @@ See [Non-Sequential Overlap](#ns-overlap).
 
 ### Pan <a id='pan'></a>
 
-[Video-cues](cues.md) can initiate a transition between one view of the video and another that is displayed in the [Viewport](#viewport) of a [Video Panel](#video).
+[Video-cues](cues.md) can initiate a transition between one view of the video and another that is displayed in the [Viewport](#viewport) of a [Media Player Panel](#media-player-panel).
 A Pan transition smoothly and linearly tracks between an initial view of the video and a target view.
 This is only true if the same media is selected and [Smooth Transition](#smooth) is selected.
 
@@ -171,7 +179,7 @@ See [Equirectangular](#equi).
 
 ### Project <a id='project'></a>
 
-A _DOTE_ [Project](project.md) consists of all temporally synchronised [Media](media.md) and all Transcripts associated with one continuous event.
+A _DOTE_ [Project](project.md) consists of all temporally synchronised [Media](media-manager.md) and all Transcripts associated with one continuous event.
 
 ### Proportional Timing Interval <a id='pti'></a>
 
@@ -213,7 +221,7 @@ In future releases, an optional, dedicated micro score-based tool will be smartl
 
 ### Smooth Transition <a id='smooth'></a>
 
-[Video-cues](cues.md) can initiate a transition between one view of the video and another that is displayed in the [Viewport](#viewport) of a [Video Panel](#video).
+[Video-cues](cues.md) can initiate a transition between one view of the video and another that is displayed in the [Viewport](#viewport) of a [Media Player Panel](#media-player-panel).
 A Smooth Transition smoothly and linearly transforms between an initial view of the video and a target view; otherwise there is a sudden transition.
 
 See also [Zoom](#zoom), [Pan](#pan) and [Jump Cut](#jump-cut).
@@ -241,7 +249,9 @@ There are four basic Subtier Types: `.translation`, `@gloss`, `/action`, `#categ
 ### Subtitle <a id='subtitle'></a>
 
 `DOTE` can [generate and export Subtitles](export.md) derived from the Transcript in the Editor.
-These subtitles are in a file in `SRT` format and can be overlaid on the video by most external media players during playback.
+These subtitles are stored in a file using the `SRT` format.
+SRT subtitles can be overlaid on the video by most external media players during playback.
+They can also be overlaid during live playback of video in a [Media Player Panel](#media-player-panel) in _DOTE_.
 
 ### Sync-code <a id='sync-code'></a>
 
@@ -251,7 +261,7 @@ See also [CS-mode](#cs-mode).
 
 ### Synchronised Media <a id='sync'></a>
 
-_DOTE_ assumes that in a specific Project, all [imported Media](media.md) are already synchronised to the same start point and end point in time in relation to the original recorded event.
+_DOTE_ assumes that in a specific Project, all [imported Media](media-manager.md) are already synchronised to the same start point and end point in time in relation to the original recorded event.
 This must be undertaken externally in a video editor prior to importing.
 
 ### Technical Comment <a id='tech-comment'></a>
@@ -263,7 +273,7 @@ Thus, a transcriber can mark up the Transcript line-by-line with brief meta-mess
 Consecutive Technical Comments at the beginning of the Transcript are treated as a simple form of meta-data.
 Technical Comments can be hidden when [exporting the Transcript to RTF or Subtitles](export.md).
 
-Cf. [Comment](#comment).
+Cf. [Comment](#comment) and [Transcript Clip](#transcript-clip).
 
 ### Tier <a id='tier'></a>
 
@@ -297,6 +307,16 @@ See also [Proportional Timing Interval](#pti).
 
 A Transcript is a specific textual object in _DOTE_ that is created and edited in the [Editor](#editor).
 
+### Transcript Clip <a id='transcript-clip'></a>
+
+A [Transcript Clip](transcript-clip.md) is an annotation or note attached to a specific segment of a Transcript.
+It contains a comment, tags and styling.
+The scope of the Clip is from a starting character/line to an ending character/line in a Transcript.
+
+Transcript Clips can be assigned a specific shape and line/box and background colour.
+
+Transcript Clips are also known as T-Clips.
+
 ### Transcript Heuristics <a id='heuristics'></a>
 
 _DOTE_ uses a sophisticated parser to interpret the structure of a Transcript.
@@ -310,6 +330,7 @@ Moreover, DOTE makes heuristic suggestions to [Realign](#align) [Neighbourhoods]
 ### User Interface (UI) <a id='ui'></a>
 
 The [User Interface](ui.md) is the visual (and aural) presentation of the computer application to the user.
+The User Interface is made up of a menu bar, a ribbon with functional buttons and a variety of panels for specific tools.
 
 ### Version Control <a id='version'></a>
 
@@ -319,36 +340,28 @@ See [Git](#git), [Autobackup](#autobackup) and [Checkpoint](#checkpoint).
 
 ### Video-cue <a id='video-cue'></a>
 
-A [Video-cue](cues.md) is a unique point on the [Timeline](timeline.md) that indicates that a change in the [Viewport](#viewport) of a [Video Panel](video.md) is to be performed.
+A [Video-cue](cues.md) is a unique point on the [Timeline](timeline.md) that indicates that a change in the [Viewport](#viewport) of a [Media Player Panel](media-panel.md) is to be performed.
 This function automates the presentation of media during [Playback](play.md) in a more cinematic fashion.
 A limited set of virtual [Recam](#recam) camera movements are supported.
 
 See also [Zoom](#zoom), [Pan](#pan), [Smooth Transition](#smooth) and [Jump Cut](#jump-cut).
 
-### Video Panel <a id='video-panel'></a>
-
-A [Video Panel](video.md) is a unique panel in the DOTE UI dedicated to displaying a selected video media file according to the user's wishes.
-Both 2D and 360-degree video can be displayed in a Video Panel.
-Moreover, the video can be zoomed and panned, and transitions can be sudden or smooth when using [Video-cues](cues.md).
-
-See also [Zoom](#zoom), [Pan](#pan), [Smooth Transition](#smooth) and [Jump Cut](#jump-cut).
-
 ### Viewport <a id='viewport'></a>
 
-The Viewport is the rectangular portion of the video that is currently visible in the frame of the [Video Panel](#video-panel).
+The Viewport is the rectangular portion of the video that is currently visible in the frame of the [Media Player Panel](#media-player-panel).
 
 ### Warnings and Errors <a id='error'></a>
 
-DOTE can flag [Warnings and Errors](errors.md) in the use of DOTE, as well as in the Editor.
+DOTE can flag [Warnings and Errors](errors.md) in the use of _DOTE_, as well as in the Transcript Editor.
 
 ### Waveform <a id='waveform'></a>
 
 In a [Timeline](timeline.md), a waveform representing the amplitude over time of a selected audio track can be displayed.
-When imported into a Project using [Media Manager](media.md), the waveform is generated by _DOTE_ by sampling the audio track to convert amplitude into a graphical representation.
+When imported into a Project using [Media Manager](media-manager.md), the waveform is generated by _DOTE_ by sampling the audio track to convert amplitude into a graphical representation.
 
 ### Zoom <a id='zoom'></a>
 
-[Video-cues](cues.md) can initiate a transition between one view of the video and another that is displayed in the [Viewport](#viewport) of a [Video Panel](#video).
+[Video-cues](cues.md) can initiate a transition between one view of the video and another that is displayed in the [Viewport](#viewport) of a [Media Player Panel](#media-player-panel).
 A Zoom transition smoothly and linearly tracks between an initial view of the video and a target view by zooming in or out.
 This is only true if the same media is selected and [Smooth Transition](#smooth) is selected.
 

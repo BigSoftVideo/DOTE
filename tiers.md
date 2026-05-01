@@ -1,11 +1,11 @@
 ## Primary tier and subtier types
 
-Watch [basic](https://www.youtube.com/watch?v=jHvoOJguWKM) and [advanced](https://www.youtube.com/watch?v=vcgl_hqjMAE) video tutorials on YouTube.
-
 Subtiers are essential for multimodal transcription (eg. using the [Mondadaian conventions](mondada.md)).
 With subtier types, _DOTE_ can provide much more help and spot those errors which are so easily introduced manually in complex transcripts and yet hard for humans to locate.
 If we are honest, practically every published transcript using the Mondadaian system has at least one error.
 Most of these errors can easily be avoided by using _DOTE_'s transcript heuristics to check the transcript.
+
+Watch the [basic](https://www.youtube.com/watch?v=jHvoOJguWKM) and [advanced](https://www.youtube.com/watch?v=vcgl_hqjMAE) video tutorials on YouTube.
 
 Here are the basic tier and subtier types with specific examples:
 
@@ -169,7 +169,7 @@ KT/hand:
 
 ### How to realign alignment symbols across subtiers in a neighbourhood <a id='realign'></a>
 
-Watch [video tutorial](https://www.youtube.com/watch?v=wxdd4oequqc) on YouTube.
+Watch the [video tutorial](https://www.youtube.com/watch?v=wxdd4oequqc) on YouTube.
 
 With its transcript heuristics, _DOTE_ scans all subtiers for those subtier types and assigned symbols listed in the [Transcript Options](settings.md#options).
 If the correct symbols are present, but are misaligned, then _DOTE_ can do a pretty good job of realigning them.

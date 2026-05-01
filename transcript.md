@@ -1,17 +1,88 @@
-## Transcribing in the Editor
+## How to use the Transcript Editor panel
 
-Watch [basic](https://www.youtube.com/watch?v=dqEehi8Jaa0) and [advanced](https://www.youtube.com/watch?v=U3yPPHZ-yak) video tutorials on YouTube.
+Once a Project with a Transcript is created or opened, with an [attached media file](media-manager.md), then you can immediately type in the Transcript Editor.
 
-Once a Project with a Transcript is created or opened, with an [attached media file](media.md), then you can immediately type in the Transcript Editor.
+Watch the [basic](https://www.youtube.com/watch?v=dqEehi8Jaa0) and [advanced](https://www.youtube.com/watch?v=U3yPPHZ-yak) video tutorials on YouTube.
+
+### Buttons on the bar at the top of the Editor
+
+There are six clusters of buttons at the top of the Transcript Editor panel.
 
 [![Editor](images/transcript/editor.png)](images/transcript/editor.png)
 
-### Some rules that _DOTE_ follows
+#### The first cluster is for Sync-codes
 
-DOTE instantiates a specific set of rules embodied in the two sets of [transcriptions conventions](conventions.md).
-They have much in common, but there are key differences with respect to multimodality.
+[![Sync-code buttons](images/transcript/sync-code-buttons.png)](images/transcript/sync-code-buttons.png)
 
-#### Transcript font <a id='font'></a>
+- The first button is `Show/hide highlight of current sync-code block` (CS) mode, in which the current transcript segment in the editor between adjacent [sync-codes](sync-code.md) will be highlighted or not as the video plays.
+The transcript will be automatically scrolled to keep the current segment visible as the video plays.
+    - The mode can be toggled on/off using the button at the top right of the Editor panel.
+- The second button is `Add sync-code` on current line.
+- The third button is `Add ranged sync-code` on current line.
+- The fourth button is `Delete sync-code`.
+It is only available when the current line has a sync-code attached.
+
+#### The second cluster is for annotations
+
+[![Annotations](images/transcript/annotation-buttons.png)](images/transcript/annotation-buttons.png)
+
+- The first button is `Show/Hide Transcript Clip`, which will show or hide all Clips in the current Transcript in the Editor.
+- The second button is `Add Transcript Clip` to currently selected text.
+It is only highlighted when text is selected in the Editor.
+- The third button is `Delete Transcript Clip`.
+It will only work when a Transcript Clip is present at the current location of the cursor.
+
+#### The third cluster is for Search & Replace
+
+[![Search](images/transcript/search-buttons.png)](images/transcript/search-buttons.png)
+
+- The first button is `Open Find panel`.
+- The second button is `Open Find/Replace panel`.
+
+#### The fourth cluster is for formatting text
+
+The underline button is for adding and removing underlines to selected text. - Select some text and click the button.
+
+The other button is to manually trigger a context-menu at the cursor position in the transcript. Normally this menu can be triggered at any time by pressing [ <kbd>CTRL</kbd> + <kbd>ENTER</kbd> ] OR [ <kbd>⌘</kbd> + <kbd>ENTER</kbd>]
+This menu provides quick access to common / relevant symbols for the cursors position in the transcript.
+
+#### The fifth cluster is for display of errors and warnings
+
+[![Display warnings](images/transcript/error-buttons.png)](images/transcript/error-buttons.png)
+
+- The first button is `Show/Hide Warnings` in the Editor.
+- The second button is `Show/Hide Errors`.
+
+#### The sixth cluster is for Transcript options
+
+There is only one button ⚙️ that opens Transcript options.
+
+### Line numbers
+
+- Line numbers appear automatically in _DOTE_, but they are not saved in the _transcript.txt_ file.
+[Transcripts are exportable](export.md) with fixed line numbers in specific styles.
+- If one selects text, then all instances of the same text are highlighted in the whole transcript.
+
+[![Minimap](images/transcript/minimap2.png)](images/transcript/minimap2.png)
+
+### Scroll bar and minimap
+
+The scroll bar shows a _minimap_ of where the other instances of the currently selected text or [FIND](find.md) matches are located in the whole transcript. Neat! 😇
+
+[![Minimap](images/transcript/minimap.png)](images/transcript/minimap.png)
+
+
+### Margin indicator <a id='margin'></a>
+
+If you would like a gentle reminder of a specific right margin that the body of the transcript should not exceed, then turn on the margin indicator in [Transcript Options](settings.md#options).
+A gray vertical line will appear in the Transcript editor panel.
+A specific character width can be set.
+The default is 70 characters, but that can be changed for all new Transcripts in [Settings](settings.md).
+It can be turned off for all new Transcripts as well.
+The margin indicator option for each Transcript overrides the default setting.
+The indicator is just a guide; _DOTE_ does not enforce word wrapping.
+
+### Transcript font <a id='font'></a>
 
 A standard monospaced font is used in the Editor panel.
 This cannot be changed.
@@ -20,6 +91,11 @@ On [exporting to RTF](export.md), a monospaced font is also used in order to pre
 The font can then be changed in a Word processor (to another monospaced font such as "Consolas").
 The size of the transcript font in the editor can be changed by default in [Settings](settings.md) or changed locally for a Transcript in [Transcript Options](settings.md#options).
 Note that emojis are not monospaced, so using them will disrupt vertical alignment.
+
+### Using the Editor with a set of conventions
+
+DOTE instantiates a specific set of rules embodied in the two sets of [transcriptions conventions](conventions.md).
+They have much in common, but there are key differences with respect to multimodality.
 
 #### Speaker-ids <a id='id'></a>
 
@@ -42,17 +118,19 @@ The name column width can also be changed in each Transcript.
 
 #### Language subtier type
 
-- Language [sub-tier types](tiers.md) for translations can be set in [Transcript Options](settings.md#options).
+- Language [subtier types](tiers.md) for translations can be set in [Transcript Options](settings.md#options).
 
 [![Subtier types](images/transcript/types.png)](images/transcript/types.png)
 
-Just add a three-letter code for each extra language sub-tier (eg. _eng_).
+Just add a three-letter code for each extra language subtier (eg. _eng_).
     - Although the usage of ISO 639-2 language codes is strongly advised, it is not enforced.
     See the [complete list of such language codes](https://www.loc.gov/standards/iso639-2/php/code_list.php).
 
+Other subtier types can be defined, eg. interlinear gloss and [action subtiers](tiers.md).
+
 #### TAB, SPACE and LINE BREAK
 
-Watch [video tutorial](https://www.youtube.com/watch?v=vJf6e4Birhg) on YouTube.
+Watch the [video tutorial](https://www.youtube.com/watch?v=vJf6e4Birhg) on YouTube.
 
 - After a speaker name, there should _always_ be a <kbd>TAB</kbd>, followed by the transcription text for that speaker.
 - Do the same for speaker continuation on new lines and for lines with pauses or comments.
@@ -76,13 +154,13 @@ A notional margin indicator can be set as a default in [Settings](settings.md) a
 
 #### Autocompletion <a id='autocomplete'></a>
 
-Watch [video tutorial](https://www.youtube.com/watch?v=-8s8c1pVeLQ) on YouTube.
+Watch the [video tutorial](https://www.youtube.com/watch?v=-8s8c1pVeLQ) on YouTube.
 
 - If your cursor is in the speaker name column, then as you type a list of known and default speaker + named subtier types will appear in a drop-down list.
 
 [![Autocomplete](images/transcript/autocomplete1.png)](images/transcript/autocomplete1.png)
 
-- If your cursor is in the body of the transcript, then <kbd>CTRL</kbd>+<kbd>ENTER</kbd> will display a drop-down list of choices for autocompletion will appear.
+- If your cursor is in the body of the transcript, then <kbd>CTRL</kbd>+<kbd>ENTER</kbd> (or <kbd>⌘</kbd>+<kbd>ENTER</kbd> on macOS) will display a drop-down list of choices for autocompletion will appear.
 These include a range of [single and paired symbols](jefferson.md).
 
 [![Autocomplete](images/transcript/autocomplete2.png)](images/transcript/autocomplete2.png)
@@ -101,32 +179,14 @@ It is especially useful in the [Mondadaian system](mondada.md) for marking [timi
 
 More fixed symbols and pairs will be added in later releases, as well as a user-configurable set of autocompleteable symbols/pairs.
 
-#### Line numbers
+### Where is the edited Transcript stored?
 
-- Line numbers appear automatically in _DOTE_, but they are not saved in the _transcript.txt_ file.
-[Transcripts are exportable](export.md) with fixed line numbers in specific styles.
-- If one selects text, then all instances of the same text are highlighted in the whole transcript.
+- The raw transcript text is saved in the `transcript.txt` file in the Transcript folder that you created within the parent [Project](projects.md) folder.
+It can be opened or copied in a word processor and formatted accordingly. However underlining is not present in the plain text file, and exporting your transcript to [RTF format](exportRTF.md) is highly recommended for opening your transcript in a standard word processor.
 
-#### Scroll bar and minimap
+### Creating and editing Transcript Clips with Annotations
 
-The scroll bar shows a _minimap_ of where the other instances of the currently selected text or [FIND](find.md) matches are located in the whole transcript. Neat! 😇
-
-[![Minimap](images/transcript/minimap.png)](images/transcript/minimap.png)
-
-#### Margin indicator <a id='margin'></a>
-
-If you would like a gentle reminder of a specific right margin that the body of the transcript should not exceed, then turn on the margin indicator in [Transcript Options](settings.md#options).
-A gray vertical line will appear in the Transcript editor panel.
-A specific character width can be set.
-The default is 70 characters, but that can be changed for all new Transcripts in [Settings](settings.md).
-It can be turned off for all new Transcripts as well.
-The margin indicator option for each Transcript overrides the default setting.
-The indicator is just a guide; _DOTE_ does not enforce word wrapping.
-
-### Where is the edited transcript stored?
-
-- The raw transcript text is saved in the `transcript.txt` file under the [Project](projects.md) folder you created.
-It can be opened or copied in a word processor and formatted accordingly. In this release, underlining is not present in the plain text file; in future, it will be exportable in an RTF version of the transcript.
+[Transcript Clips](transcript-clip.md) with annotations, tags and styling can be created, edited and deleted by selecting a chunk of text in the currently loaded Transcript.
 
 ### Other commands and shortcuts
 
