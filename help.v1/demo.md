@@ -20,7 +20,7 @@ There are seven Transcripts to choose from, though some only work properly with 
 NOTE: Do _not_ store the Demo Project in the same folder tree as the DOTE application itself.
 Please see the [_Where to store your DOTE projects?_](projects.md#storing) help section for more information on solving issues when using remote folders (Windows) and volumes (macOS) for storing projects.
 
-[![DOTE UI](/images.v1/UI/UI.png)](/images.v1/UI/UI.png)
+[![DOTE UI](images.v1/UI/UI.png)](images.v1/UI/UI.png)
 
 ### What is contained in the Lego Demo Project?
 
@@ -33,7 +33,7 @@ The Lego Demo Project contains the following media and Transcripts:
     - Transcripts that have discoverable errors.
     - A Transcript following an alternative version of the Mondadaian conventions.
 
-[![DOTE demo](/images.v1/demo/demo-transcripts.png)](/images.v1/demo/demo-transcripts.png)
+[![DOTE demo](images.v1/demo/demo-transcripts.png)](images.v1/demo/demo-transcripts.png)
 
 ### How to try the Demo
 
@@ -54,7 +54,7 @@ Test them to see the result.
     - Create your own checkpoint after making some changes.
 2. If you make changes, remember to save the Transcript regularly `File ➔ Save Transcript` or <kbd>CTRL</kbd>+<kbd>S</kbd> [or <kbd>⌘</kbd>+<kbd>S</kbd> on macOS].
 
-[![Demo with errors](/images.v1/demo/demo-errors.png)](/images.v1/demo/demo-errors.png)
+[![Demo with errors](images.v1/demo/demo-errors.png)](images.v1/demo/demo-errors.png)
 
 #### Spot the errors!
 

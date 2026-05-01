@@ -21,7 +21,7 @@ We also offer [Import from JSON](#import-json) and [Import from SRT](#import-srt
 
 On the right is a preview panel that shows all the lines of the current transcript (or selected lines only) and updates according to your choices made in the left panel.
 
-[![Jeffersonian](/images.v1/export/exportRTF-Jeffersonian.png)](/images.v1/export/exportRTF-Jeffersonian.png)
+[![Jeffersonian](images.v1/export/exportRTF-Jeffersonian.png)](images.v1/export/exportRTF-Jeffersonian.png)
 
 If there are serious errors in the transcript that _DOTE_ has trouble with, then this will be indicated on a line-by-line basis. The transcript can still be exported to RTF, but there may be lines that are not correctly formatted because of the errors.
 
@@ -65,7 +65,7 @@ If you have followed _DOTE_'s format and layout conventions, then there are seve
 - `Only primary lines`: Only lines with a primary speaker tier or a timing interval tier are given line numbers.
 - `Only first instance of consecutive primary lines`: Only the first instance of line with a primary speaker tier is given a line number if the same speaker continues in the next [neighbourhood](jefferson.md#neighbourhood).
 
-[![Export to SRT](/images.v1/export/export-line-numbers.png)](/images.v1/export/export-line-numbers.png)
+[![Export to SRT](images.v1/export/export-line-numbers.png)](images.v1/export/export-line-numbers.png)
 
 #### Number the metadata lines
 
@@ -122,11 +122,11 @@ If you have set your transcript to Jeffersonian conventions in [Transcript Optio
 
 BEFORE:
 
-[![Export to SRT](/images.v1/export/pretty1.png)](/images.v1/export/pretty1.png)
+[![Export to SRT](images.v1/export/pretty1.png)](images.v1/export/pretty1.png)
 
 AFTER:
 
-[![Export to SRT](/images.v1/export/pretty2.png)](/images.v1/export/pretty2.png)
+[![Export to SRT](images.v1/export/pretty2.png)](images.v1/export/pretty2.png)
 
 ##### Mondadaian style and layout <a id='mondada-rtf'></a>
 
@@ -143,7 +143,7 @@ If you have set your transcript to Mondadaian conventions in [Transcript Options
     - When formatting is selected, syntax highlighting is not available.
 - Remember to also select `Only primary lines` or `Only first instance of consecutive primary lines` for line numbering.
 
-[![Mondadaian](/images.v1/export/exportRTF-Mondadaian.png)](/images.v1/export/exportRTF-Mondadaian.png)
+[![Mondadaian](images.v1/export/exportRTF-Mondadaian.png)](images.v1/export/exportRTF-Mondadaian.png)
 
 ### Notes on editing the RTF export in a word processor <a id='editing-rtf'></a>
 
@@ -185,7 +185,7 @@ It is also possible to export the basic speaker turns to subtitles that are time
 
 Select `Export to SRT`, choose your options, and give a filename and location for the exported `SRT` file.
 
-[![Export to SRT](/images.v1/export/exportSRT.png)](/images.v1/export/exportSRT.png)
+[![Export to SRT](images.v1/export/exportSRT.png)](images.v1/export/exportSRT.png)
 
 On the right is a preview panel that shows all the lines of the current transcript as an `SRT` file.
 It updates according to your choices made in the left panel.
@@ -206,7 +206,7 @@ Most media players on the desktop will play a video with the `SRT` file.
 VLC or [PotPlayer](https://potplayer.daum.net/) (Windows only) are recommended.
 If the filename of the `SRT` file is the same as the video file in the same folder, then video playback with subtitles will be automatic.
 
-[![Result of export to SRT](/images.v1/export/videoSRT.png)](/images.v1/export/videoSRT.png)
+[![Result of export to SRT](images.v1/export/videoSRT.png)](images.v1/export/videoSRT.png)
 
 When exporting to SRT it is best that you focus on [sync-codes](sync-code.md) on the [HEAD line of a neighbourhood](tiers.md), eg. the primary speaker line or a pause line or a timing interval line.
 If you do have sync-codes also on overlapping speaker lines or subtier lines (Mondadaian), then _DOTE_ will ignore them and just use the subtitle timing intervals between the sync-codes on HEAD lines across neighbourhoods.

@@ -85,7 +85,7 @@ You could use this reduced version as a proxy in _DOTE_ for the purposes of tran
 
 _DOTE_ has some golden rules to make your life easier:
 
-[![Tip 2](/images.v1/tips/tip2.png)](/images.v1/tips/tip2.png)
+[![Tip 2](images.v1/tips/tip2.png)](images.v1/tips/tip2.png)
 
 1. _Always_ use a consistent speaker-id _followed by_ a colon <kbd>:</kbd> and _then_ a <kbd>TAB</kbd> at the start of a primary or secondary speaker tier.
 _Never_ use <kbd>SPACE</kbd>s after that colon.

@@ -25,10 +25,10 @@ Let us know on Discord or on our GitHub repository if something is not working f
 
 ### Graphical guide for basic set <a id='commands'></a>
 
-[![Graphical guide for basic set](/images.v1/commands/guide1.png)](/images.v1/commands/guide1.png)
+[![Graphical guide for basic set](images.v1/commands/guide1.png)](images.v1/commands/guide1.png)
 
 ### Graphical guide for complete set
 
-[![Graphical guide for complete set](/images.v1/commands/guide2.png)](/images.v1/commands/guide2.png)
+[![Graphical guide for complete set](images.v1/commands/guide2.png)](images.v1/commands/guide2.png)
 
-Higher quality PDFs of the [simple set](/images.v1/commands/guide1.pdf) and the [comprehensive set](/images.v1/commands/guide2.pdf) can be downloaded.
+Higher quality PDFs of the [simple set](images.v1/commands/guide1.pdf) and the [comprehensive set](images.v1/commands/guide2.pdf) can be downloaded.

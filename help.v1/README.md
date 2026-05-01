@@ -21,7 +21,7 @@ _DOTE_ is the first of a new breed of _Integrated Transcription Environment_ (IT
 
 If you want a fully featured, easy-to-use, cross-platform desktop transcription editor that supports contemporary audiovisual media as well as the craft and complete workflow from creating and revising a script-based transcript through to exporting a publishable transcript in a recognised style (using Jeffersonian or Mondadaian conventions), then _DOTE_ is for you.
 
-[![DOTE UI](/images.v1/UI/UI.png)](/images.v1/UI/UI.png)
+[![DOTE UI](images.v1/UI/UI.png)](images.v1/UI/UI.png)
 
 _However_, if you wish to inhabit and analyse your 360 video data in a more immersive virtual environment in which transcripts as such play a minor role, then try the [_AVA360VR_ software package](https://github.com/BigSoftVideo/AVA360VR), our immersive tool for annotating, visualising and analysing 360-degree videos in Virtual Reality.
 For instance, try _VolCapping_, in which you can annotate your data and share your proto-analyses with others in 3D.
@@ -50,7 +50,7 @@ To use _DOTEbase_ a PRO or PRO COMMUNITY Edition licence is required.
 There is no free edition, but some simple features of _DOTEbase_ are available in _DOTE_'s free edition.
 Find out more about [all the tools available in _DOTEbase_](https://bigsoftvideo.github.io/DOTEbase), as well as [_DOTE_'s integration](dotebase.md) with _DOTEbase_.
 
-[![DOTEbase](/images.v1/dotebase/dotebase-logo.png)](https://bigsoftvideo.github.io/DOTEbase)
+[![DOTEbase](images.v1/dotebase/dotebase-logo.png)](https://bigsoftvideo.github.io/DOTEbase)
 
 ### How do I get help?
 

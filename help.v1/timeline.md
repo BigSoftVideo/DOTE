@@ -24,14 +24,14 @@ To control volume and manage [video-cues](video.md), another independent [video-
 
 The main timeline displays the current time at the position of the playhead, the highlighted selection interval (looping) and the total length of the audio or video source.
 
-[![Main timeline](/images.v1/timeline/main-timeline.png)](/images.v1/timeline/main-timeline.png)
+[![Main timeline](images.v1/timeline/main-timeline.png)](images.v1/timeline/main-timeline.png)
 
 - The times are given to the nearest tenth-of-a-second (0.1s).
 - In _Show/hide highlight of current sync-code block_ (CS) mode, the current transcript segment in the editor between adjacent sync-codes will be highlighted as the video plays.
 The transcript will be automatically scrolled to keep the current segment visible as the video plays.
     - The mode can be toggled on/off using the button at the top right of the Editor panel.
 
-[![Toggles](/images.v1/timeline/toggle.png)](/images.v1/timeline/main-toggle.png)
+[![Toggles](images.v1/timeline/toggle.png)](images.v1/timeline/main-toggle.png)
 
 - Inserted sync-codes can be dragged to a new line in the transcript editor.
     - Sync-codes cannot be dragged over other sync-codes for obvious reasons.
@@ -44,13 +44,13 @@ If your Project has multiple media sources, and more than one is activated in yo
     - Display the waveform of the current video in the [primary video panel](video.md): `Follow Primary Video`.
     - Or always display the waveform of the selected video.
 
-[![Select waveform](/images.v1/timeline/select1.png)](/images.v1/timeline/select1.png)
+[![Select waveform](images.v1/timeline/select1.png)](images.v1/timeline/select1.png)
 
 - `Audio source`
     - Play the audio track of the current video in the primary video panel: `Follow Primary Video`.
     - Or always play the audio track (solo) of the selected video.
 
-[![Select waveform](/images.v1/timeline/select2.png)](/images.v1/timeline/select2.png)
+[![Select waveform](images.v1/timeline/select2.png)](images.v1/timeline/select2.png)
 
 This is useful with complex multi-source projects in which you wish to view one video in the video panel, while playing the audio track of another and displaying the waveform of a third media source (eg. an audio recording from a wireless mic).
 
@@ -66,13 +66,13 @@ There are several ways to loop shorter segments of the timeline:
     - Click the `Deselect` button or click outside the the loop segment on the timeline to cancel the loop.
     - Or use the shortcut <kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>SPACE</kbd> or <kbd>⌘</kbd>+<kbd>⌥</kbd>+<kbd>N</kbd>.
 
-[![Looping](/images.v1/timeline/loop.png)](/images.v1/timeline/loop.png)
+[![Looping](images.v1/timeline/loop.png)](images.v1/timeline/loop.png)
 
 - With the `Loop Repeat` button at the top right of the main timeline panel, one can toggle between single play through of the selected segment or looping continuously.
 
 ### Video-cue timeline only  <a id='video-cue'></a>
 
-[![Video-cue timeline](/images.v1/timeline/video-cue-timeline.png)](/images.v1/timeline/video-cue-timeline.png)
+[![Video-cue timeline](images.v1/timeline/video-cue-timeline.png)](images.v1/timeline/video-cue-timeline.png)
 
 The waveform on this timeline is independently scrollable and zoomable, yet the playhead and selection will synchronise with the main timeline.
 The video-cue timeline can be shrunk down by clicking on the arrow button.

@@ -7,7 +7,7 @@ that was created just before you experienced the bug, or attach multiple logfile
 The correct log folder can be opened from the _DOTE_ `Help` menu.
 The screenshot below shows what might be contained within that folder.
 
-![Screenshot of the folder containing the logfiles](/images.v1/errors/log-folder.png)
+![Screenshot of the folder containing the logfiles](images.v1/errors/log-folder.png)
 
 Alternatively, you can navigate to the folder manually as follows.
 

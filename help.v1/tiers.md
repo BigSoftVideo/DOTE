@@ -18,7 +18,7 @@ Here are the basic tier and subtier types with specific examples:
 A set of tier(s) and associated subtier(s) form a _neighbourhood_, which has a single common temporality.
 That is, the tier(s) set the timing for the _dependent_ subtiers to anchor to, e.g. a translation subtier maps onto the corresponding speaker tier and an action subtier aligns with the temporality of a primary tier (the [HEAD of the neighbourhood](mondada.md)).
 
-[![Neighbourhood](/images.v1/tiers/neighbourhood.png)](/images.v1/tiers/neighbourhood.png)
+[![Neighbourhood](images.v1/tiers/neighbourhood.png)](images.v1/tiers/neighbourhood.png)
 
 ### Using the new tiers and subtier types <a id='use'></a>
 
@@ -120,7 +120,7 @@ Each named subtier type can have a unique alignment symbol associated with it.
 In the [Transcript Options](settings.md#options), one can add named subtier types, each with a unique symbol assigned.
 If subtier types are used in the transcript but are unnamed in [Transcript Options](settings.md#options), then _DOTE_ cannot give useful support.
 
-[![Subtier types](/images.v1/tiers/subtier-types.png)](/images.v1/tiers/subtier-types.png)
+[![Subtier types](images.v1/tiers/subtier-types.png)](images.v1/tiers/subtier-types.png)
 
 In [Settings](settings.md), one can add to and edit an ordered list of symbols that are available for assignment to any subtier type.
 

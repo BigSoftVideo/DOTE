@@ -34,7 +34,7 @@ _DOTE_ will check with the license server online.
 8. The email address of the license key holder will appear in `Current License Status` box.
 And the name associated with the license will appear in the title bar of the application.
 
-[![DOTE License Manager](/images.v1/pro/license.png)](/images.v1/pro/license.png)
+[![DOTE License Manager](images.v1/pro/license.png)](images.v1/pro/license.png)
 
 #### Notes
 

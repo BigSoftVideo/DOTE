@@ -18,7 +18,7 @@ The main changes to _DOTE_ are as follows:
 3. Support for importing and exporting Projects with Media Clips.
 4. Support for tracking changes to Transcript Clips in Checkpoints and Autobackups.
 
-[![DOTE clipping](/images.v1/dotebase/dote-clipping.png)](/images.v1/dotebase/dote-clipping.png)
+[![DOTE clipping](images.v1/dotebase/dote-clipping.png)](images.v1/dotebase/dote-clipping.png)
 
 ### Making Transcript Clips
 
@@ -37,7 +37,7 @@ Clips do not have to start and terminate at the beginning or end of lines.
 1. Click CREATE and the clip will be inserted and displayed in the Transcript.
     - It will also be added to the list of clips in the current Project.
 
-[![DOTE transcript clipping](/images.v1/dotebase/dote-clipping2.png)](/images.v1/dotebase/dote-clipping2.png)
+[![DOTE transcript clipping](images.v1/dotebase/dote-clipping2.png)](images.v1/dotebase/dote-clipping2.png)
 
 This is the same process as in _DOTEbase_.
 When the Transcript is saved, then the clip will appear in _DOTEbase_ if that Transcript is included in the current DOTEspace.
@@ -86,7 +86,7 @@ The scope of a T-Clip (eg. from line X/character Y to line W/character Z) can be
 - Make a new selection for the scope of the T-clip by dragging the cursor from the onset to the offset character.
 - Click `APPLY NEW SELECTION` button.
 
-[![T-Clip Scope](/images.v1/dotebase/clip-scope.png)](/images.v1/dotebase/clip-scope.png)
+[![T-Clip Scope](images.v1/dotebase/clip-scope.png)](images.v1/dotebase/clip-scope.png)
 
 Note that [Media Clips](https://bigsoftvideo.github.io/DOTEbase/media-clip.html) are not viewable in _DOTE_, only in _DOTEbase_; however, the Media Clip meta-data is still stored locally in each Project folder.
 

@@ -13,14 +13,14 @@ There are different categories of problems that _DOTE_ helps you address:
 - If _DOTE_ determines that there is a _critical error_ in the transcript, then the problem (and the scope of the trouble) will be indicated by a _double red underline_.
 - If _DOTE_ determines that there is a problem, but it is not so serious, then a warning (and the scope of the trouble) will be indicated by a _wavy blue underline_.
 
-[![ErrorsI](/images.v1/errors/error.png)](/images.v1/errors/error.png)
+[![ErrorsI](images.v1/errors/error.png)](images.v1/errors/error.png)
 
 In both cases, if you hover over the marked highlight with the mouse cursor, then a warning or error box will pop up.
 _DOTE_ tries to give as much information as it can to help you resolve the problem.
 
 You can toggle warnings or errors on and off using the buttons at the top right of the Editor panel.
 
-[![Toggles](/images.v1/errors/toggles.png)](/images.v1/errors/toggles.png)
+[![Toggles](images.v1/errors/toggles.png)](images.v1/errors/toggles.png)
 
 It may not be correct, or to your liking, every time.
 This is because _DOTE_ is built to follow particular [normative formats and styles](conventions.md) (very close to that expected in conversation analysis) in order to make life easier.

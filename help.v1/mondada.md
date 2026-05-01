@@ -8,7 +8,7 @@ Documentation of the multimodal transcription conventions developed by Lorenza M
 
 This release of _DOTE_ fully supports this style according to `v6.0.1` (and the older v5.0.1), with other minor variations supported as well.
 
-[![Mondada v6.0.1 example](/images.v1/conventions/example2.png)](/images.v1/conventions/example2.png)
+[![Mondada v6.0.1 example](images.v1/conventions/example2.png)](images.v1/conventions/example2.png)
 
 ### The structure of a Mondadaian transcript
 
@@ -33,7 +33,7 @@ A typical transcript in the Mondadaian style has the following structure:
 
 This diagram should help simplify the composition of tiers and subtiers within a neighbourhood:
 
-[![Diagram showing composition of a neighbourhood](/images.v1/conventions/neighbourhoodM.png)](/images.v1/conventions/neighbourhoodM.png)
+[![Diagram showing composition of a neighbourhood](images.v1/conventions/neighbourhoodM.png)](images.v1/conventions/neighbourhoodM.png)
 
 Notes:
 
@@ -43,11 +43,11 @@ Notes:
 
 This example (from v5.0.1) shows the breakdown of a single neighbourhood:
 
-[![Diagram showing an example with a composition of a neighbourhood](/images.v1/conventions/neighbourhoodM1.png)](/images.v1/conventions/neighbourhoodM1.png)
+[![Diagram showing an example with a composition of a neighbourhood](images.v1/conventions/neighbourhoodM1.png)](images.v1/conventions/neighbourhoodM1.png)
 
 This longer example (from Mondada 2018: "Multiple Temporalities of Language and Body in Interaction") shows the breakdown of neighbourhoods:
 
-[![Diagram showing a longer example with a composition of a neighbourhood](/images.v1/conventions/neighbourhoodM2.png)](/images.v1/conventions/neighbourhoodM2.png)
+[![Diagram showing a longer example with a composition of a neighbourhood](images.v1/conventions/neighbourhoodM2.png)](images.v1/conventions/neighbourhoodM2.png)
 
 Here is an example in the Mondadaian formatting style that has more than one neighbourhood:
 
