@@ -1,0 +1,176 @@
+{
+    "schema": 1,
+    "updated": "2026-08-31",
+    "note": "Download locations for ffmpeg and ffprobe, used by DOTE. Sources are tried in order, so put the most reliable first. Every URL here resolved when it was added; check with `curl -sIL -o /dev/null -w '%{http_code}' <url>` before changing one.",
+    "targets": {
+        "darwin-arm64": {
+            "sources": [
+                {
+                    "name": "ffmpeg.martin-riedl.de",
+                    "kind": "zip",
+                    "note": "Separate single-file zips. The only maintained source of Apple Silicon builds of both binaries.",
+                    "downloads": [
+                        {
+                            "binary": "ffmpeg",
+                            "url": "https://ffmpeg.martin-riedl.de/redirect/latest/macos/arm64/release/ffmpeg.zip",
+                            "entry": "ffmpeg"
+                        },
+                        {
+                            "binary": "ffprobe",
+                            "url": "https://ffmpeg.martin-riedl.de/redirect/latest/macos/arm64/release/ffprobe.zip",
+                            "entry": "ffprobe"
+                        }
+                    ]
+                }
+            ]
+        },
+        "darwin-x64": {
+            "sources": [
+                {
+                    "name": "ffmpeg.martin-riedl.de",
+                    "kind": "zip",
+                    "downloads": [
+                        {
+                            "binary": "ffmpeg",
+                            "url": "https://ffmpeg.martin-riedl.de/redirect/latest/macos/amd64/release/ffmpeg.zip",
+                            "entry": "ffmpeg"
+                        },
+                        {
+                            "binary": "ffprobe",
+                            "url": "https://ffmpeg.martin-riedl.de/redirect/latest/macos/amd64/release/ffprobe.zip",
+                            "entry": "ffprobe"
+                        }
+                    ]
+                },
+                {
+                    "name": "evermeet.cx",
+                    "kind": "zip",
+                    "note": "Intel only, which is what this target is.",
+                    "downloads": [
+                        {
+                            "binary": "ffmpeg",
+                            "url": "https://evermeet.cx/ffmpeg/getrelease/ffmpeg/zip",
+                            "entry": "ffmpeg"
+                        },
+                        {
+                            "binary": "ffprobe",
+                            "url": "https://evermeet.cx/ffmpeg/getrelease/ffprobe/zip",
+                            "entry": "ffprobe"
+                        }
+                    ]
+                }
+            ]
+        },
+        "win32-x64": {
+            "sources": [
+                {
+                    "name": "gyan.dev",
+                    "kind": "zip",
+                    "note": "The other long-standing Windows build. One archive, wrapped in a directory named for the version, which is why entries are matched as a suffix.",
+                    "downloads": [
+                        {
+                            "binary": "ffmpeg",
+                            "url": "https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-essentials.zip",
+                            "entry": "bin/ffmpeg.exe"
+                        },
+                        {
+                            "binary": "ffprobe",
+                            "url": "https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-essentials.zip",
+                            "entry": "bin/ffprobe.exe"
+                        }
+                    ]
+                },
+                {
+                    "name": "BtbN/FFmpeg-Builds",
+                    "kind": "zip",
+                    "note": "One large archive holds both binaries, so it is fetched once and both are taken from it.",
+                    "downloads": [
+                        {
+                            "binary": "ffmpeg",
+                            "url": "https://github.com/BtbN/FFmpeg-Builds/releases/download/latest/ffmpeg-master-latest-win64-gpl.zip",
+                            "entry": "bin/ffmpeg.exe"
+                        },
+                        {
+                            "binary": "ffprobe",
+                            "url": "https://github.com/BtbN/FFmpeg-Builds/releases/download/latest/ffmpeg-master-latest-win64-gpl.zip",
+                            "entry": "bin/ffprobe.exe"
+                        }
+                    ]
+                }
+            ]
+        },
+        "linux-x64": {
+            "sources": [
+                {
+                    "name": "ffmpeg.martin-riedl.de",
+                    "kind": "zip",
+                    "downloads": [
+                        {
+                            "binary": "ffmpeg",
+                            "url": "https://ffmpeg.martin-riedl.de/redirect/latest/linux/amd64/release/ffmpeg.zip",
+                            "entry": "ffmpeg"
+                        },
+                        {
+                            "binary": "ffprobe",
+                            "url": "https://ffmpeg.martin-riedl.de/redirect/latest/linux/amd64/release/ffprobe.zip",
+                            "entry": "ffprobe"
+                        }
+                    ]
+                },
+                {
+                    "name": "BtbN/FFmpeg-Builds",
+                    "kind": "tar.xz",
+                    "note": "One archive holds both binaries, so it is fetched once. Needs a system tar with xz support.",
+                    "downloads": [
+                        {
+                            "binary": "ffmpeg",
+                            "url": "https://github.com/BtbN/FFmpeg-Builds/releases/download/latest/ffmpeg-master-latest-linux64-gpl.tar.xz",
+                            "entry": "bin/ffmpeg"
+                        },
+                        {
+                            "binary": "ffprobe",
+                            "url": "https://github.com/BtbN/FFmpeg-Builds/releases/download/latest/ffmpeg-master-latest-linux64-gpl.tar.xz",
+                            "entry": "bin/ffprobe"
+                        }
+                    ]
+                }
+            ]
+        },
+        "linux-arm64": {
+            "sources": [
+                {
+                    "name": "ffmpeg.martin-riedl.de",
+                    "kind": "zip",
+                    "downloads": [
+                        {
+                            "binary": "ffmpeg",
+                            "url": "https://ffmpeg.martin-riedl.de/redirect/latest/linux/arm64/release/ffmpeg.zip",
+                            "entry": "ffmpeg"
+                        },
+                        {
+                            "binary": "ffprobe",
+                            "url": "https://ffmpeg.martin-riedl.de/redirect/latest/linux/arm64/release/ffprobe.zip",
+                            "entry": "ffprobe"
+                        }
+                    ]
+                },
+                {
+                    "name": "BtbN/FFmpeg-Builds",
+                    "kind": "tar.xz",
+                    "downloads": [
+                        {
+                            "binary": "ffmpeg",
+                            "url": "https://github.com/BtbN/FFmpeg-Builds/releases/download/latest/ffmpeg-master-latest-linuxarm64-gpl.tar.xz",
+                            "entry": "bin/ffmpeg"
+                        },
+                        {
+                            "binary": "ffprobe",
+                            "url": "https://github.com/BtbN/FFmpeg-Builds/releases/download/latest/ffmpeg-master-latest-linuxarm64-gpl.tar.xz",
+                            "entry": "bin/ffprobe"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
